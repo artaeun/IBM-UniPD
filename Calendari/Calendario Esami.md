@@ -6,9 +6,20 @@
     - [Analisi I](#analisi-matematica-i)
     - [Fondamenti di chimica per la Bioingegneria](#fondamenti-di-chimica-per-la-bioingegneria)
   - *Semestre 2:*
-    - []()
-- [II° Anno](#ii-anno)  
-- [III° Anno](#iiI-anno) 
+    - [Algebra lineare e Geometria - Can. 1 e Can. 2]()
+    - [Fisica generale 1 - Can. 1]()
+    - [Biologia; Fisiologia e Anatomia - Can. 1 e Can. 2]()
+- ***II° Anno:***
+  - *Semestre 1:*
+    - [Fondamenti di Analisi matematica e Probabilità - Can. 1 e Can. 2]()
+    - [Elementi di Informatica e Programmazione - Can. 1 e Can. 2]()
+  - *Semestre 2:* 
+    -  
+- ***III° Anno:***
+  - *Semestre 1:*
+    -   
+  - *Semestre 2:*
+    -   
 
 ---
 
@@ -32,7 +43,6 @@
 ## ***II SEMESTRE***:
 
 - ### **Algebra lineare e Geometria - Can. 1 e Can. 2**
-
     - ***III appello***: 
       - ***Scritto:*** 01 Settembre 2020; *Ore*: 09:00
       - ***Modalità***: Esercizi in diretta Zoom
@@ -51,7 +61,7 @@
       - ***Orale:*** 11 settembre 2020; *Ore*: 09:00
       - ***Modalità***: Crocette + Orale
 
-- ### **Biologia; Fisiologia e Anatomia - Can. 1 e Can. 2**
+- ### **Biologia, Fisiologia e Anatomia - Can. 1 e Can. 2**
 
     - ***III appello***: 
       - ***Scritto:*** 27 Luglio 2020; *Ore*: 10:00
@@ -71,14 +81,10 @@
     - ***Scritto:*** 16 Settembre 2020
     - ***Modalità***: Esercizi a Crocette con Elaborato
 
-
-- ### **Elementi di informatica e programmazione in Python - Can. 1 e Can. 2**  
+- ### **Elementi di Informatica e Programmazione - Can. 1 e Can. 2**  
   - ***IV appello***: 
     - ***Orale e Scritto:*** 10 Settembre 2020
     - ***Modalità***: Quiz per l'orale; Esercizio di Programmazione per lo scritto. Il tutto in un'unica seduta con una breve pausa tra una prova e l'altra.
-
-
-## II SEMESTRE:
 
 - ### **Fisica 2 - Can. 1 (Villoresi)**
 
@@ -135,6 +141,21 @@
 # III ANNO:
 
 ## I SEMESTRE:
+
+
+- ### **Biomeccanica - Can. 1**
+
+    - ***IV appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Modalità***: *N.D.*
+
+- ### **Biomeccanica - Can. 2**
+
+    - ***IV appello***: 
+      - ***Scritto:*** 16 Settembre 2020; *Ore*: 14:30
+      - ***Modalità***: *N.D.*
+
+
 - ### **Fondamenti di Automatica**
 
 
@@ -154,19 +175,12 @@
 
     - ***su richiesta: sessione per soli laureandi a ottobre/novembre***
 
-- ### **Meccanica per bioingegneria (Corso a scelta)**
+- ### **Meccanica per Bioingegneria (Corso a scelta)**
 
     - ***IV appello***: 
       - ***Scritto:*** 01 Settembre 2020; *Ore*: 14:30
       - ***Modalità***: *N.D.*
 
-
-
-- ### **Biomeccanica - Can. 2**
-
-    - ***IV appello***: 
-      - ***Scritto:*** 16 Settembre 2020; *Ore*: 14:30
-      - ***Modalità***: *N.D.*
 
 
 - ### **Project Management (Corso a scelta)**
@@ -194,7 +208,7 @@
       - ***Modalità***: Scritto su Zoom Domande + Esercizi
 
     - ***IV appello***: 
-      - ***Scritto:*** *N.D.*; *Ore*
+      - ***Scritto:*** *N.D.*
       - ***Modalità***: Scritto su Zoom Domande + Esercizi
   
 - ### **Bioingegneria del movimento e riabilitazione (Corso a scelta)**
