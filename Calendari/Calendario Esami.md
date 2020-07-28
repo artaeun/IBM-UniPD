@@ -12,22 +12,22 @@
 
 ---
 
-### **Analisi matematica 1**
+### **Analisi matematica I**
 
-> 4. ***IV appello scritto***: 14 Settembre 2020 | Ora: ?
->       - *Scritto:* 14 Settembre 2020, *Ore*: ?, *Aula*: ?
->       - *Orale:* 18 Settembre 2020, *Ore*: ?, *Aula*: ?
+- ***IV appello***: 
+  - *Scritto:* 14 Settembre 2020, *Ore*: ?, *Aula*: ?
+  - *Orale:* 18 Settembre 2020, *Ore*: ?, *Aula*: ?
 
 ---
 
-**Fondamenti di chimica per la bioingegneria**
+### **Fondamenti di chimica per la Bioingegneria**
 
 
-> 000. ***IV appello***: 
->       - ***Scritto:*** 10 Settembre 2020, *Ore*: 09:00, *Aula*: ?
->       - ***Orale:*** 16 Settembre 2020, *Ore*: 09:00, *Aula*: ?
+- ***IV appello***: 
+  - ***Scritto:*** 10 Settembre 2020, *Ore*: 09:00, *Aula*: ?
+  - ***Orale:*** 16 Settembre 2020, *Ore*: 09:00, *Aula*: ?
 
- 4. IV appello scritto: 10 Settembre 2020
+ 1. IV appello scritto: 10 Settembre 2020
 
 	 Ora: 09:00
 
