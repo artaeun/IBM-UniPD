@@ -1,4 +1,4 @@
-> 101. #### ***nrAppello***:
->       - ***Scritto:*** data DD:MM:AAAA, ore XX:XX, Aula YY
->       - ***Orale:*** data DD:MM:AAAA, ore XX:XX, Aula YY
 
+> 000. ***Appello***: 
+>       - ***Scritto:*** DD:MM:AAAA, *Ore*: ?, *Aula*: ?
+>       - ***Orale:*** DD:MM:AAAA, *Ore*: ?, *Aula*: ?

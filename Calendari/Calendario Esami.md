@@ -14,52 +14,18 @@
 
 ### **Analisi matematica 1**
 
-> 1. #### ***I appello***:
->       - ***Scritto:*** data 20 Gennaio 2020
-
-
-
-> 2. #### ***II appello***:
->       - ***Scritto:*** 10 Febbraio 2020
-
-
-> 3. #### ***III appello***:
->       - ***Scritto:*** 06 Luglio 2020
->       - ***Orale:*** 10 Luglio 2020
-
-> 3. ***III appello***: 
->       - *Scritto:* 06 Luglio 2020
->       - *Orale:* 10 Luglio 2020
-
 > 4. ***IV appello scritto***: 14 Settembre 2020 | Ora: ?
 >       - *Scritto:* 14 Settembre 2020, *Ore*: ?, *Aula*: ?
 >       - *Orale:* 18 Settembre 2020, *Ore*: ?, *Aula*: ?
 
-________________________________________
+---
 
 **Fondamenti di chimica per la bioingegneria**
 
- 1. I appello scritto: 17 Febbraio 2020
 
-	 Aula: Lu4
-
-	 I appello orale: ?
-
- 2. II appello scritto: 27 Febbraio 2020
-
-	 Aula: ?
-
-	 II appello orale: ?  Svolto in via telematica tra l’8 e il 9 aprile
-
- 3. III appello scritto: 02 Luglio 2020
-
-	 Ora: 09:00
-
-	 Aula: ?
-
-	 III appello orale: 08 Luglio 2020
-
-	 Ora: 09:00
+> 000. ***IV appello***: 
+>       - ***Scritto:*** 10 Settembre 2020, *Ore*: 09:00, *Aula*: ?
+>       - ***Orale:*** 16 Settembre 2020, *Ore*: 09:00, *Aula*: ?
 
  4. IV appello scritto: 10 Settembre 2020
 
