@@ -18,14 +18,14 @@
 - ### **Analisi matematica I - Can. 1 e Can. 2**
 
   - ***IV appello***: 
-    - *Scritto:* 14 Settembre 2020; *Ore*: *N.D.*; *Aula*: *N.D.*
-    - *Orale:* 18 Settembre 2020; *Ore*: *N.D.*; *Aula*: *N.D.*
+    - *Scritto:* 14 Settembre 2020
+    - *Orale:* 18 Settembre 2020
 
  - ### **Fondamenti di chimica per la Bioingegneria - Can. 1 e Can. 2**
 
     - ***IV appello***: 
-        - ***Scritto:*** 10 Settembre 2020; *Ore*: 09:00; *Aula*: *N.D.*
-        - ***Orale:*** 16 Settembre 2020; *Ore*: 09:00; *Aula*: *N.D.*
+        - ***Scritto:*** 10 Settembre 2020; *Ore*: 09:00
+        - ***Orale:*** 16 Settembre 2020; *Ore*: 09:00
 
 
 
@@ -34,31 +34,31 @@
 - ### **Algebra lineare e Geometria - Can. 1 e Can. 2**
 
     - ***III appello***: 
-      - ***Scritto:*** 01 Settembre 2020; *Ore*: 09:00; *Aula*: *N.D.*
+      - ***Scritto:*** 01 Settembre 2020; *Ore*: 09:00
       - ***Modalità***: Esercizi in diretta Zoom
 
 - ### **Fisica generale 1 - Can. 1**
 
     - ***III appello***: 
-      - ***Scritto:*** *N.D.*; *Ore*: *N.D.*; *Aula*: *N.D.*
-      - ***Orale:*** *N.D.*; *Ore*: *N.D.*; *Aula*: *N.D.*
+      - ***Scritto:*** *N.D.*
+      - ***Orale:*** *N.D.*
       - ***Modalità***: *N.D.*
 
 - ### **Fisica generale 1 - Can. 2**
 
     - ***III appello***: 
-      - ***Scritto:*** 04 Settembre 2020; *Ore*: 09:00; *Aula*: *N.D.*
-      - ***Orale:*** 11 settembre 2020; *Ore*: 09:00; *Aula*: *N.D.*
+      - ***Scritto:*** 04 Settembre 2020; *Ore*: 09:00
+      - ***Orale:*** 11 settembre 2020; *Ore*: 09:00
       - ***Modalità***: Crocette + Orale
 
 - ### **Biologia; Fisiologia e Anatomia - Can. 1 e Can. 2**
 
     - ***III appello***: 
-      - ***Scritto:*** 27 Luglio 2020; *Ore*: 10:00; *Aula*: *N.D.*
+      - ***Scritto:*** 27 Luglio 2020; *Ore*: 10:00
       - ***Modalità***: Crocette
 
     - ***IV appello***: 
-      - ***Scritto:*** 17 Settembre 2020; *Ore*: 10:00; *Aula*: *N.D.*
+      - ***Scritto:*** 17 Settembre 2020; *Ore*: 10:00
       - ***Modalità***: Crocette
 
 ---
@@ -68,13 +68,13 @@
 ## I SEMESTRE:
 - ### **Fondamenti di Analisi matematica e Probabilità - Can. 1 e Can. 2**
   - ***IV appello***: 
-    - ***Scritto:*** 16 Settembre 2020; *Ore*: *N.D.*; *Aula*: *N.D.*
+    - ***Scritto:*** 16 Settembre 2020
     - ***Modalità***: Esercizi a Crocette con Elaborato
 
 
 - ### **Elementi di informatica e programmazione in Python - Can. 1 e Can. 2**  
   - ***IV appello***: 
-    - ***Orale e Scritto:*** 10 Settembre 2020; *Ore*: *N.D.*; *Aula*: *N.D.*
+    - ***Orale e Scritto:*** 10 Settembre 2020
     - ***Modalità***: Quiz per l'orale; Esercizio di Programmazione per lo scritto. Il tutto in un'unica seduta con una breve pausa tra una prova e l'altra.
 
 
@@ -83,19 +83,17 @@
 - ### **Fisica 2 - Can. 1 (Villoresi)**
 
   - ***IV appello***: 
-    - ***Scritto:*** 17 Settembre 2020; *Ore*: *N.D.*; *Aula*: *N.D.*
-    - ***Orale:*** *N.D.*; *Ore*: *N.D.*; *Aula*: *N.D.*
+    - ***Scritto:*** 17 Settembre 2020
     - ***Modalità***: Scritto Tradizionale su Zoom con caricamento elaborato
 
 - ### **Fisica 2 - Can. 2 (Sartori)**
   - ***IV appello***: 
-    - ***Scritto:*** 28 Luglio 2020; *Ore*: *N.D.*; *Aula*: *N.D.*
-    - ***Orale:*** *N.D.*; *Ore*: *N.D.*; *Aula*: *N.D.*
+    - ***Scritto:*** 28 Luglio 2020
     - ***Modalità***: Scritto Tradizionale su Zoom con caricamento elaborato
 
 - ### **Teoria dei circuiti - Can. 1 e Can. 2**
   - ***IV appello***: 
-    - ***Scritto:*** 26 Agosto 2020; *Ore*: 10:00; *Aula*: *N.D.*
+    - ***Scritto:*** 26 Agosto 2020; *Ore*: 10:00
     - ***Modalità***: *N.D.*
 
 ## II SEMESTRE:
@@ -103,22 +101,22 @@
 - ### **Fondamenti di Elettronica - Can. 1 e Can. 2**
 
   - ***III appello***: 
-    - ***Scritto:*** 27 Agosto 2020; *Ore*: 9:00; *Aula*: *N.D.*
+    - ***Scritto:*** 27 Agosto 2020; *Ore*: 9:00
     - ***Modalità***: Come in presenza; Elaborato da Caricare/Inviare
 
   - ***IV appello***: 
-    - ***Scritto:*** *N.D.*; *Ore*: ND; *Aula*: *N.D.*
+    - ***Scritto:*** *N.D.*
     - ***Modalità***: ND
         
 
 - ### **Biomateriali - Can. 1 e Can. 2**
   - ***III appello***: 
     - ***Scritto:*** 4 Settembre 2020; *Ore*: 9:30; *Aula*: RH1
-    - ***Orale:*** *N.D.*; *Ore*: *N.D.*; *Aula*: *N.D.*
+    - ***Orale:*** *N.D.*
 
   - ***IV appello***: 
     - ***Scritto:*** 18 Settembre 2020; *Ore*: 9:30; *Aula*: RH3
-    - ***Orale:*** *N.D.*; *Ore*: *N.D.*; *Aula*: *N.D.*
+    - ***Orale:*** *N.D.*
 
 - ### **Segnali e sistemi - Can. 1 e Can. 2**
   - ***III appello***: 
@@ -255,8 +253,8 @@
       - ***Modalità***: Scritto su Zoom (?)
 
     - ***IV appello***: 
-      - ***Scritto:*** *N.D.*; *Ore*: *N.D.*; *Aula*: *N.D.*
-      - ***Orale:*** *N.D.*; *Ore*: *N.D.*; *Aula*: *N.D.*
+      - ***Scritto:*** *N.D.*
+      - ***Orale:*** *N.D.*
       - ***Modalità***: Scritto su Zoom (?)
 
 - ### **Misure ed acquisizione di dati biomedici  (Corso a scelta)**
