@@ -1,16 +1,19 @@
 # **<p align="center">Calendario Esami</p>**
 
 # Indice
-- ***[I° Anno](#i-anno)***
-  - ***Semestre 1***:
-    - [Analisi can. 1](#analisi-matematica-1)
+- ***I° Anno:***
+  - *Semestre 1*:
+    - [Analisi I](#analisi-matematica-i)
+    - [Fondamenti di chimica per la Bioingegneria](#fondamenti-di-chimica-per-la-bioingegneria)
+  - *Semestre 2:*
+    - []()
 - [II° Anno](#ii-anno)  
 - [III° Anno](#iiI-anno) 
 
-# I ANNO:
-## I SEMESTRE:
-
 ---
+
+# I ANNO:
+## ***I SEMESTRE***:
 
 ### **Analisi matematica I**
 
@@ -18,7 +21,7 @@
   - *Scritto:* 14 Settembre 2020, *Ore*: ?, *Aula*: ?
   - *Orale:* 18 Settembre 2020, *Ore*: ?, *Aula*: ?
 
----
+
 
 ### **Fondamenti di chimica per la Bioingegneria**
 
@@ -27,133 +30,84 @@
   - ***Scritto:*** 10 Settembre 2020, *Ore*: 09:00, *Aula*: ?
   - ***Orale:*** 16 Settembre 2020, *Ore*: 09:00, *Aula*: ?
 
- 1. IV appello scritto: 10 Settembre 2020
+---
 
-	 Ora: 09:00
-
-	 Aula:?
-
-	 IV appello orale: 16 Settembre 2020
-
-	 Ora: 09:00
+## ***II SEMESTRE - Canale 1***:
 
 
-### II SEMESTRE:
+### **Algebra lineare e Geometria - can. 1**
 
-____________________________________________
+- ***III appello***: 
+  - ***Scritto:*** 01 Settembre 2020, *Ore*: 09:00, *Aula*: ?
+  - ***Modalità***: Esercizi in diretta Zoom
 
-**Algebra lineare e geometria /can2**
+### **Fisica generale 1 - can. 1**
 
-#### Modalità: Esercizi in diretta Zoom
+- ***III appello***: 
+  - ***Scritto:*** ?, *Ore*: ?, *Aula*: ?
+  - ***Orale:*** ?, *Ore*: ?, *Aula*: ?
+  - ***Modalità***: ?
 
- 1. - Primo compitino: 18 Aprile 2020
+### **Biologia, Fisiologia e Anatomia - can. 1**
 
-	Ora: 9.00
+- ***III appello***: 
+  - ***Scritto:*** 27 Luglio 2020, *Ore*: 10:00, *Aula*: ?
+  - ***Modalità***: Crocette
 
-	 - Secondo compitino e primo appello: 16 giugno 2020
+- ***IV appello***: 
+  - ***Scritto:*** 17 Settembre 2020, *Ore*: 10:00, *Aula*: ?
+  - ***Modalità***: Crocette
 
-	Ora: 9.00
 
- 2. Secondo appello: 03 Luglio 2020
+## ***II SEMESTRE - Canale 2***:
 
-	 Ora: 9.00
+### **Algebra lineare e Geometria - can. 2**
 
- 3. Terzo appello: 01 Settembre 2020
+- ***III appello***: 
+  - ***Scritto:*** 01 Settembre 2020, *Ore*: 09:00, *Aula*: ?
+  - ***Modalità***: Esercizi in diretta Zoom
 
-	 Ora: 9.00
 
-________________________________________
+### **Fisica generale 1 - can. 2**
 
-**Fisica generale 1 /can2**
+- ***III appello***: 
+  - ***Scritto:*** 04 Settembre 2020, *Ore*: 09:00, *Aula*: ?
+  - ***Orale:*** 11 settembre 2020, *Ore*: 09:00, *Aula*: ?
+  - ***Modalità***: Crocette + Orale
 
-#### Modalità: Crocette + Orale
+### **Biologia, Fisiologia e Anatomia - can. 2**
 
- 1. - Primo compitino: 21 aprile 2020
+- ***III appello***: 
+  - ***Scritto:*** 27 Luglio 2020, *Ore*: 10:00, *Aula*: ?
+  - ***Modalità***: Crocette
 
-	Ora: 15.00  
-		
-	 - Secondo compitino e primo appello:
+- ***IV appello***: 
+  - ***Scritto:*** 17 Settembre 2020, *Ore*: 10:00, *Aula*: ?
+  - ***Modalità***: Crocette
 
-	**scritto**: 18 Giugno 2020
+---
 
-	Ora: 9.00
+# II ANNO:
 
-	**orale**: 29 giugno 2020
+## I SEMESTRE:
 
-	Ora: 9.00
 
- 2. Secondo appello:
+### **Fondamenti di Analisi matematica e Probabilità**
 
-	**scritto**: 09 Luglio 2020
 
-	Ora: 9.00
+- ***IV appello***: 
+  - ***Scritto:*** 16 Settembre 2020, *Ore*: ?, *Aula*: ?
+  - ***Modalità***: Esercizi a Crocette con Elaborato
 
-	**orale**: 15 luglio 2020
 
-	Ora: 9.00
+### **Elementi di informatica e programmazione in Python**  
+- ***IV appello***: 
+  - ***Scritto:*** 10 Settembre 2020, *Ore*: ?, *Aula*: ?
+  - ***Modalità***: Quiz digitale per l'orale, Esercizio di Programmazione per lo scritto.
 
- 3. Terzo appello:
+---
 
-	**scritto**: 04 Settembre 2020
-
-	Ora: 9.00
-
-	**orale**: 11 settembre 2020
-
-	Ora: 9.00
-
-____________________________________________
-
-**Biologia, Fisiologia e Anatomia**
-
-#### Modalità: Crocette
-
-Primo appello
-
-**Scritto**: 24 Giugno 2020
-
-  
-Secondo appello
-
-**Scritto**: 17 Luglio 2020
-  
-
-Terzo appello
-
-**Scritto**: 02 Settembre 2020
-  
-
-Quarto appello (?)
-
-**Scritto**: 17 Settembre 2020
-
-## II ANNO:
-
-### I SEMESTRE:
-
-____________________________________________
-
-**Fondamenti di Analisi matematica e Probabilità (FAMP)/-**
-
-#### Modalità: Esercizi a Crocette con Elaborato
-
-I appello: 
-
-|| appello: 06 Maggio
-
-III appello: 09 Luglio 2020
-
-IV appello: 16 Settembre 2020
-
-____________________________________________
-
-**Elementi di informatica e programmazione in Python/ -**  
-
-III appello: 29 Giugno 2020
-
-IV appello: 10 Settembre 2020
-
-________________________________________
+## II SEMESTRE:
 
 **Fisica 2/-**
 
@@ -161,16 +115,12 @@ ________________________________________
 
 III appello (tutti i canali): 15/06
 
-Ora:
 
 Orale can 1: 18/06
 
 Orale can 2: 16/06
 
-  
-
-____________________________________________
-
+ 
 **Teoria dei circuiti/Can2**
   
 I appello:
@@ -191,9 +141,7 @@ Ora: 10.00-12.00
 
   
 
-### II SEMESTRE:
-
-____________________________________________
+## II SEMESTRE:
 
 **Fondamenti di Elettronica/tutti i canali**
 
