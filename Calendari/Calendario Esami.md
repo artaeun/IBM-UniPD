@@ -1,40 +1,39 @@
-# Calendario Esami
+# **<p align="center">Calendario Esami</p>**
 
-## Indice
+# Indice
 - ***[I° Anno](#i-anno)***
   - ***Semestre 1***:
     - [Analisi can. 1](#analisi-matematica-1)
 - [II° Anno](#ii-anno)  
-- [III° Anno](#iiI-anno)  
-## I ANNO:
+- [III° Anno](#iiI-anno) 
+
+# I ANNO:
+## I SEMESTRE:
+
+---
+
+### **Analisi matematica 1**
+
+> 1. #### ***I appello***:
+>       - ***Scritto:*** data 20 Gennaio 2020
 
 
 
-### I SEMESTRE:
+> 2. #### ***II appello***:
+>       - ***Scritto:*** 10 Febbraio 2020
 
-__________________________________________
 
-#### **Analisi matematica 1**
+> 3. #### ***III appello***:
+>       - ***Scritto:*** 06 Luglio 2020
+>       - ***Orale:*** 10 Luglio 2020
 
- 1. I appello scritto: 20 Gennaio 2020
+> 3. ***III appello***: 
+>       - *Scritto:* 06 Luglio 2020
+>       - *Orale:* 10 Luglio 2020
 
-	 I appello orale:
-
- 2. II appello scritto: 10 Febbraio 2020
-
-	 II appello orale:
-
- 3. III appello scritto: 06 Luglio 2020
-
-	 Ora: ?
-
-	 III appello orale: 10 Luglio 2020
-
- 4. IV appello scritto: 14 Settembre 2020
-
-	 Ora: ?
-
-	 IV appello orale: 18 Settembre 2020
+> 4. ***IV appello scritto***: 14 Settembre 2020 | Ora: ?
+>       - *Scritto:* 14 Settembre 2020, *Ore*: ?, *Aula*: ?
+>       - *Orale:* 18 Settembre 2020, *Ore*: ?, *Aula*: ?
 
 ________________________________________
 
