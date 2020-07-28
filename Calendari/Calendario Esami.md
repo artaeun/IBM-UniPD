@@ -3,8 +3,8 @@
 # Indice
 - ***I° Anno:***
   - *Semestre 1*:
-    - [Analisi matematica I - Can. 1 e Can. 2]()
-    - [Fondamenti di chimica per la Bioingegneria - Can. 1 e Can. 2](#fondamenti-di-chimica-per-la-bioingegneria)
+    - [Analisi matematica I - Can. 1 e Can. 2](analisi-matematica-i---can-1-e-can-2)
+    - [Fondamenti di chimica per la Bioingegneria - Can. 1 e Can. 2](fondamenti-di-chimica-per-la-bioingegneria---can-1-e-can-2)
   - *Semestre 2:*
     - [Algebra lineare e Geometria - Can. 1 e Can. 2]()
     - [Fisica generale 1 - Can. 1]()
