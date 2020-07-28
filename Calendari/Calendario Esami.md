@@ -1,557 +1,302 @@
-# Calendario Esami
+# **<p align="center">Calendario Esami</p>**
+
+# Indice
+- ***I° Anno:***
+  - *Semestre 1*:
+    - [Analisi matematica I - Can. 1 e Can. 2](#analisi-matematica-i---can-1-e-can-2)
+    - [Fondamenti di chimica per la Bioingegneria - Can. 1 e Can. 2](#fondamenti-di-chimica-per-la-bioingegneria---can-1-e-can-2)
+  - *Semestre 2:*
+    - [Algebra lineare e Geometria - Can. 1 e Can. 2](#algebra-lineare-e-geometria---can-1-e-can-2)
+    - [Fisica generale 1 - Can. 1](#fisica-generale-1---can-1)
+    - [Fisica generale 1 - Can. 2](#fisica-generale-1---can-2)
+    - [Biologia, Fisiologia e Anatomia - Can. 1 e Can. 2](#biologia-fisiologia-e-anatomia---can-1-e-can-2)
+- ***II° Anno:***
+  - *Semestre 1:*
+    - [Fondamenti di Analisi matematica e Probabilità - Can. 1 e Can. 2](#fondamenti-di-analisi-matematica-e-probabilità---can-1-e-can-2)
+    - [Elementi di Informatica e Programmazione - Can. 1 e Can. 2](#elementi-di-informatica-e-programmazione---can-1-e-can-2)
+    - [Fisica 2 - Can. 1 (Villoresi)](#fisica-2---can-1-villoresi)
+    - [Fisica 2 - Can. 2 (Sartori)](#fisica-2---can-2-sartori)
+    - [Teoria dei circuiti - Can. 1 e Can. 2](#teoria-dei-circuiti---can-1-e-can-2)
+  - *Semestre 2:* 
+    - [Fondamenti di Elettronica - Can. 1 e Can. 2](#fondamenti-di-elettronica---can-1-e-can-2)
+    - [Biomateriali - Can. 1 e Can. 2](#biomateriali---can-1-e-can-2)
+    - [Segnali e sistemi - Can. 1 e Can. 2](#segnali-e-sistemi---can-1-e-can-2)
+    - [Ingegneria dei Sistemi Biologici - Can. 1 e Can. 2](#ingegneria-dei-sistemi-biologici---can-1-e-can-2)
+- ***III° Anno:***
+  - *Semestre 1:*
+    - [Fondamenti di Automatica](https://github.com/artaeun/IBM-UniPd/blob/updates/Guide/Link%20e%20Contatti%20Unipd.md)
+    - [Biomeccanica - Can. 1](#biomeccanica---can-1)
+    - [Biomeccanica - Can. 2](#biomeccanica---can-2)
+    - [Elaborazione di segnali biomedici (Corso a scelta)](#elaborazione-di-segnali-biomedici-corso-a-scelta)
+    - [Meccanica per Bioingegneria (Corso a scelta)](#meccanica-per-bioingegneria-corso-a-scelta)
+    - [Project Management (Corso a scelta)](#project-management-corso-a-scelta)
+  - *Semestre 2:*
+    - [Tecnologia e strumentazione biomedica](#tecnologia-e-strumentazione-biomedica)
+    - [Bioingegneria del movimento e riabilitazione (Corso a scelta)](#bioingegneria-del-movimento-e-riabilitazione-corso-a-scelta)
+    - [Laboratorio di Ingegneria Cellulare (Corso a scelta)](#laboratorio-di-ingegneria-cellulare-corso-a-scelta)
+    - [Bioelettromagnetismo (Corso a scelta)](#bioelettromagnetismo-corso-a-scelta)
+    - [Informatica medica (Corso a scelta)](#informatica-medica-corso-a-scelta)
+    - [Meccanica dei Materiali (Corso a scelta)](#meccanica-dei-materiali-corso-a-scelta)
+    - [Misure ed acquisizione di dati biomedici  (Corso a scelta)](#misure-ed-acquisizione-di-dati-biomedici--corso-a-scelta)
+
+---
+
+# I ANNO:
+## ***I SEMESTRE***:
+
+- ### **Analisi matematica I - Can. 1 e Can. 2**
+
+  - ***IV appello***: 
+    - *Scritto:* 14 Settembre 2020
+    - *Orale:* 18 Settembre 2020
+
+ - ### **Fondamenti di chimica per la Bioingegneria - Can. 1 e Can. 2**
+
+    - ***IV appello***: 
+        - ***Scritto:*** 10 Settembre 2020; *Ore*: 09:00
+        - ***Orale:*** 16 Settembre 2020; *Ore*: 09:00
+
+
+
+## ***II SEMESTRE***:
+
+- ### **Algebra lineare e Geometria - Can. 1 e Can. 2**
+    - ***III appello***: 
+      - ***Scritto:*** 01 Settembre 2020; *Ore*: 09:00
+      - ***Modalità***: Esercizi in diretta Zoom
+
+- ### **Fisica generale 1 - Can. 1**
+
+    - ***III appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Orale:*** *N.D.*
+      - ***Modalità***: *N.D.*
+
+- ### **Fisica generale 1 - Can. 2**
+
+    - ***III appello***: 
+      - ***Scritto:*** 04 Settembre 2020; *Ore*: 09:00
+      - ***Orale:*** 11 settembre 2020; *Ore*: 09:00
+      - ***Modalità***: Crocette + Orale
 
-## Indice
-- ***[I° Anno](#i-anno)***
-  - ***Semestre 1***:
-    - [Analisi can. 1](#analisi-matematica-1)
-- [II° Anno](#ii-anno)  
-- [III° Anno](#iiI-anno)  
-## I ANNO:
+- ### **Biologia, Fisiologia e Anatomia - Can. 1 e Can. 2**
 
+    - ***III appello***: 
+      - ***Scritto:*** 27 Luglio 2020; *Ore*: 10:00
+      - ***Modalità***: Crocette
 
+    - ***IV appello***: 
+      - ***Scritto:*** 17 Settembre 2020; *Ore*: 10:00
+      - ***Modalità***: Crocette
 
-### I SEMESTRE:
+---
 
-__________________________________________
+# II ANNO:
 
-#### **Analisi matematica 1**
+## I SEMESTRE:
+- ### **Fondamenti di Analisi matematica e Probabilità - Can. 1 e Can. 2**
+  - ***IV appello***: 
+    - ***Scritto:*** 16 Settembre 2020
+    - ***Modalità***: Esercizi a Crocette con Elaborato
 
- 1. I appello scritto: 20 Gennaio 2020
+- ### **Elementi di Informatica e Programmazione - Can. 1 e Can. 2**  
+  - ***IV appello***: 
+    - ***Orale e Scritto:*** 10 Settembre 2020
+    - ***Modalità***: Quiz per l'orale; Esercizio di Programmazione per lo scritto. Il tutto in un'unica seduta con una breve pausa tra una prova e l'altra.
 
-	 I appello orale:
+- ### **Fisica 2 - Can. 1 (Villoresi)**
 
- 2. II appello scritto: 10 Febbraio 2020
+  - ***IV appello***: 
+    - ***Scritto:*** 17 Settembre 2020
+    - ***Modalità***: Scritto Tradizionale su Zoom con caricamento elaborato
 
-	 II appello orale:
+- ### **Fisica 2 - Can. 2 (Sartori)**
+  - ***IV appello***: 
+    - ***Scritto:*** 28 Luglio 2020
+    - ***Modalità***: Scritto Tradizionale su Zoom con caricamento elaborato
 
- 3. III appello scritto: 06 Luglio 2020
+- ### **Teoria dei circuiti - Can. 1 e Can. 2**
+  - ***IV appello***: 
+    - ***Scritto:*** 26 Agosto 2020; *Ore*: 10:00
+    - ***Modalità***: *N.D.*
 
-	 Ora: ?
+## II SEMESTRE:
 
-	 III appello orale: 10 Luglio 2020
+- ### **Fondamenti di Elettronica - Can. 1 e Can. 2**
 
- 4. IV appello scritto: 14 Settembre 2020
+  - ***III appello***: 
+    - ***Scritto:*** 27 Agosto 2020; *Ore*: 9:00
+    - ***Modalità***: Come in presenza; Elaborato da Caricare/Inviare
 
-	 Ora: ?
+  - ***IV appello***: 
+    - ***Scritto:*** *N.D.*
+    - ***Modalità***: ND
+        
 
-	 IV appello orale: 18 Settembre 2020
+- ### **Biomateriali - Can. 1 e Can. 2**
+  - ***III appello***: 
+    - ***Scritto:*** 4 Settembre 2020; *Ore*: 9:30; *Aula*: RH1
+    - ***Orale:*** *N.D.*
 
-________________________________________
+  - ***IV appello***: 
+    - ***Scritto:*** 18 Settembre 2020; *Ore*: 9:30; *Aula*: RH3
+    - ***Orale:*** *N.D.*
 
-**Fondamenti di chimica per la bioingegneria**
+- ### **Segnali e sistemi - Can. 1 e Can. 2**
+  - ***III appello***: 
+    - ***Scritto:*** 01 Settembre 2020
+    - ***Modalità***: Esercizi a crocette senza elaborato. Prova MatLab
 
- 1. I appello scritto: 17 Febbraio 2020
 
-	 Aula: Lu4
+- ### **Ingegneria dei Sistemi Biologici - Can. 1 e Can. 2**
+  - ***III appello***: 
+    - ***Scritto:*** 28 Agosto 2020; *Ore*: 9:00
+  - ***IV appello***: 
+    - ***Scritto:*** *N.D.*
 
-	 I appello orale: ?
+---
 
- 2. II appello scritto: 27 Febbraio 2020
+# III ANNO:
 
-	 Aula: ?
+## I SEMESTRE:
 
-	 II appello orale: ?  Svolto in via telematica tra l’8 e il 9 aprile
+- ### **Fondamenti di Automatica**
 
- 3. III appello scritto: 02 Luglio 2020
+    - ***IV appello***: 
+      - ***Scritto:*** 10 Settembre 2020
+      - ***Modalità***: *N.D.*
 
-	 Ora: 09:00
+- ### **Biomeccanica - Can. 1**
 
-	 Aula: ?
+    - ***IV appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Modalità***: *N.D.*
 
-	 III appello orale: 08 Luglio 2020
+- ### **Biomeccanica - Can. 2**
 
-	 Ora: 09:00
+    - ***IV appello***: 
+      - ***Scritto:*** 16 Settembre 2020; *Ore*: 14:30
+      - ***Modalità***: *N.D.*
 
- 4. IV appello scritto: 10 Settembre 2020
 
-	 Ora: 09:00
 
-	 Aula:?
 
-	 IV appello orale: 16 Settembre 2020
+- ### **Elaborazione di segnali biomedici (Corso a scelta)**
 
-	 Ora: 09:00
 
+    - ***IV appello***: 
+      - ***Orale e Scritto:*** 08 Settembre 2020
+      - ***Modalità***:
+        - 1° parte: prova teorica sul programma svolto a lezione (2 ore): domande su teoria e/o esercizi
+        - 2° parte: prova pratica di Matlab da svolgere al calcolatore (30 min).
 
-### II SEMESTRE:
 
-____________________________________________
+    - ***su richiesta: sessione per soli laureandi a ottobre/novembre***
 
-**Algebra lineare e geometria /can2**
+- ### **Meccanica per Bioingegneria (Corso a scelta)**
 
-#### Modalità: Esercizi in diretta Zoom
+    - ***IV appello***: 
+      - ***Scritto:*** 01 Settembre 2020; *Ore*: 14:30
+      - ***Modalità***: *N.D.*
 
- 1. - Primo compitino: 18 Aprile 2020
 
-	Ora: 9.00
 
-	 - Secondo compitino e primo appello: 16 giugno 2020
+- ### **Project Management (Corso a scelta)**
 
-	Ora: 9.00
+    - ***III appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Orale:*** *N.D.*
+      - ***Modalità***:
+        - I parte: presentazione orale (30 min)
+        - II parte: prova scritta
 
- 2. Secondo appello: 03 Luglio 2020
+    - ***IV appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Orale:*** *N.D.*
+      - ***Modalità***: *N.D.*
 
-	 Ora: 9.00
 
- 3. Terzo appello: 01 Settembre 2020
 
-	 Ora: 9.00
+## II SEMESTRE:
 
-________________________________________
+- ### **Tecnologia e strumentazione biomedica**
 
-**Fisica generale 1 /can2**
+    - ***III appello***: 
+      - ***Scritto:*** 18 Settembre 2020
+      - ***Modalità***: Scritto su Zoom Domande + Esercizi
 
-#### Modalità: Crocette + Orale
-
- 1. - Primo compitino: 21 aprile 2020
-
-	Ora: 15.00  
-		
-	 - Secondo compitino e primo appello:
-
-	**scritto**: 18 Giugno 2020
-
-	Ora: 9.00
-
-	**orale**: 29 giugno 2020
-
-	Ora: 9.00
-
- 2. Secondo appello:
-
-	**scritto**: 09 Luglio 2020
-
-	Ora: 9.00
-
-	**orale**: 15 luglio 2020
-
-	Ora: 9.00
-
- 3. Terzo appello:
-
-	**scritto**: 04 Settembre 2020
-
-	Ora: 9.00
-
-	**orale**: 11 settembre 2020
-
-	Ora: 9.00
-
-____________________________________________
-
-**Biologia, Fisiologia e Anatomia**
-
-#### Modalità: Crocette
-
-Primo appello
-
-**Scritto**: 24 Giugno 2020
-
+    - ***IV appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Modalità***: Scritto su Zoom Domande + Esercizi
   
-Secondo appello
+- ### **Bioingegneria del movimento e riabilitazione (Corso a scelta)**
 
-**Scritto**: 17 Luglio 2020
-  
+    - ***III appello***: 
+      - ***Scritto:*** 27 Agosto 2020
+      - ***Modalità***: *N.D.*
 
-Terzo appello
+    - ***IV appello***: 
+      - ***Scritto:*** 14 Settembre 2020
+      - ***Modalità***: *N.D.*
 
-**Scritto**: 02 Settembre 2020
-  
+    - ***V appello***: 
+      - ***Scritto:*** 18 Gennaio 2021
+      - ***Modalità***: *N.D.*
 
-Quarto appello (?)
 
-**Scritto**: 17 Settembre 2020
+- ### **Laboratorio di Ingegneria Cellulare (Corso a scelta)**
 
-## II ANNO:
 
-### I SEMESTRE:
+    - ***III appello***: 
+      - ***Scritto:*** 2 Settembre 2020; *Ore*: 10:30
+      - ***Modalità***: a domande aperte
 
-____________________________________________
-
-**Fondamenti di Analisi matematica e Probabilità (FAMP)/-**
-
-#### Modalità: Esercizi a Crocette con Elaborato
-
-I appello: 
-
-|| appello: 06 Maggio
-
-III appello: 09 Luglio 2020
-
-IV appello: 16 Settembre 2020
-
-____________________________________________
-
-**Elementi di informatica e programmazione in Python/ -**  
-
-III appello: 29 Giugno 2020
-
-IV appello: 10 Settembre 2020
-
-________________________________________
-
-**Fisica 2/-**
-
-#### Modalità: Scritto Tradizionale su Zoom con caricamento elaborato
-
-III appello (tutti i canali): 15/06
-
-Ora:
-
-Orale can 1: 18/06
-
-Orale can 2: 16/06
-
-  
-
-____________________________________________
-
-**Teoria dei circuiti/Can2**
-  
-I appello:
-Data: 05 Febbraio 2020
-Ora: 9.00-11.00
-
-II appello:
-Data: 19 Febbraio 2020
-Ora: 9.00-11.00
-
-III appello:
-Data: 08 Luglio 2020
-Ora: 10.00-12.00
-
-IV appello:
-Data: 26 Agosto 2020
-Ora: 10.00-12.00
-
-  
-
-### II SEMESTRE:
-
-____________________________________________
-
-**Fondamenti di Elettronica/tutti i canali**
-
-#### Modalità: Come in presenza, Elaborato da Caricare/Inviare
-
-  
-I appello:
-Data: 17 Giugno 2020
-Ora: 14.00-?
-Luogo: Aula Ke
-
-
-II appello:
-Data: 13 Luglio 2020
-Ora: 9.00-?
-Luogo: Aula Ke
-
-  
-III appello:
-Data: 27 Agosto 2020
-Ora: 9.00-?
-Luogo: Aula
-
- IV appello: **da definire**
-
-____________________________________________
-
-**Biomateriali/canale 1**
-- Primo compitino: 24 Aprile 2020
-Ora: 14:30
-Durata: 45 minuti, richiesto di accedere almeno 30 minuti prima dell’inizio!!!
-
-- Secondo compitino: 05 Giugno 2020
-Ora: 14:30 
-
-
-**Biomateriali/canale 2**
--Primo compitino: 24 Aprile 2020
-Ora: 8:30
-Durata: 45 minuti, richiesto di accedere almeno 30 minuti prima dell’inizio!!!
-
--Secondo compitino: 05 Giugno 2020
-Ora: 8:30
-
-  
-
-**Entrambi i canali:**
-Aula: RH1 (per i primi 3 appelli)
-I appello: 19 Giugno 2020
-Ora: 9:30
-
-II appello: 3 Luglio 2020
-Ora: 9:30
-
-III appello: 4 Settembre 2020
-Ora: 9:30  
-
-IV appello: 18 settembre 2020
-Ora: 9:30
-Aula: RH3
-
-  
-
-________________________________________
-
-**Segnali e sistemi/ -**
-
-#### Modalità: Esercizi a crocette senza elaborato
-
-##### Prova MatLab
-
-Data: 22 Giugno 2020
-
-Ora: Dalle 9:00 a turni
-
-**Durata: 2 ore e 30 minuti**
-I appello:
-Data: 26 Giugno 2020
-Ora: 14:30
-
-II appello:
-Data: 15 Luglio 2020
-Ora: 14:30
-
-III appello:
-Data: 01 Settembre 2020
-Ora:
-________________________________________
-
-**Ingegneria dei sistemi biologici/ -**
-
-I appello:
-Data: 24 Giugno 2020
-Ora: Inizio 10:00 Fine
-Aule: M1 e M2 (Dip. Ingegneria Meccanica)
-
-  
-II appello:
-Data: 25 Luglio 2020
-Ora: Inizio 14:00 Fine
-Aule: M1 e M2 (Dip. Ingegneria Meccanica)
-
-________________________________________
-
-## III ANNO:
-
-### I SEMESTRE:
-___________________________________________
-
-**Fondamenti di Automatica/-**
-
-Terzo appello: 24 Giugno 2020
-
-Quarto appello: 10 Settembre 2020
-
-____________________________________________
-
-**Elaborazione di segnali biomedici/ Corso a scelta**
-
-I appello:
-Data: 21 Gennaio 2020
-Ora: ?-?
-
-II appello:
-Data: 06 Febbraio 2020
-Ora: ?-?
-
-III appello:
-Data: 25 Giugno 2020
-Ora: ?-?
-
-IV appello:
-Data: 08 Settembre 2020
-Ora: ?-?
-
-**!! su richiesta, sessione per soli laureandi: ottobre/novembre**
-
-**!! 1° parte: prova teorica sul programma svolto a lezione (2 ore): domande su teoria e/o esercizi**
-
-**2° parte: prova pratica di Matlab da svolgere al calcolatore (30 min).**
-
-____________________________________________
-
-**Meccanica per bioingegneria/ Corso a scelta)**
-
-III appello:
-Data: 09 Luglio 2020
-Ora: 14:30-16:30
-
-IV appello:
-Data: 01 Settembre 2020
-Ora: 14:30-16:30
-
-____________________________________________
-
-**Biomeccanica/Can2**
-
-I appello:
-Data: 31 Gennaio 2020
-Ora: 14:30-16:30
-
-II appello:
-Data: 25 Febbraio 2020
-Ora: 14:30-16:30
-
-III appello:
-Data: 16 Luglio 2020
-Ora: 14:30-16:30
-
-IV appello:
-Data: 16 Settembre 2020
-Ora: 14:30-16:30
-
-________________________________________
-
-**Project Management/Corso a scelta**
-
-I appello:
-Data: 13 Febbraio 2020
-Ora: ?-?
-
-II appello:
-Data: 27 Febbraio 2020
-Ora: ?-?
-
-III appello:
-Data: ? 2020
-Ora: ?-?
-
-IV appello:
-Data: ? 2020
-Ora: ?-?
-
-**!! I parte: presentazione orale (30 min)**
-**!! II parte: prova scritta**
-
-### II SEMESTRE:
-
-________________________________________
-
-**Tecnologia e strumentazione biomedica/ -**
-
-#### Modalità: Scritto su Zoom Domande + Esercizi(?)
-
-  
-I appello:
-Data: 29 Giugno 2020
-Durata: 1 ora
-
-II appello:
-Data: 15 Luglio 2020
-Durata: 1 ora
-
-III appello:
-Data: 18 Settembre 2020
-
-________________________________________
-
-**BIOINGEGNERIA DEL MOVIMENTO E RIABILITAZIONE/ Corso a scelta** 
-
-I appello:
-Data: 19 Giugno 2020
-
-II appello:
-Data: 8 Luglio 2020
-
-III appello:
-Data: 27 Agosto 2020
-
-IV appello:
-Data: 14 Settembre 2020
-
-V appello:
-Data: 18 Gennaio 2021
-
-________________________________________
-
-**Laboratorio di Ingegneria Cellulare/ Corso a scelta**
-**!!A DOMANDE APERTE**
-
-Primo appello: 
-Data:16 Giugno 2020
-Ora: 14:30-16:30
-
-Secondo appello: 
-Data: 20 Luglio 2020
-Ora: 10:30-12:00
-
-Terzo appello:
-Data: 2 Settembre 2020
-Ora: 10:30-12:00
-
-Quarto appello:
-Data: 16 Settembre 2020
-Ora: 10:30-12:00
+    - ***IV appello***: 
+      - ***Scritto:*** 16 Settembre 2020; *Ore*: 10:30
+      - ***Modalità***: a domande aperte
 
   
   
-  
 
-________________________________________
+- ### **Bioelettromagnetismo (Corso a scelta)**
 
-**Bioelettromagnetismo/ Corso a scelta**
+    - ***III appello***: 
+      - ***Scritto:*** 03 Settembre 2020
+      - ***Modalità***: *N.D.*
 
-I appello:
-Data: 23 Giugno 2020
+    - ***IV appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Modalità***: *N.D.*
 
-II appello:
-Data: 07 Luglio 2020
+- ### **Informatica medica (Corso a scelta)**
+    - ***III appello***: 
+      - ***Scritto:*** 17 Settembre 2020; *Ore*: 9:00; *Aula*: Ae, De
+      - ***Modalità***: Test a crocette più esercizi stile famp, da mettere solo il risultato
 
-III appello:
-Data: 03 Settembre 2020
+    - ***IV appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Modalità***: Test a crocette più esercizi stile famp, da mettere solo il risultato
 
-________________________________________
 
-**Informatica medica/ Corso a scelta**
+- ### **Meccanica dei Materiali (Corso a scelta)** 
+    - ***III appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Orale:***  *N.D.*
+      - ***Modalità***: Scritto su Zoom (?)
 
-#### Modalità: Test a crocette più esercizi stile famp, da mettere solo il risultato
+    - ***IV appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Orale:*** *N.D.*
+      - ***Modalità***: Scritto su Zoom (?)
 
-I appello:
-Data: 22 Giugno 2020
-Ora: 9:00
-Aule: Ae, Be, Ce, Ve
+- ### **Misure ed acquisizione di dati biomedici  (Corso a scelta)**
+    - ***III appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Orale:*** *N.D.*
+      - ***Modalità***: *N.D.*
 
-II appello:
-Data: 17 Luglio 2020
-Ora: 9:00
-Aule: Ke, Ve
+    - ***IV appello***: 
+      - ***Scritto:*** *N.D.*
+      - ***Orale:*** *N.D.*
+      - ***Modalità***: *N.D.*
 
-III appello:
-Data: 17 Settembre 2020
-Ora: 9:00
-Aule: Ae, De
-
-IV appello: **!! DA DEFINIRE**
-
-________________________________________
-
-**Meccanica dei Materiali/ Corso a scelta** 
-
-**Modalità: Scritto su Zoom (aggiungere dettagli)**
-
-I appello:
-Data: 18 Giugno 2020
-Ora: 10.00
-
-  
-
-II Appello:
-Data: 10 Luglio
-Ora: 10.00
-
-  
-  
-  
-  
-
-________________________________________
-
-Esami mancanti:
-
-(III ANNO)
-
-**Misure ed acquisizione di dati biomedici**
-
-> Written with [StackEdit](https://stackedit.io/).
