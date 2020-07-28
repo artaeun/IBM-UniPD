@@ -5,6 +5,7 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 
 
-
+## Calendari e Scadenze
+*-* [Calendario Esami](/Calendari/Calendario%20Esami.md)
 ## Guide
 *-* [3° anno - Curriculum, Classi, Piano di studi](/Guide/Curriculum%20e%20Classi.md)
