@@ -3,7 +3,8 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 
 
-
+## Link utili
+*-* Unipd
 
 ## Calendari e Scadenze
 *-* [Calendario Esami](/Calendari/Calendario%20Esami.md)
