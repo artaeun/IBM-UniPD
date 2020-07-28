@@ -4,9 +4,12 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 
 ## Link utili
-*-* Unipd
+- ***[Link e contatti Università di Padova](/Guide/Link%20e%20Contatti%20Unipd.md)***
+- *[Link Utili](/Guide/Link%20utili.md)*
+
 
 ## Calendari e Scadenze
-*-* [Calendario Esami](/Calendari/Calendario%20Esami.md)
+- *[Calendario Esami](/Calendari/Calendario%20Esami.md)*
+
 ## Guide
-*-* [3° anno - Curriculum, Classi, Piano di studi](/Guide/Curriculum%20e%20Classi.md)
+- *[3° anno - Curriculum, Classi, Piano di studi](/Guide/Curriculum%20e%20Classi.md)*
