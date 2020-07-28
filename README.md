@@ -3,4 +3,5 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 
 
-[/guide/Curriculum e Classi.md](Curriculum, Classe, Piano di Studi)
+## Guide
+- [Curriculum, Classe, Piano di Studi](/guide/Curriculum e Classi.md)
