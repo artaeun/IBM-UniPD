@@ -58,7 +58,7 @@ Trovi tutto qui: https://didattica.unipd.it/off/2018/LT/IN/IN2374
 ### **Come faccio a sapere che classe e curriculum sono?**
 Se vai su uniweb, in status studente, vedrai che sei impostato in una classe di laurea (L8 o L9). Facendo richiesta all’Ufficio Segreteria Carriere si può passare da una classe all’altra.
 Il curriculum lo trovi sotto la voce **Percorso**.
-![status studente](/Guide/img/status_studente.png)
+![status studente](/.img/status_studente.png)
 
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*
@@ -107,7 +107,7 @@ No. E’ una laurea. Solo che con il tirocinio cerca di preparare un poco per il
 ### Fare il curriculum applicativo mi consente di togliere un qualsiasi esame?
 Non esattamente. Se sei parte di un curriculum o l’altro, puoi scegliere solo uno dei 3 percorsi indicati: 
 
-![curriculum](/img/curriculum.png)
+![curriculum](/.img/curriculum.png)
 
 Di default, se non specifichi il tuo percorso, vieni assegnato al percorso 1.
 Facendo il piano di studi è molto più facile da capire.
@@ -145,7 +145,7 @@ Le classi ti inquadrano (assieme al curriculum) nella scelta degli esami da dare
   - Se sei L8 puoi SOLO scegliere il percorso 1, e cioè solo Informatica Medica e tirocinio.
   - Se sei L9, puoi il percorso 2, e cioè di fare solo uno dei due: o Meccanica dei Materiali (e tirocinio) o Meccanica per Bioingegneria (e tirocinio). 
   
-![curriculum](/img/curriculum.png)
+![curriculum](/.img/curriculum.png)
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*
 ---
