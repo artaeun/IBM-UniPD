@@ -1,12 +1,13 @@
 
 
+# Indice: <!-- omit in toc -->
 
 - [🏛 Le regole del server 🏛](#-le-regole-del-server-)
 - [👻 Conseguenze dell'infrazione delle regole 👻](#-conseguenze-dellinfrazione-delle-regole-)
 - [👾Moderazione👾](#moderazione)
 - [🎗 ***Un'ultima nota prima di concludere***🎗](#-unultima-nota-prima-di-concludere)
 
-***Indice:***
+---
 
 Troverai spesso sul server Discord persone che esprimono in modo marcato le loro opinioni, e queste potranno differire molto dalle tue. Indipendentemente da queste differenze, tieni presente le regole qui sotto. Tieni conto che **non è una lista esaustiva**, e che l'obbiettivo di queste regole e dei moderatori è di salvaguardare l'esistenza e utilità di questo server.
 
