@@ -13,30 +13,41 @@ Troverai spesso sul server Discord persone che esprimono in modo marcato le loro
 
 ## 🏛 Le regole del server 🏛
 
-- 0️⃣ - **Sii calmo, gentile e civile.** Tratta tutti i membri del server con rispetto ed esprimi i tuoi pensieri in modo costruttivo. Non saranno tollerate molestie, abusi, discorsi di odio, osservazioni razziste, insulti sessuali o totale mancanza di rispetto. Evita parolacce / volgarità eccessive.
+0. ***Sii calmo, gentile e civile.*** Tratta tutti i membri del server con rispetto ed esprimi i tuoi pensieri in modo costruttivo. ***Non saranno tollerate molestie, abusi, discorsi di odio, osservazioni razziste, insulti sessuali o totale mancanza di rispetto.*** Evita parolacce / volgarità eccessive.  
+   > È compito di ognuno di voi segnalare incorettezze su tal fronte al team di moderazione. Non sempre vengono colti in tempo questi comportamenti e necesittiamo (purtroppo) uno sforzo da parte Vostra per mantenere un clima di pace e tranquillità. 
 
-- 1️⃣ - Non discutere di argomenti politici; Apriremo a tempo debito una chat apposta anche per i candidati alle elezioni studentesche, ma non sarà uno spazio di dibattito o discussione, in quanto non è lo scopo di questo server.
+   > Al di là dello scrivere in privato un utente, potete taggare Rappresentanti e Moderatori semplicemente scrivendo *@Rappresentanti* dove volete attirare l'attenzione del ruolo in questione (o al posto di "Rappresentanti" usando il nome dell'utente)
 
-- 2️⃣ - Non pubblicare contenuti pornografici, inclusi contenuti NSFW (immagini e testi relativi a contenuti sessualmente espliciti, sostanze stupefacenti, ecc.).
+1. **Non discutere di argomenti politici sul server**; Apriremo a tempo debito una chat apposta anche per i candidati alle elezioni studentesche, ma non sarà uno spazio di dibattito o discussione, in quanto non è lo scopo di questo server.
 
-    > 🛠 **Gli utenti sono liberi di cambiare il proprio soprannome e / o immagini di profilo (e lo possono fare facilmente dal menù utenti). Ma sono vietati quelli che indichino qualsiasi forma di molestie, abusi, discorsi di odio e razzismo, contesti e insulti sessuali, qualsiasi tipo di segno religioso e politico, promozione del consumo di alcol, droghe o altri intossicanti e mancanza di rispetto generale.
+2. **Non pubblicare contenuti pornografici, inclusi contenuti NSFW** (immagini e testi relativi a contenuti sessualmente espliciti, sostanze stupefacenti, ecc.).
 
-    > 🛠 Ti chiediamo inoltre di agire tempestivamente all’eventuale richiesta da parte dello staff di moderazione di cambiare il soprannome visibile nel server e / o l'immagine del profilo, se si riterrà che essi violino le regole sopra menzionate.
+    > 🛠 Gli utenti sono liberi di cambiare il proprio soprannome e/o immagini di profilo (e lo possono fare facilmente dal menù utenti). Ma sono vietati quelli che indichino qualsiasi forma di molestie, abusi, discorsi di odio e razzismo, contesti e insulti sessuali, qualsiasi tipo di segno religioso e politico, promozione del consumo di alcol, droghe o altri intossicanti e mancanza di rispetto generale.
 
-- 3️⃣  - **Non inviare spam e/o pubblicare post privi di contenuti significativi fuori dalla Piazza Spam**. Assicurati di rimanere in argomento e utilizzare le chat dedicate per tali contenuti.
+    > 🛠 Ti chiediamo inoltre di agire tempestivamente all’eventuale richiesta da parte dello staff di moderazione di cambiare il soprannome visibile nel server e/o l'immagine del profilo, se si riterrà che essi violino le regole sopra menzionate.
+
+3.  **Non inviare spam e/o pubblicare post privi di contenuti significativi fuori dalla Piazza Spam**. Assicurati di rimanere in argomento e utilizzare le chat dedicate per tali contenuti.
 
     > Anche per compravendite, promozione eventi, ecc. si può usare la "Piazza Spam", ma sempre nei limiti delle regole qua presenti e delle leggi della Repubblica.
 
-- 4️⃣- **Assicurati di NON violare i diritti di autore** pubblicando contenuti su questo server, o di promuovere o vantarti per eventuali violazioni di copyright.
+4.  **Assicurati di NON violare i diritti di autore** pubblicando contenuti su questo server, o di promuovere o vantarti per eventuali violazioni di copyright.
 
     > **Verranno tolerate solamente la condivisione di contenuti digitali propri** (quindi NON slide UniPd o PDF di libri, ma appunti propri, risoluzioni di esercizi, ecc) o rivendita di materiale didattico cartaceo usato (stampato o originale) nella Piazza Spam. Se dovete/volete condividere slide del corso, potete però lasciare nella chat comune un link (al moodle stesso o se il moodle è down e colleghi hanno urgenza per i dati, da cloud storage a VOSTRA responsabilità). Inoltre, **i link ai file non devono passare per servizi di advertising di alcun tipo e i file non devono contenere manipolazioni di alcun tipo che possano danneggiare l'utente finale, ne devono contenere materiale in violazione di queste stesse regole.**
 
     > Incoraggiamo l’acquisto legale dei libri di testo usati o di usufruire del materiale didattico reso disponibile dal sistema bibliotecario universitario e su moodle (link per la lista di biblioteche universitarie in #link-utili)
-- 5️⃣ - **E’ vietata la pubblicazione di offerte commerciali o annunci pubblicitari in chat che violino i termini di servizio di Discord (http://tiny.cc/terminiDiscord)**, inclusa la pubblicità di altri server Discord o siti web di terzi. Qualunque tipo di offerta commerciale, annuncio di compravendita o sponsorizzazione di eventi dovrà essere limitata esclusivamente alla Piazza Spam. 
-- 6️⃣ - **Non divulgare nulla che possa in qualsiasi modo violare la privacy di altri utenti e/o soggetti terzi.**
-- 7️⃣ - **Non taggare Rappresentanti o Moderatori ripetutamente o senza necessità**. E’ inoltre vietato impersonare Rappresentanti o Moderatori. Se vedi qualcuno infrangere queste regole, contatta in privato uno dei moderatori della community.
-- 8️⃣ - Le azioni di moderazione non verranno discusse pubblicamente. Tutte le discussioni sulla moderazione avranno luogo tramite messaggi privati. Inoltre, i moderatori non discuteranno delle azioni di moderazione con gli utenti che non sono direttamente interessati. Se sei confuso su un'azione specifica intrapresa contro di te, contatta i moderatori o i rappresentati. Tenere presente che le opinioni espresse dai moderatori sono comunque private e non devono essere prese come posizione ufficiale del corso o dei Rappresentanti del corso.
-- 9️⃣ - Non sono permessi sottogruppi e link ad altri server che non siano correlati a UniPd in modo ufficiale o ufficioso. Per canali in più o esigenze particolari basta chiedere in #richieste-e-segnalazioni e vi verremo incontro nel limite del possibile.
+
+5. **E’ vietata la pubblicazione di offerte commerciali o annunci pubblicitari in chat che violino i termini di servizio di Discord (http://tiny.cc/terminiDiscord)**, inclusa la pubblicità di altri server Discord o siti web di terzi. 
+    > Qualunque tipo di offerta commerciale, annuncio di compravendita o sponsorizzazione di eventi dovrà essere limitata esclusivamente alla Piazza Spam.
+
+6. **Non divulgare nulla che possa in qualsiasi modo violare la privacy di altri utenti e/o soggetti terzi.**
+
+7. **Non taggare Rappresentanti o Moderatori ripetutamente o senza necessità**. E’ inoltre vietato impersonare Rappresentanti o Moderatori. Se vedi qualcuno infrangere queste regole, contatta in privato uno dei moderatori della community.
+
+8.  **Le azioni di moderazione non verranno discusse pubblicamente.** Tutte le discussioni sulla moderazione avranno luogo tramite messaggi privati. Inoltre, i moderatori non discuteranno delle azioni di moderazione con gli utenti che non sono direttamente interessati. 
+   > Se sei confuso su un'azione specifica intrapresa contro di te, contatta i moderatori o i rappresentati. Tenere presente che le opinioni espresse dai moderatori sono comunque private e non devono essere prese come posizione ufficiale del corso o dei Rappresentanti del corso.
+
+11. **Non sono permessi sottogruppi e link ad altri server che non siano correlati a UniPd in modo ufficiale o almeno ufficioso(come il qua presente).**
+    > Per canali in più o esigenze particolari basta chiedere in #richieste-e-segnalazioni e vi verremo incontro nel limite del possibile.
 
 
 ## 👻 Conseguenze dell'infrazione delle regole 👻
