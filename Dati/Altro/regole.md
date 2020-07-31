@@ -38,8 +38,9 @@ Troverai spesso sul server Discord persone che esprimono in modo marcato le loro
 
     > Incoraggiamo l’acquisto legale dei libri di testo usati o di usufruire del materiale didattico reso disponibile dal sistema bibliotecario universitario e su moodle (link per la lista di biblioteche universitarie in #link-utili)
 
-6. **E’ vietata la pubblicazione di offerte commerciali o annunci pubblicitari in chat che violino i termini di servizio di Discord (http://tiny.cc/terminiDiscord)**, inclusa la pubblicità di altri server Discord o siti web di terzi. 
-    > Qualunque tipo di offerta commerciale, annuncio di compravendita o sponsorizzazione di eventi dovrà essere limitata esclusivamente alla Piazza Spam.
+6. ***E’ vietata la pubblicazione di offerte commerciali o annunci pubblicitari in chat che violino i termini di servizio di Discord (http://tiny.cc/terminiDiscord), inclusa la pubblicità di altri server Discord o siti web di terzi***. Questo implica anche che non verrà tollerata la condivisione di altri Server Discord su questo stesso server, salvo rare eccezioni che dovranno essere PRIMA sottomesse all'attenzione dei @rappresentanti o del @Admin .
+
+> Qualunque tipo di offerta commerciale, annuncio di compravendita o sponsorizzazione di eventi dovrà essere limitata esclusivamente alla Piazza Spam o in privato, ma anche lì entro certi limiti
 
 7. **Non divulgare nulla che possa in qualsiasi modo violare la privacy di altri utenti e/o soggetti terzi.**
 
