@@ -5,7 +5,7 @@
 - [🏛 Le regole del server 🏛](#-le-regole-del-server-)
 - [👻 Conseguenze dell'infrazione delle regole 👻](#-conseguenze-dellinfrazione-delle-regole-)
 - [👾Moderazione👾](#moderazione)
-- [🎗 ***Un'ultima nota prima di concludere***🎗](#-unultima-nota-prima-di-concludere)
+- [🎗 Un'ultima nota prima di concludere🎗](#-unultima-nota-prima-di-concludere)
 
 ---
 
@@ -77,5 +77,5 @@ La moderazione non può essere fatta dietro anonimato. Verranno richiesti privat
 
 ---
 
-## 🎗 ***Un'ultima nota prima di concludere***🎗
+## 🎗 Un'ultima nota prima di concludere🎗
 Questo server vuole essere neutrale nei confronti di tutti e qualsiasi dibattito politico, associazione, religione, ecc.  L'implicazione meno ovvia di questo fatto è che qualsiasi risorsa, link o file che NON siano opere di pura propaganda ma possano dare un aiuto significativo agli studenti di ingegneria di UniPd sarà resa disponibile. Essi non riflettono nulla su una presa di posizione da parte di questo server, perché una presa di posizione non deve esistere. Il server è gestito da rappresentanti eletti da studenti e moderatori su base volontaria. **L'unico intento a definire le nostre azioni deve essere quello dell’aiuto reciproco.** Questo implica che verrà reso disponibile qualsiasi materiale venga ritenuto utile, indipendentemente da chi l'ha prodotto (come per esempio la *Contro Guida dell'UDU*).
