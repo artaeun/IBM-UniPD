@@ -5,7 +5,7 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 ## Discord 
 
-- ***[Guida all'utilizzo di Discord su mobile](http://tiny.cc/guidaDiscord)***
+<!-- -- ***🚧[Guida all'utilizzo di Discord su mobile]🚧(http://tiny.cc/guidaDiscord)***-->
 - *[Regole del server Discord](/Dati/Altro/regole.md)*
 
 
