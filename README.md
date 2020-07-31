@@ -6,13 +6,13 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 ## Link utili
 
-- ***🚧[Link e contatti Università di Padova](/Dati/Guide/Link%20e%20Contatti%20Unipd.md)🚧***
-- *🚧[Link Utili](/Dati/Guide/Link%20utili.md)🚧*
+- ***[Link e contatti Università di Padova](/Dati/Guide/Link%20e%20Contatti%20Unipd.md)***
+- *[Link Utili](/Dati/Guide/Link%20utili.md)*
 
 ## Calendari e Scadenze
 
 - *[Calendario Esami](http://agendastudentiunipd.easystaff.it/index.php?view=easytest&_lang=it)*
-- *🚧[Scadenze UniPd](/Dati/Calendari/Scadenze%20UniPd.md)🚧*
+- *🚧[Calendario Scadenze UniPD](/Dati/Calendari/Scadenze%20UniPD.md)🚧*
 
 ## Guide
 
