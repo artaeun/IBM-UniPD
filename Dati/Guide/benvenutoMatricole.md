@@ -43,4 +43,4 @@ Non considerando le numerose palestre presenti sul territorio, la realtà sporti
 - 💊 Ultima cosa, non meno importante: se avete difficoltà o problemi, nonostante i vostri sforzi migliori, non esitate mai a chiedere aiuto. Questo vale con i vostri colleghi così come con i professori. 
 
 
-👷‍♂️ Questa non vuole essere proprio una guida, ma più una serie di spunti Work-in-Progress. Suggerimenti e consigli per migliorarla saranno sempre ben graditi, e vi chiediamo di mandarli sul
+👷‍ Suggerimenti e consigli per migliorare questa guida saranno sempre ben graditi, e vi chiediamo di mandarli sul server Discord o ai rappresentanti!
