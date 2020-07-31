@@ -1,6 +1,8 @@
+# Benvenuti!
+
 **Benvenuta/o, e buon inizio anno a te che hai deciso di studiare per diventare un Ingegnere Biomedico!**
 
-Non ti mentirò: non è un percorso facile quello che hai scelto e per affrontarlo dovrai essere preparato.
+Non ti mentirò: non è un percorso facile quello che hai scelto e per affrontarlo dovrai essere preparato. Ma è un percorso pieno di soddisfazioni, vedrai!
 
 
 # Guide generali alla Vita universitaria
