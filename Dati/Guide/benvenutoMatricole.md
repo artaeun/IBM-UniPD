@@ -1,6 +1,8 @@
+# Benvenuti!
+
 **Benvenuta/o, e buon inizio anno a te che hai deciso di studiare per diventare un Ingegnere Biomedico!**
 
-Non ti mentirò: non è un percorso facile quello che hai scelto e per affrontarlo dovrai essere preparato.
+Non ti mentirò: non è un percorso facile quello che hai scelto e per affrontarlo dovrai essere preparato. Ma è un percorso pieno di soddisfazioni, vedrai!
 
 
 # Guide generali alla Vita universitaria
@@ -41,4 +43,4 @@ Non considerando le numerose palestre presenti sul territorio, la realtà sporti
 - 💊 Ultima cosa, non meno importante: se avete difficoltà o problemi, nonostante i vostri sforzi migliori, non esitate mai a chiedere aiuto. Questo vale con i vostri colleghi così come con i professori. 
 
 
-👷‍♂️ Questa non vuole essere proprio una guida, ma più una serie di spunti Work-in-Progress. Suggerimenti e consigli per migliorarla saranno sempre ben graditi, e vi chiediamo di mandarli sul
+👷‍ Suggerimenti e consigli per migliorare questa guida saranno sempre ben graditi, e vi chiediamo di mandarli sul server Discord o ai rappresentanti!
