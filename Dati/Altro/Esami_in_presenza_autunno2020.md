@@ -27,6 +27,7 @@
   - [Informatica medica - *presenza*: ***?***](#informatica-medica---presenza-)
   - [Meccanica dei materiali - *presenza*: ***?***](#meccanica-dei-materiali---presenza-)
   - [Tecnologia e strumentazione biomedica - *presenza*: ***?***](#tecnologia-e-strumentazione-biomedica---presenza-)
+- [Email insegnanti da contattare:](#email-insegnanti-da-contattare)
 
 ## ***Anno 1***
 
@@ -166,7 +167,6 @@ Dettin - monica.dettin@unipd.it
 ### Bioingegneria del movimento - *presenza*: ***?***
 
 - Zimi Sawacha - zimi.sawacha@unipd.it
-- Annamaria Guiotto - annamaria.guiotto@unipd.it
 
 ---
 
@@ -174,7 +174,6 @@ Dettin - monica.dettin@unipd.it
 ### Informatica medica - *presenza*: ***?***
 
 - Giovanni Sparacino - giovanni.sparacino@unipd.it
-- Martina Vettoretti - martina.vettoretti@unipd.it
 
 ---
 
@@ -182,7 +181,6 @@ Dettin - monica.dettin@unipd.it
 ### Meccanica dei materiali - *presenza*: ***?***
 
 - Emanuele Luigi Carniel - emanueleluigi.carniel@unipd.it
-- Silvia Tordos - silvia.todros@unipd.it
 
 ---
 
@@ -191,6 +189,12 @@ Dettin - monica.dettin@unipd.it
 
 - Simone Del Favero - simone.delfavero@unipd.it
 - Enrico Grisan - enrico.grisan@unipd.it
-- Michele Schiavon - michele.schiavon@unipd.it
 
 ---
+
+
+
+
+## Email insegnanti da contattare: 
+
+franco.rampazzo@unipd.it, claudio.marchi@unipd.it, mortengram.pedersen@unipd.it, ugo.gasparini@unipd.it, stefano.rigolin@unipd.it, monica.dettin@unipd.it, maria.pennuto@unipd.it, gianfranco.santovito@unipd.it, barbara.dicamillo@unipd.it, marcello.dalpasso@unipd.it, paolo.sartori@unipd.it, paolo.villoresi@unipd.it, andrea.bagno@unipd.it, nicola.elvassore@unipd.it, chiara.dallaman@unipd.it, nevio.benvenuto@unipd.it, piero.pavan@unipd.it, mariapia.saccomani@unipd.it, stefano.pinzoni@unipd.it, augusto.ferrante@unipd.it, onelia.gagliano@unipd.it, roberto.lot@unipd.it, claudio.narduzzi@unipd.it, giorgio.beghini@unipd.it, adc@unipd.it, zimi.sawacha@unipd.it, giovanni.sparacino@unipd.it, emanueleluigi.carniel@unipd.it, simone.delfavero@unipd.it, enrico.grisan@unipd.it

@@ -181,7 +181,7 @@ Dettin - monica.dettin@unipd.it
 ### Bioingegneria del movimento
 
 - Zimi Sawacha - zimi.sawacha@unipd.it
-- Annamaria Guiotto - annamaria.guiotto@unipd.it
+
 
 ---
 
@@ -189,7 +189,6 @@ Dettin - monica.dettin@unipd.it
 ### Informatica medica
 
 - Giovanni Sparacino - giovanni.sparacino@unipd.it
-- Martina Vettoretti - martina.vettoretti@unipd.it
 
 ---
 
@@ -197,7 +196,6 @@ Dettin - monica.dettin@unipd.it
 ### Meccanica dei materiali
 
 - Emanuele Luigi Carniel - emanueleluigi.carniel@unipd.it
-- Silvia Tordos - silvia.todros@unipd.it
 
 ---
 
@@ -206,6 +204,5 @@ Dettin - monica.dettin@unipd.it
 
 - Simone Del Favero - simone.delfavero@unipd.it
 - Enrico Grisan - enrico.grisan@unipd.it
-- Michele Schiavon - michele.schiavon@unipd.it
 
 ---
