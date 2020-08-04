@@ -88,9 +88,9 @@ Bagno - andrea.bagno@unipd.it
 
 ### FONDAMENTI DI ELETTRONICA 
 
-LUCA CORRADINI - luca.corradini@unipd.it
+Meneghesso - gaudenzio.meneghesso@unipd.it
 
-ANDREA NEVIANI - andrea.neviani@unipd.it
+Cester - andrea.cester@unipd.it
 
 ---
 
@@ -102,15 +102,9 @@ Elvassore -  nicola.elvassore@unipd.it
 ---
 
 ### SEGNALI E SISTEMI 
-
-CHIARA DALLA MAN - chiara.dallaman@unipd.it
-
+CHIARA DALLA MAN - 
 ERSEGHE- 
 
----
-
-### BIOMECCANICA 
-
-PAVAN - 
-
----
+#
+TDC ed ELVIS da remoto
+Bioing Mov
