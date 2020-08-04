@@ -14,7 +14,6 @@
     - [Biomateriali](#biomateriali)
     - [Fondamenti di elettronica](#fondamenti-di-elettronica)
     - [Ingegneria dei sistemi biologici](#ingegneria-dei-sistemi-biologici)
-  - [- Elvassore -  nicola.elvassore@unipd.it](#ullielvassore---nicolaelvassoreunipditliul)
     - [Segnali e Sistemi](#segnali-e-sistemi)
   - [Anno 3](#anno-3)
     - [Biomeccanica](#biomeccanica)
@@ -23,13 +22,10 @@
     - [Laboratorio di ingegneria cellulare](#laboratorio-di-ingegneria-cellulare)
     - [Meccanica per bioingegneria](#meccanica-per-bioingegneria)
     - [Misure ed acquisizione di dati biomedici](#misure-ed-acquisizione-di-dati-biomedici)
-  - [Claudio Narduzzi - claudio.narduzzi@unipd.it](#claudio-narduzzi---claudionarduzziunipdit)
-    - [project management](#project-management)
+    - [Project management](#project-management)
 
 ## Anno 1
 
-
----
 
 ### Analisi 1
 - Marchi - claudio.marchi@unipd.it
@@ -113,6 +109,7 @@ Dettin - monica.dettin@unipd.it
 ### Ingegneria dei sistemi biologici
 
 - Elvassore -  nicola.elvassore@unipd.it
+
 ---
 
 ### Segnali e Sistemi
@@ -153,17 +150,17 @@ Dettin - monica.dettin@unipd.it
 
 - Lot - roberto.lot@unipd.it
 
-
 ---
 
 
 ### Misure ed acquisizione di dati biomedici 
 
-Claudio Narduzzi - claudio.narduzzi@unipd.it
+- Claudio Narduzzi - claudio.narduzzi@unipd.it
+
 ---
 
 
-### project management 
+### Project management 
 
 
 ---
