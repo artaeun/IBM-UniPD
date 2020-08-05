@@ -5,6 +5,9 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 🎓 Molte delle informazioni che troverete qui le trovate nella [***Scheda completa del Corso***](https://didattica.unipd.it/off/2019/LT/IN/IN2374), siete pregati di dargli un'occhiata.
 
+🎓 Consigliamo inoltre la visualizzazione della [pagina generale con tutti i link della facoltà di **Ingegneria Biomedica**](https://www.unipd.it/offerta-didattica/corsi-di-laurea-triennale/ingegneria?ordinamento=2017&key=IN2374&tipo=L&scuola=IN).
+
+# *Informazioni e guide*
 
 ## Discord 
 
@@ -27,3 +30,10 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 - *[🌱 Benvenuto Matricole - Aiuti e Guide per i Primi passi a UniPD](/Dati/Guide/benvenutoMatricole.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
 - *[🍂 3° Anno - Curriculum, Classi, Piano di studi](/Dati/Guide/Curriculum%20e%20Classi.md)*
+
+
+---
+
+## Disclaimer
+
+##### *I contenuti qua presenti non sostituiscono i canali di comunicazioni già esistenti (Moodle, sito ufficiale [UniPD.it](unipd.it). La repo qua presente è gestita esclusivamente da studenti e/o rappresentati degli studenti di questo corso. UniPd e gli autori di queste pagine non si assumono nessuna responsabilità per il contenuto pubblicato qui. Le comunicazioni ai rappresentanti da parte degli utenti non costituiscono né garantiscono comunicazione di alcun genere a UniPd o agli organi affiliati. I suoi contenuti vengono messi a disposizione così come sono e non viene fornita alcuna garanzia per l’aggiornamento, la correttezza, la completezza o la qualità delle informazioni messe a disposizione.*
