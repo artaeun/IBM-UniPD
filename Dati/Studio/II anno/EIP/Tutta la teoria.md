@@ -1,145 +1,143 @@
-# Indice
-- [Indice](#indice)
+# Indice<!-- omit in toc -->
 - [1. Variabili e operazioni](#1-variabili-e-operazioni)
   - [*Variabili*](#variabili)
-      - [Assegnazione:](#assegnazione)
-      - [Conversione di tipo:](#conversione-di-tipo)
-      - [Altre funzioni:](#altre-funzioni)
+    - [Assegnazione variabili](#assegnazione-variabili)
+    - [Conversione di tipo](#conversione-di-tipo)
+    - [Altre funzioni per le variabili](#altre-funzioni-per-le-variabili)
   - [*Operazioni*](#operazioni)
-      - [Operatori aritmetici:](#operatori-aritmetici)
-      - [Algoritmo confronto tra numeri di tipo float:](#algoritmo-confronto-tra-numeri-di-tipo-float)
-      - [Modulo math di Python:](#modulo-math-di-python)
+    - [Operatori aritmetici](#operatori-aritmetici)
+    - [Algoritmo confronto tra numeri di tipo float](#algoritmo-confronto-tra-numeri-di-tipo-float)
+    - [Modulo ***math*** di Python](#modulo-math-di-python)
   - [*Input/Output*](#inputoutput)
 - [2. Decisioni, eccezioni, exit](#2-decisioni-eccezioni-exit)
-      - [Tabulazioni](#tabulazioni)
+  - [Tabulazioni](#tabulazioni)
   - [*Operatori relazionali*](#operatori-relazionali)
   - [*Operatori logici*](#operatori-logici)
   - [*Condizionale IF*](#condizionale-if)
-      - [Assegnazione condizionale](#assegnazione-condizionale)
-      - [Assegnazione condizionale 2](#assegnazione-condizionale-2)
+    - [Assegnazione condizionale](#assegnazione-condizionale)
+    - [Assegnazione condizionale 2](#assegnazione-condizionale-2)
   - [*Eccezioni - Try/Except*](#eccezioni---tryexcept)
-      - [Codice che da eccezione:](#codice-che-da-eccezione)
-      - [Correzione usando _try/except_:](#correzione-usando-tryexcept)
+    - [Codice che da eccezione:](#codice-che-da-eccezione)
+    - [Correzione usando _try/except_:](#correzione-usando-tryexcept)
   - [*Eccezioni - Try/Except*](#eccezioni---tryexcept-1)
-      - [Codice che da eccezione:](#codice-che-da-eccezione-1)
-      - [Correzione usando _try/except_:](#correzione-usando-tryexcept-1)
+    - [Codice che da eccezione:](#codice-che-da-eccezione-1)
+    - [Correzione usando _try/except_:](#correzione-usando-tryexcept-1)
   - [*exit()*](#exit)
 - [3. Condizionali While](#3-condizionali-while)
   - [*Ciclo WHILE*](#ciclo-while)
-      - [Forma base](#forma-base)
+    - [Forma base](#forma-base)
   - [*Ciclo FOR*](#ciclo-for)
-      - [Forma base:](#forma-base-1)
-      - [Un'altra forma:](#unaltra-forma)
-      - [La funzione _range()_:](#la-funzione-range)
-      - [Altro modo per usare _range()_:](#altro-modo-per-usare-range)
+    - [Forma base:](#forma-base-1)
+    - [Un'altra forma:](#unaltra-forma)
+    - [La funzione _range()_:](#la-funzione-range)
+    - [Altro modo per usare _range()_:](#altro-modo-per-usare-range)
   - [*Funzioni per numeri casuali*](#funzioni-per-numeri-casuali)
   - [*Metodo Monte Carlo*](#metodo-monte-carlo)
   - [*IS / IS NOT*](#is--is-not)
-      - [Uso delle funzioni:](#uso-delle-funzioni)
+    - [Uso delle funzioni:](#uso-delle-funzioni)
 - [4.1 Stringhe e File](#41-stringhe-e-file)
   - [*Stringhe*](#stringhe)
-      - [Slicing](#slicing)
-  - [Operatore logico IN](#operatore-logico-in)
-          - [I tre puntini sono necessari in modalità interattiva da shell per andare a capo con l’istruzione.](#i-tre-puntini-sono-necessari-in-modalità-interattiva-da-shell-per-andare-a-capo-con-listruzione)
-  - [Confronto tra stringhe](#confronto-tra-stringhe)
-      - [Metodi per le stringhe](#metodi-per-le-stringhe)
-  - [Funzione *.lower() e .upper()*](#funzione-lower-e-upper)
-  - [Funzione *.find()*](#funzione-find)
-  - [Funzione *.replace()*](#funzione-replace)
-  - [Funzioni *.lstrip()* / *.rstrip()* / *.strip()*](#funzioni-lstrip--rstrip--strip)
-      - [Funzioni *.startswith()*](#funzioni-startswith)
+    - [Slicing](#slicing)
+    - [Operatore logico IN](#operatore-logico-in)
+    - [Confronto tra stringhe](#confronto-tra-stringhe)
+    - [Metodi per le stringhe](#metodi-per-le-stringhe)
+    - [Funzione *.lower() e .upper()*](#funzione-lower-e-upper)
+    - [Funzione *.find()*](#funzione-find)
+    - [Funzione *.replace()*](#funzione-replace)
+    - [Funzioni *.lstrip()* / *.rstrip()* / *.strip()*](#funzioni-lstrip--rstrip--strip)
+    - [Funzioni *.startswith()*](#funzioni-startswith)
   - [Codifica Unicode](#codifica-unicode)
   - [Caratteri speciali](#caratteri-speciali)
-    - [Uso più esteso:](#uso-più-esteso)
+    - [***Uso più esteso dei caratteri speciali***](#uso-più-esteso-dei-caratteri-speciali)
 - [4.2 File](#42-file)
   - [*Gestione file*](#gestione-file)
-      - [Aprire un file in lettura](#aprire-un-file-in-lettura)
-      - [Aprire un file in scrittura](#aprire-un-file-in-scrittura)
-      - [Scrivere su file](#scrivere-su-file)
-      - [Chiudere un file](#chiudere-un-file)
+    - [Aprire un file in lettura](#aprire-un-file-in-lettura)
+    - [Aprire un file in scrittura](#aprire-un-file-in-scrittura)
+    - [Scrivere su file](#scrivere-su-file)
+    - [Chiudere un file](#chiudere-un-file)
   - [*Leggere l'intero file*](#leggere-lintero-file)
-      - [Leggere l'intero file assegnandolo a un'unica stringa](#leggere-lintero-file-assegnandolo-a-ununica-stringa)
-      - [Leggere il file riga per riga](#leggere-il-file-riga-per-riga)
-      - [Leggere un file riga per riga con il ciclo for](#leggere-un-file-riga-per-riga-con-il-ciclo-for)
+    - [Leggere l'intero file assegnandolo a un'unica stringa](#leggere-lintero-file-assegnandolo-a-ununica-stringa)
+    - [Leggere il file riga per riga](#leggere-il-file-riga-per-riga)
+    - [Leggere un file riga per riga con il ciclo *for*](#leggere-un-file-riga-per-riga-con-il-ciclo-for)
   - [*Cercare all'interno di un file*](#cercare-allinterno-di-un-file)
-      - [If e For](#if-e-for)
-      - [Prompt for File Name](#prompt-for-file-name)
-      - [Eccezioni relative al nome dei file](#eccezioni-relative-al-nome-dei-file)
-      - [Leggere parole](#leggere-parole)
+    - [Metodo con il ciclo for](#metodo-con-il-ciclo-for)
+    - [Aprire file da "nome file" dato dall'utente](#aprire-file-da-nome-file-dato-dallutente)
+      - [Gestire eccezioni relative al nome dei file](#gestire-eccezioni-relative-al-nome-dei-file)
+    - [Leggere parole elaborando da file](#leggere-parole-elaborando-da-file)
 - [4.3 Espressioni regolari](#43-espressioni-regolari)
-      - [Cosa sono?](#cosa-sono)
-        - [find()](#find)
-        - [vs re.search()](#vs-research)
-      - [Greedy Matching](#greedy-matching)
-      - [Non-Greedy Matching](#non-greedy-matching)
+  - [Cosa sono le espressioni regolari](#cosa-sono-le-espressioni-regolari)
+    - [find()](#find)
+    - [re.search()](#research)
+    - [Greedy Matching](#greedy-matching)
+    - [Non-Greedy Matching](#non-greedy-matching)
 - [5.1 Liste](#51-liste)
   - [_Liste_](#liste)
-      - [Definizione](#definizione)
-      - [Slicing](#slicing-1)
-        - [Rispetto alle stringhe](#rispetto-alle-stringhe)
-      - [Lunghezza lista](#lunghezza-lista)
-      - [La funzione .range()](#la-funzione-range-1)
-      - [Riferimento alla lista](#riferimento-alla-lista)
-      - [Copiare una lista con .list()](#copiare-una-lista-con-list)
-        - [Casi particolari:](#casi-particolari)
-      - [Concatenazione liste:](#concatenazione-liste)
+    - [Definizione](#definizione)
+    - [Slicing](#slicing-1)
+      - [Rispetto alle stringhe](#rispetto-alle-stringhe)
+    - [Lunghezza lista](#lunghezza-lista)
+    - [La funzione .range()](#la-funzione-range-1)
+    - [Riferimento alla lista](#riferimento-alla-lista)
+    - [Copiare una lista con .list()](#copiare-una-lista-con-list)
+      - [Casi particolari:](#casi-particolari)
+    - [Concatenazione liste:](#concatenazione-liste)
   - [_Metodi per liste_](#metodi-per-liste)
-      - [Funzioni che hanno argomenti di tipo _list_:](#funzioni-che-hanno-argomenti-di-tipo-list)
-      - [Aggiungere elementi in una lista](#aggiungere-elementi-in-una-lista)
-      - [Inserire elementi in una lista](#inserire-elementi-in-una-lista)
-      - [Cercare elementi in una lista](#cercare-elementi-in-una-lista)
-      - [Rimuovere/Eliminare elementi in una lista](#rimuovereeliminare-elementi-in-una-lista)
-      - [Ordinare elementi in una lista](#ordinare-elementi-in-una-lista)
-        - [Un modo per ordinare elementi da una lista è utilizzare il metodo _sort_.](#un-modo-per-ordinare-elementi-da-una-lista-è-utilizzare-il-metodo-sort)
-      - [Ordinare elementi in una lista](#ordinare-elementi-in-una-lista-1)
+    - [Funzioni che hanno argomenti di tipo _list_:](#funzioni-che-hanno-argomenti-di-tipo-list)
+    - [Aggiungere elementi in una lista](#aggiungere-elementi-in-una-lista)
+    - [Inserire elementi in una lista](#inserire-elementi-in-una-lista)
+    - [Cercare elementi in una lista](#cercare-elementi-in-una-lista)
+    - [Rimuovere/Eliminare elementi in una lista](#rimuovereeliminare-elementi-in-una-lista)
+    - [Ordinare elementi in una lista](#ordinare-elementi-in-una-lista)
+      - [Un modo per ordinare elementi da una lista è utilizzare il metodo _sort_.](#un-modo-per-ordinare-elementi-da-una-lista-è-utilizzare-il-metodo-sort)
+    - [Ordinare elementi in una lista](#ordinare-elementi-in-una-lista-1)
   - [_Tabelle e matrici_](#tabelle-e-matrici)
   - [_Appendere argomenti/file al codice sorgente_](#appendere-argomentifile-al-codice-sorgente)
   - [_Tuple_](#tuple)
-        - [Funzioni che si possono usare con le tuple: _count_, _index_.](#funzioni-che-si-possono-usare-con-le-tuple-count-index)
-      - [Assegnazione](#assegnazione-1)
+    - [Funzioni che si possono usare con le tuple: _count_, _index_.](#funzioni-che-si-possono-usare-con-le-tuple-count-index)
+    - [Assegnazione](#assegnazione)
 - [5.2 Grafica](#52-grafica)
   - [Cosa usare per la grafica](#cosa-usare-per-la-grafica)
   - [ezgraphics](#ezgraphics)
-      - [Come usarlo](#come-usarlo)
-      - [RGB](#rgb)
-        - [Colore riempimento](#colore-riempimento)
-        - [Outline](#outline)
-        - [Testo](#testo)
+    - [Come usarlo](#come-usarlo)
+    - [RGB](#rgb)
+    - [Colore riempimento](#colore-riempimento)
+    - [Outline](#outline)
+    - [Testo](#testo)
   - [tkinter](#tkinter)
-      - [Come usarlo](#come-usarlo-1)
-      - [RGB, fill, outline, testo](#rgb-fill-outline-testo)
-      - [Immagini](#immagini)
+    - [Come usarlo](#come-usarlo-1)
+    - [RGB, fill, outline, testo](#rgb-fill-outline-testo)
+    - [Immagini](#immagini)
 - [5.3 Insiemi e dizionari](#53-insiemi-e-dizionari)
   - [*Insiemi*](#insiemi)
-      - [Come crearli](#come-crearli)
-      - [Lunghezza](#lunghezza)
-      - [Aggiungere elementi](#aggiungere-elementi)
-      - [Eliminare elementi](#eliminare-elementi)
-        - [.discard()](#discard)
-        - [.remove()](#remove)
-        - [.clear()](#clear)
-      - [Sottoinsiemi](#sottoinsiemi)
+    - [Come crearli](#come-crearli)
+    - [Lunghezza](#lunghezza)
+    - [Aggiungere elementi](#aggiungere-elementi)
+    - [Eliminare elementi](#eliminare-elementi)
+      - [.discard()](#discard)
+      - [.remove()](#remove)
+      - [.clear()](#clear)
+    - [Sottoinsiemi](#sottoinsiemi)
       - [Uguaglianza](#uguaglianza)
       - [Unione di due insiemi](#unione-di-due-insiemi)
       - [Intersezione e differenza](#intersezione-e-differenza)
-  - [Il programma spellcheck.py](#il-programma-spellcheckpy)
-- [5.3 Dizionari](#53-dizionari)
-  - [*Dizionario*](#dizionario)
-  - [_Come crearli_](#come-crearli-1)
-  - [_Aggiungere elementi_](#aggiungere-elementi-1)
+    - [Il programma spellcheck.py](#il-programma-spellcheckpy)
+  - [5.3 Dizionari](#53-dizionari)
+    - [*Dizionario*](#dizionario)
+    - [_Come crearli_](#come-crearli-1)
+    - [_Aggiungere elementi_](#aggiungere-elementi-1)
   - [>Aggiungere una chiave che esiste già solleva un'eccezione. Controllare prima che la chiave esiste già (vedere _in_ più giù).](#blockquoteaggiungere-una-chiave-che-esiste-già-solleva-uneccezione-controllare-prima-che-la-chiave-esiste-già-vedere-in-più-giùblockquote)
-  - [_Usare i valori di un elemento_](#usare-i-valori-di-un-elemento)
-  - [_Eliminare coppie_](#eliminare-coppie)
-  - [_Iterare/Scandire gli elementi di un dizionario_](#iterarescandire-gli-elementi-di-un-dizionario)
-  - [_Verificare presenza di chiave nel dizionario_](#verificare-presenza-di-chiave-nel-dizionario)
-  - [_Verificare presenza di chiave nel dizionario_](#verificare-presenza-di-chiave-nel-dizionario-1)
-  - [_Metodo __get___](#metodo-get)
-  - [_Due variabili di iterazione_](#due-variabili-di-iterazione)
-  - [_Recuperare la lista di chiavi e valori di un dizionario_](#recuperare-la-lista-di-chiavi-e-valori-di-un-dizionario)
-  - [_Tuple e operatori di confronto_](#tuple-e-operatori-di-confronto)
-  - [_Ordinare un dizionario rispetto a __key___](#ordinare-un-dizionario-rispetto-a-key)
-  - [_Ordinare un dizionario rispetto a __value___](#ordinare-un-dizionario-rispetto-a-value)
-  - [_Copiare i dizionari_](#copiare-i-dizionari)
+    - [_Usare i valori di un elemento_](#usare-i-valori-di-un-elemento)
+    - [_Eliminare coppie_](#eliminare-coppie)
+    - [_Iterare/Scandire gli elementi di un dizionario_](#iterarescandire-gli-elementi-di-un-dizionario)
+    - [_Verificare presenza di chiave nel dizionario_](#verificare-presenza-di-chiave-nel-dizionario)
+    - [_Verificare presenza di chiave nel dizionario_](#verificare-presenza-di-chiave-nel-dizionario-1)
+    - [_Metodo __get___](#metodo-get)
+    - [_Due variabili di iterazione_](#due-variabili-di-iterazione)
+    - [_Recuperare la lista di chiavi e valori di un dizionario_](#recuperare-la-lista-di-chiavi-e-valori-di-un-dizionario)
+    - [_Tuple e operatori di confronto_](#tuple-e-operatori-di-confronto)
+    - [_Ordinare un dizionario rispetto a __key___](#ordinare-un-dizionario-rispetto-a-key)
+    - [_Ordinare un dizionario rispetto a __value___](#ordinare-un-dizionario-rispetto-a-value)
+    - [_Copiare i dizionari_](#copiare-i-dizionari)
 - [6.1 Funzioni](#61-funzioni)
   - [_Definizione e invocazione_](#definizione-e-invocazione)
   - [_Definire più parametri_](#definire-più-parametri)
@@ -153,7 +151,7 @@
   - [_Moduli_](#moduli)
   - [_Documentazione automatica della propria funzione_](#documentazione-automatica-della-propria-funzione)
   - [*Cos'è la ricorsione?*](#cosè-la-ricorsione)
-  - [_Esempio ricorsione: sequenza di Fibonacci_](#esempio-ricorsione-sequenza-di-fibonacci)
+    - [_Esempio ricorsione: sequenza di Fibonacci_](#esempio-ricorsione-sequenza-di-fibonacci)
   - [_Itterativo o Ricorsivo?_](#itterativo-o-ricorsivo)
   - [_Mappatura_](#mappatura)
   - [_Filtraggio_](#filtraggio)
@@ -176,8 +174,8 @@
   - [_Uso di Pdb_](#uso-di-pdb)
   - [_Commandi Pdb_](#commandi-pdb)
 - [9.1 Eccezioni](#91-eccezioni)
-  - [_Cosa sono?_](#cosa-sono-1)
-      - [Eccezioni specifiche e generiche](#eccezioni-specifiche-e-generiche)
+  - [_Cosa sono?_](#cosa-sono)
+    - [Eccezioni specifiche e generiche](#eccezioni-specifiche-e-generiche)
   - [_finally_](#finally)
   - [_raise_](#raise)
 - [Ereditarietà](#ereditarietà)
@@ -203,21 +201,21 @@
 ## *Variabili*
 Nomi permessi delle variabili → nomi che iniziano con una lettera o un underscore. Caratteri succesivi devono essere cifre, lettere o underscores. È case sensitive
 
-#### Assegnazione:
+### Assegnazione variabili
 ```python
 x=12 #intero
 y=1.2 #float
 z="Ciao" #string
 ```
 
-#### Conversione di tipo:
+### Conversione di tipo
 ```python
 y=int(x) #converte x in un intero e salva in y
 y=float(x) #converte x in un float, variabile a virgola mobile
 y=str(x) #converte x in una stringa e salva in y
 ```
 
-#### Altre funzioni:
+### Altre funzioni per le variabili
 ```python
 #===Tipo dato===
 type(x) #ci ritorna il tipo della variabile x
@@ -252,9 +250,10 @@ print(x*3)
 ``` 
 
 ___
+
 ## *Operazioni*
 
-#### Operatori aritmetici:
+### Operatori aritmetici
 ```python
 z = x + y  #addizione
 z = x - y  #sottrazione
@@ -264,7 +263,7 @@ z = x ** y #elevamento a potenza y
 z = x // y #divisione intera (risultato è l'intero)
 z = x % y  #resti divisione intera (modulo)
 ``` 
-#### Algoritmo confronto tra numeri di tipo float:
+### Algoritmo confronto tra numeri di tipo float
 
 ```python
 from math import sqrt
@@ -272,7 +271,7 @@ EPSILON = 1E-14
 r = sqrt(2.0)
 if abs(r*r - 2.0)<EPSILON : print("sqrt(2.0) squared is approximately 2.0")
 ```
-#### Modulo math di Python:
+### Modulo ***math*** di Python
 
 Basta importarlo per usare le funzioni varie offerte.
 
@@ -314,11 +313,11 @@ print(name) #stampa il nome ricevuto in input
 
 # 2. Decisioni, eccezioni, exit
 
-#### Tabulazioni
-Python richiede come tabulazione 4 spazi. Più o di meno e da errore.
-
+## Tabulazioni
+Python richiede come tabulazione 4 spazi. Più o di meno di 4 e darà errore.
 
 ## *Operatori relazionali*
+
 |Operatori|Funzione|
 |:---:|---|
 |<|minore di|
@@ -328,9 +327,10 @@ Python richiede come tabulazione 4 spazi. Più o di meno e da errore.
 |!=|diverso|
 |==|uguale|
 
-L'operatore = viene usato solo per assegnare, non per confrontare.
+L'operatore ***=*** viene usato solo per assegnare, non per confrontare.
 
 ## *Operatori logici*
+
 |Operatori|Funzione|
 |:---:|---|
 |AND|TRUE se e solo se sia A che B sono vere|
@@ -346,11 +346,11 @@ elif x=3:
 else:
   #se nessuno dei n condizionali viene verificato, fai questa cosa
 ```
-#### Assegnazione condizionale
+### Assegnazione condizionale
 ```python
 variabile = 2 if x>0 else 3
 ```
-#### Assegnazione condizionale 2
+### Assegnazione condizionale 2
 ```python
 actualFloor= floor-1 if floor > 3 else floor
 
@@ -365,12 +365,12 @@ else:
   
 ## *Eccezioni - Try/Except*
 
-#### Codice che da eccezione:
+### Codice che da eccezione:
 ```python
 astr="Una stringa qualsiasi"
 istr=int(astr)
 ```
-#### Correzione usando _try/except_:
+### Correzione usando _try/except_:
 
 ```python
 try: #prova a fare questo
@@ -384,12 +384,12 @@ Cerca sempre di minimizzare il codice all'interno del try per ottimizzare il cod
 ___
 ## *Eccezioni - Try/Except*
 
-#### Codice che da eccezione:
+### Codice che da eccezione:
 ```python
 astr="Una stringa qualsiasi"
 istr=int(astr)
 ```
-#### Correzione usando _try/except_:
+### Correzione usando _try/except_:
 
 ```python
 try: #prova a fare questo
@@ -417,7 +417,7 @@ exit("Error, you did some stupid shit so i exited the program.")
 
 ## *Ciclo WHILE*
 
-#### Forma base
+### Forma base
 ```python
 while booleanConditionTrue:
 	#do whatever
@@ -439,20 +439,20 @@ print('Done')
 ___
 ## *Ciclo FOR*
 
-#### Forma base:
+### Forma base:
 ```python
 for i in [5,4,3,2,1]:
 	print(i) #prints: 5,4,3,2,1,Blastoff!
 print('Blastoff!') 
 ```
-#### Un'altra forma:
+### Un'altra forma:
 ```python
 friends = ['Joseph', 'Glenn', 'Sally']
 for friends in friends:
 	print('Happy New Year', friends)#Happy New Year: Joseph, ecc.
 print('Done!')
 ```
-#### La funzione _range()_:
+### La funzione _range()_:
 ```python
 for i in range(1,10):
 	print(i)
@@ -467,7 +467,7 @@ while i<10:
 
 La funzione _range(n,m)_ genera numeri interi nel range proposto tra _n_ ed _m_. Es.: range(1,4) => 1,2,3. Utile solo con il ciclo _for_.
 
-#### Altro modo per usare _range()_:
+### Altro modo per usare _range()_:
 
 ```python
 for i in range(1,5):
@@ -488,6 +488,7 @@ for i in range(1,11,2):
 # 1+2,3+2, ecc.
 ```
 ___
+
 ## *Funzioni per numeri casuali*
 ```python
 from random import *
@@ -510,7 +511,7 @@ ___
 
 ## *IS / IS NOT*
 
-#### Uso delle funzioni:
+### Uso delle funzioni:
 
 Fai qualcosa se la variabile non ha mai ricevuto valore:
 ```python
@@ -531,7 +532,7 @@ Non puoi usare _non==None_ o _!=None_ per usare questo valore speciale.
 
 In Python 3 tutte le stringhe sono una sequenza di caratteri Unicode (non è necessario nemmeno specificare che è in Ascii Unicode).
 
-#### Slicing
+### Slicing
 
 Il tagliare di una porzione di stringa:
 
@@ -545,7 +546,7 @@ thon
 Monty Python
 ```
 
-## Operatore logico IN
+### Operatore logico IN
 
 L’operatore in può essere usato per capire se una stringa è contenuta in un’altra. *"in"* è un operatore logico che restituisce True o False e quindi può essere usato in un enunciato *if*.
 
@@ -563,9 +564,9 @@ Found it!
 >>>
 ```
 
-###### I tre puntini sono necessari in modalità interattiva da shell per andare a capo con l’istruzione.
+I tre puntini sono necessari in modalità interattiva da shell per andare a capo con l’istruzione.
 
-## Confronto tra stringhe
+### Confronto tra stringhe
 
 Gli operatori relazionali confrontano le stringhe secondo l’ordinamento  
 lessicografico. In Python:
@@ -588,7 +589,7 @@ print('All right, bananas.')
 
 Per confrontare due stringhe, si inizia confrontando la prima lettera di ciascuna stringa, poi si procede confrontando la seconda lettera, e così via, finché una delle stringhe termina oppure si trova una coppia di lettere tra loro diverse.
 
-#### Metodi per le stringhe
+### Metodi per le stringhe
 
 La libreria standard *String* contiene metodi che possono essere evocati senza importare nulla.
 
@@ -605,7 +606,7 @@ str.strip([chars])
 str.upper()
 ```
 
-## Funzione *.lower() e .upper()*
+### Funzione *.lower() e .upper()*
 
 ```python
 >>> greet = 'Hello Bob'
@@ -621,7 +622,7 @@ HI THERE
 >>>
 ```
 
-## Funzione *.find()*
+### Funzione *.find()*
 
 Il metodo *find(sub\[, start\[, end\]\])* cerca la prima occorrenza dell’argomento *sub*. Se la trova restituisce l’indice corrispondente, altrimenti restituisce -1.
 
@@ -636,7 +637,7 @@ Il metodo *find(sub\[, start\[, end\]\])* cerca la prima occorrenza dell’argom
 
 In genere, prima di usare *find()* si fa una conversione in minuscolo o maiuscolo così da cercare indipendentemente dal fatto che i caratteri siano in minuscolo o maiuscolo.
 
-## Funzione *.replace()*
+### Funzione *.replace()*
 
 La funzione *replace()* funziona come “search and replace” in Word: trova e sostiuisce tutte le occorrenze.
 
@@ -650,7 +651,7 @@ Hello Jane
 HellX BXb
 ```
 
-## Funzioni *.lstrip()* / *.rstrip()* / *.strip()*
+### Funzioni *.lstrip()* / *.rstrip()* / *.strip()*
 
 Alle volte è utile rimuovere spazi bianchi all’inizio o alla fine di una stringa.
 
@@ -669,7 +670,7 @@ Alle volte è utile rimuovere spazi bianchi all’inizio o alla fine di una stri
 >>>
 ```
 
-#### Funzioni *.startswith()*
+### Funzioni *.startswith()*
 
 ```python
 >>> line = 'Please have a nice day'
@@ -730,7 +731,7 @@ La lettera *f* è per i numeri a virgola mobile. Le impostazioni sono le seguent
 | "%f" | a virgola mobile |
 | "%s" | stringhe |
 
-### Uso più esteso:
+### ***Uso più esteso dei caratteri speciali***
 
 Con un’unica stringa avente indicatori di formato si può imporre il formato desiderato a più valori, che vanno, però, racchiusi da una coppia di parentesi tonde e separati da virgole:
 
@@ -761,7 +762,7 @@ print(“%–10s %10.2f” % (title2, 17.29))
 Un file di testo può essere pensato come una sequenza di righe
 
 ## *Gestione file*
-#### Aprire un file in lettura
+### Aprire un file in lettura
 ```python
 handle = open(“input.txt”, “r”)
 ```
@@ -771,14 +772,15 @@ handle = open(“input.txt”, “r”)
 
 * Quando si apre un file in lettura, il file deve esistere, altrimenti si verifica un errore.
 
-#### Aprire un file in scrittura
+### Aprire un file in scrittura
 ```python
 file_modifica = open(“output.txt”, “w”)
 ```
 Il secondo argomento deve essere la stringa “w” (che sta per write, cioè “scrivere”).
 Se il file output.txt non esiste, viene creato vuoto. Se invece esiste già, viene svuotato completamente prima che vi vengano scritti i nuovi dati. Questo può sovrascrivere completamente file, quindi fare particolare attenzione
 
-#### Scrivere su file
+### Scrivere su file
+
 ```python
 file_modifica = open(“output.txt”, “w”)
 file_modifica.write(“Hello, World!\n”)
@@ -805,7 +807,7 @@ print(“Hello, World!”, file= file_modifica)
 print(“Hello, World!”, end=“”, file= file_modifica)
 ```
 
-#### Chiudere un file
+### Chiudere un file
 
 Dopo aver terminato l’elaborazione di un file, bisogna accertarsi che questo venga chiuso, usando il metodo close:
 ```python
@@ -815,7 +817,7 @@ Se il programma termina senza aver chiuso un file che era stato aperto per la sc
 
 ## *Leggere l'intero file*
 
-#### Leggere l'intero file assegnandolo a un'unica stringa
+### Leggere l'intero file assegnandolo a un'unica stringa
 
 Il metodo read legge caratteri di testo a partire dalla posizione del cursore e permette anche di specificare il numero di caratteri da leggere.
 
@@ -836,7 +838,7 @@ From stephen.marquar
 #carattere “\n”.
 ```
 
-#### Leggere il file riga per riga
+### Leggere il file riga per riga
 
 ```python
 handle = open("sintomi1.txt", 'r')
@@ -870,7 +872,7 @@ Grazie!
 >>>
 ```
 
-#### Leggere un file riga per riga con il ciclo for
+### Leggere un file riga per riga con il ciclo *for*
 
 Posso usare un ciclo per leggere un file riga per riga(e in caso per elaborarne il contenuto) senza usare readline ma iterando sulle righe del file.
 
@@ -883,7 +885,7 @@ for line in fhand:
 print(count)
 ```
 
-Output:
+**Output**:
 
 "_Questa è una prova_
 
@@ -897,7 +899,8 @@ _4_"
 ___
 ## *Cercare all'interno di un file*
 
-#### If e For
+### Metodo con il ciclo for
+
 ```python
 fhand = open('mbox-short.txt')
 for line in fhand:
@@ -916,7 +919,7 @@ for line in fhand:
   print(line)
 ```
 
-#### Prompt for File Name
+### Aprire file da "nome file" dato dall'utente
 ```python
 fname = input('Enter the file name: ')
 fhand = open(fname)
@@ -927,7 +930,8 @@ for line in fhand:
 print('There were', count, 'subject lines in', fname)
 ```
 
-#### Eccezioni relative al nome dei file
+#### Gestire eccezioni relative al nome dei file
+
 ```python
 fname = input('Enter the file name: ')
 try:
@@ -941,7 +945,8 @@ for line in fhand:
     count = count + 1
 print('There were', count, 'subject lines in', fname)
 ```
-#### Leggere parole
+### Leggere parole elaborando da file
+
 Quando elaboro file di testo, I metodi per stringhe e per liste sono molto utili. Posso usare il metodo split() per creare una lista.
 
 ```python
@@ -971,7 +976,7 @@ ___
 
 # 4.3 Espressioni regolari
 
-#### Cosa sono?
+## Cosa sono le espressioni regolari
 In computing, a regular expression, also referred to as “regex” or “regexp”, provides a concise and flexible means for matching strings of text, such as particular characters, words, or patterns of characters.
 
 A regular expression is written in a formal language that can be interpreted by a regular expression processor.
@@ -994,13 +999,13 @@ A regular expression is written in a formal language that can be interpreted by 
 |( |Indicates where string extraction is to start|
 |) |Indicates where string extraction is to end|
 
-
+Uso generale:
 ```python
 import re
 re.search() #returns match object
 re.findall() #extracts portions of a string that matches regular expression
 ```
-##### find() 
+### find() 
 ```python
 hand = open('mbox-short.txt')
 for line in hand:
@@ -1008,7 +1013,7 @@ for line in hand:
   if line.find('From:') >= 0:
     print(line)
 ```
-##### vs re.search()
+### re.search()
 ```python
 import re
 
@@ -1035,7 +1040,7 @@ Altro esempio:
 ['2', '19', '42']
 ```
 
-When we use re.findall(), it returns a list of zero or more sub-strings that match the regular expression.
+Quando usiamo ***re.findall()***, otteniamo una lista di zero o più sottostringhe che coincidono con le sotto-stringhe della nostra espressione regolare.
 
 ```python
 >>> import re
@@ -1048,7 +1053,7 @@ When we use re.findall(), it returns a list of zero or more sub-strings that mat
 []
 ```
 
-#### Greedy Matching
+### Greedy Matching
 
 The repeat characters (* and +) push outward in both directions (greedy) to match the largest possible string.
 
@@ -1060,7 +1065,7 @@ The repeat characters (* and +) push outward in both directions (greedy) to matc
 ['From: Using the :']
 ```
 
-#### Non-Greedy Matching
+### Non-Greedy Matching
 
 Not all regular expression repeat codes are greedy! If you add a ? character, the + and * chill out a bit...
 
@@ -1089,7 +1094,7 @@ There aremore details on the Regular Expressions slide. Look it up in case you n
 
 ## _Liste_
 
-#### Definizione
+### Definizione
 
 Le liste non sono altro che un'insieme di valori associati a un'unica variabile. Equivalente a mettere tante scatole dentro una scatola più grande, così da conservarci più elementi. In altri linguaggi di programmazione si chiamano _array_.
 
@@ -1126,7 +1131,7 @@ print(z[1])
 
 *   Si possono usare indici negativi per le liste. _-1_ per esempio consente di accedere all'ultimo elemento della lista, _-2_ al penultimo e così via.
 
-#### Slicing
+### Slicing
 
 Possiamo selezionare solo parte di una lista da visualizzare o utilizzare, come con le stringhe:
 
@@ -1148,7 +1153,7 @@ Possiamo selezionare solo parte di una lista da visualizzare o utilizzare, come 
 
 Se il secondo numero è maggiore della lunghezza della lista, Python non dà errore. Si ferma all’ultimo carattere. Mentre darebbe errore (out-of-range) se indicizzassimo _t[25]_.
 
-##### Rispetto alle stringhe
+#### Rispetto alle stringhe
 
 Non si può modificare un valore indicizzato in una stringa, ma si può fare in un array:
 
@@ -1167,7 +1172,7 @@ support item assignment
 [2, 14, 28, 41, 63]
 ```
 
-#### Lunghezza lista
+### Lunghezza lista
 
 _len()_ restituisce la lunghezza di una lista così come restituisce per le stringhe il numero di caratteri:
 
@@ -1177,7 +1182,7 @@ _len()_ restituisce la lunghezza di una lista così come restituisce per le stri
 4
 ```
 
-#### La funzione .range()
+### La funzione .range()
 
 _range()_ è utile per sansionare una lista
 
@@ -1208,7 +1213,7 @@ Happy New Year: Glenn
 Happy New Year: Sally
 ```
 
-#### Riferimento alla lista
+### Riferimento alla lista
 
 Dichiarando la lista
 
@@ -1229,7 +1234,7 @@ True
 True
 ```
 
-#### Copiare una lista con .list()
+### Copiare una lista con .list()
 
 Per copiare una lista quindi, bisogna agire diversamente dal semplice assegnare x=y. Si usa _.list()_.
 
@@ -1243,7 +1248,7 @@ True
 False
 ```
 
-##### Casi particolari:
+#### Casi particolari:
 
 ```python
 #lista dentro la lista
@@ -1274,7 +1279,7 @@ False
 [[3, 2, 0], 4, 8]
 ```
 
-#### Concatenazione liste:
+### Concatenazione liste:
 
 Si possono concatenare due liste usando l’operatore
 **+**.
@@ -1300,7 +1305,7 @@ usando l’operatore \*.
 
 ## _Metodi per liste_
 
-#### Funzioni che hanno argomenti di tipo _list_:
+### Funzioni che hanno argomenti di tipo _list_:
 
 ```python
 >>> nums = [3, 41, 12, 9, 74, 15]
@@ -1318,7 +1323,7 @@ usando l’operatore \*.
 
 Gli oggetti mutabili, come le liste, hanno metodi dedicati che mutano l’oggetto stesso.
 
-#### Aggiungere elementi in una lista
+### Aggiungere elementi in una lista
 
 Si usa _.append()_.
 
@@ -1338,7 +1343,7 @@ E si ottiene:
 |[2]|"Cari"|
 |[3]|"Emily"|
 
-#### Inserire elementi in una lista
+### Inserire elementi in una lista
 
 Per inserire spostando elementi in una lista, basta usare _.insert()_.
 
@@ -1349,7 +1354,7 @@ friends.insert(1, "Cindy") #inserisci a indice 1
 
 Tutti gli elementi che stavano dall'indice 1 in su vengono spostati in su. Perciò "Emily" per esempio, ora sarà all'indice 2.
 
-#### Cercare elementi in una lista
+### Cercare elementi in una lista
 
 Per una ricerca semplice (di presenza) basta usare l'operatore _in_. È un operatore logico che restituisce TRUE o FALSE e non modifica la lista.
 
@@ -1380,9 +1385,9 @@ else :
   n = –1
 ```
 
-#### Rimuovere/Eliminare elementi in una lista
+### Rimuovere/Eliminare elementi in una lista
  
-* ##### Un modo per eliminare elementi da una lista è utilizzare il metodo _pop_.
+Un modo per eliminare elementi da una lista è utilizzare il metodo _pop_
 
 ```python
 friends = ["Harry", "Cindy", "Emily", "Bob", "Cari","Bill"]
@@ -1397,7 +1402,7 @@ Non solo viene eliminato, ma viene anche restituito. Questo ci permette di utili
 The removed item is Cindy
 ```
 
-* ##### Un altro modo per eliminare elementi da una lista è utilizzare il metodo _remove_, il quale elimina un elemento dalla lista sulla base del suo valore piuttosto che della sua posizione.
+*Un altro modo per eliminare elementi da una lista è utilizzare il metodo _remove_, il quale elimina un elemento dalla lista sulla base del suo valore piuttosto che della sua posizione.
 
 ```python
 element = “Cari”
@@ -1407,10 +1412,10 @@ if element in friends :
 Come per il metodo _index_ bisogna prima verificare l'esistenza dell'elemento, altrimenti ci viene restituito un errore.
 
 
-#### Ordinare elementi in una lista
+### Ordinare elementi in una lista
 
 
-##### Un modo per ordinare elementi da una lista è utilizzare il metodo _sort_.
+#### Un modo per ordinare elementi da una lista è utilizzare il metodo _sort_.
 
 ```python
 >>> friends = [ 'Joseph', 'Glenn', 'Sally' ]
@@ -1422,7 +1427,7 @@ Joseph
 >>>
 ```
 
-#### Ordinare elementi in una lista
+### Ordinare elementi in una lista
 
 Vanno sostituiti i valori, certo, ma mai dimenticarsi di usare una variabile "tampone", temporanea, per salvare il dato che sta per essere sovrascritto. 
 ```python
@@ -1432,7 +1437,6 @@ values[j] = temp
 ```
 ## _Tabelle e matrici_
 Python non dispone, nelle librerie native, di un tipo di dato specifico per la creazione di tabelle, ma si può creare una struttura tabulare bidimensionale usando le liste in modo opportuno.
-
 
 Il frammento di codice seguente crea una tabella costituita da 7 righe e 3 colonne, adatta a memorizzare i dati delle mutazioni (0 = assente; 1 = presente) geniche di 7 pazienti (righe) su 3 differenti loci o posizioni
 (colonne) del DNA.
@@ -1498,11 +1502,11 @@ Assegnando un valore all'indice _n_ riceveremo un "Traceback error"
 
 Le tuple sono più efficienti, usano meno memoria, e python ci lavora con algoritmi più veloci. 
 
-##### Funzioni che si possono usare con le tuple: _count_, _index_.
+### Funzioni che si possono usare con le tuple: _count_, _index_.
 
 Quando usarle? Quando si hanno sequenze temporanee di oggetti che non è necessario modificare.
 
-#### Assegnazione
+### Assegnazione
 
 ```python
 >>> (x, y) = (4, 'fred')
@@ -1524,7 +1528,7 @@ I due moduli principali per questo corso sono **ezgraphics** e **tkinter**.
 ## ezgraphics
 
 
-#### Come usarlo
+### Come usarlo
 
 Scaricare dal sito il modulo [ezgraphics](http://ezgraphics.org/).
 E poi importare il modulo nel file sorgente:
@@ -1543,13 +1547,10 @@ Per creare una finestra grafica avente un pannello della dimensione desiderata, 
 ```
 Quando si crea un oggetto di tipo GraphicsWindow viene automaticamente creato anche un oggetto di tipo GraphicsCanvas, i cui metodi (applicati all’oggetto canvas) consentono di accedere al pannello su cui disegnare.
 
-
 ```python
 >>> canvas = win.canvas()
 >>> canvas = canvas.drawRect(x=5,y=10, width=20, height=30)
 ```
-
-
 
 ```python
 # Questo programma crea una finestra grafica e disegna un
@@ -1566,7 +1567,7 @@ win.wait()
 
 Il commando _win.wait()_ serve per evitare la terminazione immediata della finestra grafica.
 
-#### RGB
+### RGB
 
 Ognuno dei tre colori (Red, Green, Blue)possono avere 255 valori, per un totale di 16'777'216 colori.
 Es:
@@ -1588,20 +1589,20 @@ canvas.setOutline(colorname)#valore stringa, tra le seguenti
 
 >_“black” “magenta” “maroon” “pink” “blue” “yellow” “dark blue” “orange” “red” “white” “dark red” “sea green” “green” “gray” “dark green” “light gray” “cyan” “gold” “dark cyan” “tan”_
 
-##### Colore riempimento
+### Colore riempimento
 
 ```python
 canvas.setFill(red, green, blue)
 canvas.setFill(colorname)
 ```
 
-##### Outline
+### Outline
 ```python
 canvas.setOutline()
 ```
 
 
-##### Testo
+### Testo
 
 ```python
 canvas.drawText(50, 100, ‘Rettangolo’)
@@ -1611,7 +1612,7 @@ canvas.drawText(50, 100, ‘Rettangolo’)
 ## tkinter
 
 
-#### Come usarlo
+### Come usarlo
 
 
 ```python
@@ -1652,7 +1653,7 @@ pannello.mainloop()
 * Se scrivo un programma devo aggiungere pannello.mainloop() (pannello è il nome della variabile oggetto tkinter.Canvas)
 *  In mancanza di questo enunciato, il programma al termine farebbe scomparire immediatamente la finestra grafica dallo schermo, senza lasciare all’utente il tempo di vedere quanto è stato disegnato. Così invece aspetta che l’utente selezioni con il mouse il pulsante di chiusura.
 
-#### RGB, fill, outline, testo
+### RGB, fill, outline, testo
 
 Tkinter lavora con l'esadecimale invece che con valori decimali fino a 255.
 
@@ -1676,7 +1677,7 @@ pannello.create_text(250, 10, text = 'Rettangolo')#testo
 pannello.mainloop()
 ```
 
-#### Immagini
+### Immagini
 
 ```python
 from tkinter import *
@@ -1709,7 +1710,7 @@ Un insieme è un contenitore che memorizza una raccolta di valori univoci, che, 
 
 Ma dato che gli insiemi non devono preservare alcun criterio di ordinamento le operazioni sugli insiemi sono molto più veloci delle operazioni su liste.
 
-#### Come crearli
+### Come crearli
 
 ```python
 cast = { “Luigi”, “Gumbys”, “Spiny” }
@@ -1746,13 +1747,13 @@ Luigi
 
 L’ordine con cui vengono visualizzati gli elementi è, in generale, diverso da quello usato durante la creazione dell’insieme. Quando si lavora con gli insiemi il fatto che questi non preservino l’ordinamento iniziale tra i propri elementi non è un problema, anzi: è proprio questa mancanza del requisito di ordinamento che rende possibile un’implementazione molto efficiente delle operazioni tra insiemi.
 
-#### Lunghezza
+### Lunghezza
 
 ```python
 numberOfCharacters = len(cast)
 ```
 
-#### Aggiungere elementi
+### Aggiungere elementi
 
 ```python
 cast = set([“Luigi”, “Gumbys”, “Spiny”])
@@ -1762,9 +1763,9 @@ cast.add(“Arthur”)
 > un insieme non può contenere elementi duplicati: se  
 > tentate di inserire in un insieme un elemento che è già presente, l’operazione non ha alcun effetto
 
-#### Eliminare elementi
+### Eliminare elementi
 
-##### .discard()
+#### .discard()
 
 ```python
 cast = set([“Luigi”, “Gumbys”, “Spiny”])
@@ -1775,19 +1776,19 @@ cast.discard(“Arthur”)# elimina un elemento se questo esiste all’interno d
 cast.discard(“The Colonel”) # Nessun effetto
 ```
 
-##### .remove()
+#### .remove()
 
 ```python
 cast.remove(“The Colonel”) # Solleva un’eccezione
 ```
 
-##### .clear()
+#### .clear()
 
 ```python
 cast.clear() # Ora cast ha cardinalità 0
 ```
 
-#### Sottoinsiemi
+### Sottoinsiemi
 
 Un insieme è un sottoinsieme di un altro insieme se e solo se tutti gli elementi del primo insieme sono anche elementi del secondo insieme.
 
@@ -1830,7 +1831,7 @@ print(italian.difference(british)) # Visualizza { “Green” }
 
 Quando si genera l’unione o l’intersezione di due insiemi, l’ordine in cui li si usa è ininfluente.
 
-## Il programma [spellcheck.py](http://spellcheck.py)
+### Il programma [spellcheck.py](http://spellcheck.py)
 
 ```python
 #Il programma seguente legge un file di testo (un vocabolario) e inserisce le parole
@@ -1865,10 +1866,10 @@ main()
 ```
 
 
-# 5.3 Dizionari
+## 5.3 Dizionari
 
 
-## *Dizionario*
+### *Dizionario*
 
 Il dizionario è come una "borsa" di valori non ordinati. Puoi accedere ai singoli valori attraverso la chiave univoca a cui è assegnato il valore.
 
@@ -1876,7 +1877,7 @@ Più chiavi possono avere lo stesso valore. Ma ogni chiave deve essere univoca.
 
 ---
 
-## _Come crearli_
+### _Come crearli_
 ```python
 borsa = dict()
 ```
@@ -1885,7 +1886,7 @@ in alternativa
 borsa = {}
 ```
 ---
-## _Aggiungere elementi_
+### _Aggiungere elementi_
 
 Basta definire la chiave e assegnarli un valore:
 ```python
@@ -1897,7 +1898,7 @@ print(borsa)
 >Aggiungere una chiave che esiste già solleva un'eccezione. Controllare prima che la chiave esiste già (vedere _in_ più giù).
 ---
 
-## _Usare i valori di un elemento_
+### _Usare i valori di un elemento_
 
 ```python
 borsa['soldi'] = borsa['soldi']+ 3 #aggiungo 3 al valore
@@ -1906,7 +1907,7 @@ print(borsa)
 ```
 
 ---
-## _Eliminare coppie_
+### _Eliminare coppie_
 Serve usare il metodo _pop_:
 ```python
 borsa.pop("Soldi")
@@ -1918,7 +1919,7 @@ Pop restituisce il valore memorizzato però, e questo può essere usato in un'al
 6
 ```
 ---
-## _Iterare/Scandire gli elementi di un dizionario_
+### _Iterare/Scandire gli elementi di un dizionario_
 Un semplice ciclo for ci permette di usare tutto il contenuto del dizionario:
 
 ```python
@@ -1930,7 +1931,7 @@ for key in contatti: #key prenderà come valore ogni singola chiave(il nome dei 
 ---
 
 
-## _Verificare presenza di chiave nel dizionario_
+### _Verificare presenza di chiave nel dizionario_
 In questo caso serve usare l'operatore _in_.
 
 ```python
@@ -1959,7 +1960,7 @@ Classica eccezione quando viene richiamata una chiave non presente nel dizionari
 
 ---
 
-## _Verificare presenza di chiave nel dizionario_
+### _Verificare presenza di chiave nel dizionario_
 In questo caso serve usare l'operatore _in_.
 
 ```python
@@ -1977,7 +1978,7 @@ False
 ```
 ---
 
-## _Metodo __get___
+### _Metodo __get___
 get() restituisce un valore di default (impostato dall'utente) quando non viene trovata la chiave passata come primo argomento.
 
 Esempio:
@@ -2012,7 +2013,7 @@ viene restituito:
 {'csev': 2, 'zqian': 1, 'cwen': 2}
 ```
 ---
-## _Due variabili di iterazione_
+### _Due variabili di iterazione_
 
 Esempio:
 
@@ -2029,7 +2030,7 @@ fred 42
 ```
 ---
 
-## _Recuperare la lista di chiavi e valori di un dizionario_
+### _Recuperare la lista di chiavi e valori di un dizionario_
 
 Possiamo estrarre la lista di chiavi, di valori, o coppie (chiavi, valori) usando i seguenti metodi:
 ```python
@@ -2045,7 +2046,7 @@ jjj = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
 [('jan', 100), ('chuck', 1), ('fred', 42)]
 ```
 
-## _Tuple e operatori di confronto_
+### _Tuple e operatori di confronto_
 
 Si possono usare operatori di controllo con le tuple
 
@@ -2065,7 +2066,7 @@ True
 True
 ```
 ---
-## _Ordinare un dizionario rispetto a __key___
+### _Ordinare un dizionario rispetto a __key___
 
 Usando il confronto di tuple appena citato, si possono ordinare le coppie (key,value) di un dizionario rispetto a _key_.
 Viene usato anche il metodo _items()_ per estrarre la lista di tuple e la funzione _sorted_ per ordinare la lista.
@@ -2091,7 +2092,7 @@ c 22
 
 ---
 
-## _Ordinare un dizionario rispetto a __value___
+### _Ordinare un dizionario rispetto a __value___
 
 Qua la facenda si complica. Bisogna inanzitutto creare una lista di tuple (__value,key__) usando un ciclo for, e poi ordinarlo. Nota bene però: bisogna creare una lista di tuple separata al dizionario. Nell'ordinamento per __key__ possiamo fare i furbi e non memorizzarla in una lista di tuple separate, per poterlo poi ordinare, ma ora c'è la complicazione del dover invertire _value_ e _key_. Quindi:
 1) _sorted_ applicato al dizionario restituisce la lista delle chiavi ordinate.
@@ -2113,7 +2114,7 @@ Qua la facenda si complica. Bisogna inanzitutto creare una lista di tuple (__val
 Viene usato anche il metodo _items()_ per estrarre la lista di tuple e la funzione _sorted_ per ordinare la lista.
 
 ---
-## _Copiare i dizionari_
+### _Copiare i dizionari_
 
 Come per le liste vale il fenomeno di aliasing. Cioè si ha un problema di memorizzazione dei dizionari quando si cerca di "copiarlo", perché invece di copiare i dati viene solo copiato il riferimento ai dati.
 
@@ -2356,27 +2357,27 @@ Ogni funzione ricorsiva **deve** avere un *caso base*. Per evitare un ciclo inf
 
 Non si ha **mai** una ricorsione **infinita**. Anche perché il computer ha sempre bisogno di una certa quantità di memoria per tenere traccia di ogni nvocazione. Una ricorsione infinita si può avere se il problema non viene semplicifato, o se manca la gestione di un caso speciale che faccia terminare la ricorsione. 
 
-## _Esempio ricorsione: sequenza di Fibonacci_
+### _Esempio ricorsione: sequenza di Fibonacci_
 
-Fib(n) = Fib(n-1)+Fib(n-2)
+*Fib(n) = Fib(n-1)+Fib(n-2)*
 
 La serie di Fibbonaci è una successione di numeri interi positivi in cui ciascun numero è la somma dei due precedenti.
 
 I primi due termini sono per definizione:
 
-Fib(1) = 1
-
-Fib(2) = 1
+- Fib(1) = 1
+- Fib(2) = 1
 
 Quindi la serie di Fibonacci ha una definizione ricorsiva:
 
-Fib(3) = Fib(2)+Fib(1) = 1+1 = 2
-Fib(4) = Fib(3)+Fib(2) = 2+1 = 3
-Fib(5) = Fib(4)+Fib(3) = 3+2 = 5
-...
+- Fib(3) = Fib(2)+Fib(1) = 1+1 = 2
+- Fib(4) = Fib(3)+Fib(2) = 2+1 = 3
+- Fib(5) = Fib(4)+Fib(3) = 3+2 = 5
+  
+  ...
 
 
-In python:
+In Python:
 ```python
 def Fib(n):
 	if n<3:# caso base
@@ -2976,7 +2977,7 @@ except IOError : #gestisce l'eccezione IOError.
 except ValueError as ecc : #gestisce l'eccezione ValueError.
   print(“Error:”, str(ecc))
 ```
-#### Eccezioni specifiche e generiche
+### Eccezioni specifiche e generiche
 
 Se almeno una di queste eccezioni viene sollevata, la parte non ancora eseguita del blocco try viene ignorata. Verrà sempre e solo eseguito il la clausa except definita specificatamente per il tipo di eccezione sollevato. Per questo conviene aggiungere un'eccezione più generica per i casi diversi da quelli specificati:
 ```python
