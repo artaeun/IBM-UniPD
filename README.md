@@ -13,7 +13,7 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 <!-- -- ***🚧[Guida all'utilizzo di Discord su mobile]🚧(http://tiny.cc/guidaDiscord)***-->
 - *[Regole del server Discord](/Dati/Altro/regole.md)*
-
+- *[Guida uso Discord](http://tiny.cc/guidaDiscord)*
 
 ## Link utili
 
