@@ -32,6 +32,11 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 - *[🌱 Benvenuto Matricole - Aiuti e Guide per i Primi passi a UniPD](/Dati/Guide/benvenutoMatricole.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
 - *[🍂 3° Anno - Curriculum, Classi, Piano di studi](/Dati/Guide/Curriculum%20e%20Classi.md)*
 
+## Studio
+
+- *[Elementi di Informatica e Programmazione](/Dati/Studio/II_anno/EIP/README.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
+- *[Biomeccanica - chat domande da discord](Dati/Studio/III_anno/Biomeccanica/1e2-biomeccanica-domande.html)*
+
 
 ---
 
