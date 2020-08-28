@@ -35,7 +35,7 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 ## Studio
 
 - *[Elementi di Informatica e Programmazione](/Dati/Studio/II_anno/EIP/README.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
-- *[Biomeccanica - chat domande da discord](Dati/Studio/III_anno/Biomeccanica/1e2-biomeccanica-domande.html)*
+<!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III_anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
 
 
 ---
