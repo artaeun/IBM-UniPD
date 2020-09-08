@@ -24,7 +24,7 @@ Quale delle seguenti affermazioni è corretta: Scegli un'alternativa:
 2. la cache è un tipo particolare di ROM ad accesso veloce
 3. la cache è una parte del CPU 
 4. nessuna delle altre risposte è corretta
-5.la cache è un indirizzo di memoria RAM
+5. la cache è un indirizzo di memoria RAM
 
 ------------
 
@@ -32,7 +32,7 @@ Quale delle seguenti affermazioni è corretta: Scegli un'alternativa:
 Si dice algoritmo la descrizione di un metodo di soluzione di un problema che: Scegli un'alternativa: 
 1. nessuna delle altre risposte è corretta
 2. codifichi una serie di istruzioni in Python
-3.riceva in ingresso un programma specifico ad alto livello e restituisca lo stesso programma in linguaggio macchina
+3. riceva in ingresso un programma specifico ad alto livello e restituisca lo stesso programma in linguaggio macchina
 4. sia eseguibile, sia priva di ambiguità e arrivi a conclusione in un tempo finito °
 5. codifichi una serie di istruzioni sequenziali eseguibili da una macchina automatica
 
