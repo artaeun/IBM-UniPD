@@ -16,12 +16,7 @@
   - [*Condizionale IF*](#condizionale-if)
     - [Assegnazione condizionale](#assegnazione-condizionale)
     - [Assegnazione condizionale 2](#assegnazione-condizionale-2)
-  - [*Eccezioni - Try/Except*](#eccezioni---tryexcept)
-    - [Codice che da eccezione:](#codice-che-da-eccezione)
     - [Correzione usando _try/except_:](#correzione-usando-tryexcept)
-  - [*Eccezioni - Try/Except*](#eccezioni---tryexcept-1)
-    - [Codice che da eccezione:](#codice-che-da-eccezione-1)
-    - [Correzione usando _try/except_:](#correzione-usando-tryexcept-1)
   - [*exit()*](#exit)
 - [3. Condizionali While](#3-condizionali-while)
   - [*Ciclo WHILE*](#ciclo-while)
@@ -125,7 +120,6 @@
     - [*Dizionario*](#dizionario)
     - [_Come crearli_](#come-crearli-1)
     - [_Aggiungere elementi_](#aggiungere-elementi-1)
-  - [>Aggiungere una chiave che esiste già solleva un'eccezione. Controllare prima che la chiave esiste già (vedere _in_ più giù).](#blockquoteaggiungere-una-chiave-che-esiste-già-solleva-uneccezione-controllare-prima-che-la-chiave-esiste-già-vedere-in-più-giùblockquote)
     - [_Usare i valori di un elemento_](#usare-i-valori-di-un-elemento)
     - [_Eliminare coppie_](#eliminare-coppie)
     - [_Iterare/Scandire gli elementi di un dizionario_](#iterarescandire-gli-elementi-di-un-dizionario)
@@ -361,25 +355,6 @@ elif floor=13:
 	dp=3
 else:
   actualFloor=floor
-```
-  
-## *Eccezioni - Try/Except*
-
-### Codice che da eccezione:
-```python
-astr="Una stringa qualsiasi"
-istr=int(astr)
-```
-### Correzione usando _try/except_:
-
-```python
-try: #prova a fare questo
-	istr=int(astr)
-except: #se ti da eccezione, errori, ecc, esegui questo
-	istr=-1
-```
-Cerca sempre di minimizzare il codice all'interno del try per ottimizzare il codice.
-
 
 ___
 ## *Eccezioni - Try/Except*
@@ -1895,7 +1870,8 @@ borsa['fazzoletti'] = 1
 print(borsa)
 {'soldi':3, 'fazzoletti':75}
 ```
->Aggiungere una chiave che esiste già solleva un'eccezione. Controllare prima che la chiave esiste già (vedere _in_ più giù).
+Aggiungere una chiave che esiste già solleva un'eccezione. Controllare prima che la chiave esiste già (vedere _in_ più giù).
+
 ---
 
 ### _Usare i valori di un elemento_
