@@ -14,7 +14,7 @@ Data l'espressione (1 + 2**3 / 4 * 5) in quale ordine vengono eseguite le operaz
 2. nessuna delle altre risposte è corretta
 3. 3/4=0.75; 0.75*5=3.75; 2^3.75=13.45; 1+13.45=14.45
 4. 1+2=3; 3* 3=9; 9/4=2.25; 2.25*5=11.25
-5.2^3=8; 8/4=2; 2*5=0; 1+10=11 °
+5. 2^3=8; 8/4=2; 2*5=0; 1+10=11 °
 
 ------------
 
