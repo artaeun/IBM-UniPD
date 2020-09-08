@@ -181,6 +181,10 @@
   - [4. Sovrascrivere un metodo (override)](#4-sovrascrivere-un-metodo-override)
   - [5. _Polimorfismo_](#5-polimorfismo)
   - [_Classi e metodi astratti_](#classi-e-metodi-astratti)
+- [Algoritmi](#algoritmi)
+  - [_Ricerca binaria/dicotomica/bisezione_](#ricerca-binariadicotomicabisezione)
+    - [_Algoritmo iterativo_](#algoritmo-iterativo)
+    - [_Algoritmo ricorsivo_](#algoritmo-ricorsivo)
 - [Sorting (da fare)](#sorting-da-fare)
 - [Strutture dati (da fare)](#strutture-dati-da-fare)
 - [Metodi di istanza (da fare)](#metodi-di-istanza-da-fare)
@@ -3235,6 +3239,54 @@ def monthEnd(self):
 Una classe che contiene almeno un metodo astratto si chiama **classe astratta** mentre una classe che, al contrario, non contiene alcun metodo astratto si chiama **classe concreta**.
 
 ---
+
+# Algoritmi
+
+## _Ricerca binaria/dicotomica/bisezione_
+
+### _Algoritmo iterativo_
+
+Si può fare **solo in una lista ordinata**. Il valoreDaCercare può anche essere una stringa, basta che si stia analizzando una lista di stringhe piuttosto che di valori (se non vuoi che partano eccezioni).
+
+```python
+   def ricBinariaIterat(lista, valoreDaCercare):
+
+      low = 0
+      high = len(lista) - 1
+
+      while low <= high :
+         mid = (low + high) // 2
+         if lista[mid] == valoreDaCercare :
+            return True ##Questo algoritmo dice solo Vero o Falso
+            #Se serve l'indice dalla lista, basta fare "return mid"
+         if lista[mid] < valoreDaCercare :
+            low = mid + 1
+         else :
+            high = mid - 1
+      return False#Se serve l'indice, si può fare un'eccezione
+      #o "return -1", per dire che non è stato trovato,
+      #ma ovviamente entrambi i casi vanno gestiti.
+```
+### _Algoritmo ricorsivo_
+
+Si può fare anche esso **solo in una lista ordinata**. Il valoreDaCercare può anche essere una stringa, basta che si stia analizzando una lista di stringhe piuttosto che di valori (se non vuoi che partano eccezioni).
+```python
+def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
+     # l'algoritmo ritorna l'indice
+     if inizio > fine:
+      return -1
+     if valoreDaCercare < lista[inizio] or valoreDaCercare > lista[r]:
+      return -1
+
+     q = (inizio+fine)/2
+
+     if lista[q] == valoreDaCercare:
+      return q
+     elif lista[q] > valoreDaCercare:
+      return ricBinariaRicorsiva(lista,inizio,q-1,valoreDaCercare)
+     else:
+      return ricBinariaRicorsiva(lista,inizio+1,fine,valoreDaCercare)
+```
 
 # Sorting (da fare)
 # Strutture dati (da fare)
