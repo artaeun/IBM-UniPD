@@ -50,7 +50,7 @@ programma INFORMATICA
 
         - modulo random -
             - ``` random()``` - nr casuale tra 0 e 1
-            - ```randint(a,b)``` - nr casuale tra a e b
+            - ``` randint(a,b)``` - nr casuale tra a e b
 
         - espressioni regolari (regex):
             ```python
