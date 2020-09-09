@@ -320,7 +320,9 @@ programma INFORMATICA
             #cercare con default:
                 >>> dizionarioEsempio.get(chiaveRicerca, valoreDefault)
                 # valoreDefault viene restituito se la chiave non viene trovata #
-                # utile per contare in modo furbo le ripetizioni di un determinato valore in una lista e salvarlo in un dict #
+                # utile per contare in modo furbo le ripetizioni di un determinato 
+                #valore in una lista e salvarlo in un dict #
+            
             #iterare su due valori al contempo:
                 >>> jjj = {...}
                     for (a,b) in jjj.items():
