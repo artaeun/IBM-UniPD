@@ -25,6 +25,7 @@ programma INFORMATICA
             - funzioni importanti:
                 - ```>>> len(stringa)```  = nr caratteri in stringa
                 - ```>>> .upper() / .lower()``` = tutti i caratteri della stringa maiuscoli / minuscoli
+                - ```>>> .isupper() / .islower()``` = ritorna True o False se la stringa è maiuscola / minuscolo
                 - ```>>> .find(sottostringaDaCercare)``` = cerca nella stringa la sottostringa, restituisce l'indice corrispondente, altrimenti restituisce -1. E' case sensitive
                 - ```>>> .replace(sottStrinDaSostituire, sottStrinConCuiSostituire)```= cerca stringa & sostituisce
                 - ```>>> .lstrip() / .rstrip() / .strip()``` = rimuove spazi a sx/dx/sia a sx che dx
