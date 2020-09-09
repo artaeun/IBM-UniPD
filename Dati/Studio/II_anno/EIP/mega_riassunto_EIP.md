@@ -26,7 +26,7 @@ programma INFORMATICA
                 - ```>>> len(stringa)```  = nr caratteri in stringa
                 - ```>>> .upper() / .lower()``` = tutti i caratteri della stringa maiuscoli / minuscoli
                 - ```>>> .find(sottostringaDaCercare)``` = cerca nella stringa la sottostringa, restituisce l'indice corrispondente, altrimenti restituisce -1. E' case sensitive
-                - ```>>> .replace(sottStrinDaSostituire, sottStrinConCuiSostituire)```= search & replace
+                - ```>>> .replace(sottStrinDaSostituire, sottStrinConCuiSostituire)```= cerca stringa & sostituisce
                 - ```>>> .lstrip() / .rstrip() / .strip()``` = rimuove spazi a sx/dx/sia a sx che dx
                 - ```>>> .startswith(sottostringa)``` = restituisceBoolean se la stringa da analizzare inizia con la sottostringa
                 - ```>>> print("%.2f" % price)``` = restituisce il valore di price con 2 cifre decimali.
