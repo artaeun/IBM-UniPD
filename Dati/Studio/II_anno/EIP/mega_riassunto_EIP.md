@@ -45,6 +45,7 @@ programma INFORMATICA
             - ```trunc``` - tronca il valore in intero
             - ```exp``` - e^x
             - ```log(x)``` - logaritmo natural
+            - ```round(x)``` - arrotonda
 
         - modulo random -
             - ``` random()``` - nr casuale tra 0 e 1
