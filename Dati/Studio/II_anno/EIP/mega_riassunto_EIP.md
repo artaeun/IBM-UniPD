@@ -25,6 +25,7 @@ programma INFORMATICA
             - funzioni importanti:
                 - ```>>> len(stringa)```  = nr caratteri in stringa
                 - ```>>> .upper() / .lower()``` = tutti i caratteri della stringa maiuscoli / minuscoli
+                - ```>>> .isupper() / .islower()``` = ritorna True o False se la stringa è maiuscola / minuscolo
                 - ```>>> .find(sottostringaDaCercare)``` = cerca nella stringa la sottostringa, restituisce l'indice corrispondente, altrimenti restituisce -1. E' case sensitive
                 - ```>>> .replace(sottStrinDaSostituire, sottStrinConCuiSostituire)```= cerca stringa & sostituisce
                 - ```>>> .lstrip() / .rstrip() / .strip()``` = rimuove spazi a sx/dx/sia a sx che dx
@@ -49,7 +50,7 @@ programma INFORMATICA
 
         - modulo random -
             - ``` random()``` - nr casuale tra 0 e 1
-            - ```randint(a,b)``` - nr casuale tra a e b
+            - ``` randint(a,b)``` - nr casuale tra a e b
 
         - espressioni regolari (regex):
             ```python
@@ -319,7 +320,9 @@ programma INFORMATICA
             #cercare con default:
                 >>> dizionarioEsempio.get(chiaveRicerca, valoreDefault)
                 # valoreDefault viene restituito se la chiave non viene trovata #
-                # utile per contare in modo furbo le ripetizioni di un determinato valore in una lista e salvarlo in un dict #
+                # utile per contare in modo furbo le ripetizioni di un determinato 
+                #valore in una lista e salvarlo in un dict #
+            
             #iterare su due valori al contempo:
                 >>> jjj = {...}
                     for (a,b) in jjj.items():
