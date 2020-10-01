@@ -4,7 +4,7 @@
 - [Fondamenti di Analisi matematica e Probabilità](https://elearning.dei.unipd.it/course/view.php?id=6353)
 - [Fisica 2](https://elearning.dei.unipd.it/course/view.php?id=6332)
 - [Elementi di Informatica e Programmazione](https://elearning.dei.unipd.it/course/view.php?id=6276)
-- [Teoria dei circuiti](https://elearning.dei.unipd.it/course/view.php?id=6276)
+- [Teoria dei circuiti](https://elearning.dei.unipd.it/course/view.php?id=6850)
 
 
 ## Zoom
@@ -13,7 +13,7 @@
 - [Fisica 2](https://unipd.zoom.us/j/2535138427)
   - [Tutorato](https://unipd.zoom.us/j/2535138427)
 - [Elementi di Informatica e Programmazione](https://unipd.zoom.us/j/96254777981?pwd=R3ZBS282bXBYUGpKaW1rdUFsLzJuZz09#success) (passcode: 447728)
-- [Teoria dei circuiti]() ?
+- [Teoria dei circuiti](https://elearning.dei.unipd.it/mod/zoom/view.php?id=296062)
 
 
 # Canale 2
