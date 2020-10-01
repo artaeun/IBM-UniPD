@@ -12,8 +12,8 @@
 - [Fondamenti di Analisi matematica e Probabilità](https://unipd.zoom.us/j/98873313275?pwd=alVOTkY5K09DajdQdWdDUldyOTdSZz09) (passcode: 208237)
 - [Fisica 2](https://unipd.zoom.us/j/2535138427)
   - [Tutorato](https://unipd.zoom.us/j/2535138427)
-- [Elementi di Informatica e Programmazione](https://unipd.zoom.us/j/96254777981?pwd=R3ZBS282bXBYUGpKaW1rdUFsLzJuZz09#success) (passcode: 447728)
-- [Teoria dei circuiti](https://elearning.dei.unipd.it/mod/zoom/view.php?id=296062)
+- [Elementi di Informatica e Programmazione](https://unipd.zoom.us/j/96254777981?pwd=R3ZBS282bXBYUGpKaW1rdUFsLzJuZz09) (passcode: 447728)
+- [Teoria dei circuiti](https://unipd.zoom.us/j/83585744362?pwd=eU1aLzB6OGlaZnZZamNMTEdnTlV4dz09)
 
 
 # Canale 2
