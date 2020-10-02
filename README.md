@@ -17,7 +17,6 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 ## Link utili
 
-- *[**Bozze orari 2020/2021**](Dati/Calendari/README.md)* - ***new!***
 - ***[Lista Link e contatti importanti UniPD](/Dati/Guide/Link%20e%20Contatti%20Unipd.md)***
 - *[Lista Link Utili](/Dati/Guide/Link%20utili.md)*
 - *[Contatti professori](/Dati/Altro/Contatti%20tutti%20insegnanti%20UniPD.md)*
