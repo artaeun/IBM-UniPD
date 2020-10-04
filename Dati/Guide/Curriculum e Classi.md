@@ -516,7 +516,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
 - *Vincolante*:
   - Tirocinio (6 CFU)
  
- ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
+###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
  ---
    
 ## Ho trovato un errore in questa guida. Come posso contribuire?
