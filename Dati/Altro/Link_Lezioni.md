@@ -1,6 +1,5 @@
-<header>
-Things to Do
-</header>
+<head>
+   <title>HTML Elements Reference</title></head>
 # Link IBM - Zoom & Moodle
 
 ## *Indice*:<!-- omit in toc -->
