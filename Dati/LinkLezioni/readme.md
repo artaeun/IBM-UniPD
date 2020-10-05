@@ -64,7 +64,7 @@
 ## Anno 2 - Canale 2
 ### Moodle<!-- omit in toc -->
 
-- [Fondamenti di Analisi matematica e Probabilità](https://elearning.dei.unipd.it/enrol/index.php?id=6073)
+- [Fondamenti di Analisi matematica e Probabilità](https://elearning.dei.unipd.it/course/view.php?id=6353)
 - [Fisica 2](https://elearning.dei.unipd.it/course/view.php?id=6339)
 - [Elementi di Informatica e Programmazione](https://elearning.dei.unipd.it/course/view.php?id=6283)
 - [Teoria dei circuiti](https://elearning.dei.unipd.it/course/view.php?id=6857)
