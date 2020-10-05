@@ -59,6 +59,8 @@
 - [Teoria dei circuiti](https://unipd.zoom.us/j/83585744362?pwd=eU1aLzB6OGlaZnZZamNMTEdnTlV4dz09)
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
+
+
 ## Anno 2 - Canale 2
 ### Moodle<!-- omit in toc -->
 
@@ -70,9 +72,9 @@
 ### Zoom<!-- omit in toc -->
 
 - [Fondamenti di Analisi matematica e Probabilità](https://unipd.zoom.us/j/95875931727?pwd=ZTU4bjBrVTBFWnUrRlE3VjZ2am1zdz09) (passcode: 130962)
-- [Fisica 2](https://elearning.dei.unipd.it/mod/zoom/view.php?id=294852)
+- [Fisica 2](https://unipd.zoom.us/j/85889218115)
 - [Elementi di Informatica e Programmazione](https://unipd.zoom.us/j/94112575934)
-- [Teoria dei circuiti](https://elearning.dei.unipd.it/mod/zoom/view.php?id=292825)
+- [Teoria dei circuiti](https://unipd.zoom.us/j/93854450617?pwd=QUhNQ0VXMVNUVnY2T2MrMnhEek1ldz09)
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
 
