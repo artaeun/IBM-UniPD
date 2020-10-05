@@ -11,6 +11,7 @@
   - [Anno 3 - Canale 1](#anno-3---canale-1)
   - [Anno 3 - Canale 2](#anno-3---canale-2)
   - [Anno 3 - Corso Comune](#anno-3---corso-comune)
+- [Che link devo salvarmi come segnalibro:](#che-link-devo-salvarmi-come-segnalibro)
 - [Ho trovato un errore/Ho un link](#ho-trovato-un-erroreho-un-link)
 
 # Anno 1
@@ -120,10 +121,32 @@
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 
 
+# Che link devo salvarmi come segnalibro:
+
+Salvandoti questi link verrai portato direttamente alla sezione della pagina che ti interessa con un click:
+
+- Anno 1, Canale 1: https://github.com/artaeun/IBM-UniPD/tree/master/Dati/LinkLezioni#anno-1---canale-1 
+- Anno 1, Canale 2: https://github.com/artaeun/IBM-UniPD/tree/master/Dati/LinkLezioni#anno-1---canale-2
+- Anno 2, Canale 1: https://github.com/artaeun/IBM-UniPD/tree/master/Dati/LinkLezioni#anno-2---canale-1
+- Anno 2, Canale 2: https://github.com/artaeun/IBM-UniPD/tree/master/Dati/LinkLezioni#anno-2---canale-2
+- Anno 3, Canale 1: https://github.com/artaeun/IBM-UniPD/tree/master/Dati/LinkLezioni#anno-3---canale-1
+- Anno 3, Canale 2: https://github.com/artaeun/IBM-UniPD/tree/master/Dati/LinkLezioni#anno-3---canale-2
+- Anno 3, Comune: https://github.com/artaeun/IBM-UniPD/tree/master/Dati/LinkLezioni#anno-3---corso-comune
+
+Osservazione: Questi link possono essere facilmente ottenuti facendo click sul simbolo della catena che comparre muovendo il mouse a sinistra del titolo dei paragrafi come da esempio:
+
+![link_rapido](/Dati/LinkLezioni/link_rapido.png)
+
+
+###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
+
+
 # Ho trovato un errore/Ho un link
 
 Hai trovato un errore, un link è cambiato, o hai un link nuovo che non abbiamo già inserito e ti serve?
 
 Contattaci su discord nella chat segnalazioni e faccelo sapere: https://discord.gg/Gdbpsg3
+
+###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 
 ---
