@@ -29,7 +29,7 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 ## Guide
 
 - *[🌱 Benvenuto Matricole - Aiuti e Guide per i Primi passi a UniPD](/Dati/Guide/benvenutoMatricole.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
-- *[🍂 3° Anno - Curriculum, Classi, Piano di studi](/Dati/Guide/Curriculum%20e%20Classi.md)*
+- *[🍂 3° Anno - Curriculum, Classi, Piano di studi](/Dati/Guide/Curriculum_e_Classi.md)*
 
 ## Studio
 
