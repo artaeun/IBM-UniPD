@@ -126,7 +126,7 @@
 
 # Che link devo salvarmi come segnalibro?
 
-Salvandoti questi link verrai portato direttamente alla sezione della pagina che ti interessa con un click:
+Salvandoti uno di questi link verrai portato direttamente alla sezione della pagina che ti interessa con un click (prova a cliccare se non ti fidi, dopo per tornare qua basta che torni in fondo alla pagina dall'indice):
 
 - Anno 1, Canale 1: https://github.com/artaeun/IBM-UniPD/tree/master/Dati/LinkLezioni#anno-1---canale-1 
 - Anno 1, Canale 2: https://github.com/artaeun/IBM-UniPD/tree/master/Dati/LinkLezioni#anno-1---canale-2
