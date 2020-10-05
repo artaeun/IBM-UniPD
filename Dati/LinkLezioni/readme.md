@@ -120,6 +120,7 @@
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 
+---
 
 # Che link devo salvarmi come segnalibro:
 
@@ -140,6 +141,7 @@ Osservazione: Questi link possono essere facilmente ottenuti facendo click sul s
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 
+---
 
 # Ho trovato un errore/Ho un link
 
