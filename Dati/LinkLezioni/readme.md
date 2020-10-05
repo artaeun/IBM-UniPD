@@ -11,7 +11,7 @@
   - [Anno 3 - Canale 1](#anno-3---canale-1)
   - [Anno 3 - Canale 2](#anno-3---canale-2)
   - [Anno 3 - Corso Comune](#anno-3---corso-comune)
-- [Che link devo salvarmi come segnalibro:](#che-link-devo-salvarmi-come-segnalibro)
+- [Che link devo salvarmi come segnalibro?](#che-link-devo-salvarmi-come-segnalibro)
 - [Ho trovato un errore/Ho un link](#ho-trovato-un-erroreho-un-link)
 
 # Anno 1
@@ -124,7 +124,7 @@
 
 ---
 
-# Che link devo salvarmi come segnalibro:
+# Che link devo salvarmi come segnalibro?
 
 Salvandoti questi link verrai portato direttamente alla sezione della pagina che ti interessa con un click:
 
