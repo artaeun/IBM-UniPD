@@ -15,7 +15,9 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 - *[Regole del server Discord](/Dati/Altro/regole.md)*
 - *[Guida uso Discord](http://tiny.cc/guidaDiscord)*
 
-Per quelli che non sanno cosa è Discord, o cosa fa di diverso da Whatsapp/Telegram, in pratica vi permette di silenziare (e anche completamente nascondere, se volete), tutte le chat relative ai corsi che non vi interessano o che non seguite, senza però precludervi l'accesso a queste in un secondo momento, o quello che gli altri hanno scritto fino a quel punto dalla data della creazione del server. Poi ci sono anche altre aggiunte tipo chat vocali/video pubbliche permanenti che fanno da aule studio digitali, chat dedicate per notizie del vostro corso, e un'altra serie di cose utili che vi potrebbero interessare. E' uno strumento in più che non fa male avere a disposizione e mi auguro che, qualora decidete di usarlo, vi possa aiutare nel percorso della vostra carriera universitaria come ha aiutato alcuni dei compagni della nostra facoltà.
+Per quelli che non sanno cosa è Discord, o cosa fa di diverso da Whatsapp/Telegram, in pratica vi permette di silenziare (e anche completamente nascondere, se volete), tutte le chat relative ai corsi che non vi interessano o che non seguite, senza però precludervi l'accesso a queste in un secondo momento, o quello che gli altri hanno scritto fino a quel punto dalla data della creazione del server. 
+
+Poi ci sono anche altre aggiunte tipo chat vocali/video pubbliche permanenti che fanno da aule studio digitali, chat dedicate per notizie del vostro corso, e un'altra serie di cose utili che vi potrebbero interessare. E' uno strumento in più che non fa male avere a disposizione e mi auguro che, qualora decidete di usarlo, vi possa aiutare nel percorso della vostra carriera universitaria come ha aiutato alcuni dei compagni della nostra facoltà.
 
 ## Link utili
 
