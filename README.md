@@ -11,7 +11,7 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 ## Discord 
 
-<!-- -- ***🚧[Guida all'utilizzo di Discord su mobile]🚧(http://tiny.cc/guidaDiscord)***-->
+- ***🚧[Guida all'utilizzo di Discord su mobile]🚧(http://tiny.cc/guidaDiscord)***
 - *[Guida per il principiante più comprensiva, per chi mastica l'inglese](https://support.discord.com/hc/it/articles/360045138571)*
 - *[Regole del server Discord](/Dati/Altro/regole.md)*
 - *[Guida uso Discord](http://tiny.cc/guidaDiscord)*
