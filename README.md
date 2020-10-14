@@ -43,7 +43,7 @@ Poi ci sono anche altre aggiunte tipo chat vocali/video pubbliche permanenti che
 
 ## Credits
 
-Il server e questa repo sono stati creati da Alexandru Mihailescu, con l'aiuto del rappresentante degli studenti della facoltà di Ingegneria Biomedica UniPD, Andrea Pasinato (2018-2020).
+Il Server Discord nella sua interità e questa repo sono stati creati da Alexandru Mihailescu, con l'aiuto del rappresentante degli studenti della facoltà di Ingegneria Biomedica UniPD, Andrea Pasinato (2018-2020).
 
 ---
 
