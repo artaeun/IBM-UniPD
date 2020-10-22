@@ -17,11 +17,16 @@ Se proprio vi trovate in difficoltà con la APP:
 
 # Contatti per supporto
 
-e-mail: [alexandru.mihailescu@studenti.unipd.it](mailto:alexandru.mihailescu@studenti.unipd.it)
+## Alexandru Mihailescu
 
-WhatsApp: [340 519 2139](tel:3405192139)
+Sentitevi liberi di contattarmi qualsiasi chiarimento, domande o anche supporto tecnico laddove ne abbiate bisogno.
 
-Telegram: [artaeun](https://t.me/artaeun)
+- e-mail: [alexandru.mihailescu@studenti.unipd.it](mailto:alexandru.mihailescu@studenti.unipd.it)
+
+- WhatsApp: [340 519 2139](tel:3405192139)
+- 	
+<a href="tel:123-456-7890">CLICK TO CALL</a>
+- Telegram: [artaeun](https://t.me/artaeun)
 
 ---
 
