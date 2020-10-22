@@ -14,6 +14,15 @@
 Se proprio vi trovate in difficoltà con la APP:
   - *[Guida uso Discord (da leggere da PC o tablet)](http://tiny.cc/guidaDiscord)*
 
+
+# Contatti per supporto
+
+e-mail: [alexandru.mihailescu@studenti.unipd.it](mailto:alexandru.mihailescu@studenti.unipd.it)
+
+WhatsApp: [340 519 2139](tel:3405192139)
+
+Telegram: [artaeun](https://t.me/artaeun)
+
 ---
 
 # Disclaimer
