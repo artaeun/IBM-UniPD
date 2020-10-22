@@ -24,8 +24,7 @@ Sentitevi liberi di contattarmi qualsiasi chiarimento, domande o anche supporto 
 - e-mail: [alexandru.mihailescu@studenti.unipd.it](mailto:alexandru.mihailescu@studenti.unipd.it)
 
 - WhatsApp: [340 519 2139](tel:3405192139)
-- 	
-<a href="tel:123-456-7890">CLICK TO CALL</a>
+
 - Telegram: [artaeun](https://t.me/artaeun)
 
 ---
