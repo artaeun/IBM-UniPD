@@ -1,6 +1,6 @@
 # ***Ingegneria Biomedica** - Università di Padova*
 
-Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi alla facoltà di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2017 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: www.udupadova.it/discord/IngBiomedica
+Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2017 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: www.udupadova.it/discord/IngBiomedica
 
 
 🎓 Molte delle informazioni che troverete qui le trovate nella [***Scheda completa del Corso***](https://didattica.unipd.it/off/2019/LT/IN/IN2374), siete pregati di dargli un'occhiata.
@@ -10,11 +10,10 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 # *Informazioni e guide*
 
 ## Discord 
-
-- ***🚧[Guida all'utilizzo di Discord su mobile](http://tiny.cc/guidaDiscord)🚧***
-- *[Guida per il principiante più comprensiva, per chi mastica l'inglese](https://support.discord.com/hc/it/articles/360045138571)*
 - *[Regole del server Discord](/Dati/Altro/regole.md)*
-- *[Guida uso Discord](http://tiny.cc/guidaDiscord)*
+
+- ***[Guida all'utilizzo di Discord](http://tiny.cc/guidaDiscord)*** (da leggere da PC o Tablet)
+- *[Guida per il principiante più comprensiva, per chi mastica l'inglese](https://support.discord.com/hc/it/articles/360045138571)*
 
 Per quelli che non sanno cosa è Discord, o cosa fa di diverso da Whatsapp/Telegram, in pratica vi permette di silenziare (e anche completamente nascondere, se volete), tutte le chat relative ai corsi che non vi interessano o che non seguite, senza però precludervi l'accesso a queste in un secondo momento, o quello che gli altri hanno scritto fino a quel punto dalla data della creazione del server. 
 
