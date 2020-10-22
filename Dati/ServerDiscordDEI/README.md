@@ -1,10 +1,10 @@
 # ***Server Discord DEI UniPD***
 
 
-- ***[Ingegneria Biomedica](https://github.com/artaeun/IBM-UniPD)***
-- *[Ingegneria Elettronica](https://github.com/artaeun/IBM-UniPD)*
-- *[Ingegneria Informatica](https://github.com/artaeun/IBM-UniPD)*
-- *[Ingegneria Dell'Informazione](https://github.com/artaeun/IBM-UniPD)*
+- ***[Ingegneria Biomedica](http://tiny.cc/udupadova-IngBiomedica)***
+- *[Ingegneria Elettronica](https://discord.gg/7JtPTYt)*
+- *[Ingegneria Informatica](https://discord.gg/V5n29U2)*
+- *[Ingegneria Dell'Informazione](https://discord.gg/urYQBJA)*
 ---
 
 # Altre risorse
