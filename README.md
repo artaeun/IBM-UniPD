@@ -22,21 +22,21 @@ Poi ci sono anche altre aggiunte tipo chat vocali/video pubbliche permanenti che
 
 ## Link utili
 
-- ***[Lista Link e contatti importanti UniPD](/Dati/Guide/Link%20e%20Contatti%20Unipd.md)***
-- *[Lista Link Utili](/Dati/Guide/Link%20utili.md)*
-- *[Contatti professori](/Dati/Altro/Contatti%20tutti%20insegnanti%20UniPD.md)*
+- ***[Lista Link e contatti importanti UniPD](/Dati/Guide/Link_e_Contatti_Unipd.md)***
+- *[Lista Link Utili](/Dati/Guide/Link_utili.md)*
+- *[Contatti professori](/Dati/Altro/contatti_insegnanti.md)*
 
 ## Calendari e Scadenze
 
 - *[Calendario Esami](http://agendastudentiunipd.easystaff.it/index.php?view=easytest&_lang=it)*
-- *🚧[Calendario Scadenze UniPD](/Dati/Calendari/Scadenze%20UniPD.md)🚧*
+<!---  - *🚧[Calendario Scadenze UniPD](/Dati/Calendari/Scadenze%20UniPD.md)🚧*-->
 
 ## Guide
 
 - *[🌱 Benvenuto Matricole - Aiuti e Guide per i Primi passi a UniPD](/Dati/Guide/benvenutoMatricole.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
 - *[🍂 3° Anno - Curriculum, Classi, Piano di studi](/Dati/Guide/Curriculum_e_Classi.md)*
 
-## Studio
+## Appunti
 
 - *[Elementi di Informatica e Programmazione](/Dati/Studio/II_anno/EIP/README.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
 <!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III_anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
@@ -44,7 +44,7 @@ Poi ci sono anche altre aggiunte tipo chat vocali/video pubbliche permanenti che
 
 ## Credits
 
-Il Server Discord nella sua interità e questa repo sono stati creati da Alexandru Mihailescu, con l'aiuto del rappresentante degli studenti della facoltà di Ingegneria Biomedica UniPD, Andrea Pasinato (2018-2020).
+#### Il Server Discord nella sua interità e questa repo sono stati creati da Alexandru Mihailescu, con l'aiuto del rappresentante degli studenti della facoltà di Ingegneria Biomedica UniPD, Andrea Pasinato (2018-2020).
 
 ---
 
