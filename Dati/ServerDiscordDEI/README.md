@@ -1,6 +1,6 @@
 # ***Server Discord DEI UniPD***
 
-Fare click sul nome della propria facoltà per collegarsi al server Discord:
+Fai click sul nome della propria facoltà per collegarsi al server Discord:
 
 - ***[Ingegneria Biomedica](http://tiny.cc/udupadova-IngBiomedica)***
 - *[Ingegneria Elettronica](https://discord.gg/7JtPTYt)*
