@@ -1,5 +1,6 @@
 # ***Server Discord DEI UniPD***
 
+Fare click per andare ai vari server:
 
 - ***[Ingegneria Biomedica](http://tiny.cc/udupadova-IngBiomedica)***
 - *[Ingegneria Elettronica](https://discord.gg/7JtPTYt)*
