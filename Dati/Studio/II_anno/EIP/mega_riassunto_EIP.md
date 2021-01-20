@@ -558,7 +558,12 @@ programma INFORMATICA
         - selezione => migliore,medio e peggiore: O(n^2)
         - inserimento = caso migliore: O(n); caso peggiore: O(n^2)
         - fusione = migliore,medio e peggiore:O(n log n)
-
+    - prestazione algoritmi ricerca:
+        - sequenziale/lineare => senza aver ordinato la lista : O(n);
+        - n ricerche lineari di una lista non ordinata in precedenza => O(n^2)
+        - ricerca binaria => = O(log(n))
+        - ricerca binaria consecutiva con ordinamento della lista in precedenza => O(n log(n))
+        
 
 
 
