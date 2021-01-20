@@ -555,9 +555,9 @@ programma INFORMATICA
                 # 4 accessi a liste, 4 operazioni
             ```
     - prestazioni algoritmi di ordinamento:
-        - selezione = O(n^2)
-        - inserimento = O(n^2) nel caso peggiore, O(n) nel migliore
-        - fusione = O(n log n)
+        - selezione => migliore,medio e peggiore: O(n^2)
+        - inserimento = caso migliore: O(n); caso peggiore: O(n^2)
+        - fusione = migliore,medio e peggiore:O(n log n)
 
 
 
