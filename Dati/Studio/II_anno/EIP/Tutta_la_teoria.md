@@ -2053,7 +2053,7 @@ Viene usato anche il metodo _items()_ per estrarre la lista di tuple e la funzio
 
 
 ```python
->>> d = {'c':10, 'b':100, 'a':22} #credo dizionario
+>>> d = {'c':10, 'b':100, 'a':22} #creo dizionario
 >>> d.items() #visualizzo le tuple 
 dict_items([('a', 10), ('c', 22), ('b', 100)])
 >>> sorted(d.items())#ordino le tuple secondo chiave
