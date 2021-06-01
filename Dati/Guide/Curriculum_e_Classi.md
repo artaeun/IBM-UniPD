@@ -164,7 +164,7 @@ In presenza bisogna andare all’Ufficio carriere in via Lungoargine Piovego 2, 
 
 ## Posso cambiare la classe in qualsiasi momento/anno di studio?
 Cioè dipende, perché c’è sempre un termine di scadenza che però in circostanze come quelle attuali (post pandemia) potrebbero essere estesi. 
-I termini di scadenza attuali sono presenti qua: https://www.unipd.it/cambio-classe (***attualmente dal 15 luglio al 29 ottobre 2020***)
+I termini di scadenza attuali sono presenti qua: https://www.unipd.it/cambio-classe
 
 Conviene mandare una mail alla segreteria del DEI per avere conferma.
 
