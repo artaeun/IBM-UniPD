@@ -1665,7 +1665,7 @@ canvas.pack()
 
 # load the .gif image file
 gif1 = PhotoImage(file = 'DECK\\10c.gif')
-gif2 = PhotoImage(file = 'DECK\\1d.gif‘)
+gif2 = PhotoImage(file = 'DECK\\1d.gif')
 
 # put gif image on canvas
 canvas.create_image(80, 100, image = gif1, anchor = NW)
