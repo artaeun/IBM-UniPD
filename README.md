@@ -1,6 +1,6 @@
 # ***Ingegneria Biomedica** - Università di Padova*
 
-Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2017 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: www.udupadova.it/discord/IngBiomedica
+Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2017 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
 
 
 ## 🎓*Scheda del corso* 
