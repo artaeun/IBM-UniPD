@@ -32,7 +32,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 ## Guide e informazioni
 
 - *[🌱 1° Anno - 🎓 Il Vademecum di UniPd ](https://www.spgi.unipd.it/didattica/guida-rapida-studenti)- fa da guida rapida per UniPd* 
-- *[🌱 1° Anno - 📕 La “Contro Guida” di "Studenti Per"](https://www.spgi.unipd.it/didattica/guida-rapida-studenti)* - dove studiare, cosa fare a Padova nel tempo libero, ecc
+- *[🌱 1° Anno - 📕 La “Contro Guida” di "Studenti Per"](http://controguida.udupadova.it/)* - dove studiare, cosa fare a Padova nel tempo libero, ecc
 
 
 <!-- - [🚧🌳 2° Anno 🚧]-->
