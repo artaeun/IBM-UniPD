@@ -59,7 +59,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - **_Ingegneria Biomedica_** : [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
 - **_Bioingegneria_**: [https://discord.com/invite/GHa9tQe](https://discord.com/invite/GHa9tQe)
 
-- **_Tutti gli altri server / Hub UniPD_**: [https://discord.com/invite/GHa9tQe](https://discord.gg/dtaThyfrDA)
+- **_Tutti gli altri server / Hub UniPD_**: [https://discord.gg/dtaThyfrDA](https://discord.gg/dtaThyfrDA)
 
 
 
