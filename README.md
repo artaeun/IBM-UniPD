@@ -3,47 +3,70 @@
 Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2017 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: www.udupadova.it/discord/IngBiomedica
 
 
-🎓 Molte delle informazioni che troverete qui le trovate nella [***Scheda completa del Corso***](https://didattica.unipd.it/off/2019/LT/IN/IN2374), siete pregati di dargli un'occhiata.
+## 🎓*Scheda del corso* 
 
-🎓 Consigliamo inoltre la visualizzazione della [pagina generale con tutti i link della facoltà di **Ingegneria Biomedica**](https://www.unipd.it/offerta-didattica/corsi-di-laurea-triennale/ingegneria?ordinamento=2017&key=IN2374&tipo=L&scuola=IN).
+Qua trovate il quadro generale delle attività formattive, syllabu/contenuto e modalità di esami dei singoli insegnamenti:
+
+[**Anno 1 - Scheda del corso**](https://didattica.unipd.it/off/2022/LT/IN/IN2374)
+
+[**Anno 2 - Scheda del corso**](https://didattica.unipd.it/off/2021/LT/IN/IN2374)
+
+[**Anno 3 - Scheda del corso**](https://didattica.unipd.it/off/2020/LT/IN/IN2374)
+
+Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel insegnamento.
+
+
+
 
 # *Informazioni e guide*
+
+
+
+## Link utili
+
+- ***[📅 Calendario degli appelli](https://www.dei.unipd.it/esami/month.php?year=2023&month=01&day=1&area=1&room=78)*** - per vedere data, ora e aula degli appelli, per tutti gli anni di Ingegneria Biomedica.
+- ***[👍 Punteggi Professori - Valutazione della didattica](https://apex.cca.unipd.it/pls/apex/f?p=392:5)*** - utili per avere un'idea su come insegna il professore, prima di decidere di seguire un suo corso.
+- ***[📆 Calendario Accademico](https://www.unipd.it/scadenze-calendario-accademico)*** - principali scadenze, vacanze, feste, date inizio sessioni, ecc.
+[Orari lezioni](https://www.unipd.it/orario-lezioni)
+
+## Guide e informazioni
+
+- *[🌱 1° Anno - 🎓 Il Vademecum di UniPd ](https://www.spgi.unipd.it/didattica/guida-rapida-studenti)- fa da guida rapida per UniPd* 
+- *[🌱 1° Anno - 📕 La “Contro Guida” di "Studenti Per"](https://www.spgi.unipd.it/didattica/guida-rapida-studenti)* - dove studiare, cosa fare a Padova nel tempo libero, ecc
+
+
+<!-- - [🚧🌳 2° Anno 🚧]-->
+- *[🍂 3° Anno - Curriculum, Classi, Piano di studi](/Dati/Guide/Curriculum_e_Classi.md)*
+- *[🍂 3° Anno - Presentazioni Lauree Magistrali](https://www.dei.unipd.it/node/1653)*
+
+
+
+
+
+
+
+##  Salute Convenzionata UniPD
+- [💊 Assistenza sanitaria e psicologica gratuita per studenti](https://www.unipd.it/assistenza-sanitaria)
+- [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi umore/depressione documentati)
+
+## Appunti
+
+- *[💻 Elementi di Informatica e Programmazione](/Dati/Studio/II_anno/EIP/README.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
+<!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III_anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
+
+---
 
 ## Discord 
 - *[Regole del server Discord](/Dati/Altro/regole.md)*
 
 - ***[Guida all'utilizzo di Discord](http://tiny.cc/guidaDiscord)*** (da leggere da PC o Tablet)
-- *[Guida per il principiante più comprensiva, per chi mastica l'inglese](https://support.discord.com/hc/it/articles/360045138571)*
+- *[Guida per il principiante (ufficiale)](https://support.discord.com/hc/it/articles/360045138571)*
 
-Per quelli che non sanno cosa è Discord, o cosa fa di diverso da Whatsapp/Telegram, in pratica vi permette di silenziare (e anche completamente nascondere, se volete), tutte le chat relative ai corsi che non vi interessano o che non seguite, senza però precludervi l'accesso a queste in un secondo momento, o quello che gli altri hanno scritto fino a quel punto dalla data della creazione del server. 
-
-Poi ci sono anche altre aggiunte tipo chat vocali/video pubbliche permanenti che fanno da aule studio digitali, chat dedicate per notizie del vostro corso, e un'altra serie di cose utili che vi potrebbero interessare. E' uno strumento in più che non fa male avere a disposizione e mi auguro che, qualora decidete di usarlo, vi possa aiutare nel percorso della vostra carriera universitaria come ha aiutato alcuni dei compagni della nostra facoltà.
-
-## Link utili
-
-- ***[Lista Link e contatti importanti UniPD](/Dati/Guide/Link_e_Contatti_Unipd.md)***
-- *[Lista Link Utili](/Dati/Guide/Link_utili.md)*
-- *[Contatti professori](/Dati/Altro/contatti_insegnanti.md)*
-
-## Calendari e Scadenze
-
-- *[Calendario Esami](http://agendastudentiunipd.easystaff.it/index.php?view=easytest&_lang=it)*
-<!---  - *🚧[Calendario Scadenze UniPD](/Dati/Calendari/Scadenze%20UniPD.md)🚧*-->
-
-## Guide
-
-- *[🌱 Benvenuto Matricole - Aiuti e Guide per i Primi passi a UniPD](/Dati/Guide/benvenutoMatricole.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
-- *[🍂 3° Anno - Curriculum, Classi, Piano di studi](/Dati/Guide/Curriculum_e_Classi.md)*
-
-## Appunti
-
-- *[Elementi di Informatica e Programmazione](/Dati/Studio/II_anno/EIP/README.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
-<!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III_anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
-
+---
 
 ## Credits
 
-#### Il Server Discord nella sua interità e questa repo sono stati creati da Alexandru Mihailescu, con l'aiuto del rappresentante degli studenti della facoltà di Ingegneria Biomedica UniPD, Andrea Pasinato (2018-2020).
+#### Il Server Discord nella sua interità e questa repository sono stati creati da Alexandru Mihailescu, con l'aiuto del rappresentante degli studenti della facoltà di Ingegneria Biomedica UniPD, Andrea Pasinato (2018-2020).
 
 ---
 
