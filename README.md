@@ -42,9 +42,6 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 
 
-
-
-
 ##  Salute Convenzionata UniPD
 - [💊 Assistenza sanitaria e psicologica gratuita per studenti](https://www.unipd.it/assistenza-sanitaria)
 - [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi umore/depressione documentati)
@@ -57,8 +54,18 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 ---
 
 ## Discord 
-- *[Regole del server Discord](/Dati/Altro/regole.md)*
 
+## 📱 Link server
+- **_Ingegneria Biomedica_** : [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
+- **_Bioingegneria_**: [https://discord.com/invite/GHa9tQe](https://discord.com/invite/GHa9tQe)
+
+- **_Tutti gli altri server / Hub UniPD_**: [https://discord.com/invite/GHa9tQe](https://discord.gg/dtaThyfrDA)
+
+
+
+
+## Regole
+- *[Regole del server Discord](/Dati/Altro/regole.md)*
 - ***[Guida all'utilizzo di Discord](http://tiny.cc/guidaDiscord)*** (da leggere da PC o Tablet)
 - *[Guida per il principiante (ufficiale)](https://support.discord.com/hc/it/articles/360045138571)*
 
