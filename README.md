@@ -36,7 +36,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 
 <!-- - [🚧🌳 2° Anno 🚧]-->
-- *[🍂 3° Anno - Curriculum, Classi, Piano di studi](/Dati/Guide/Curriculum_e_Classi.md)*
+- *[🍂 3° Anno - Piano di studi, Curriculum, Classi](/Dati/Guide/Curriculum_e_Classi.md)*
 - *[🍂 3° Anno - Presentazioni Lauree Magistrali](https://www.dei.unipd.it/node/1653)*
 
 
