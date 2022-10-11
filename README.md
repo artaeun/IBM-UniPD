@@ -37,6 +37,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - *[🍂 3° Anno - Piano di studi, Curriculum, Classi](/Dati/Guide/Curriculum_e_Classi.md)*
 - *[🍂 3° Anno - Presentazioni Lauree Magistrali](https://www.dei.unipd.it/node/1653)*
 - *[🍂 3° Anno - Cose da sapere per **Laurearsi**](https://www.spgi.unipd.it/didattica/guida-rapida-studenti/cose-da-sapere-laurearsi)* - *Come scrivo la mia tesi?*, *Quando mi laureo?*, *Come si forma il voto finale?*
+- *[🍂 3° Anno - Come fare domanda di laurea](https://www.unipd.it/laurearsi)*
 
 
 
