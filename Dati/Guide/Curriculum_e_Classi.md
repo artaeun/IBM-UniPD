@@ -174,8 +174,7 @@ Conviene mandare una mail alla segreteria del DEI per avere conferma.
 # Piano di studi
 
 ## Quando si compila il piano di studi?
-Di solito da Dicembre a Settembre dell’anno successivo. Trovi tutte le informazioni relative qui: https://elearning.dei.unipd.it/mod/book/view.php?id=3&chapterid=7
-
+Di solito da Dicembre a Settembre dell’anno successivo. Trovi tutte le informazioni relative qui: [http://www.gest.unipd.it/it/corsi/corsi-di-studio/piani-di-studio](http://www.gest.unipd.it/it/corsi/corsi-di-studio/piani-di-studio)
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
 
