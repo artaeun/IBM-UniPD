@@ -45,7 +45,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 ##  Salute Convenzionata UniPD
 - [💊 Assistenza sanitaria e psicologica gratuita per studenti](https://www.unipd.it/assistenza-sanitaria)
-- [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi umore/depressione documentati)
+- [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi umore/depressione documentati, anche in assenza di certificazioni)
 
 ## Appunti
 
