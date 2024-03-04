@@ -52,8 +52,8 @@ Trovi tutto qui: https://didattica.unipd.it/off/2018/LT/IN/IN2374
 # Curriculum:
 
 ## **Come faccio a sapere che classe e curriculum sono?**
-Se vai su uniweb, in status studente, vedrai che sei impostato in una classe di laurea (L8 o L9). Facendo richiesta all’Ufficio Segreteria Carriere si può passare da una classe all’altra.
-Il curriculum lo trovi sotto la voce **Percorso**.
+Se vai su Uniweb, in "Status Studente", vedrai che sei impostato in una classe di laurea (L8 o L9). Facendo richiesta all’Ufficio Segreteria Carriere si può passare da una classe all’altra.
+Il curriculum lo trovi alla voce **Percorso**.
 ![status studente](/Dati/.img/status_studente.png)
 
 
@@ -68,25 +68,25 @@ Tutti del primo e del secondo anno. Del terzo anno sono obbligatori solo:
 - Semestre 2  
   - Tecnologia e strumentazione biomedica (9 CFU)
 
-Poi ovviamente ci sono i 15 CFU a scelta vincolata e altri almeno 15 CFU liberi (anche 18, volendo, facendo due esami da 9 CFU o tre da 6 CFU).
+Poi ci sono 15 CFU a scelta vincolata, in base alla classe di laurea di appartenenza, e altri 15 CFU liberi (anche 18, volendo, facendo due esami da 9 CFU o tre da 6 CFU).
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
 
-## Che differenza c’è tra i due curriculum?
-Il curriculum è un percorso del corso di studi che cambia solo che al posto di un esame (di 6 crediti) dei 15 CFU a scelta vincolata viene sostituito dal tirocinio.
+## Che differenza c’è tra i due curricula?
+Nel curriculum applicativo un esame (di 6 crediti) dei 15 CFU a scelta vincolata viene sostituito dal tirocinio."
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
 
 ## Il tirocinio, se seguo il curriculum applicativo, è obbligatorio?
-Si. Se non lo vuoi fare devi cambiare curriculum. I termini di scadenza sono qua: https://www.unipd.it/cambio-curriculum
+Sì, se non lo vuoi fare devi cambiare curriculum. I termini di scadenza sono qua: https://www.unipd.it/cambio-curriculum
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
 
 ## Sto facendo il curriculum generale, posso fare il tirocinio?
-No. Se lo vuoi fare devi cambiare il curriculum. I termini di scadenza sono qua:
+No, se lo vuoi fare devi cambiare il curriculum. I termini di scadenza sono qua:
 https://www.unipd.it/cambio-curriculum
 
 In caso esiste anche la possibilità di fare il tirocinio senza CFU. Si possono chiedere più informazioni alla segreteria del DEI.
@@ -95,7 +95,7 @@ In caso esiste anche la possibilità di fare il tirocinio senza CFU. Si possono 
 ---
 
 ## Fare un curriculum o l’altro limita l’accesso alla magistrale?
-No. E’ una laurea. Solo che con il tirocinio cerca di preparare un poco per il lavoro. Non c’entra niente con l’accesso alla magistrale. 
+No, è una laurea, il tirocinio cerca di preparare un poco per il lavoro. Non c’entra niente con l’accesso alla magistrale.
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
@@ -114,7 +114,7 @@ Facendo il piano di studi è molto più facile da capire.
 ## Come si fa a cambiare il curriculum?
 Attualmente si compila il modulo di cambio curriculum e si manda via mail con una scansione di un documento di identità a carriere.studenti@unipd.it o anche a ingegneria.studenti@unipd.it
 
-In presenza bisogna andare all’Ufficio carriere in via Lungoargine Piovego 2, serve il modulo e la fotocopia del documento di identità.
+In presenza bisogna andare all’Ufficio carriere in via Lungoargine Piovego 2, servono il modulo e la fotocopia del documento di identità.
 Termini e scadenze qua: https://www.unipd.it/cambio-curriculum
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
@@ -179,7 +179,7 @@ Di solito da Dicembre a Settembre dell’anno successivo. Trovi tutte le informa
 ---
 
 ## Che differenza c’è tra i 15 CFU vincolati e quelli liberi?
-Quelli vincolati sono esami che vanno a bracetto (se dai uno devi dare anche l'altro) e sono definiti dal percorso scelto (nel piano di studi), che a sua volta è limitato dalla tua classe e dal curriculum. Sia la Classe che il Curriculum di appartenenza puoi trovarli in UniWeb sotto Status Studente, come visto in una delle prime domande di questa guida.
+Quelli vincolati sono esami che vanno a bracetto (se dai uno devi dare anche l'altro) e sono definiti dal percorso scelto (nel piano di studi), che a sua volta è limitato dalla tua classe e dal curriculum. Sia la Classe che il Curriculum di appartenenza puoi trovarli in UniWeb sotto "Status Studente", come visto in una delle prime domande di questa guida.
 
 Quelli a scelta libera sono esami che puoi scegliere di dare tra quelli appartenenti (e non) alla facoltà di Ingegneria Biomedica, e valgono per il completamento del percorso accademico. Si possono registrare durante la compilazione del piano di studi. 
 
@@ -199,13 +199,13 @@ Tutti quelli della lista seguente (escludendo quelli che sono vincolati, e quind
 
 - Elaborazione di Segnali Biomedici (6 CFU)
 - Meccanica Per Bioingegneria (9 CFU)
-- Laboratorio di Ingegneria Cellulare (6 CFU)
+- Dinamica dei Fluidi per l'Ingegneria Biomedica (6 CFU)
 - Misure ed Acquisizione di Dati Biomedici (6 CFU)
 - Project Management (6 CFU) (ad [accesso programmato](#perché-alcuni-esami-sono-ad-accesso-programmato-come-mi-inscrivo))
 
 ***Semestre 2***  
 - Informatica Medica (9 CFU)
-- Bioingegneria del movimento (6 CFU)
+- Human Movement Bioengineering (6 CFU)
 - Meccanica dei Materiali (9 CFU)
 - Bioelettromagnetismo (6 CFU)
 
@@ -216,16 +216,16 @@ Tutti quelli della lista seguente (escludendo quelli che sono vincolati, e quind
 ---
 
 ## Quanti esami a libera scelta posso dare?
-Puoi combinarli come ti pare, basta garantire   **15 ≤ CFU ≤ 18**
+Puoi combinarli come ti pare, basta garantire   **15 ≤ CFU ≤ 18**.
 
-Se la cosa ti lascia un po' basito, dai un'occhiata [qui](#aiuto-come-posso-strutturare-i-miei-corsi). Potrai vedere strutturati tutti i percorsi possibili con esami obbligatori e vincolati del curriculum e della propria classe. Puoi scegliere più velocemente il percorso passando per [l'indice](#indice) (trovate i percorsi in fondo) ma consigliamo comunque una lettura veloce delle [indicazioni generali](#indicazioni-generali).
+Se la cosa ti lascia un po' basitə, dai un'occhiata [qui](#aiuto-come-posso-strutturare-i-miei-corsi). Potrai vedere strutturati tutti i percorsi possibili con esami obbligatori e vincolati del curriculum e della propria classe. Puoi scegliere più velocemente il percorso passando per [l'indice](#indice) (trovi i percorsi in fondo) ma consigliamo comunque una lettura veloce delle [indicazioni generali](#indicazioni-generali).
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
 
 ## Posso dare altri esami che non siano della facoltà di Ingegneria Biomedica? Come si fa?
 
-Tecnicamente si, basta che siano dell'ambito Ingegneristico o che ci siano le propedeuticità. 
+Tecnicamente sì, basta che siano dell'ambito Ingegneristico o che ci siano le propedeuticità. 
 
 Per farlo bisogna che siano stati sottomessi e approvati dalla Segreteria del DEI (la cui referente per le Carriere è la [professoressa Saccomani Maria Pia]( https://www.dei.unipd.it/persona/0A7F06976D2D39F73AEDD095D97CF91A)) attraverso il piano di studi ad approvazione. 
 
@@ -242,13 +242,13 @@ Alcune materie a scelta libera hanno un numero limitato di posti, per favorire s
 
 Per parteciparvi bisogna sottoscrivere alla graduatoria che parte a settembre (che vale sia per il primo che per il secondo semestre, quindi se avete una materia del secondo semestre che volete seguire dovete comunque parteciparvi). 
 
-Viene ogni anno mandata la mail (circa il 16 settembre) dalla segreteria del dei con le istruzioni e modalità di accesso perciò possiamo solo consigliarvi di stare con gli occhi aperti.
+Viene ogni anno mandata la mail (circa a metà Settembre) dalla segreteria del DEI con le istruzioni e modalità di accesso, perciò possiamo solo consigliarvi di stare con gli occhi aperti.
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
 
 ## Materie fatte in carriere precedenti possono valere come crediti liberi?
-Se già approvati tramite domanda riconoscimento preventiva e già caricati a libretto; verrà poi data possibilità di aggiungerli durante la compilazione del piano di studi.
+Se già approvati tramite domanda di riconoscimento preventiva e già caricati a libretto, verrà poi data possibilità di aggiungerli durante la compilazione del piano di studi.
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
@@ -272,15 +272,15 @@ Quali esami devo dare al terzo anno?
 1. Bisogna (ovviamente) dare ***tutti quelli obbligatori***.
 2. Scelto un percorso durante il piano di studi (scelta limitata anche dalla tua [classe](#che-differenza-cè-tra-le-varie-classi)), si devono dare ***tutti quelli vincolati*** corrispettivi al percorso.  
 
-	- Per il *curriculum applicativo* il **Tirocinio** è vincolante, ma si può fare in un momento qualsiasi dell'anno e sapete che dura 2 mesi. Trovate il resto delle informazioni alla [domanda corispettiva](#ma-per-il-tirocinio-come-si-fa-quando-si-fa-quanto-dura).
+	- Per il *curriculum applicativo* il **tirocinio** è vincolante, ma si può fare in un momento qualsiasi dell'anno e sapete che dura 2 mesi. Trovate il resto delle informazioni alla [domanda corispettiva](#ma-per-il-tirocinio-come-si-fa-quando-si-fa-quanto-dura).
 	
-3. Bisogna avere la somma (in un anno) di ***15 (o 18) CFU tra gli esami liberi*** *o anche tra gli esami non appartenenti ad IBM che siano stati sottomessi e approvati dalla Segreteria del DEI attraverso il piano di studi ad approvazione* ([questa domanda](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa)) risponderà ai vostri dubbi). Quindi si possono avere:
+3. Bisogna avere la somma (in un anno) di ***15 (o 18) CFU tra gli esami liberi*** *o anche tra gli esami non appartenenti ad IBM che siano stati sottomessi e approvati dalla Segreteria del DEI attraverso il piano di studi ad approvazione* ([questa domanda](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa) risponderà ai vostri dubbi). Quindi si possono avere:
 
   - Esame da 6 crediti + Esame 9 crediti = 15 CFU
   - Esame da 9 crediti + Esame 9 crediti = 18 CFU
   - Esame da 6 crediti + Esame 6 crediti + Esame 6 crediti = 18 CFU
 
-Di seguito l'elenco degli esami obbligatori, vincolati e liberi di ogni Curriculum, Classe e Percorso. 
+Di seguito, l'elenco degli esami obbligatori, vincolati e liberi di ogni Curriculum, Classe e Percorso. 
 
 Consiglio di andare *in fondo all'indice* per cercare quello che interessa a voi. Se per caso trovate degli errori vi chiedo gentilmente di [segnalarmelo](#ho-trovato-un-errore-in-questa-guida-come-posso-contribuire).
 
@@ -303,7 +303,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
   - Elaborazione di Segnali Biomedici  (6 CFU)
 - *Liberi*:
   - Meccanica Per Bioingegneria (9 CFU)
-  - Laboratorio di Ingegneria Cellulare (6 CFU)
+  - Dinamica dei Fluidi per l'Ingegneria Biomedica (6 CFU)
   - Misure ed Acquisizione di Dati Biomedici (6 CFU)
   - Project Management (6 CFU) ([ad accesso programmato](#perché-alcuni-esami-sono-ad-accesso-programmato-come-mi-inscrivo))
   - altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
@@ -314,7 +314,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
 - *Vincolati*:
   - Informatica Medica (9 CFU)
 - *Liberi*:
-	- Bioingegneria del movimento (6 CFU)
+	- Human Movement Bioengineering (6 CFU)
 	- Meccanica dei Materiali (9 CFU)
 	- Bioelettromagnetismo (6 CFU)
   	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
@@ -333,7 +333,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
   - Biomeccanica (9 CFU)
 
 - *Vincolati*:
-	- Laboratorio di Ingegneria Cellulare (6 CFU)
+	- Dinamica dei Fluidi per l'Ingegneria Biomedica (6 CFU)
 
 - *Liberi*:
 	- Elaborazione di Segnali Biomedici (6 CFU)
@@ -351,7 +351,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
   
 - *Liberi*:
 	- Informatica Medica (9 CFU)
-	- Bioingegneria del movimento (6 CFU)
+	- Human Movement Bioengineering (6 CFU)
 	- Bioelettromagnetismo (6 CFU)
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
 
@@ -373,7 +373,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
 
 - *Liberi*:
 	- Elaborazione di Segnali Biomedici (6 CFU)
-	- Laboratorio di Ingegneria Cellulare (6 CFU)
+	- Dinamica dei Fluidi per l'Ingegneria Biomedica (6 CFU)
 	- Misure ed Acquisizione di Dati Biomedici (6 CFU)
 	- Project Management (6 CFU) ([ad accesso programmato](#perché-alcuni-esami-sono-ad-accesso-programmato-come-mi-inscrivo))
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
@@ -384,7 +384,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
   - Tecnologia e strumentazione biomedica (9 CFU)
 
 - *Vincolati*:
-	- Bioingegneria del movimento (6 CFU)
+	- Human Movement Bioengineering (6 CFU)
   
 - *Liberi*:
 	- Informatica Medica (9 CFU)
@@ -413,7 +413,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
 - *Liberi*:
 	- Elaborazione di Segnali Biomedici (6 CFU)
 	- Meccanica Per Bioingegneria (9 CFU)
-	- Laboratorio di Ingegneria Cellulare (6 CFU)
+	- Dinamica dei Fluidi per l'Ingegneria Biomedica (6 CFU)
 	- Misure ed Acquisizione di Dati Biomedici (6 CFU)
 	- Project Management (6 CFU) ([ad accesso programmato](#perché-alcuni-esami-sono-ad-accesso-programmato-come-mi-inscrivo))
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
@@ -427,7 +427,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
 	- Informatica Medica (9 CFU)
   
 - *Liberi*:
-	- Bioingegneria del movimento (6 CFU)
+	- Human Movement Bioengineering (6 CFU)
 	- Meccanica dei Materiali (9 CFU)
 	- Bioelettromagnetismo (6 CFU)
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
@@ -452,7 +452,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
 - *Liberi*:
 	- Elaborazione di Segnali Biomedici (6 CFU)
 	- Meccanica Per Bioingegneria (9 CFU)
-	- Laboratorio di Ingegneria Cellulare (6 CFU)
+	- Dinamica dei Fluidi per l'Ingegneria Biomedica (6 CFU)
 	- Misure ed Acquisizione di Dati Biomedici (6 CFU)
 	- Project Management (6 CFU) ([ad accesso programmato](#perché-alcuni-esami-sono-ad-accesso-programmato-come-mi-inscrivo))
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
@@ -467,7 +467,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
   
 - *Liberi*:
 	- Informatica Medica (9 CFU)
-	- Bioingegneria del movimento (6 CFU)
+	- Human Movement Bioengineering (6 CFU)
 	- Bioelettromagnetismo (6 CFU)
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
   
@@ -494,7 +494,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
 
 - *Liberi*:
 	- Elaborazione di Segnali Biomedici (6 CFU)
-	- Laboratorio di Ingegneria Cellulare (6 CFU)
+	- Dinamica dei Fluidi per l'Ingegneria Biomedica (6 CFU)
 	- Misure ed Acquisizione di Dati Biomedici (6 CFU)
 	- Project Management (6 CFU) ([ad accesso programmato](#perché-alcuni-esami-sono-ad-accesso-programmato-come-mi-inscrivo))
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
@@ -506,7 +506,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
 
 - *Liberi*:
 	- Informatica Medica (9 CFU)
-	- Bioingegneria del movimento (6 CFU)
+	- Human Movement Bioengineering (6 CFU)
 	- Meccanica dei Materiali (9 CFU)
 	- Bioelettromagnetismo (6 CFU)
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
