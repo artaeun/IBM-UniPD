@@ -51,7 +51,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 - *[💻 Elementi di Informatica e Programmazione](/Dati/Studio/II_anno/EIP/README.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
 <!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III_anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
-33
+
 ---
 
 ## Discord 
