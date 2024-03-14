@@ -24,7 +24,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 ## Link utili
 
-- ***[📅 Calendario degli appelli](https://www.dei.unipd.it/esami/month.php?year=2023&month=6&day=13&area=3)*** - per vedere data, ora e aula degli appelli, per tutti gli anni di Ingegneria Biomedica.
+- ***[📅 Calendario degli appelli](https://www.dei.unipd.it/esami)*** - per vedere data, ora e aula degli appelli, per tutti gli anni di Ingegneria Biomedica.
 - ***[👍 Punteggi Professori - Valutazione della didattica](https://opinionistudenti.didattica.unipd.it/it/public/opinione/2022/IN/IN2374/PD)*** - utili per avere un'idea su come insegna il/la docente, prima di decidere di seguire un suo corso. **In fondo alla pagina trovate i vari insegnamenti**.
 - ***[📆 Calendario Accademico](https://www.unipd.it/calendario-scadenze)*** - principali scadenze, vacanze, feste, date inizio sessioni, ecc.
 [Orari lezioni](https://www.unipd.it/orario-lezioni)
