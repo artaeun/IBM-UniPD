@@ -38,13 +38,13 @@
 - [Orari Lezioni Unipd, date appelli d’esame](http://tiny.cc/orariUnipd)
 - [Elenco poli Bibliotecari](http://bibliotecadigitale.cab.unipd.it/biblioteche/elenco-delle-biblioteche)
 - [Elenco aule studio](https://www.unipd.it/aule-studio)
-- [Pagina dei tirocini per il terzo anno](http://tiny.cc/stageTirociniUnipd)
+- [Pagina dei tirocini per il terzo anno](https://www.ingegneria.unipd.it/studenti-iscritti/stage-e-tirocini)
 
 --- 
 
 ## 🎓📲 Le App di UniPD
 
-- ***MyUniPD*** - App ufficiale di UniPD per interfacciarvi con UniWeb. Permette anche di registrarvi velocemente agli appelli, vedere il vostro libretto, ecc.
+- ***MyUniPD*** - App ufficiale di UniPD per interfacciarsi con UniWeb. Permette anche di registrarvi velocemente agli appelli, vedere il vostro libretto, ecc.
  
   - [App Android](https://play.google.com/store/apps/details?id=it.unipd.studenti4.test) 
   - [App iPhone](https://apps.apple.com/it/app/myunipd/id1478733708)
@@ -53,7 +53,7 @@
   - [App Android](https://play.google.com/store/apps/details?id=it.easystaff.unipd) 
   - [App iPhone](https://apps.apple.com/it/app/orariunipd/id1436137050)
 
-- ***moodle*** - App ufficiale di moodle. Quest’ultima permette di scaricare con un click sul proprio dispositivo tutte le slide e i file che i professori hanno caricato(modificato). 
+- ***Moodle*** - App ufficiale di moodle. Quest’ultima permette di scaricare con un click sul proprio dispositivo tutte le slide e i file che i professori hanno caricato(modificato). 
 
   - [App Android](https://play.google.com/store/apps/details?id=com.moodle.moodlemobile)
   - [App iPhone](https://apps.apple.com/it/app/moodle/id633359593)
@@ -99,13 +99,3 @@
   - Sito: https://www.unipd.it/stage
   - Email: stage@unipd.it
   - Tel: [049 827 3075](tel:0498273075)
-
----
-
-### Rappresentante degli Studenti di IBM
-
-- ***Andrea Pasinato***:
-    - Discord: @Andrea Pappe Pasinato
-    - WhatsApp: [+393341804691](tel:3341804691)
-    - Telegram: @Pappe91
-    - Email: andrea.pasinato@studenti.unipd.it
