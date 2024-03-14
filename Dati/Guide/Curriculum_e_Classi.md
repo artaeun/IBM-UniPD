@@ -58,11 +58,6 @@ Il curriculum lo trovi alla voce **Percorso**.
 ![status studente](/Dati/.img/status_studente.png)
 
 
-
-<p text-align="center"><img align="center" src="/Dati/.img/status_studente.png"></p>
-
-
-
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
 
