@@ -55,6 +55,9 @@ Trovi tutto qui: https://didattica.unipd.it/off/2018/LT/IN/IN2374
 Se vai su Uniweb, in "Status Studente", vedrai che sei impostato in una classe di laurea (L8 o L9). Facendo richiesta all’Ufficio Segreteria Carriere si può passare da una classe all’altra.
 Il curriculum lo trovi alla voce **Percorso**.
 ![status studente](/Dati/.img/status_studente.png)
+
+
+
 <img src="/Dati/.img/status_studente.png" align="center">
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
