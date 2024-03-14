@@ -59,9 +59,7 @@ Il curriculum lo trovi alla voce **Percorso**.
 
 
 
-<p text-align="center">
-    <img src="/Dati/.img/status_studente.png">
-</p>
+<p text-align="center"><img align="center" src="/Dati/.img/status_studente.png"></p>
 
 
 
