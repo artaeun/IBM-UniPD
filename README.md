@@ -77,21 +77,22 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 Per contattarli, consiglio o una ricerca su google includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
 
-| COGNOME       | NOME            |
-|---------------|-----------------|
-| AURELI        | GIADA           |
-| CASONATO      | ALVISE          |
-| CERON         | PIETRO          |
-| DI BERARDINO  | EMANUELE        |
-| FOLLADOR      | LEONARDO        |
-| GRANIERI      | MARIA ELISABETTA|
-| MEREL         | CHARLOTTE       |
-| MINGONI       | STEFANO         |
-| NIDOLA        | MICHELA         |
-| PAPAPIETRO    | MATTIA          |
-| PIOVAN        | LUDOVICA        |
-| SCHIAVI       | ARIANNA         |
-| SPIZZUOCO     | MARTINA         |
+| NOME            | COGNOME       |
+|-----------------|---------------|
+| GIADA           | AURELI        |
+| ALVISE          | CASONATO      |
+| PIETRO          | CERON         |
+| EMANUELE        | DI BERARDINO  |
+| LEONARDO        | FOLLADOR      |
+| MARIA ELISABETTA| GRANIERI      |
+| CHARLOTTE       | MEREL         |
+| STEFANO         | MINGONI       |
+| MICHELA         | NIDOLA        |
+| MATTIA          | PAPAPIETRO    |
+| LUDOVICA        | PIOVAN        |
+| ARIANNA         | SCHIAVI       |
+| MARTINA         | SPIZZUOCO     |
+
 
 
 
