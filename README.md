@@ -77,7 +77,6 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 Per contattarli, consiglio o una ricerca su google includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
 
-- 
 | COGNOME       | NOME            |
 |---------------|-----------------|
 | AURELI        | GIADA           |
