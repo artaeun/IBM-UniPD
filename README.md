@@ -40,7 +40,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - *[🍂 3° Anno - Come fare domanda di laurea](https://www.unipd.it/laurearsi)*
 
 
-- *[🍂 Lista rappresentanti (sotto "Elenco degli studenti eletti" del biennio attuale)](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio)*
+- *[👩‍🎓 Lista rappresentanti (sotto "Elenco degli studenti eletti" del biennio attuale)](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio)*
 
 
 ##  Salute Convenzionata UniPD
