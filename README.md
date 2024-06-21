@@ -40,7 +40,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - *[🍂 3° Anno - Come fare domanda di laurea](https://www.unipd.it/laurearsi)*
 
 
-- *[👩‍🎓 Lista rappresentanti (sotto "Elenco degli studenti eletti" del biennio attuale)](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio)*
+
 
 
 ##  Salute Convenzionata UniPD
@@ -73,6 +73,11 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 ---
 ## Lista rappresentanti Biomedica/Bioingegneria 2022-2024
 
+- *[👩‍🎓 Lista rappresentanti](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio)* - Guardate sotto il biennio attuale, e nel file del "Elenco degli studenti eletti".
+
+Per contattarli, consiglio o una ricerca su google includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
+
+- 
 | COGNOME       | NOME            |
 |---------------|-----------------|
 | AURELI        | GIADA           |
