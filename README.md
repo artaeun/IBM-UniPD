@@ -71,6 +71,25 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - *[Guida per il principiante (ufficiale)](https://support.discord.com/hc/it/articles/360045138571)*
 
 ---
+## Lista rappresentanti Biomedica/Bioingegneria 2022-2024
+
+| COGNOME       | NOME            |
+|---------------|-----------------|
+| AURELI        | GIADA           |
+| CASONATO      | ALVISE          |
+| CERON         | PIETRO          |
+| DI BERARDINO  | EMANUELE        |
+| FOLLADOR      | LEONARDO        |
+| GRANIERI      | MARIA ELISABETTA|
+| MEREL         | CHARLOTTE       |
+| MINGONI       | STEFANO         |
+| NIDOLA        | MICHELA         |
+| PAPAPIETRO    | MATTIA          |
+| PIOVAN        | LUDOVICA        |
+| SCHIAVI       | ARIANNA         |
+| SPIZZUOCO     | MARTINA         |
+
+
 
 ## Credits
 
