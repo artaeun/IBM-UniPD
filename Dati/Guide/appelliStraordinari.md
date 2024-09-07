@@ -1,9 +1,9 @@
 # Posso fare richiesta per un appello straordinario?
 
 I **prerequisiti** del CCS per poterne fare richiesta per un appello straordinario sono i seguenti:
- - L’esame per cui si vuole fare richiesta deve riguardare **corsi del terzo anno**
- - Manca **SOLO** questo esame
- - Si è già **in lista per l’esame di laurea** (quindi almeno titolo della tesi e relatore scelto; preferibilmente con tesi praticamente pronta)
+ -  L’esame per cui si vuole fare richiesta deve riguardare **corsi del terzo anno**
+ -  Manca **SOLO** questo esame
+ -  Si è già **in lista per l’esame di laurea** (quindi almeno titolo della tesi e relatore scelto; preferibilmente con tesi praticamente pronta)
 
 
 _**Questo però non garantisce l'appello straordinario.**_ I professori si riservano il diritto di rifiutare la richiesta, o di concederla solo se c'è un numero minimo di studenti che ne hanno bisogno. 
