@@ -39,7 +39,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - *[🍂 3° Anno - Cose da sapere per **Laurearsi**](https://www.spgi.unipd.it/didattica/guida-rapida-studenti/cose-da-sapere-laurearsi)* - *come scrivo la mia tesi?*, *Quando mi laureo?*, *Come si calcola il voto finale?*
 - *[🍂 3° Anno - Come fare domanda di laurea](https://www.unipd.it/laurearsi)*
 
-- *[🖋 3° Anno - Appelli straordinari](/Dati/Guide/appelliStraordinari.md)*
+- *[📝 3° Anno - Appelli straordinari](/Dati/Guide/appelliStraordinari.md)*
 
 
 
