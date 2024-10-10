@@ -39,7 +39,11 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - *[🍂 3° Anno - Cose da sapere per **Laurearsi**](https://www.spgi.unipd.it/didattica/guida-rapida-studenti/cose-da-sapere-laurearsi)* - *come scrivo la mia tesi?*, *Quando mi laureo?*, *Come si calcola il voto finale?*
 - *[🍂 3° Anno - Come fare domanda di laurea](https://www.unipd.it/laurearsi)*
 
-## Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
+##  Salute Convenzionata UniPD
+- [💊 Assistenza sanitaria e psicologica gratuita per studenti](https://www.unipd.it/assistenza-sanitaria)
+- [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi dell'umore/depressione documentati, anche in assenza di certificazioni)
+
+# Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
 <!--- *[Teoria dei circuiti] --->
 <!--- *[💻 EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II_anno/EIP/README.md)*  *[🚧🌳 2° Anno 🚧]()*-->
 <!--- *[Fisica 2] --->
@@ -53,17 +57,6 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 <!--- *[MADB - Misure e Acquisizione di Dati Biomedici] --->
 <!--- *[TSB - Tecnologia e Strumentazione Biomedica] --->
 <!--- *[InfoMed - Informatica Medica] --->
-
-
-
-##  Salute Convenzionata UniPD
-- [💊 Assistenza sanitaria e psicologica gratuita per studenti](https://www.unipd.it/assistenza-sanitaria)
-- [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi dell'umore/depressione documentati, anche in assenza di certificazioni)
-
-## Materiale di Studio (libri, appunti, dispense, prove d'esame, quiz, ...)
-
-- *[💻 Elementi di Informatica e Programmazione](/Dati/Studio/II_anno/EIP/README.md)* <!-- - *[🚧🌳 2° Anno 🚧]()*-->
-<!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III_anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
 
 ---
 
