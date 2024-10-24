@@ -79,6 +79,30 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - *[Guida per il principiante (ufficiale)](https://support.discord.com/hc/it/articles/360045138571)*
 
 ---
+## Lista rappresentanti Biomedica/Bioingegneria 2022-2024
+
+- *[👩‍🎓 Lista rappresentanti](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio)* - Guardate sotto il biennio attuale, e nel file del "Elenco degli studenti eletti".
+
+Per contattarli, consiglio o una ricerca su google includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
+
+| NOME            | COGNOME       |
+|-----------------|---------------|
+| GIADA           | AURELI        |
+| ALVISE          | CASONATO      |
+| PIETRO          | CERON         |
+| EMANUELE        | DI BERARDINO  |
+| LEONARDO        | FOLLADOR      |
+| MARIA ELISABETTA| GRANIERI      |
+| CHARLOTTE       | MEREL         |
+| STEFANO         | MINGONI       |
+| MICHELA         | NIDOLA        |
+| MATTIA          | PAPAPIETRO    |
+| LUDOVICA        | PIOVAN        |
+| ARIANNA         | SCHIAVI       |
+| MARTINA         | SPIZZUOCO     |
+
+
+
 
 ## Credits
 
