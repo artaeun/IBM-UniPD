@@ -1,4 +1,4 @@
-# ***Ingegneria Biomedica** - Università di Padova*
+# ***Ingegneria Biomedica** - Università di Padova* 
 
 Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2017 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
 
@@ -61,27 +61,24 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
   - [TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III%20Anno/TSB)
 ---
 
-## Discord 
-
-## 📱 Link server
+## 📱Discord 
+### Link server
 - **_Ingegneria Biomedica_** : [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
 - **_Bioingegneria_**: [https://discord.com/invite/GHa9tQe](https://discord.com/invite/GHa9tQe)
 
 - **_Tutti gli altri server / Hub UniPD_**: [https://discord.gg/dtaThyfrDA](https://discord.gg/dtaThyfrDA)
 
-
-
-## Regole
+### Regole
 - *[Regole del server Discord](/Dati/Altro/regole.md)*
 - ***[Guida all'utilizzo di Discord](http://tiny.cc/guidaDiscord)*** (da leggere da PC o Tablet)
 - *[Guida per il principiante (ufficiale)](https://support.discord.com/hc/it/articles/360045138571)*
 
 ---
-## Lista rappresentanti Biomedica/Bioingegneria 2022-2024
+## 👩‍🎓 Lista rappresentanti Biomedica/Bioingegneria 2022-2024
 
-- *[👩‍🎓 Lista rappresentanti](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio)* - Guardate sotto il biennio attuale, e nel file del "Elenco degli studenti eletti".
+- [Lista rappresentantə](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio) - Guardate sotto il biennio attuale, e nel file dell'"Elenco degli studenti eletti".
 
-Per contattarli, consiglio o una ricerca su google includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
+Per contattarlə, consiglio o una ricerca su Internet includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
 
 | NOME            | COGNOME       |
 |-----------------|---------------|
