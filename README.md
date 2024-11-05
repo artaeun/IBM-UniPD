@@ -1,4 +1,4 @@
-# ***Ingegneria Biomedica** - Università di Padova*
+# ***Ingegneria Biomedica** - Università di Padova* 
 
 Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2017 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
 
@@ -25,8 +25,8 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 ## Link utili
 
 - ***[📅 Calendario degli appelli](https://www.dei.unipd.it/esami)*** - per vedere data, ora e aula degli appelli, per tutti gli anni di Ingegneria Biomedica.
-- ***[👍 Punteggi Professori - Valutazione della didattica](https://opinionistudenti.didattica.unipd.it/it/public/opinione/2022/IN/IN2374/PD)*** - utili per avere un'idea su come insegna il/la docente, prima di decidere di seguire un suo corso. **In fondo alla pagina trovate i vari insegnamenti**.
-- ***[📆 Calendario Accademico](https://www.unipd.it/calendario-scadenze)*** - principali scadenze, vacanze, feste, date inizio sessioni, ecc.
+- ***[👍 Punteggi Professori - Valutazione della didattica](https://opinionistudenti.didattica.unipd.it/it/public/opinione/2023/IN/IN2374/PD)*** - utili per avere un'idea su come insegna il/la docente, prima di decidere di seguire un suo corso. **In fondo alla pagina trovate i vari insegnamenti**.
+- ***[📆 Calendario Accademico](https://www.unipd.it/scadenze-calendario-accademico)*** - principali scadenze, vacanze, feste, date inizio sessioni, ecc.
 [Orari lezioni](https://agendastudentiunipd.easystaff.it/)
 
 ## Guide e informazioni
@@ -45,12 +45,12 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 # Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
 - 2° Anno
-  - <!--- *[Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC) --->
+  - [Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC)
   - <!--- *[💻 EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)*  *[🚧🌳 2° Anno 🚧]()*-->
   - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2)
   - <!--- *[FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP) --->
   - [Biomateriali](/Dati/Studio/II%20Anno/Biomateriali)
-  - <!--- *[S&S - Segnali e Sistemi] --->
+  - [S&S - Segnali e Sistemi](/Dati/Studio/II%20Anno/S&S)
   - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II%20Anno/ISB)
 - 3° Anno
   - <!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III%20Anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
@@ -61,27 +61,24 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
   - [TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III%20Anno/TSB)
 ---
 
-## Discord 
-
-## 📱 Link server
+## 📱Discord 
+### Link server
 - **_Ingegneria Biomedica_** : [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
 - **_Bioingegneria_**: [https://discord.com/invite/GHa9tQe](https://discord.com/invite/GHa9tQe)
 
 - **_Tutti gli altri server / Hub UniPD_**: [https://discord.gg/dtaThyfrDA](https://discord.gg/dtaThyfrDA)
 
-
-
-## Regole
+### Regole
 - *[Regole del server Discord](/Dati/Altro/regole.md)*
 - ***[Guida all'utilizzo di Discord](http://tiny.cc/guidaDiscord)*** (da leggere da PC o Tablet)
 - *[Guida per il principiante (ufficiale)](https://support.discord.com/hc/it/articles/360045138571)*
 
 ---
-## Lista rappresentanti Biomedica/Bioingegneria 2022-2024
+## 👩‍🎓 Lista rappresentanti Biomedica/Bioingegneria 2022-2024
 
-- *[👩‍🎓 Lista rappresentanti](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio)* - Guardate sotto il biennio attuale, e nel file del "Elenco degli studenti eletti".
+- [Lista rappresentantə](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio) - Guardate sotto il biennio attuale, e nel file dell'"Elenco degli studenti eletti".
 
-Per contattarli, consiglio o una ricerca su google includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
+Per contattarlə, consiglio o una ricerca su Internet includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
 
 | NOME            | COGNOME       |
 |-----------------|---------------|
