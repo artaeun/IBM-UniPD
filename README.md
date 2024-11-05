@@ -50,7 +50,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
   - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2)
   - <!--- *[FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP) --->
   - [Biomateriali](/Dati/Studio/II%20Anno/Biomateriali)
-  - <!--- *[S&S - Segnali e Sistemi] --->
+  - [S&S - Segnali e Sistemi](/Dati/Studio/II%20Anno/S&S)
   - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II%20Anno/ISB)
 - 3° Anno
   - <!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III%20Anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
