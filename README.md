@@ -44,22 +44,21 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi dell'umore/depressione documentati, anche in assenza di certificazioni)
 
 # Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
-- 2° Anno:
-   <!--- *[Teoria dei circuiti](/Dati/Studio/II Anno/TDC) --->
-   - *[🚧💻 EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II Anno/EIP/README.md)*
-   <!--- *[Fisica 2](/Dati/Studio/II Anno/Fisica2) --->
-   <!--- *[FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II Anno/FAMP) --->
-  - [Biomateriali](/Dati/Studio/II Anno/Biomateriali)
-   <!--- *[S&S - Segnali e Sistemi] --->
-  - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II Anno/ISB)
-- 3° Anno:
-   <!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III_anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
-   <!--- *[FDA - Fondamenti di Automatica](/Dati/Studio/III Anno/FDA) --->
-   <!--- *[ESB - Elaborazione di Segnali Biomedici](/Dati/Studio/III Anno/ESB) --->
-   <!--- *[MADB - Misure e Acquisizione di Dati Biomedici](/Dati/Studio/III Anno/MADB) --->
-   <!--- *[TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III Anno/TSB) --->
-   <!--- *[InfoMed - Informatica Medica](/Dati/Studio/III Anno/InfoMed) --->
-
+- 2° Anno
+  - <!--- *[Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC) --->
+  - <!--- *[💻 EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)*  *[🚧🌳 2° Anno 🚧]()*-->
+  - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2)
+  - <!--- *[FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP) --->
+  - [Biomateriali](/Dati/Studio/II%20Anno/Biomateriali)
+  - <!--- *[S&S - Segnali e Sistemi] --->
+  - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II%20Anno/ISB)
+- 3° Anno
+  - <!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III%20Anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
+  - <!--- *[ESB - Elaborazione di Segnali Biomedici](/Dati/Studio/III%20Anno/ESB) --->
+  - <!--- *[FDA - Fondamenti di Automatica](/Dati/Studio/III%20Anno/FDA) --->
+  - [MADB - Misure e Acquisizione di Dati Biomedici](/Dati/Studio/III%20Anno/MADB)
+  - [InfoMed - Informatica Medica](/Dati/Studio/III%20Anno/InfoMed)
+  - [TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III%20Anno/TSB)
 ---
 
 ## Discord 
@@ -69,7 +68,6 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - **_Bioingegneria_**: [https://discord.com/invite/GHa9tQe](https://discord.com/invite/GHa9tQe)
 
 - **_Tutti gli altri server / Hub UniPD_**: [https://discord.gg/dtaThyfrDA](https://discord.gg/dtaThyfrDA)
-
 
 
 
