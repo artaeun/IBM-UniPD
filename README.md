@@ -45,7 +45,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 # Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
 - 2° Anno
-  - <!--- *[Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC) --->
+  - [Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC)
   - <!--- *[💻 EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)*  *[🚧🌳 2° Anno 🚧]()*-->
   - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2)
   - <!--- *[FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP) --->
