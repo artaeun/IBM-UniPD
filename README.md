@@ -51,7 +51,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
   - [Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC)
   - <!--- *[💻 EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)*  *[🚧🌳 2° Anno 🚧]()*-->
   - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2)
-  - <!--- *[FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP) --->
+  - [FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP)
   - [Biomateriali](/Dati/Studio/II%20Anno/Biomateriali)
   - [S&S - Segnali e Sistemi](/Dati/Studio/II%20Anno/S&S)
   - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II%20Anno/ISB)
