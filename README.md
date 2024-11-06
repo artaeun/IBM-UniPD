@@ -1,4 +1,4 @@
-# ***Ingegneria Biomedica** - Università di Padova* 
+# **Ingegneria Biomedica** - Università di Padova 
 <!--- <p align="right">
   <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
   </p> --->
@@ -21,18 +21,15 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 
 
-# *Informazioni e guide*
-
-
-
-## Link utili
+## *Informazioni e guide*
+### Link utili
 
 - ***[📅 Calendario degli appelli](https://www.dei.unipd.it/esami)*** - per vedere data, ora e aula degli appelli, per tutti gli anni di Ingegneria Biomedica.
 - ***[👍 Punteggi Professori - Valutazione della didattica](https://opinionistudenti.didattica.unipd.it/it/public/opinione/2023/IN/IN2374/PD)*** - utili per avere un'idea su come insegna il/la docente, prima di decidere di seguire un suo corso. **In fondo alla pagina trovate i vari insegnamenti**.
 - ***[📆 Calendario Accademico](https://www.unipd.it/scadenze-calendario-accademico)*** - principali scadenze, vacanze, feste, date inizio sessioni, ecc.
 [Orari lezioni](https://agendastudentiunipd.easystaff.it/)
 
-## Guide e informazioni
+### Guide e informazioni
 
 - *[🌱 1° Anno - 🎓 Il Vademecum di UniPd ](https://www.spgi.unipd.it/didattica/guida-rapida-studenti)- fa da guida rapida per UniPd* 
 - *[🌱 1° Anno - 📕 La “Contro Guida” di "Studenti Per"](http://controguida.udupadova.it/)* - dove studiare, cosa fare a Padova nel tempo libero, ecc.
@@ -42,11 +39,11 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - *[🍂 3° Anno - Cose da sapere per **Laurearsi**](https://stem.elearning.unipd.it/mod/book/view.php?id=234&chapterid=46)* - *come scrivo la mia tesi?*, *Quando mi laureo?*, *Come si calcola il voto finale?*
 - *[🍂 3° Anno - Come fare domanda di laurea](https://www.unipd.it/laurearsi)*
 
-##  Salute Convenzionata UniPD
+###  Salute Convenzionata UniPD
 - [💊 Assistenza sanitaria e psicologica gratuita per studenti](https://www.unipd.it/assistenza-sanitaria)
 - [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi dell'umore/depressione documentati, anche in assenza di certificazioni)
 
-# Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
+## Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
 NB: si consiglia di aprire le cartelle in formato .zip da pc.
 - 2° Anno
   - [Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC)
@@ -84,6 +81,8 @@ NB: si consiglia di aprire le cartelle in formato .zip da pc.
 
 Per contattarlə, consiglio o una ricerca su Internet includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
 
+<div align="center">
+  
 | NOME            | COGNOME       |
 |-----------------|---------------|
 | GIADA           | AURELI        |
@@ -100,6 +99,33 @@ Per contattarlə, consiglio o una ricerca su Internet includendo la parola "UniP
 | ARIANNA         | SCHIAVI       |
 | MARTINA         | SPIZZUOCO     |
 
+</div>
+
+<div align="center">
+  <table border="1" cellspacing="0" cellpadding="8" style="text-align: left;">
+    <thead>
+      <tr>
+        <th style="text-align: left;">NOME</th>
+        <th style="text-align: left;">COGNOME</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>GIADA</td><td>AURELI</td></tr>
+      <tr><td>ALVISE</td><td>CASONATO</td></tr>
+      <tr><td>PIETRO</td><td>CERON</td></tr>
+      <tr><td>EMANUELE</td><td>DI BERARDINO</td></tr>
+      <tr><td>LEONARDO</td><td>FOLLADOR</td></tr>
+      <tr><td>MARIA ELISABETTA</td><td>GRANIERI</td></tr>
+      <tr><td>CHARLOTTE</td><td>MEREL</td></tr>
+      <tr><td>STEFANO</td><td>MINGONI</td></tr>
+      <tr><td>MICHELA</td><td>NIDOLA</td></tr>
+      <tr><td>MATTIA</td><td>PAPAPIETRO</td></tr>
+      <tr><td>LUDOVICA</td><td>PIOVAN</td></tr>
+      <tr><td>ARIANNA</td><td>SCHIAVI</td></tr>
+      <tr><td>MARTINA</td><td>SPIZZUOCO</td></tr>
+    </tbody>
+  </table>
+</div>
 
 
 
