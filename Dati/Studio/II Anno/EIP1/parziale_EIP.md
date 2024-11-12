@@ -14,7 +14,7 @@ Data l'espressione (1 + 2**3 / 4 * 5) in quale ordine vengono eseguite le operaz
 2. nessuna delle altre risposte è corretta
 3. 3/4=0.75; 0.75*5=3.75; 2^3.75=13.45; 1+13.45=14.45
 4. 1+2=3; 3* 3=9; 9/4=2.25; 2.25*5=11.25
-5. 2^3=8; 8/4=2; 2*5=0; 1+10=11 °
+5.2^3=8; 8/4=2; 2*5=0; 1+10=11 °
 
 ------------
 
@@ -24,7 +24,7 @@ Quale delle seguenti affermazioni è corretta: Scegli un'alternativa:
 2. la cache è un tipo particolare di ROM ad accesso veloce
 3. la cache è una parte del CPU 
 4. nessuna delle altre risposte è corretta
-5. la cache è un indirizzo di memoria RAM
+5.la cache è un indirizzo di memoria RAM
 
 ------------
 
@@ -32,7 +32,7 @@ Quale delle seguenti affermazioni è corretta: Scegli un'alternativa:
 Si dice algoritmo la descrizione di un metodo di soluzione di un problema che: Scegli un'alternativa: 
 1. nessuna delle altre risposte è corretta
 2. codifichi una serie di istruzioni in Python
-3. riceva in ingresso un programma specifico ad alto livello e restituisca lo stesso programma in linguaggio macchina
+3.riceva in ingresso un programma specifico ad alto livello e restituisca lo stesso programma in linguaggio macchina
 4. sia eseguibile, sia priva di ambiguità e arrivi a conclusione in un tempo finito °
 5. codifichi una serie di istruzioni sequenziali eseguibili da una macchina automatica
 

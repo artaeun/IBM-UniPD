@@ -25,8 +25,9 @@ programma INFORMATICA
             - funzioni importanti:
                 - ```>>> len(stringa)```  = nr caratteri in stringa
                 - ```>>> .upper() / .lower()``` = tutti i caratteri della stringa maiuscoli / minuscoli
+                - ```>>> .isupper() / .islower()``` = ritorna True o False se la stringa è maiuscola / minuscolo
                 - ```>>> .find(sottostringaDaCercare)``` = cerca nella stringa la sottostringa, restituisce l'indice corrispondente, altrimenti restituisce -1. E' case sensitive
-                - ```>>> .replace(sottStrinDaSostituire, sottStrinConCuiSostituire)```= search & replace
+                - ```>>> .replace(sottStrinDaSostituire, sottStrinConCuiSostituire)```= cerca stringa & sostituisce
                 - ```>>> .lstrip() / .rstrip() / .strip()``` = rimuove spazi a sx/dx/sia a sx che dx
                 - ```>>> .startswith(sottostringa)``` = restituisceBoolean se la stringa da analizzare inizia con la sottostringa
                 - ```>>> print("%.2f" % price)``` = restituisce il valore di price con 2 cifre decimali.
@@ -45,10 +46,11 @@ programma INFORMATICA
             - ```trunc``` - tronca il valore in intero
             - ```exp``` - e^x
             - ```log(x)``` - logaritmo natural
+            - ```round(x)``` - arrotonda
 
         - modulo random -
             - ``` random()``` - nr casuale tra 0 e 1
-            - ```randint(a,b)``` - nr casuale tra a e b
+            - ``` randint(a,b)``` - nr casuale tra a e b
 
         - espressioni regolari (regex):
             ```python
@@ -318,7 +320,9 @@ programma INFORMATICA
             #cercare con default:
                 >>> dizionarioEsempio.get(chiaveRicerca, valoreDefault)
                 # valoreDefault viene restituito se la chiave non viene trovata #
-                # utile per contare in modo furbo le ripetizioni di un determinato valore in una lista e salvarlo in un dict #
+                # utile per contare in modo furbo le ripetizioni di un determinato 
+                #valore in una lista e salvarlo in un dict #
+            
             #iterare su due valori al contempo:
                 >>> jjj = {...}
                     for (a,b) in jjj.items():
@@ -551,10 +555,15 @@ programma INFORMATICA
                 # 4 accessi a liste, 4 operazioni
             ```
     - prestazioni algoritmi di ordinamento:
-        - selezione = O(n^2)
-        - inserimento = O(n^2) nel caso peggiore, O(n) nel migliore
-        - fusione = O(n log n)
-
+        - selezione => migliore,medio e peggiore: O(n^2)
+        - inserimento = caso migliore: O(n); caso peggiore: O(n^2)
+        - fusione = migliore,medio e peggiore:O(n log n)
+    - prestazione algoritmi ricerca:
+        - sequenziale/lineare => senza aver ordinato la lista : O(n);
+        - n ricerche lineari di una lista non ordinata in precedenza => O(n^2)
+        - ricerca binaria => = O(log(n))
+        - ricerca binaria consecutiva con ordinamento della lista in precedenza => O(n log(n))
+        
 
 
 
