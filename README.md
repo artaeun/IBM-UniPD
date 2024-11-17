@@ -45,18 +45,24 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 
 ## Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
 NB: si consiglia di aprire le cartelle in formato .zip da pc.
+- 1° Anno
+  - <!--- [Analisi 1] --->
+  - <!--- [Fondamenti di Chimica] --->
+  - <!--- [Fisica 1] --->
+  - <!--- [Algebra Lineare e Geometria] --->
+  - <!--- [BFA - Biologia, Fisiologia e Anatomia] --->
 - 2° Anno
   - [Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC)
-  - <!--- *[💻 EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)*  *[🚧🌳 2° Anno 🚧]()*-->
+  - [EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)
   - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2)
   - [FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP)
   - [Biomateriali](/Dati/Studio/II%20Anno/Biomateriali)
   - [S&S - Segnali e Sistemi](/Dati/Studio/II%20Anno/S&S)
   - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II%20Anno/ISB)
 - 3° Anno
-  - <!--- *[Biomeccanica - chat domande da discord](Dati/Studio/III%20Anno/Biomeccanica/1e2-biomeccanica-domande.html)*-->
-  - <!--- *[ESB - Elaborazione di Segnali Biomedici](/Dati/Studio/III%20Anno/ESB) --->
-  - <!--- *[FDA - Fondamenti di Automatica](/Dati/Studio/III%20Anno/FDA) --->
+  - [Biomeccanica](Dati/Studio/III%20Anno/Biomeccanica)
+  - [ESB - Elaborazione di Segnali Biomedici](/Dati/Studio/III%20Anno/ESB)
+  - [FDA - Fondamenti di Automatica](/Dati/Studio/III%20Anno/FDA)
   - [MADB - Misure e Acquisizione di Dati Biomedici](/Dati/Studio/III%20Anno/MADB)
   - [InfoMed - Informatica Medica](/Dati/Studio/III%20Anno/InfoMed)
   - [TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III%20Anno/TSB)
@@ -77,7 +83,7 @@ NB: si consiglia di aprire le cartelle in formato .zip da pc.
 ---
 ## 👩‍🎓 Lista rappresentanti Biomedica/Bioingegneria 2022-2024
 
-- [Lista rappresentantə](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio) - Guardate sotto il biennio attuale, e nel file dell'"Elenco degli studenti eletti".
+[Lista rappresentantə](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio) - Guardate sotto il biennio attuale, e nel file dell'"Elenco degli studenti eletti".
 
 Per contattarlə, consiglio o una ricerca su Internet includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
 
