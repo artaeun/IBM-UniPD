@@ -13,7 +13,7 @@ Nota: le risposte non comprendono la domanda inerente il GCPC perché il ragazzo
 - [Risposte alle domande di teoria TDC (credits Tommaso Boscardin)](/Dati/Studio/II%20Anno/TDC/Risposte%20alle%20domande%20di%20Teoria%20(credits%20Tommaso%20Boscardin).pdf)
 
 ## Soluzioni temi d'esame e parziali
-- [Temi d'esame prove parziali](/Dati/Studio/II%20Anno/TDC/Compitini%20e%20compiti%20di%20Teoria%20dei%20Circuiti)
+- [Temi d'esame e prove parziali](/Dati/Studio/II%20Anno/TDC/Compitini%20e%20compiti%20di%20Teoria%20dei%20Circuiti)
 
 ## Libri e dispense
 - [Dispensa esercizi 1](/Dati/Studio/II%20Anno/TDC/Libri%20e%20dispense/Dispensa%20esercizi%201%20TDC.pdf)
