@@ -6,22 +6,9 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di Teoria dei Circuiti.
 
 ## Riassunti capitoli 
-- [Capitolo 01 - Cariche elettriche e correnti elettriche](/Dati/Studio/II%20Anno/TDC/[Capitolo%2001]%20Cariche%20elettriche%20e%20correnti%20elettriche%20(credits%20Matteo%20Grigolon).pdf)
-- [Capitolo 02 - Campo elettrico e temsione elettrica]
-- [Capitolo 03 - Introduzione al modello reti elettriche]
-- [Capitolo 04 - Fenomeni di conduzione e resistori]
-- [Capitolo 05 - Generatori elettrici]
-- [Capitolo 06 - Bipoli e potenza elettrica]
-- [Capitolo 07 - Poprietà generali delle reti elettriche]
-- [Capitolo 08 - Reti in regime stazionario]
-- [Capitolo 09 - Doppi bipoli]
-- [Capitolo 10 - Reti con doppi bipoli Generatori pilotati (o controllati)]
-- [Capitolo 11 - Reti con doppi bipoli]
-- [Capitolo 12 - Bipolo condensatore]
-- [Capitolo 13 - Bipolo induttore]
-- [Capitolo 14 - Introduzione al regime sinusoidale]
-- [Capitolo 15 - Reti in regime sinusoidale]
-- [Capitolo 16 - Reti in regime variabile]
+## Domande di teoria e risposte
+[Domande di teoria]()
+[Risposte alle domande di teoria TDC (credits Tommaso Boscardin)](Dati/Studio/II%20Anno/TDC/Risposte%20alle%20domande%20di%20Teoria%20(credits%20Tommaso%20Boscardin).pdf)
 
 
 
