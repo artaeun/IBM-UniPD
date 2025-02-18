@@ -5,15 +5,15 @@
 
 Qui potete trovare il materiale utile alla preparazione per il corso di Teoria dei Circuiti.
 
-## Riassunti capitoli 
+### Riassunti capitoli 
 - [Riassunto di Teoria dei Circuiti] (credits Matteo Grigolon(/Dati/Studio/II%20Anno/TDC/)
-## Domande di teoria e risposte
+### Domande di teoria e risposte
 Nota: le risposte non comprendono la domanda inerente il GCPC perché il ragazzo che le ha fatte è di Ingegneria Elettronica e non era presente tra quelle fornite dal docente.
 - [Domande di teoria](/Dati/Studio/II%20Anno/TDC/Domande%20di%20teoria%20TDC.pdf)
 - [Risposte alle domande di teoria TDC (credits Tommaso Boscardin)](/Dati/Studio/II%20Anno/TDC/Risposte%20alle%20domande%20di%20Teoria%20(credits%20Tommaso%20Boscardin).pdf)
 
-## Soluzioni temi d'esame e parziali
-[Temi d'esam e prove parziali](/Dati/Studio/II%20Anno/TDC/Compitini%20e%20compiti%20di%20Teoria%20dei%20Circuiti)
+### Soluzioni temi d'esame e parziali
+- [Temi d'esam e prove parziali](/Dati/Studio/II%20Anno/TDC/Compitini%20e%20compiti%20di%20Teoria%20dei%20Circuiti)
 
 
 ---
