@@ -5,11 +5,14 @@
 
 Qui potete trovare il materiale utile alla preparazione per il corso di Segnali e sistemi.
 
-##
-- []()
+## Formulario
+- [Formulario di segnali e sistemi (credits Matteo Grigolon](/Dati/Studio/II%20Anno/S&S/Formulario%20completo%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
 
-## f
-- [Codici Malab]()
+## Esercizi
+- [Esercizi prof. Erseghe](/Dati/Studio/II%20Anno/S&S/Esercizi%20Erseghe)
+
+## Libri e dispense
+- [Codici Malab (credits Matteo Grigolon)](Dati/Studio/II%20Anno/S&S/Dispensa&20di%20Matlab%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
 - [Libro - "Segnali e sistemi-Lorenzo Finesso"](/Dati/Studio/II%20Anno/S&S/[LIBRO]%20Segnali%20e%20sistemi%20-%20Lorenzo%20Finesso.pdf)
 
 ---
