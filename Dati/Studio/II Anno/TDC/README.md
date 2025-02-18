@@ -8,7 +8,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di Teoria d
 ## Riassunti capitoli 
 ## Domande di teoria e risposte
 [Domande di teoria]()
-[Risposte alle domande di teoria TDC (credits Tommaso Boscardin)](Dati/Studio/II%20Anno/TDC/Risposte%20alle%20domande%20di%20Teoria%20(credits%20Tommaso%20Boscardin).pdf)
+[Risposte alle domande di teoria TDC (credits Tommaso Boscardin)](/Dati/Studio/II%20Anno/TDC/Risposte%20alle%20domande%20di%20Teoria%20(credits%20Tommaso%20Boscardin).pdf)
 
 
 
