@@ -1,12 +1,10 @@
 # Segnali e sistemi
-<!--- <p align="right">
-  <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
-  </p> --->
+
 
 Qui potete trovare il materiale utile alla preparazione per il corso di Segnali e sistemi.
 
 ## Formulario
-- [Formulario di segnali e sistemi (credits Matteo Grigolon](/Dati/Studio/II%20Anno/S&S/Formulario%20completo%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
+- [Formulario di segnali e sistemi (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/S&S/Formulario%20completo%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
 
 ## Esercizi
 - [Esercizi prof. Erseghe](/Dati/Studio/II%20Anno/S&S/Esercizi%20Erseghe)
