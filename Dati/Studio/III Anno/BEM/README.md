@@ -3,7 +3,11 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _bioelettromagnetismo_.
 
 ## Materiale vario
-- [Capitolo 01 - Cariche elettriche e correnti elettriche](/Dati/Studio/II%20Anno/TDC/Cariche%20elettriche%20e%20correnti%20elettriche%20(credits%20Matteo%20Grigolon).pdf)
+- [Definizioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/definitions.pdf)
+- [Operatori vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_operators.pdf)
+- [Identità vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_identities.pdf)
+- [Articoli e rapporti](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/Articoli%20e%20rapporti)
+- [PDF lezioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/PDF%20lezioni)
 
 ## Libri e dispense
 - [Protezione dai campi elettromagnetici non ionizzanti (2001)](/Dati/Studio/III%20Anno/BEM/Libri%20e%20dispense/Protezione%20dai%20campi%20elettromagnetici%20-%20Andreucetti%20Daniele.pdf)
