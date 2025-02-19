@@ -3,9 +3,9 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _misure e acquisizione di dati biomedici_.
 
 ## Materiale vario
-- [Domande parte teorica](/Dati/Studio/III%20Anno/MADB/Materiale%20vario/MADB_domande%20parte%20teorica%20esame.pdf)
-- [Risposta domande parte teorica](/Dati/Studio/III%20Anno/MADB/Materiale%20vario/MADB%20risposte%20domande%20parte%20teorica%20esame.pdf)
 - [PDF Lezioni del vecchio corso tenuto dalla prof. Tonello](/Dati/Studio/III%20Anno/MADB/Materiale%20vario/PDF_lezioni)
+- [Domande parte teorica](/Dati/Studio/III%20Anno/MADB/Materiale%20vario/MADB%20domande%20parte%20teorica%20esame.pdf)
+- [Risposta domande parte teorica](/Dati/Studio/III%20Anno/MADB/Materiale%20vario/MADB%20risposte%20domande%20parte%20teorica%20esame.pdf)
 ---
 
 ## Disclaimer
