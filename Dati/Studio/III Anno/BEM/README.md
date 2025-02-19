@@ -4,8 +4,8 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
 
 ## Materiale vario
 - [Definizioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/definitions.pdf)
-- [Operatori vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_operators)
-- [Identità vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_identities)
+- [Operatori vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_operators.pdf)
+- [Identità vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_identities.pdf)
 - [Articoli e rapporti](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/Articoli%20e%20rapporti)
 - [PDF lezioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/PDF%20lezioni)
 
