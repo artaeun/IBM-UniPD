@@ -16,7 +16,7 @@ Nota: le risposte non comprendono la domanda inerente il GCPC perché il ragazzo
 - [Dispensa esercizi 1](/Dati/Studio/II%20Anno/TDC/Libri%20e%20dispense/Dispensa%20esercizi%201%20TDC.pdf)
 - [Dispensa esercizi 2](/Dati/Studio/II%20Anno/TDC/Libri%20e%20dispense/Dispensa%20esercizi%202%20TDC.pdf)
 - [Dispensa teoria](/Dati/Studio/II%20Anno/TDC/Libri%20e%20dispense/Dispensa%20teoria%20TDC.pdf)
-- [LIBRO - "Elettrotecnica 1 - Principi"](/Dati/Studio/II%20Anno/TDC/Libri%20e%20dispense/Elettrotecnica%201%20-%20Principi.zip)
+- [Elettrotecnica 1 - Principi (2020)](/Dati/Studio/II%20Anno/TDC/Libri%20e%20dispense/Elettrotecnica%201%20-%20Principi.zip)
 
 
 ---
