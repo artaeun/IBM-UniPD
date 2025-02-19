@@ -5,7 +5,18 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _informa
 ## Materiale vario
 - [Riassunto di Inormatica medica (credits Arianna Zuanazzi)](/Dati/Studio/III%20Anno/InfoMed/Materiale%20vario/Appunti%20di%20Informatica%20Medica%20(credits%20Arianna%20Zuanazzi).pdf)
 - [Domande preparatorie all'esame](/Dati/Studio/III%20Anno/InfoMed/Materiale%20vario/Domande%20preparatorie%20InfoMed.pdf)
-- [Preparazione comandi SQL](/Dati/Studio/III%20Anno/InfoMed/Materiale%20vario/Comandi%20SQL.txt)
+- Preparazione comandi SQL:
+  > %% Per eseguire il programma sqlite3 sotto Windows:
+  > 1. Avviare, da Menù Start, “prompt comandi”
+  > 2. Al prompt, spostarsi, ad es. con “cd c:\sqlite”, nella cartella che contiene il file sqlite3.exe
+  > 3. Avviare il DBMS, eventualmente specificando il nome del file in cui ospitare il nuovo DB, ad es. sqlite3 segreteria.db
+  >
+  >  %% CREAZIONE DB
+  > sqlite3 *nomedatabase*.db
+  > .headers on
+  > .mode column
+  > .nullvalue NULL
+  > pragma foreign_keys = ON;
 
 ## Temi d'esame
 
