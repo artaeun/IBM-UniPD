@@ -1,12 +1,12 @@
-# Teoria dei circuiti
-<!--- <p align="right">
-  <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
-  </p> --->
+# Ingegneria dei sistemi biologici
 
-Qui potete trovare il materiale utile alla preparazione per il corso di Teoria dei Circuiti.
+Qui potete trovare il materiale utile alla preparazione per il corso di _Ingengeria dei sistemi biologici_.
 
-## Riassunti capitoli 
-- [Capitolo 01 - Cariche elettriche e correnti elettriche](/Dati/Studio/II%20Anno/TDC/Cariche%20elettriche%20e%20correnti%20elettriche%20(credits%20Matteo%20Grigolon).pdf)
+## Materiale vario
+- [Domande di Teoria ](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Domande%20di%20teoria%20Ingegneria%20dei%20sistemi%20biologici.pdf)
+- [Formulario](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Formulario_ISB.pdf)
+- [Esercitazioni e simulazioni](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Esercitazioni%20e%20simulazioni%20ISB.pdf)
+- [Soluzioni simulazioni](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Soluzione%20esercitazioni%20ISB.pdf)
 
 ---
 
