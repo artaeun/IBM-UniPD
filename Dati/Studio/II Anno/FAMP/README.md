@@ -1,13 +1,25 @@
-# Teoria dei circuiti
-<!--- <p align="right">
-  <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
-  </p> --->
+# Fondamenti di analisi matematica e probabilità
 
-Qui potete trovare il materiale utile alla preparazione per il corso di Teoria dei Circuiti.
+Qui potete trovare il materiale utile alla preparazione per il corso di _fondamenti di analisi matematica e probabilità_.
 
-## Riassunti capitoli 
-- [Capitolo 01 - Cariche elettriche e correnti elettriche](/Dati/Studio/II%20Anno/TDC/Cariche%20elettriche%20e%20correnti%20elettriche%20(credits%20Matteo%20Grigolon).pdf)
+## Materiale vario
+- [Formulario di analisi 2 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Materiale&20vario/)
+- [Formulario di probabilità (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Materiale%20vario/)
 
+## Quiz settimanali
+- [Quiz 01 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2001%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 02 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2002%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 03 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2003%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 04 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2004%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 05 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2005%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 06 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2006%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 07 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2007%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 08 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2008%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 09 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2009%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 10 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2010%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 11 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2011%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 12 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2012%20(credits%20Matteo%20Grigolon).pdf)
+- [Quiz 13 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2013%20(credits%20Matteo%20Grigolon).pdf)
 ---
 
 ## Disclaimer
