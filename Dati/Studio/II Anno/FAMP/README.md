@@ -22,11 +22,12 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 - [Quiz 13 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2013%20(credits%20Matteo%20Grigolon).pdf)
 
 ## Temi d'esame 
+- [Appelli d'esame e qualche soluzione](/Dati/Studio/II%20Anno/FAMP/Temi%20d’esame)
 
 ## Libri e dispense
 - [Libro di Analisi 2](/Dati/Studio/II%20Anno/FAMP/Libri%20e%20dispense/Appunti%20di%20Calcolo%20in%20più%20variabili%20-%20Carlo%20Mariconda,%20Ermal%20Felequi.pdf)
 - [Libro di probabilità](/Dati/Studio/II%20Anno/FAMP/Libri%20e%20dispense/Appunti%20di%20Calcolo%20delle%20Probabilità%20-%20Carlo%20Mariconda.pdf)
-- [Dispensa esercizi](/Dati/Studio/II%20Anno/FAMP/Libri%20e%20dispense/FAMP_dispensa.pdf)
+- [Dispensa esercizi (credits Simone Bortolin)](/Dati/Studio/II%20Anno/FAMP/Libri%20e%20dispense/FAMP_dispensa.pdf)
 ---
 
 ## Disclaimer
