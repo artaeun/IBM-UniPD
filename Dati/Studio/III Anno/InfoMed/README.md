@@ -21,7 +21,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _informa
   ```
 
 ## Temi d'esame
-- [Appelli d'esame degli anni passati](Dati/Studio/III%20Anno/InfoMed/Esami)
+- [Appelli d'esame degli anni passati](/Dati/Studio/III%20Anno/InfoMed/Esami)
 ---
 
 ## Disclaimer
