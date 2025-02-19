@@ -66,6 +66,7 @@ NB: si consiglia di aprire le cartelle in formato .zip da pc.
   - [MADB - Misure e Acquisizione di Dati Biomedici](/Dati/Studio/III%20Anno/MADB/README.md)
   - [InfoMed - Informatica Medica](/Dati/Studio/III%20Anno/InfoMed/README.md)
   - [TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III%20Anno/TSB/README.md)
+  - [BioEM - Bioelettromagnetismo](/Dati/Studio/III%20Anno/BEM/README.md)
   - [STI - Storia della Tecnologia dell'Informazione](/Dati/Studio/III%20Anno/STI/README.md)
 ---
 
