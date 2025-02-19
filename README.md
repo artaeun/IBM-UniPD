@@ -52,20 +52,21 @@ NB: si consiglia di aprire le cartelle in formato .zip da pc.
   - <!--- [Algebra Lineare e Geometria] --->
   - <!--- [BFA - Biologia, Fisiologia e Anatomia] --->
 - 2° Anno
-  - [Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC)
+  - [Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC/README.md)
   - [EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)
-  - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2)
-  - [FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP)
-  - [Biomateriali](/Dati/Studio/II%20Anno/Biomateriali)
-  - [S&S - Segnali e Sistemi](/Dati/Studio/II%20Anno/S&S)
-  - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II%20Anno/ISB)
+  - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2/README.md)
+  - [FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP/README.md)
+  - [Biomateriali](/Dati/Studio/II%20Anno/Biomateriali/README.md)
+  - [S&S - Segnali e Sistemi](/Dati/Studio/II%20Anno/S&S/README.md)
+  - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II%20Anno/ISB/README.md)
 - 3° Anno
-  - [Biomeccanica](Dati/Studio/III%20Anno/Biomeccanica)
-  - [ESB - Elaborazione di Segnali Biomedici](/Dati/Studio/III%20Anno/ESB)
-  - [FDA - Fondamenti di Automatica](/Dati/Studio/III%20Anno/FDA)
-  - [MADB - Misure e Acquisizione di Dati Biomedici](/Dati/Studio/III%20Anno/MADB)
-  - [InfoMed - Informatica Medica](/Dati/Studio/III%20Anno/InfoMed)
-  - [TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III%20Anno/TSB)
+  - [Biomeccanica](Dati/Studio/III%20Anno/Biomeccanica/README.md)
+  - [ESB - Elaborazione di Segnali Biomedici](/Dati/Studio/III%20Anno/ESB/README.md)
+  - [FDA - Fondamenti di Automatica](/Dati/Studio/III%20Anno/FDA/README.md)
+  - [MADB - Misure e Acquisizione di Dati Biomedici](/Dati/Studio/III%20Anno/MADB/README.md)
+  - [InfoMed - Informatica Medica](/Dati/Studio/III%20Anno/InfoMed/README.md)
+  - [TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III%20Anno/TSB/README.md)
+  - [STI - Dtoria della Tecnologia dell'Informazione](/Dati/Studio/III%20Anno/STI/README.md)
 ---
 
 ## 📱Discord 
