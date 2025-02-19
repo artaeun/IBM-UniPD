@@ -1,18 +1,93 @@
-# Teoria dei circuiti
-<!--- <p align="right">
-  <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
-  </p> --->
+# Bioelettromagnetismo
 
-Qui potete trovare il materiale utile alla preparazione per il corso di Teoria dei Circuiti.
+Qui potete trovare il materiale utile alla preparazione per il corso di _bioelettromagnetismo_.
 
-## Riassunti capitoli 
+## Materiale vario
 - [Capitolo 01 - Cariche elettriche e correnti elettriche](/Dati/Studio/II%20Anno/TDC/Cariche%20elettriche%20e%20correnti%20elettriche%20(credits%20Matteo%20Grigolon).pdf)
 
----
+## Libri e dispense
+- [Protezione dai campi elettromagnetici non ionizzanti (2001)](/Dati/Studio/III%20Anno/BEM/Libri%20e%20dispense/Protezione%20dai%20campi%20elettromagnetici%20-%20Andreucetti%20Daniele.pdf)
 
-## Disclaimer
-
-##### *I contenuti qua presenti non sostituiscono i canali di comunicazioni già esistenti ([Moodle](https://stem.elearning.unipd.it/course/index.php?categoryid=11), [sito ufficiale di UniPD](https://www.unipd.it/)). La repo qua presente è gestita esclusivamente da studenti e/o rappresentati degli studenti di questo corso. UniPd e gli autori di queste pagine non si assumono nessuna responsabilità per il contenuto pubblicato qui. Le comunicazioni ai rappresentanti da parte degli utenti non costituiscono né garantiscono comunicazione di alcun genere a UniPd o agli organi affiliati. I suoi contenuti vengono messi a disposizione così come sono e non viene fornita alcuna garanzia per l’aggiornamento, la correttezza, la completezza o la qualità delle informazioni messe a disposizione.*
-
-##### *Il server Discord non vuole sostituirsi ai canali di comunicazioni già esistenti (Moodle, e-mail istituzionale) in alcun modo ed è gestito esclusivamente da studenti e/o rappresentati degli studenti di questo corso. UniPd e l'autore non si assumono nessuna responsabilità per il contenuto pubblicato qui. Le comunicazioni ai rappresentanti da parte degli utenti non costituiscono né garantiscono comunicazione di alcun genere a UniPd o agli organi affiliati. Il server e i suoi contenuti vengono messi a disposizione così come sono e non viene fornita alcuna garanzia per l’aggiornamento, la correttezza, la completezza o la qualità delle informazioni messe a disposizione.*
-
+## Temi d'esame e domande di teoria
+- []()
+- Domande di teoria raccolte dai precedenti appelli:
+  ```
+  GIUGNO 2020
+  Domanda aperta:
+  	1. core conductor model 
+  Domande a crocette:
+  	- ricavare da quale eq di Maxwell derivava una che è 
+  	- se ε_1≠ε_2 come si conserva il campo elettrico
+  	- in una opu com'è il campo magnetico rispetto a quello elettrico
+  	- come decade il vettore di Poynting di un antenna filiforme
+  	- domanda aperta: teorema di Poynting
+  	- canali K e Na+
+  	- membrana come capacità se ha effetto nel transitorio o nell'equilibrio
+  	- da cosa dipende le soglie dell'ICNIRP
+  	- modelli analitici vs numerici
+  	- domanda aperta: core conductor model 
+  
+  LUGLIO 2020
+  Domande aperte:
+  	1. l'equazione di D'Alembert, dimostrazione e commentare la soluzione
+  	2. l'esperimento di voltage-clamp.
+  Domande a crocette:
+  	- all'equilibrio se le densità di corrente della diff ionica e libera erano concordi discordi o nulle 
+  	- il periodo refrattario che cosa indica 
+  	- i modelli in volumi conduttori per le bio sorgenti
+  	- per le radiazioni Nir se f< 100 kHz quali erano i parametri da tenere sotto controllo (più o meno)
+  	- se div(B) era = o diversa da 0
+  	- in 1 cm^3 di volume ti dava la densità di carica volumetrica e ti dovevi calcolare il flusso di D
+  	- un materiale buon conduttore con sigma e epsilon che ti dava dovevi calcolarti la frequenza minima 
+  	- se un antenna con un guadagno più elevato di un altra doveva irradiare in ogni direzione o in direzioni specifiche o avere potenza di alimentazione più elevata
+  
+  
+  AGOSTO 2022
+  Domande aperte: 
+  	1. l'equazione di continuità, derivarla e significato fisico
+  	2. derivare l'equazione di Nernst, il potenziale di transmembrana
+  Domande a crocette: 
+  	- l'equazione di Helmholtz
+  	- la prima legge di continuità 
+  	- ricavare lo spessore di penetrazione avendo la f
+  	- σ e ε
+  	- dire se un guadagno elevato provocava un'antenna più direttiva 
+  	- una sul trasporto attivo
+  	- la pompa sodio potassio 
+  	- una sull'esperimento di Voltage Clamp 
+  Domanda laboratorio:
+  	- quando viene usato il metodo FDTD (quando il metodo analitico non va bene) 
+  
+  SETTEMBRE 2023
+  Domande aperte: 
+  	1. derivare e descrivere l'eq di Helmholtz per il campo magnetico e le proprietà delle soluzioni
+  	2. descrivere il modello elettrico utilizzato per descrivere la propagazione sopra soglia nell'assone amielinico
+  Domande a crocette: 
+  	- Maxwell
+  	- condizioni di continuità
+  	- densità di potenza attiva in una opu 
+  	- direttività di un'antenna 
+  	- pompa sodio-potassio 
+  	- modello HH 
+  	- propagazione sopra soglia in un assone 
+  	- qual è il limite di energia per avere una radiazione ionizzante
+  Domanda laboratorio:
+  	- in FDTD come cambia il passo temporale se si aumenta il valore delle frequenze utilizzate, se cambia il valore massimo del SAR se lo si calcola su campioni da 10g vs campioni da 1g
+  
+  SETTEMBRE 2024
+  Domande aperte: 
+  	1. equazione di continuità (da derivare e spiegare)
+  	2. core-conduction model per propagazione sotto soglia
+  Domande a  crocette: 
+  	- equazione di Helmholtz 
+  	- costante dielettrica in due mezzi nei quali ε'n=3ε''n (chiedeva se ε' fosse maggiore minore o uguale a ε'')
+  	- spessore di penetrazione 
+  	- direttività di un'antenna
+  	- funzione del trasporto attivo 
+  	- dissipazione del potenziale con impulso sotto soglia 
+  	- esperimento voltage clamp, quando viene utilizzato il metodo FDTD. 
+  	- come cambia l'aumento di temperatura se raddoppio l'intensità del campo elettrico (bio-calore) 
+  	- domanda sul far-field (riguardava la frequenza massima o minima)
+  Domanda laboratorio: 
+  	- quando viene utilizzato il metodo FDTD
+  ``` 
