@@ -1,12 +1,12 @@
-# Teoria dei circuiti
-<!--- <p align="right">
-  <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
-  </p> --->
+# Tecnologia e strumentazione biomedica
 
-Qui potete trovare il materiale utile alla preparazione per il corso di Teoria dei Circuiti.
+Qui potete trovare il materiale utile alla preparazione per il corso di _tecnologia e strumentazione biomedica.
 
-## Riassunti capitoli 
-- [Capitolo 01 - Cariche elettriche e correnti elettriche](/Dati/Studio/II%20Anno/TDC/Cariche%20elettriche%20e%20correnti%20elettriche%20(credits%20Matteo%20Grigolon).pdf)
+## Materiale vario
+- [Database domande di teoria (senza soluzione)](/Dati/Studio/III%20Anno/TSB/Materiale%20vario/Domande%20TSB.pdf)
+- [Database domande di teoria (con soluzione)](/Dati/Studio/III%20Anno/TSB/Materiale%20vario/Domande%20TSB%20con%20risposta.pdf)
+- [Esercizi vari](/Dati/Studio/III%20Anno/TSB/Materiale%20vario/Esercizi%20TSB.pdf)
+- [Esercizi vari suddivisi in capitoli](/Dati/Studio/III%20Anno/TSB/Materiale%20vario/Esercizi%20TSB%20capitoli.pdf)
 
 ---
 
