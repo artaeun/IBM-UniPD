@@ -1,10 +1,8 @@
 # Storia della tecnologia dell'informazione
-<!--- <p align="right">
-  <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
-  </p> --->
 
 Qui potete trovare consigli e materiale utile alla stesura dell'elaborato di _Storia della tecnologia dell'informazione_.
 
+### Consigli
 - Giustificare il testo.
 - Massimo 15000 ± 1000 battute, quindi spazi, caratteri e simbologia varia.
 - Per la bibliografia utilizzare il seguente stile bibliografico, simile allo Chicago-style, indicato dal docente.
