@@ -41,7 +41,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
   	- il periodo refrattario che cosa indica 
   	- i modelli in volumi conduttori per le bio sorgenti
   	- per le radiazioni Nir se f< 100 kHz quali erano i parametri da tenere sotto controllo (più o meno)
-  	- se div(B) era = o diversa da 0
+  	- se div(B) era = o ≠ da 0
   	- in 1 cm^3 di volume ti dava la densità di carica volumetrica e ti dovevi calcolare il flusso di D
   	- un materiale buon conduttore con sigma e epsilon che ti dava dovevi calcolarti la frequenza minima 
   	- se un antenna con un guadagno più elevato di un altra doveva irradiare in ogni direzione o in direzioni specifiche o avere potenza di alimentazione più elevata
