@@ -37,6 +37,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
   	1. l'equazione di D'Alembert, dimostrazione e commentare la soluzione
   	2. l'esperimento di voltage-clamp.
   Domande a crocette:
+    - un’antenna con guadagno più elevato di un’altra antenna deve irradiare: in ogni direzione, in direzioni specifiche o deve avere potenziale di alimentazione più elevato
   	- all'equilibrio se le densità di corrente della diff ionica e libera erano concordi discordi o nulle 
   	- il periodo refrattario che cosa indica 
   	- i modelli in volumi conduttori per le bio sorgenti
