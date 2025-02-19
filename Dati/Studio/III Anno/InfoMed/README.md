@@ -1,12 +1,13 @@
-# Teoria dei circuiti
-<!--- <p align="right">
-  <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
-  </p> --->
+# Informatica medica
 
-Qui potete trovare il materiale utile alla preparazione per il corso di Teoria dei Circuiti.
+Qui potete trovare il materiale utile alla preparazione per il corso di _informatica medica_.
 
-## Riassunti capitoli 
-- [Capitolo 01 - Cariche elettriche e correnti elettriche](/Dati/Studio/II%20Anno/TDC/Cariche%20elettriche%20e%20correnti%20elettriche%20(credits%20Matteo%20Grigolon).pdf)
+## Materiale vario
+- [Riassunto di Inormatica medica (credits Arianna Zuanazzi)](/Dati/Studio/III%20Anno/InfoMed/Materiale%20vario/Appunti%20di%20Informatica%20Medica%20(credits%20Arianna%20Zuanazzi).pdf)
+- [Domande preparatorie all'esame](/Dati/Studio/III%20Anno/InfoMed/Materiale%20vario/Domande%20preparatorie%20InfoMed.pdf)
+- [Preparazione comandi SQL](/Dati/Studio/III%20Anno/InfoMed/Materiale%20vario/Comandi%20SQL.txt)
+
+## Temi d'esame
 
 ---
 
