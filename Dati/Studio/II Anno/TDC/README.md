@@ -1,7 +1,4 @@
 # Teoria dei circuiti
-<!--- <p align="right">
-  <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
-  </p> --->
 
 Qui potete trovare il materiale utile alla preparazione per il corso di Teoria dei Circuiti.
 
