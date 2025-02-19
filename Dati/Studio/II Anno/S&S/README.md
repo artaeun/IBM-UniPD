@@ -13,6 +13,10 @@ Qui potete trovare il materiale utile alla preparazione per il corso di Segnali 
 - [Codici Matlab (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/S&S/Dispensa%20di%20Matlab%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
 - [Libro - "Segnali e sistemi-Lorenzo Finesso"](/Dati/Studio/II%20Anno/S&S/[LIBRO]%20Segnali%20e%20sistemi%20-%20Lorenzo%20Finesso.pdf)
 
+## Videoleioni pfor. Erseghe
+[LINK videolezioni](/Dati/Studio/II%20Anno/S&S/LINK%20videolezioni%20prof%20Erseghe.pdf)
+
+
 ---
 
 ## Disclaimer
