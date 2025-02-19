@@ -1,13 +1,11 @@
-# Teoria dei circuiti
-<!--- <p align="right">
-  <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
-  </p> --->
+# Misure e acquisizione di dati biomedici
 
-Qui potete trovare il materiale utile alla preparazione per il corso di Teoria dei Circuiti.
+Qui potete trovare il materiale utile alla preparazione per il corso di _misure e acquisizione di dati biomedici_.
 
-## Riassunti capitoli 
-- [Capitolo 01 - Cariche elettriche e correnti elettriche](/Dati/Studio/II%20Anno/TDC/Cariche%20elettriche%20e%20correnti%20elettriche%20(credits%20Matteo%20Grigolon).pdf)
-
+## Materiale vario
+- [Domande parte teorica](/Dati/Studio/III%20Anno/MADB/Materiale%20vario/MADB_domande%20parte%20teorica%20esame.pdf)
+- [Risposta domande parte teorica](/Dati/Studio/III%20Anno/MADB/Materiale%20vario/MADB%20risposte%20domande%20parte%20teorica%20esame.pdf)
+- [PDF Lezioni del vecchio corso tenuto dalla prof. Tonello](/Dati/Studio/III%20Anno/MADB/Materiale%20vario/PDF_lezioni)
 ---
 
 ## Disclaimer
