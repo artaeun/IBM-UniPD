@@ -52,7 +52,7 @@ NB: si consiglia di aprire le cartelle in formato .zip da pc.
   - <!--- [Algebra Lineare e Geometria] --->
   - <!--- [BFA - Biologia, Fisiologia e Anatomia] --->
 - 2° Anno
-  - [Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC/README.md)
+  - [TDC - Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC/README.md)
   - [EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)
   - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2/README.md)
   - [FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP/README.md)
