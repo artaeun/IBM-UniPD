@@ -5,6 +5,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
 ## Materiale vario
 - [Appunti sulle lezioni di laboratorio e il metodo FDTD](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/BEM%20laboratorio%20e%20lezioni%20FDTD%20(credits%20Davide%20Bosco).pdf)
 - [Definizioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/definitions.pdf)
+- [Alfabeto greco](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/alfabeto_greco.pdf)
 - [Operatori vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_operators.pdf)
 - [Identità vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_identities.pdf)
 - [Articoli e rapporti](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/Articoli%20e%20rapporti)
