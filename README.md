@@ -42,7 +42,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi dell'umore/depressione documentati, anche in assenza di certificazioni)
 
 ## Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
-NB: si consiglia di aprire le cartelle in formato .zip da pc.
+> NB: si consiglia di aprire le cartelle in formato .zip da pc.
 ### 1° Anno
   - <!--- [Analisi 1] --->
   - <!--- [Fondamenti di Chimica] --->
