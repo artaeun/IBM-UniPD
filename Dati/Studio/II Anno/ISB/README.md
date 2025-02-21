@@ -9,6 +9,6 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _Ingenge
 - [Soluzioni simulazioni](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Soluzione%20esercitazioni%20ISB.pdf)
 
 ## Libri
-- [Dispensa di teoria](/Dati/Studio/II%20Anno/ISB/Libri%20e%20dispense/dispensa_ISB.pdf)
+- [Dispensa di teoria](/Dati/Studio/II%20Anno/ISB/Libri%20e%20dispense/Dispensa_ISB.pdf)
 - [Transport Phenomena in Biological Systems-Pearson (2009)](/Dati/Studio/II%20Anno/ISB/Libri%20e%20dispense/George%20A.%20Truskey,%20Fan%20Yuan,%20and%20David%20F.%20Katz%20-%20Transport%20Phenomena%20in%20Biological%20Systems-Pearson%20(2009).pdf)
 - [Introductory Chemical Engineering Thermodynamics (2012)](/Dati/Studio/II%20Anno/ISB/Libri%20e%20dispense/Introductory%20Chemical%20Engineering%20Thermodynamics%20(2012,%20Prentice%20Hall).pdf)
