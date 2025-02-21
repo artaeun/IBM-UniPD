@@ -1,0 +1,185 @@
+"""
+   Esame di Elementi di Informatica e Programmazione - Giugno 2019
+
+   Copiare questo file in CognomeMatricola.py usando il proprio cognome
+   e il proprio numero di matricola. Se il cognome contiene spazi o apostrofo,
+   ignorarli; se contiene lettere accentate, usare la corrispondente lettera
+   non accentata.
+   
+   MODIFICARE SOLTANTO IL FILE CognomeMatricola.py !!!!!!!!
+   Quello sarà il file valutato per l'esame.
+
+   TEMPO A DISPOSIZIONE = 1 ora e tre quarti (105 minuti)
+   
+   Il progetto consiste nello sviluppo di alcune funzioni cooperanti tra loro,
+   ma la struttura della cooperazione (cioè dell'interazione tra le funzioni)
+   è già delineata.
+   
+   Non è possibile utilizzare variabili globali né progettare classi.
+
+   Ciascuna funzione è descritta nel commento che la precede, che a volte
+   contiene anche delle prescrizioni o dei divieti da seguire durante la
+   scrittura del codice (ad esempio, non si possono usare alcune specifiche funzioni...)
+   che valgono soltanto per la funzione a cui si riferisce il commento.
+   
+   Alcune sezioni di codice sono già presenti e non possono essere modificate!
+   Le sezioni di codice mancante e da scrivere sono identificate dal commento
+   # SCRIVERE QUI
+   
+"""
+def main() :
+   lst1 = createRandomIntegerList(30, 1, 10)
+   lst2 = list(lst1) # duplico la lista
+   lst1.sort()
+   removeFromSortedList(lst1)
+   removeFromUnsortedList(lst2)
+   if areEquals(lst1, lst2) :
+      print("Collaudo riuscito (ma non significa che non ci siano errori...)")
+   else :
+      print("Collaudo non riuscito")
+# SCRIVERE QUI
+   """
+   Qui si possono inserire altri eventuali collaudi (ma non è necessario)
+   """
+# fine main
+     
+"""
+Questa funzione deve restituire True se e solo se le due liste di numeri ricevute
+come parametri hanno lo stesso contenuto, indipendentemente dall'ordinamento degli
+elementi. Per essere dichiarate uguali, le due liste devono contenere gli stessi
+valori, ciascuno con la stessa molteplicità.
+Esempio: 1 2 3 4 4 4 3 e 4 3 4 3 4 2 1 sono uguali.
+Esempio: 1 2 e 1 2 2 non sono uguali.
+Due liste vuote sono uguali.
+La funzione non può modificare, neanche temporaneamente, il contenuto delle liste.
+"""
+def areEquals(lst1, lst2) :
+# SCRIVERE QUI
+   lst1bis = list(lst1)
+   lst2bis = list(lst2)
+   lst1bis.sort()
+   lst2bis.sort()
+   return lst1bis == lst2bis
+# fine areEquals
+   
+"""
+Questa funzione deve eliminare completamente dalla lista ricevuta come parametro
+tutti e soli gli elementi che sono presenti in essa più di due volte,
+lasciando soltanto gli elementi che sono presenti una o due volte
+(gli elementi che sono presenti due volte dovranno essere presenti
+due volte anche alla fine della procedura).
+Gli elementi rimasti nella lista dovranno trovarsi nella stessa
+posizione relativa che avevano inizialmente (quindi, per semplificare
+le cose, è decisamente preferibile evitare di ordinare la lista).
+Non ci sono vincoli temporali per l'algoritmo implementato, ma non possono
+essere create altre liste né altre strutture dati.
+"""
+def removeFromUnsortedList(a) :
+# SCRIVERE QUI
+   """
+      Dovendo eliminare elementi dalla lista, meglio non usare un ciclo for...
+   """
+   i = 0
+   while i < len(a) :
+      # cerco repliche del numero a[i] nelle posizioni successive a i
+      j = i + 1
+      count = 1 # quante repliche ci sono?
+      while j < len(a) :
+         if a[i] == a[j] :
+            count += 1
+         j += 1
+      if count < 3 : # ci sono meno di 3 repliche, il numero deve rimanere
+         i += 1 # esaminerò il prossimo elemento della lista, per cercarne
+                # eventuali duplicati
+      else :
+         toRemove = a[i]
+         while toRemove in a :
+            a.remove(toRemove) # elimino tutte le repliche di a[i],
+                               # poi NON incremento i perché, dopo le eliminazioni,
+                               # in i ci sarà un elemento che prima si trovava
+                               # in una posizione successiva e quindi è da esaminare
+# fine removeFromUnsortedList
+   
+"""
+Questa funzione deve eliminare dalla lista ricevuta come parametro
+tutti e soli gli elementi che sono presenti in essa più di due volte,
+lasciando soltanto gli elementi che sono presenti una o due volte
+(gli elementi che sono presenti due volte dovranno essere presenti
+due volte anche alla fine della procedura).
+Con la lista, l'unico metodo utilizzabile è pop (attenzione: non si
+può usare remove). Ovviamente si può usare la funzione len.
+La lista ricevuta è ordinata (non c'è bisogno di verificarlo)
+e deve essere ordinata anche al termine della procedura.
+L'algoritmo implementato deve avere prestazioni lineari in funzione
+della dimensione della lista ricevuta.
+Non possono essere create altre liste né altre strutture dati.
+"""
+def removeFromSortedList(a) :
+# SCRIVERE QUI
+   """
+      In una lista ordinata, eventuali elementi replicati
+      si trovano in posizioni tra loro consecutive.
+   """
+   i = 0
+   while i < len(a) :
+      # cerco repliche del numero a[i] nelle posizioni successive a i
+      # finché non trovo un numero diverso da a[i]
+      count = 1 # quante repliche ci sono?
+      while i + count < len(a) and a[i + count] == a[i] :
+         count += 1
+      if count < 3 : # ci sono meno di 3 repliche
+         i += count # esaminerò il prossimo elemento della lista, per cercarne
+                    # eventuali duplicati; salto eventuali elementi uguali a
+                    # quello appena esaminato
+      else :
+         # devo eliminare tutti gli elementi uguali a a[i] (compreso a[i]),
+         # so quanti sono ma posso usare soltanto pop
+         for x in range(count) :
+            a.pop(i)
+         # NON incremento i perché adesso in a[i] c'è un elemento diverso
+         # da quello che c'era prima e lo devo controllare (c'è quello che era
+         # in a[i + count] oppure la posizione i non esiste più perché ho
+         # eliminato gli ultimi elementi della lista, ma la verifica di 
+         # continuazione del ciclo funzionerà correttamente, interrompendolo)        
+# fine removeFromSortedList
+
+"""
+Questa funzione deve acquisire dal flusso di input un elenco di numeri interi
+e memorizzarli in una lista (che verrà restituita dalla funzione) nell'ordine
+in cui arrivano, un numero per riga (cioè l'utente va a capo dopo ogni numero)
+L'acquisizione termina quando viene letta una riga vuota.
+Eventuali righe che non contengano (soltanto) un numero devono essere ignorate
+senza che il programma si interrompa.
+La funzione non viene invocata dal programma implementato nella funzione main
+ma deve essere comunque progettata.
+"""
+def readIntegerList() :
+# SCRIVERE QUI
+   lst = list()
+   while True :
+      s = input()
+      if len(s) == 0 : # riga vuota
+         break
+      try :
+         lst.append(int(s))
+      except ValueError :
+         pass # ignoro la riga perché è stata rifiutata da int()
+   return lst
+# fine readIntegerList
+
+"""
+Questa funzione deve creare e restituire una lista di lunghezza uguale al valore
+del primo parametro ricevuto e contenente numeri interi pseudocasuali
+appartenenti all'intervallo [a, b].
+"""
+from random import randint
+def createRandomIntegerList(size, a, b) :
+# SCRIVERE QUI
+   lst = list()
+   for i in range(size) :
+      lst.append(randint(a, b))
+   return lst
+# fine createRandomIntegerList
+
+main()
+   

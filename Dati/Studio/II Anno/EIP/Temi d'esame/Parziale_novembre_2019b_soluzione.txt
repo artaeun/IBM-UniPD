@@ -1,0 +1,398 @@
+"""
+   Esame di Elementi di Informatica e Programmazione -
+   Primo Compitino Novembre 2019
+
+   Copiare questo file in CognomeMatricola.py usando il proprio cognome
+   e il proprio numero di matricola. Se il cognome contiene spazi o apostrofo,
+   ignorarli; se contiene lettere accentate, usare la corrispondente lettera
+   non accentata.
+
+   LA COMPRENSIONE DEL TESTO E' PARTE INTEGRANTE DELL'ESAME
+   
+   MODIFICARE SOLTANTO IL FILE CognomeMatricola.py !!!!!!!!
+   Quello sarà il file valutato per l'esame.
+
+   TEMPO A DISPOSIZIONE = 1 ora e mezza (90 minuti)
+   
+   Non e' possibile utilizzare caratteristiche del linguaggio che non siano
+   state presentate a lezione in questo anno accademico.
+
+   Ciascuna funzione e' descritta nel commento che la precede, che a volte
+   contiene anche delle prescrizioni o dei divieti da seguire durante la
+   scrittura del codice che valgono soltanto per la funzione a cui si riferisce il commento.
+   
+   Alcune sezioni di codice sono gia' presenti e non possono essere modificate!
+   Le sezioni di codice mancante e da scrivere sono identificate dal commento
+   # SCRIVERE QUI 
+   
+###################################################################################
+ 
+Il progetto consiste nello sviluppo di alcune funzioni cooperanti tra loro,
+all'interno di un programma che gestisce una lista di attesa dei ricoveri.
+
+E' VIETATO AGGIUNGERE FUNZIONI OLTRE A QUELLE INDICATE !!!!
+
+### LISTA DI ATTESA ###
+
+La lista mantiene in memoria le informazioni relative a ciascun paziente:
+- Cognome
+- Nome
+- Codice Fiscale
+- numero di giorni che il paziente trascorrerà in ospedale
+  (una previsione che assumiamo esatta per semplicità)
+- Livello di priorità del ricovero che può essere specificato dal seguente codice:
+  - "P" (ricovero entro 1 giorno)
+  - "A" (ricovero entro 3 giorni);
+  - "B" (ricovero entro 9 giorni);
+  - "C" (ricovero entro 18 giorni);
+  - "D" (ricovero entro 36 giorni)
+- Giorni trascorsi in lista di attesa
+- Punteggio (score) di priorità
+  (più alto è lo score più alta è la priorità e quindi la posizione in lista ha indice più basso)
+
+Quindi, ad esempio:
+[
+  ["Burattini", "Francesca", "BRTFNC75E54L781J", 4, "P", 1, 21.42]
+  ["Beruto", "Piergiorgio", BRTPGR46T10A059G, 3, "B", 5, 15.01]
+  ...
+  ["Carlassare","Noemi","CRLNMO61M45L736M", 5, "C", 3, 2.05]
+]
+
+### La lista di attesa è ordinata ###
+
+La lista di attesa è ordinata e la posizione in lista di attesa di un paziente di priorità X
+è calcolata tenendo conto del seguente punteggio o score:
+
+    Giorni_trascorsi_in_lista_di_attesa * Tempo_massimo_previsto_per_la_Priorità_D  / Tempo_massimo_previsto_per_la_Priorità_X 
+
+(ovviamente X può essere "P", "A", "B", "C" o "D")
+Quindi, ad esempio, un paziente a priorità "A" che è in lista d'attesa da 10 giorni
+avrà punteggio uguale a 120 (ovvero 10*36/3).
+
+A punteggio più alto corrisponde una priorità maggiore (il paziente "è più in alto" in lista).
+In caso di parità di punteggio vale l'ordine di arrivo (di prenotazione)
+
+
+### LISTA RICOVERI E LISTA LETTI ###
+
+Oltre alla lista di attesa il programma gestisce
+1) una lista ricoveri lunga tanto quanto il numero di letti L del reparto
+   e che contiene in posizione lt, le informazioni sul paziente che occupa il letto lt.
+   Le informazioni sul paziente sono le stesse contenute originariamente nella lista attesa,
+   più, anche se ridondante, il numero corrispondente all'indice lt (ovvero al numero del letto occupato)
+Quindi, ad esempio:
+[
+  ["Burattini", "Francesca", "BRTFNC75E54L781J", 4, "P", 1, 21.42, 0]
+  ["Beruto", "Piergiorgio", BRTPGR46T10A059G, 3, "B", 5, 15.01, 1]
+  ...
+  ["Carlassare","Noemi","CRLNMO61M45L736M", 5, "C", 3, 2.05, L-1]
+]
+   
+2) una lista letti lunga tanto quanto il numero di letti L del reparto
+   e che contiene in posizione lt, una lista lunga tanto quanto il numero di giorni G
+   di ricovero rimanenti per il paziente che occupa il letto e contenente
+   - in posizione 0 il numero attuale di giorni di ricovero del paziente
+   - in posizione 1 il numero attuale di giorni di ricovero del paziente + 1
+   - in posizione 2 il numero attuale di giorni di ricovero del paziente + 2
+   ....
+   - in posizione G-1 il numero G
+   Quindi ad esempio, se ci sono 3 letti, la lista letti in un certo "giorno" potrebbe essere questa:
+   [
+   [1, 2, 3, 4]
+   [2, 3]
+   [5]
+   ]
+   ovvero:
+   - il letto 1 è occupato da un paziente appena ricoverato, e che rimarrà nel reparto 4 giorni
+   - il letto 2 è occupato da un paziente al secondo giorno di ricovero, che rimarrà in reparto per 3 giorni in tutto
+   - il letto 3 è occupato da un paziente al quinto e ultimo giorno di ricovero
+   
+
+### Il programma collaudo ###
+
+La funzione collaudo(), GIA' SCRITTA DAL DOCENTE,
+inizializza le liste letti e ricoverati e chiama una serie di funzioni
+(GIA' CRITTE O CHE DOVETE COMPLETARE VOI SECONDO LE SPECIFICHE INDICATE SOPRA OGNI FUNZIONE)
+
+collaudo() simula un utilizzo del programma in cui OGNI GIORNO
+1) viene invocata la funzione aggiornaAttesa() che aggiorna
+   per ogni paziente i giorni di attesa in lista e la posizione in lista di attesa
+2) viene richiesto all'utente il nome di un file contenente i nuovi pazienti
+   da inserire in lista di attesa (ATTENZIONE: il separatore usato nel file è la virgola).
+3) viene invocata la funzione inserisciDaFile() che legge il file e inserisce
+   i pazienti in lista di attesa in posizione corretta (si vedano le istruzioni più in basso)
+4) viene invocata la funzione ricoveri() che programma i ricoveri e aggiorna di conseguenza
+   la lista letti, la lista dei ricoverati e la lista di attesa (si vedano le istruzioni più in basso)
+
+
+
+
+LEGGERE CON ATTENZIONE LE INTESTAZIONI DELLE FUNZIONI E I COMMENTI AL CODICE CHE SONO STATI FORNITI
+
+E' VIETATO UTILIZZARE CLASSI, DIZIONARI E IN GENERALE QUANTO NON ANCORA COPERTO DAL PROGRAMMA DEL CORSO
+
+Integrare eventuali specifiche mancanti facendo ipotesi ragionevoli, motivate con commenti nel codice
+
+Buon lavoro!
+
+'''
+
+
+
+
+#######################################################################################################################
+
+"""
+La funzione priorityDays(), prende in input un parametro lista paziente
+fatto ad esempio così:
+["Beruto", "Piergiorgio", BRTPGR46T10A059G, 3, "B", 5, 15.01]
+e, sulla base del livello di priorità ("P", "A", "B", "C" o "D")
+calcola e restituisce i giorni di priorità previsti
+  - "P" (ricovero entro 1 giorno)
+  - "A" (ricovero entro 3 giorni);
+  - "B" (ricovero entro 9 giorni);
+  - "C" (ricovero entro 18 giorni);
+  - "D" (ricovero entro 36 giorni)
+"""
+def priorityDays(paziente):
+  giorniPriority = 1
+  if paziente[4]=="A":
+    giorniPriority = 3
+  elif paziente[4]=="B":
+    giorniPriority = 9
+  elif paziente[4]=="C":
+    giorniPriority = 18
+  elif paziente[4]=="D":
+    giorniPriority = 36
+  return giorniPriority
+
+
+
+"""
+La funzione priorityScore(), prende in input un parametro lista paziente con il contenuto
+["Cognome", "Nome", "Codice Fiscale", giorni ricovero, "codice priorità", giorni trascorsi in lista d'attesa]
+ad esempio
+["Beruto", "Piergiorgio", BRTPGR46T10A059G, 3, "B", 5]
+calcola lo score di priorità e lo aggiunge in fondo alla lista
+Ad esempio, se lo score di priorità è 15.01 la lista viene così modificata
+["Beruto", "Piergiorgio", BRTPGR46T10A059G, 3, "B", 5, 15.01]
+Arrotondare lo score alla seconda cifra decimale !
+
+La funzione priorityScore() invoca al suo interno la funzione priorityDays()
+"""
+def priorityScore(paziente):
+  TMAX=36
+  giorniPriority = priorityDays(paziente)
+  giorniAttesa = paziente[5]
+  score = round(giorniAttesa *  TMAX/giorniPriority , 2)
+  paziente.append(score) #faccio l'append alla lista paziente dello score
+  
+
+
+
+"""
+La funzione insertInAttesa(), prende in input un parametro lista paziente con il contenuto
+["Cognome", "Nome", "Codice Fiscale", giorni ricovero, "codice priorità", giorni trascorsi in lista d'attesa, score]
+ad esempio
+[Burattini, Francesca, BRTFNC75E54L781J, 2, "B", 50, 21.42]
+e identifica la posizione corretta in cui andrebbe inserito il paziente
+in lista d'attesa (in modo cioè ordinato rispetto allo score di priorità)
+ATTENZIONE: il primo paziente in lista è quello con lo score più alto, l'ultimo paziente della lista è quello con lo score più basso
+"""
+def insertInAttesa(paziente, attesa, letti):
+  score = paziente[6]
+  posizione = 0
+  trovata = False
+  while (posizione<len(attesa)) and (not trovata):
+    if attesa[posizione][6] >= score:
+      posizione = posizione +1
+    else:
+      trovata = True  #ho trovato la posizione in cui inserire il paziente
+  # quando esco dal ciclo while ho o trovato la posizione in cui inserire il paziente
+  # oppure posizione la posizione è alla fine della lista
+  
+  ##  A questo punto la funzione invoca priorityDays() e fa una stima del tempo di attesa
+  ##  del paziente prima del ricovero chiamando la funzione expectedTime()
+  ##  Se questa restituisce un tempo di attesa che supera i giorni corrispondenti
+  ##  al livello di priorità clinica stabilita, il reparto rifiuta l'inserimento
+  ##  del paziente in lista di attesa e viene stampato l'avviso:
+  ##  "Questo paziente non può essere inserito con la priorità richiesta" seguito dai dati del paziente
+  ##  Altrimenti inserisce il paziente nella lista attesa nella posizione corretta.
+  giorniPriority = priorityDays(paziente)
+  excT = expectedTime(posizione, attesa, paziente, letti)
+  if giorniPriority < excT:
+    print("Questo paziente non può essere inserito con la priorità richiesta - ", paziente)
+  else:
+    attesa.insert(posizione,paziente)
+
+"""
+La funzione expectedTime() stima del tempo di attesa prima del ricovero.
+Prende in input le informazioni sul paziente, la lista di attesa,
+la posizione k in cui andrebbe inserito il paziente in lista e il numero nLetti di letti
+nel reparto e, usando queste informazioni
+fa una stima approssimativa del tempo di attesa prima del ricovero.
+Come fare il calcolo approssimativo è indicato dai commenti
+"""
+def expectedTime(k, attesa, paziente, letti):
+    #calcolo il numero totale di giorni di ricovero previsti per i pazienti in posizione <k in lista di attesa
+    totale=0
+    for j in range(k):
+      paz = attesa[j]
+      totale = totale + paz[3]
+
+    #fa la media del numero di giorni in cui i letti del reparto saranno occupati da pazienti già ricoverati e la aggiunge a totale
+    mtot = 0
+    for lt in letti:
+      mtot = mtot + len(lt)
+    
+    totale = totale + mtot / len(letti)
+
+    # restituisce il totale diviso per il numero di letti arrotondato alle unità
+    return round(totale/len(letti))
+
+
+
+"""
+La funzione aggiornaAttesa(), prende in input la lista attesa,
+aggiorna il numero di giorni in lista di attesa
+e poi aggiorna le posizioni in lista di attesa
+restituendo in output una nuova lista
+"""
+def aggiornaAttesa(attesa, letti):
+  newattesa = list()
+  for paziente in attesa:
+    paziente[5]=paziente[5]+1 #aggiorno i giorni in lista
+    insertInAttesa(paziente,newattesa, letti)
+  return(newattesa)
+
+
+"""
+La funzione inserisciDaFile(), oltre alla lista di attesa e alla lista letti
+prende in input da un file i nuovi pazienti.
+Ogni riga del file contiene:
+Cognome, Nome, Codice Fiscale, giorni ricovero, codice priorità
+del paziente separati da virgola.
+(ATTENZIONE: alla fine di ogni riga c'è il carattere "\n" !!!)
+
+La funzione crea, per ciascun paziente,  una lista con queste informazioni
+Cognome, Nome, Codice Fiscale, giorni ricovero, codice priorità
+e aggiunge alla lista:
+- i giorni trascorsi in lista di attesa (inserire il valore 1)
+- lo score di priorità calcolato usando la funzione priorityScore()
+(ATTENZIONE al tipo di dati !!!)
+
+Poi inserisce il paziente nella lista di attesa che riceve in input
+usando la funzione insertInAttesa().
+
+Se il parametro fileinserimenti è uguale alla stringa vuota la funzione
+stampa a terminale il messaggio
+"Oggi non ci sono nuovi pazienti da inserire"
+"""
+def inserisciDaFile(attesa, letti, fileinserimenti = ''):
+  if fileinserimenti != '':
+    inserimenti = open(fileinserimenti, "r", encoding ="UTF-8")
+    for line in inserimenti:
+      paz = line.split(",")
+      for p in range(len(paz)):
+        paz[p] = paz[p].strip()
+      paz[3] = int(paz[3])
+      paz.append(1) #faccio l'append alla lista paziente dei giorni di attesa (1)
+      priorityScore(paz) #calcolo e aggiungo lo score di priorità alla lista paziente
+      insertInAttesa(paz, attesa, letti) #inserisci in posizione corretta
+    inserimenti.close()
+  else:
+    print("Oggi non ci sono nuovi pazienti da inserire")
+
+
+
+
+
+"""
+La funzione ricoveri(), prende in input la lista letti, la lista ricoverati e la lista attesa
+- Per ogni letto non vuoto rimuove il giorno trascorso
+- Per ogni letto vuoto ricovera il primo paziente in lista di attesa
+  occupando il letto per i giorni previsti per il ricovero
+- Aggiorna la lista ricoveri in modo che contenga i dati del paziente ricoverato
+  e l'indice del letto occupato dal paziente
+  Se un paziente è stato dimesso, questi viene rimosso o sovrascritto dai dati del nuovo paziente nella lista ricoveri
+- Rimuove i pazienti ricoverati dalla lista d'attesa
+Attenzione: controllare che letto e attesa non siano vuoti prima di rimuovere i pazienti
+"""
+def ricoveri(letti, ricoverati, attesa):
+    for lt in range(len(letti)): #per ogni letto
+      letto = letti [lt]
+      if len(letto)>0:
+        letto.pop(0) #rimuovo il giorno trascorso
+        if len(letto)==0: #il letto è vuoto Rimuovo il paziente dalla lista dei ricoverati
+          ricoverati[lt] = []
+      if len(letto)==0 and len(attesa)>0:    #se la lista è vuota effettuo il ricovero del primo paziente in lista di attesa (purché attesa non sia vuota)
+        giorniRicovero =attesa[0][3]
+        letti[lt] = list(range(1,giorniRicovero+1))
+        ricovero = attesa[0] + [lt]
+        ricoverati[lt] = ricovero 
+        attesa.pop(0) #e rimuovo il paziente dalla lista di attesa
+     
+
+
+  
+###########################################################################################################################
+# COLLAUDO: Non modificare
+###########################################################################################################################
+
+
+#la funzione collaudo() esegue il collaudo
+def collaudo(nLetti):
+  print("\n ###############################")
+  print(" COLLAUDO CON N = ", nLetti, "LETTI")
+  print(" ###############################\n")
+  
+  listaAttesa = []
+  listaRicoverati = list()
+  listaLetti = list()
+  for lt in range(nLetti):
+    listaLetti.append([])
+    listaRicoverati.append([])
+
+
+  giorno = 0
+
+  while True:
+    giorno = giorno + 1
+    listaAttesa = aggiornaAttesa(listaAttesa, listaLetti)
+    inserisciDaFile(listaAttesa, listaLetti, fileinserimenti = input("\n\n\nInserisci il nome del file in input. Uno tra: \n - dainserire.csv , \n - dainserire2.csv \n - TASTO ENTER \
+    se non ci sono nuovi pazienti da inserire il lista. \nNome file :"))
+    print("\n GIORNO ",giorno," - inserisco i pazienti dal file alla lista d'attesa")
+    for p in listaAttesa:
+      print(p)
+    
+    print("\n GIORNO ", giorno, " - ricovero i pazienti in lista d'attesa")
+    ricoveri(listaLetti, listaRicoverati, listaAttesa)
+    print("\n Situazione letti")
+    for lt in listaLetti:
+      print(lt)
+    print("\n Situazione ricoverati")
+    for r in listaRicoverati:
+      print(r)
+    print("\n Situazione  lista attesa")
+    if len(listaAttesa)==0:
+      print("[] \nLa lista di attesa è vuota")
+    else:
+      for p in listaAttesa:
+        print(p)
+    
+
+    risposta = input("\n Se vuoi continuare il collaudo inserisci 'y' :")
+    if risposta.lower() != "y".lower():
+      break
+  print("\n ###########################################")
+  print(" COLLAUDO CON N = ", nLetti, "LETTI TERMINATO")
+  print(" ha senso quel che è stato stampato a terminale?")
+  print(" #############################################\n\n\n")
+              
+                  
+
+#per collaudare la funzione lanciare collaudo con diversi numeri di letti a disposizione
+#collaudo(5)
+collaudo(10)
+#collaudo(20)
+#collaudo(0) #situazione limite con 0 letti

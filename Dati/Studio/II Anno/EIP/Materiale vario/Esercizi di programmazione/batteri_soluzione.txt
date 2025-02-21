@@ -1,0 +1,122 @@
+import random
+
+class Cellula():
+
+  _EMPTY = 0
+
+  def __init__(self,x,y,acted=0):
+    self._x = x
+    self._y = y
+    self._acted = acted
+
+  #conta i vicini (max distanza r) di un certo tipo e restituisce le coordinate della posizione
+  def getvicini(self, griglia, r, tipo):
+    vicini = []
+    L = len(griglia)
+    min_x = max(0, self._x-r)
+    max_x = min(L-1,self._x+r)
+    min_y = max(0, self._y-r)
+    max_y = min(L-1,self._y+r)
+    for i in range(min_x, max_x+1):
+      for j in range(min_y, max_y+1):
+        if isinstance(griglia[i][j], tipo):
+          vicini.append((i,j))
+    return vicini
+      
+  def move(self, griglia, r):
+    if self._acted == 0:
+      posizioni = self.getvicini(griglia,r,tipo = int) #cerco le posizioni vuote in cui posso muovermi
+      if len(posizioni)>0:
+        (newx,newy) = random.choice(posizioni)
+        oldx = self._x
+        oldy = self._y
+        self._x = newx
+        self._y = newy
+        griglia[newx][newy] = self
+        griglia[oldx][oldy] = Cellula._EMPTY
+        if (newy > oldy) or ((newy == oldy) and (newx > oldx)): #metto a 1 _acted se la posizione nella griglia deve ancora essere visitata (non voglio muovere 2 volte la cellula)
+          self._acted == 1
+    else:
+      self._acted = 0  #resetto a 0 per il prossimo giro
+       
+  def die(self, griglia):
+    griglia[self._x][self._y] = Cellula._EMPTY
+ 
+  def getpos(self):
+    return(self._x,self._y)
+
+  def getacted(self):
+    return(self._acted)
+
+  def setacted(self,v):
+    self._acted = v
+
+
+class Batterio(Cellula):
+  _contaBatteri = 0
+  _PERC_GROWTH = 0.3
+  _VOLDIV = 2
+  _PROB_DIE = 0.2
+  
+  def __init__(self, x, y, acted = 0, vol = 1):
+    super().__init__(x,y,acted)
+    self._vol = vol
+    Batterio._contaBatteri = Batterio._contaBatteri + 1
+    
+  def growth(self):
+    self._vol = self._vol*(1 + Batterio._PERC_GROWTH)
+    
+
+  def divide(self, griglia):
+    self._vol = 1
+    posizioni = self.getvicini(griglia,r = len(griglia),tipo = int) #cerco le posizioni vuote in cui possono comparire nuovi batteri
+    (x,y) =self.getpos()
+    if len(posizioni)>0:
+      (newx,newy) = random.choice(posizioni)
+      if (newy > y) or ((newy == y) and (newx > x)): #metto a 1 _acted se la posizione nella griglia deve ancora essere visitata (non voglio muovere 2 volte la cellula)
+        griglia[newx][newy] = Batterio(newx,newy,acted = 1)
+      else:
+        griglia[newx][newy] = Batterio(newx,newy)
+        
+  def act(self, griglia):
+    if self.getacted() == 0:
+      if self._vol >= Batterio._VOLDIV:
+        self.divide(griglia)
+      else:
+        self.growth()
+      (xb,yb) = self.getpos()
+      posizioni = self.getvicini(griglia,r = 1,tipo = IScell)
+      Lp = len(posizioni)
+      if Lp>0:
+        for (x,y) in posizioni:
+          griglia[x][y].attack()
+          if random.random() <= Batterio._PROB_DIE:
+            self.die(griglia)
+            griglia[xb][yb] = IScell(xb,yb)
+            break #esco da ciclo for
+    else:
+      self.setacted(0)  #resetto a 0 per il prossimo giro
+
+  def __del__(self):
+    Batterio._contaBatteri = Batterio._contaBatteri - 1
+
+   
+
+class IScell(Cellula):
+  _contaIS = 0
+  _MAX_ATTACKS = 9
+
+  def __init__(self,x,y,acted=0):
+    super().__init__(x,y,acted)
+    self._numattacks = 0
+    IScell._contaIS = IScell._contaIS + 1
+
+  def act(self, griglia):
+    if self._numattacks == IScell._MAX_ATTACKS:
+      self.die(griglia)
+
+  def attack(self):
+    self._numattacks = self._numattacks + 1
+
+  def __del__(self):
+    IScell._contaIS = IScell._contaIS - 1

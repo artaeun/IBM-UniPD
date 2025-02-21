@@ -1,0 +1,26 @@
+      Chiamiamo s la pila ricevuta come argomento.
+      Chiamiamo temp1 e temp2 le due pile usate dall'algoritmo come spazio di
+      memorizzazione temporaneo.
+
+      La prima osservazione da fare è che s dovrà contenere il risultato,
+      quindi dovrà per prima cosa essere svuotata, trasferendo i numeri in una
+      pila temporanea.
+
+      Poi, si osserva che s dovrà, al termine, contenere i numeri in modo che
+      possano venire estratti da essa in ordine crescente: questo implica, per
+      il comportamento caratteristico della pila, che detti numeri dovranno
+      esservi inseriti in ordine decrescente, iniziando da quello massimo.
+
+        Trasferire tutti i numeri dalla pila s alla pila temp1 (a questo punto
+                                                                s è vuota)
+        Finché la pila temp1 non è vuota:
+           trasferire tutti gli elementi di temp1 in temp2,
+                      tranne l'elemento massimo presente in temp1
+           tale elemento massimo va inserito in s
+           trasferire tutti gli elementi di temp2 in temp1 (attenzione...)
+           # a questo punto il numero di elementi in temp1 sarà diminuito di uno
+
+      Si faccia attenzione perché il trasferimento degli elementi da temp2 a
+      temp1 non è proprio necessario...
+      Ciò che serve è che (la variabile) temp1 faccia riferimento alla pila
+      (a cui fa riferimento la variabile) temp2...

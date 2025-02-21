@@ -1,0 +1,46 @@
+# esame_02_dict_testo.py
+
+# TEMPO: 90 minuti
+
+"""
+L'esercizio deve essere risolto SENZA usare i dizionari e gli insiemi
+definiti nella libreria di Python: gli unici contenitori utilizzabili
+sono le liste.
+Inoltre, non si può utilizzare il modulo re.
+Per prima cosa definire la classe Pair i cui esemplari hanno il compito
+di memorizzare una coppia costituita da una stringa e un numero intero.
+I metodi di Pair sono: costruttore che riceve la stringa e il numero intero,
+getCount che restituisce il numero intero e getWord che restituisce la
+stringa. Inoltre, deve essere definito il metodo __str__ che restituisce
+una stringa costituita dalla stringa memorizzata nell'esemplare, seguita
+da uno spazio e dal numero.
+Poi, definire la classe Dict che funzioni come un dizionario di esemplari
+di Pair. I suoi metodi sono: costruttore che crea un dizionario vuoto,
+insert che riceve un esemplare di Pair e lo inserisce nel dizionario
+(eliminando l'eventuale esemplare di Pair già contenuto nel dizionario e
+contenente la stessa stringa, indipendentemente dal numero),
+find che riceve una stringa e restituisce l'esemplare di Pair presente
+nel dizionario e contenente tale stringa (None se non c'è un tale oggetto
+nel dizionario), keys che restituisce una lista contenente le stringhe
+presenti negli oggetti Pair del dizionario (in ordine qualsiasi).
+Inoltre, deve essere definito il metodo __str__ che restituisce una stringa
+costituita da una riga per ciascun oggetto Pair contenuto nel dizionario
+(tali righe si ottengono invocando implicitamente o esplicitamente il metodo
+__str__ di Pair).
+Il programma principale deve:
+*) leggere righe di testo usando ripetutamente input(), fino a quando non
+   viene letta una stringa vuota
+*) le stringhe lette vanno concatenate usando "\n" come separatore e generando
+   un'unica stringa
+*) in tale stringa unica, vanno isolate le singole "parole": una parola è
+   definita come una sequenza di lettere (maiuscole o minuscole)
+*) il dizionario di coppie (Pair) rappresenta ciascuna parola e il conteggio
+   delle sue occorrenze all'interno del testo letto
+*) per ogni parola assente nel dizionario,
+   si inserisce una coppia che la rappresenta (con conteggio uguale a 1)
+*) per ogni parola già presente nel dizionario, si incrementa il relativo
+   conteggio
+*) al termine, si visualizza il contenuto del dizionario, con le parole in
+   lessicografico, una per riga, ciascuna seguita dal proprio conteggio
+
+"""
