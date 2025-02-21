@@ -9,13 +9,6 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _Ingenge
 - [Soluzioni simulazioni](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Soluzione%20esercitazioni%20ISB.pdf)
 
 ## Libri
-- [Transport Phenomena in Biological Systems-Pearson (2009)](/Dati/Studio/II%20Anno/ISB/Libri/George%20A.%20Truskey,%20Fan%20Yuan,%20and%20David%20F.%20Katz%20-%20Transport%20Phenomena%20in%20Biological%20Systems-Pearson%20(2009).pdf)
-- [Introductory Chemical Engineering Thermodynamics (2012)](/Dati/Studio/II%20Anno/ISB/Libri/Introductory%20Chemical%20Engineering%20Thermodynamics%20(2012,%20Prentice%20Hall).pdf)
----
-
-## Disclaimer
-
-##### *I contenuti qua presenti non sostituiscono i canali di comunicazioni già esistenti ([Moodle](https://stem.elearning.unipd.it/course/index.php?categoryid=11), [sito ufficiale di UniPD](https://www.unipd.it/)). La repo qua presente è gestita esclusivamente da studenti e/o rappresentati degli studenti di questo corso. UniPd e gli autori di queste pagine non si assumono nessuna responsabilità per il contenuto pubblicato qui. Le comunicazioni ai rappresentanti da parte degli utenti non costituiscono né garantiscono comunicazione di alcun genere a UniPd o agli organi affiliati. I suoi contenuti vengono messi a disposizione così come sono e non viene fornita alcuna garanzia per l’aggiornamento, la correttezza, la completezza o la qualità delle informazioni messe a disposizione.*
-
-##### *Il server Discord non vuole sostituirsi ai canali di comunicazioni già esistenti (Moodle, e-mail istituzionale) in alcun modo ed è gestito esclusivamente da studenti e/o rappresentati degli studenti di questo corso. UniPd e l'autore non si assumono nessuna responsabilità per il contenuto pubblicato qui. Le comunicazioni ai rappresentanti da parte degli utenti non costituiscono né garantiscono comunicazione di alcun genere a UniPd o agli organi affiliati. Il server e i suoi contenuti vengono messi a disposizione così come sono e non viene fornita alcuna garanzia per l’aggiornamento, la correttezza, la completezza o la qualità delle informazioni messe a disposizione.*
-
+- [Dispensa di teoria](/Dati/Studio/II%20Anno/ISB/Libri%20e%20dispense/Dispensa_ISB.pdf)
+- [Transport Phenomena in Biological Systems-Pearson (2009)](/Dati/Studio/II%20Anno/ISB/Libri%20e%20dispense/George%20A.%20Truskey,%20Fan%20Yuan,%20and%20David%20F.%20Katz%20-%20Transport%20Phenomena%20in%20Biological%20Systems-Pearson%20(2009).pdf)
+- [Introductory Chemical Engineering Thermodynamics (2012)](/Dati/Studio/II%20Anno/ISB/Libri%20e%20dispense/Introductory%20Chemical%20Engineering%20Thermodynamics%20(2012,%20Prentice%20Hall).pdf)

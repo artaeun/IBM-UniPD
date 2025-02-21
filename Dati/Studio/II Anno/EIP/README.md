@@ -2,7 +2,7 @@
 
 
 ## Materiale vario
-- [Mega-Riassunto del programma](/Dati/Studio/II%20Anno/EIP/Materiale%20vario/mega_riassunto_EIP.md) (non contiene materiale che viene coperto meglio dalle slide del MOODLE) - Quello che vi è contenuto serve solo da rinfresco o spunti per approfondire cose che non ricordate bene.
+- [Mega-Riassunto del programma](/Dati/Studio/II%20Anno/EIP/Materiale%20vario/Mega_riassunto_EIP.md) (non contiene materiale che viene coperto meglio dalle slide del MOODLE) - Quello che vi è contenuto serve solo da rinfresco o spunti per approfondire cose che non ricordate bene.
 - [Commandi Python e Teoria EIP](Tutta_la_teoria.md) - Vale quanto per il mega-riassunto
 
 ## Temi d'esame
