@@ -1,6 +1,6 @@
 03 Condizionali While
 
-# 3. Condizionali While
+# 3. Condizionali
 
 ## *Ciclo WHILE*
 
