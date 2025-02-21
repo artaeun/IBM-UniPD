@@ -7,5 +7,4 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _biomate
 - [Articoli](/Dati/Studio/II%20Anno/Biomateriali/Materiale%20vario/Articoli)
 
 ## Temi d'esame 
-- [Prove parziali degli anni passati](/Dati/Studio/II%20Anno/Biomateriali/Temi%20d'esame))
-
+- [Prove parziali degli anni passati](/Dati/Studio/II%20Anno/Biomateriali/Temi%20d'esame)
