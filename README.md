@@ -19,8 +19,6 @@ Qua trovate il quadro generale delle attività formattive, syllabus/contenuto e 
 Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel insegnamento.
 
 
-
-
 ## *Informazioni e guide*
 ### Link utili
 
@@ -44,14 +42,14 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi dell'umore/depressione documentati, anche in assenza di certificazioni)
 
 ## Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
-NB: si consiglia di aprire le cartelle in formato .zip da pc.
-- 1° Anno
+> NB: si consiglia di aprire le cartelle in formato .zip da pc.
+### 1° Anno
   - <!--- [Analisi 1] --->
   - <!--- [Fondamenti di Chimica] --->
   - <!--- [Fisica 1] --->
   - <!--- [Algebra Lineare e Geometria] --->
   - <!--- [BFA - Biologia, Fisiologia e Anatomia] --->
-- 2° Anno
+### 2° Anno
   - [TDC - Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC/README.md)
   - [EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)
   - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2/README.md)
@@ -59,7 +57,7 @@ NB: si consiglia di aprire le cartelle in formato .zip da pc.
   - [Biomateriali](/Dati/Studio/II%20Anno/Biomateriali/README.md)
   - [S&S - Segnali e Sistemi](/Dati/Studio/II%20Anno/S&S/README.md)
   - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II%20Anno/ISB/README.md)
-- 3° Anno
+### 3° Anno
   - [Biomeccanica](Dati/Studio/III%20Anno/Biomeccanica/README.md)
   - [ESB - Elaborazione di Segnali Biomedici](/Dati/Studio/III%20Anno/ESB/README.md)
   - [FDA - Fondamenti di Automatica](/Dati/Studio/III%20Anno/FDA/README.md)
