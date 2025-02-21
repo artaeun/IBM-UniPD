@@ -1,4 +1,4 @@
-programma INFORMATICA
+# Programma d'INFORMATICA
 - Il linguaggio di programmazione Python: 
     - tipi di dati elementari
         - tipi:
