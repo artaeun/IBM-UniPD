@@ -210,7 +210,7 @@ Quale delle seguenti funzioni converte una stringa in un numero floating point i
 
 ------------
 
-**domandaa 21:**
+**Domanda 21:**
 In un sistema operativo la gestione dei processi e delle interruzioni è compito del livello funzionale detto Kernel. Scegli un'alternativa:
 1. VERO °
 2. FALSO
@@ -261,5 +261,4 @@ Un indirizzo di memoria: Scegli un'alternativa:
 2. rappresenta il numero totale delle celle di memoria.
 3. individua univocamente una singola cella di memoria. °
 4. rappresenta il contenuto di una cella di memoria.
-
 
