@@ -1,0 +1,168 @@
+"""
+L'esercizio deve essere risolto SENZA usare i dizionari e gli insiemi
+definiti nella libreria di Python: gli unici contenitori utilizzabili
+sono le liste.
+Inoltre, non si può utilizzare il modulo re.
+
+Per prima cosa definire la classe Pair i cui esemplari hanno il compito
+di memorizzare una coppia costituita da una stringa e un numero intero.
+I metodi di Pair sono: costruttore che riceve la stringa e il numero intero,
+getCount che restituisce il numero intero e getWord che restituisce la
+stringa. Inoltre, deve essere definito il metodo __str__ che restituisce
+una stringa costituita dalla stringa memorizzata nell'esemplare, seguita
+da uno spazio e dal numero.
+
+Poi, definire la classe Dict che funzioni come un dizionario di esemplari
+di Pair. I suoi metodi sono: costruttore che crea un dizionario vuoto,
+insert che riceve un esemplare di Pair e lo inserisce nel dizionario
+(eliminando l'eventuale esemplare di Pair già contenuto nel dizionario e
+contenente la stessa stringa, indipendentemente dal numero),
+find che riceve una stringa e restituisce l'esemplare di Pair presente
+nel dizionario e contenente tale stringa (None se non c'è un tale oggetto
+nel dizionario), keys che restituisce una lista contenente le stringhe
+presenti negli oggetti Pair del dizionario (in ordine qualsiasi).
+Inoltre, deve essere definito il metodo __str__ che restituisce una stringa
+costituita da una riga per ciascun oggetto Pair contenuto nel dizionario
+(tali righe si ottengono invocando implicitamente o esplicitamente il metodo
+__str__ di Pair).
+
+Il programma principale deve:
+*) leggere righe di testo usando ripetutamente input(), fino a quando non
+   viene letta una stringa vuota
+*) le stringhe lette vanno concatenate usando "\n" come separatore e generando
+   un'unica stringa
+*) in tale stringa unica, vanno isolate le singole "parole": una parola è
+   definita come una sequenza di lettere (maiuscole o minuscole)
+*) il dizionario di coppie (Pair) rappresenta ciascuna parola e il conteggio
+   delle sue occorrenze all'interno del testo letto
+*) per ogni parola assente nel dizionario,
+   si inserisce una coppia che la rappresenta (con conteggio uguale a 1)
+*) per ogni parola già presente nel dizionario, si incrementa il relativo
+   conteggio
+*) al termine, si visualizza il contenuto del dizionario, con le parole in
+   lessicografico, una per riga, ciascuna seguita dal proprio conteggio
+
+"""
+
+class Pair:
+    def __init__(self, word, count):
+        self._word = word
+        self._count = count
+        
+    def getWord(self):
+        return self._word
+    
+    def getCount(self):
+        return self._count
+    
+    def __str__(self):
+        return str(self._word) + " " + str(self._count)
+    
+
+class Dict:
+    def __init__(self):
+        self._data = []
+        
+    def insert_sol1(self, pair):
+        i = 0
+        while i < len(self._data):
+            if self._data[i].getWord() == pair.getWord():
+                self._data.pop(i)
+            else:
+                i += 1
+        
+    def insert_sol2(self, pair):
+        new_data = []
+        for p in self._data:
+            if p.getWord() != pair.getWord():
+                new_data.append(p)
+        
+        new_data.append(pair)
+        
+        self._data = new_data
+    
+        
+    def insert(self, pair):
+        found = False
+        i = 0
+        while i < len(self._data):
+            if self._data[i].getWord() == pair.getWord():
+                self._data[i] = pair
+                found = True
+            i += 1
+            
+        if not found:
+            self._data.append(pair)
+        
+    def find(self, word): # O(n)
+        for p in self._data:
+            if p.getWord() == word:
+                return p        
+        return None
+    
+    def keys(self):
+        words = []
+        for p in self._data:
+            words.append(p.getWord())
+        return words
+    
+    def __str__sol1_unsorted(self):
+        # Complessità O(n)
+        s = ""
+        for p in self._data:
+            s = s + str(p) + "\n"
+        return s
+    
+    def __str__(self): # O(n) + O(n log n) + O(n^2) => O(n^2)
+        words = self.keys() # O(n)
+        words.sort()  # O(n log n)
+        
+        s = ""
+        for word in words:  # n volte il corpo del ciclo -> O(n^2)
+            pair = self.find(word)   # O(n)
+            s = s + str(pair) + "\n" # O(1)
+        return s
+    
+    
+def read_input():
+    text = ""
+    while True:
+        line = input()
+        if line == "":
+            break
+        text += line + "\n"
+        
+    return text
+
+
+def extract_words(text):
+    words = []
+    word = "" # parola corrente
+    for character in text:
+        if character.isalpha():
+            word += character
+        elif len(word) > 0:
+            words.append(word)
+            word = ""
+    
+    return words
+
+    
+    
+def main():
+    text = read_input()
+    words = extract_words(text)
+    
+    counts = Dict()
+    
+    for word in words:
+        pair = counts.find(word)
+        if pair is None:
+            counts.insert( Pair(word, 1) )
+        else:
+            newpair = Pair(word, pair.getCount() + 1)
+            counts.insert(newpair)
+            
+    print(counts)
+
+main()
