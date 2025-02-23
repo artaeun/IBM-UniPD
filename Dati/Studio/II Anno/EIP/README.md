@@ -13,7 +13,7 @@ https://inventwithpython.com/bigbookpython/
 - Materiale dei laboratori
   - [Prof. Di Camillo](Dati/Studio/II%20Anno/EIP/Materiale%20vario/Laboratorio/Di%20Camillo)
   - [Prof. Ceccarello](Dati/Studio/II%20Anno/EIP/Materiale%20vario/Laboratorio/Ceccarello)
-- [PDF delle lezioni del prof. Dal Passo](Dati/Studio/II%20Anno/EIP/Libri%20e%20dispense/eip_dalpassso.pdf)
+- [PDF delle lezioni del prof. Dal Passo](/Dati/Studio/II%20Anno/EIP/Libri%20e%20dispense/eip_dalpassso.pdf)
 
 ## Temi d'esame
 - [Temi d'esame degli anni passati](/Dati/Studio/II%20Anno/EIP/Temi%20d'esame/Temi%20d'esame)
