@@ -262,3 +262,86 @@ Un indirizzo di memoria: Scegli un'alternativa:
 3. individua univocamente una singola cella di memoria. °
 4. rappresenta il contenuto di una cella di memoria.
 
+------------
+
+**Domanda 27:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
+
+------------
+
+**Domanda 26:**
