@@ -13,5 +13,5 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 - ["Segnali e sistemi - Lorenzo Finesso"](/Dati/Studio/II%20Anno/S&S/%20Segnali%20e%20sistemi%20-%20Lorenzo%20Finesso.pdf)
 
 ## Videoleioni prof. Meneghesso
-Le videolezioni del prof. Meneghesso si possono trovare al seguente link: https://youtube.com/playlist?
-list=PL5JNcyGPaynmqC3SiVR0JbAyR8hV5D4g9&si=1pB15zpdHKwAuTJk
+Le videolezioni del prof. Meneghesso si possono trovare al seguente link: [https://youtube.com/playlist?
+list=PL5JNcyGPaynmqC3SiVR0JbAyR8hV5D4g9&si=1pB15zpdHKwAuTJk](https://youtube.com/playlist?list=PL5JNcyGPaynmqC3SiVR0JbAyR8hV5D4g9&feature=shared)
