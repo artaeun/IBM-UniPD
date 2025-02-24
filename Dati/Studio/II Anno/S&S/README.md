@@ -1,6 +1,6 @@
 # Segnali e sistemi
 
-Qui potete trovare il materiale utile alla preparazione per il corso di Segnali e sistemi.
+Qui potete trovare il materiale utile alla preparazione per il corso di _segnali e sistemi_.
 
 ## Materiale vario
 - [Formulario di segnali e sistemi (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/S&S/Formulario%20completo%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
