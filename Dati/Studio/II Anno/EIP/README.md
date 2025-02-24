@@ -12,10 +12,13 @@ https://inventwithpython.com/bigbookpython/
 - [Esercizi di programmazione e relativa soluzione](/Dati/Studio/II%20Anno/EIP/Materiale%20vario/Esercizi%20di%20programmazione)
 - Materiale dei laboratori
   - [Prof. Di Camillo](Dati/Studio/II%20Anno/EIP/Materiale%20vario/Laboratorio/Di%20Camillo)
-  - [Prof. Ceccarello](Dati/Studio/II%20Anno/EIP/Materiale%20vario/Laboratorio/Ceccarello) 
+  - [Prof. Ceccarello](Dati/Studio/II%20Anno/EIP/Materiale%20vario/Laboratorio/Ceccarello)
+- [PDF delle lezioni del prof. Dal Passo](/Dati/Studio/II%20Anno/EIP/Libri%20e%20dispense/eip_dalpasso.pdf)
 
 ## Temi d'esame
-
+- [Temi d'esame degli anni passati](/Dati/Studio/II%20Anno/EIP/Temi%20d'esame/Temi%20d'esame)
+- [Prove parziali degli anni passati](/Dati/Studio/II%20Anno/EIP/Temi%20d'esame/Parziali)
+- [Questionari](/Dati/Studio/II%20Anno/EIP/Temi%20d'esame/Questionari)
 ## _Di Camillo_
 - [Autovalutazione online secondo parziale](parziale_EIP.md) - domande e risposte del Test pre-secondo parziale, pubblicato sul moodle. 
 
