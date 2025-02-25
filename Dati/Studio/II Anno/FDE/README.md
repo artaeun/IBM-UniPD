@@ -3,7 +3,7 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _fondamenti di elettronica_.
 
 ## Materiale vario
-- [Formulario prof. Meneghesso](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Formulario_gauss.pdf)
+- [Formulario prof. Meneghesso](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Formulario_gauss.pdf)
 - [Formulario prof. Cester](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Formulario_cester.pdf)
 - [Autovalutazione sui requisiti minimi per seguire il corso](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/fde-autotest.pdf)
 
