@@ -57,6 +57,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
   - [Biomateriali](/Dati/Studio/II%20Anno/Biomateriali/README.md)
   - [S&S - Segnali e Sistemi](/Dati/Studio/II%20Anno/S&S/README.md)
   - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II%20Anno/ISB/README.md)
+  - [FDE - Fondamenti di elettronica](/Dati/Studio/II%20Anno/FDE/README.md)
 ### 3° Anno
   - [Biomeccanica](Dati/Studio/III%20Anno/Biomeccanica/README.md)
   - [ESB - Elaborazione di Segnali Biomedici](/Dati/Studio/III%20Anno/ESB/README.md)
