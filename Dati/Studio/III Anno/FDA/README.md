@@ -3,7 +3,6 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _fondamenti di automatica_.
 
 ## Materiale Vario 
-- [Appunti delle lezioni (credits Matteo Grigolon)](/Dati/Studio/III%20Anno/FDA/Materiale%20vario/Appunti%20lezioni%20(credits%20Matteo%20Grigolon).pdf)
 - [Homeworks e soluzioni](/Dati/Studio/III%20Anno/FDA/Materiale%20vario/Homeworks)
 - [Esercizi vari](/Dati/Studio/III%20Anno/FDA/Materiale%20vario/Esercizi)
 
