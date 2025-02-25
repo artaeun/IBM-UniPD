@@ -3,12 +3,14 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _fondamenti di elettronica_.
 
 ## Materiale vario
-- [Formulario di segnali e sistemi (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/S&S/Formulario%20completo%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
+- [Formulario prof. Meneghesso](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Formulario_gauss.pdf)
+- [Formulario prof. Cester](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Formulario_cester.pdf)
+- [Autovalutazione sui requisiti minimi per seguire il corso](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/fde-autotest.pdf)
 
 ## Esercizi
 - [Esercizi prof. Erseghe](/Dati/Studio/II%20Anno/S&S/Esercizi%20Erseghe)
 
-## Temi d'esame
+## Temi d'esame, quiz e simulazioni
 - [Simulazioni](/Dati/Studio/II%20Anno/FDE/Temi%20d'esame/Simulazioni)
 - [Domande a risposta multipla](/Dati/Studio/II%20Anno/FDE/Temi%20d'esame/Domande%20a%20risposta%20multipla)
 - [Anno accademico 2020/2021](/Dati/Studio/II%20Anno/FDE/Temi%20d'esame/AA_20-21)
