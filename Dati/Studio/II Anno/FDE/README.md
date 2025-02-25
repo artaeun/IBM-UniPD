@@ -35,5 +35,4 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 - [Microelettronica (2018)](/Dati/Studio/II%20Anno/FDE/Libri%20e%20dispense/Microelettronica%20(2018)%20-%20Richard%20C.%20Jaeger,%20Travis%20N.%20Blalock.pdf)
 
 ## Videolezioni prof. Meneghesso
-Le videolezioni del prof. Meneghesso si possono trovare al seguente link: [https://youtube.com/playlist?
-list=PL5JNcyGPaynmqC3SiVR0JbAyR8hV5D4g9&si=1pB15zpdHKwAuTJk](https://youtube.com/playlist?list=PL5JNcyGPaynmqC3SiVR0JbAyR8hV5D4g9&feature=shared)
+Le videolezioni del prof. Meneghesso si possono trovare al seguente link: [registrazioni video](https://youtube.com/playlist?list=PL5JNcyGPaynmqC3SiVR0JbAyR8hV5D4g9&feature=shared)
