@@ -8,7 +8,20 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 - [Autovalutazione sui requisiti minimi per seguire il corso](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/fde-autotest.pdf)
 
 ## Esercizi
-- [Esercizi prof. Erseghe](/Dati/Studio/II%20Anno/S&S/Esercizi%20Erseghe)
+> Vista la grande quantità di esercizi data dalla somma di entrambi i canali, sono stati riportati solo quelli del prof. Cester perché più immmediati da reperire e consultare e perché alle volte Gauss carica li stessi. 
+- [Esercizi del prof. Cester](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/)
+- [Soluzione esercizi reti elettriche](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES01%20Reti_elettriche-Soluzione)
+- [Soluzione esercizi semiconduttori](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES02%20Semiconduttori-Soluzione.pdf)
+- [Soluzione esercizi diodi](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES03%20Diodi-Soluzione.pdf)
+- [Soluzione esercizi polarizzazione del MOSFET](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES04%20MOSFET-Soluzione.pdf)
+- [Soluzione esercizi modelli ai piccoli segnali](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES05%20Modelli_ai_piccoli_segnali-Soluzione.pdf)
+- [Soluzione esercizi stadi elementari di amplificatori](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES06%20Stadi_elementari-Soluzione)
+- [Soluzione esercizi amplificatore differenziale e multistadio](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES08%20Multistazio_e_Differenziale-Soluzione.pdf)
+- [Soluzione esercizi amplificatore operazionale ideale](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES08%20Operazionali_ideali-Soluzione)
+- [Soluzione esercizi mplificatore operazionae reale](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES09%20Operazionali_reali-Soluzione.pdf)
+- [Soluzione esercizi filtri](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES10%20Filtri-Soluzione.pdf)
+- [Esercizi svolti a lezione](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/Esercizi%20svolti%20a%20lezione.pdf)
+- [Esercizi di preparazione all'esame](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/Esercizi%20di%20preparazone%20all'esame)
 
 ## Temi d'esame, quiz e simulazioni
 - [Simulazioni](/Dati/Studio/II%20Anno/FDE/Temi%20d'esame/Simulazioni)
