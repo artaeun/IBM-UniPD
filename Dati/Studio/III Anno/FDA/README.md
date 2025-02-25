@@ -22,8 +22,8 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 - [Anno accademico 2024/2025](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_24-25)
 
 ## Libri e dispense
+- [Dispensa di Automatica](/Dati/Studio/III%20Anno/FDA/Libri%20e%20dispense/dispensa_FDA.pdf)
 - [Appunti di automatica per l'Ingegneria Biomedica](Dati/Studio/III%20Anno/FDA/Libri%20e%20dispense/Apppunti%20di%20automatica%20per%20l'Ingegneria%20Biomedica%20-%20Augusto%20Ferrante.pdf)
--[Dispensa di Automatica](/Dati/Studio/III%20Anno/FDA/Libri%20e%20dispense/dispensa_FDA.pdf)
 
 
 ## Videolezioni prof. Ferrante
