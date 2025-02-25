@@ -8,5 +8,8 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _tecnolo
 - [Esercizi vari](/Dati/Studio/III%20Anno/TSB/Materiale%20vario/Esercizi%20TSB.pdf)
 - [Esercizi vari suddivisi in capitoli](/Dati/Studio/III%20Anno/TSB/Materiale%20vario/Esercizi%20TSB%20capitoli.pdf)
 
+## Libri e dispense
+- [Bioimmagini (2012)](/Dati/Studio/III%20Anno/TSB/Libri%edispense/Bioimmagini%20-%20G.%20Coppini,%20S.%20Diciotti,%20G.%20Valli.pdf)
+
 
 
