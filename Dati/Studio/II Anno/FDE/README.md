@@ -8,7 +8,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 - [Autovalutazione sui requisiti minimi per seguire il corso](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/fde-autotest.pdf)
 
 ## Esercizi
-> Vista la grande quantità di esercizi data dalla somma di entrambi i canali, sono stati riportati solo quelli del prof. Cester perché più immmediati da reperire e consultare e perché alle volte Gauss carica li stessi. 
+> Vista la grande quantità di esercizi data dalla somma di entrambi i canali, sono stati riportati solo quelli del prof. Cester perché più immmediati da reperire e consultare e perché alle volte Gauss carica gli stessi. 
 - [Esercizi del prof. Cester](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/fde_esercizi_Cester.pdf)
 - [Soluzione esercizi reti elettriche](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES01%20Reti_elettriche-Soluzione.pdf)
 - [Soluzione esercizi semiconduttori](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Esercizi/ES02%20Semiconduttori-Soluzione.pdf)
