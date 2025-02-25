@@ -5,7 +5,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 ## Materiale vario
 - [Formulario prof. Meneghesso](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Formulario_gauss.pdf)
 - [Formulario prof. Cester](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/Formulario_cester.pdf)
-- [Autovalutazione sui requisiti minimi per seguire il corso](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/autotest_fde.pdf)
+- [Autovalutazione sui requisiti minimi per seguire il corso](/Dati/Studio/II%20Anno/FDE/Materiale%20vario/fde-autotest.pdf)
 
 ## Esercizi
 - [Esercizi prof. Erseghe](/Dati/Studio/II%20Anno/S&S/Esercizi%20Erseghe)
