@@ -23,7 +23,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 
 ## Libri e dispense
 - [Dispensa di Automatica](/Dati/Studio/III%20Anno/FDA/Libri%20e%20dispense/dispensa_FDA.pdf)
-- [Appunti di automatica per l'Ingegneria Biomedica](Dati/Studio/III%20Anno/FDA/Libri%20e%20dispense/Apppunti%20di%20automatica%20per%20l'Ingegneria%20Biomedica%20-%20Augusto%20Ferrante.pdf)
+- [Appunti di automatica per l'Ingegneria Biomedica - Augusto Ferrante](Dati/Studio/III%20Anno/FDA/Libri%20e%20dispense/Apppunti%20di%20automatica%20per%20l'Ingegneria%20Biomedica%20-%20Augusto%20Ferrante.pdf)
 
 
 ## Videolezioni prof. Ferrante
