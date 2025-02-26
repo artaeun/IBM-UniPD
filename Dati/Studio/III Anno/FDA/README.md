@@ -1,4 +1,4 @@
-# Fondamenti di automatica
+# Materiale per lo studio di Fondamenti di Automatica
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _fondamenti di automatica_.
 
