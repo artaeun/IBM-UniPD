@@ -1,4 +1,4 @@
-# Bioelettromagnetismo
+# Materiale per lo studio di Bioelettromagnetismo
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _bioelettromagnetismo_.
 
