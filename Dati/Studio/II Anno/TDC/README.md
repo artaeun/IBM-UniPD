@@ -1,4 +1,4 @@
-# Teoria dei circuiti
+# Materiale per lo studio di Teoria dei Circuiti
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _teoria dei circuiti_.
 
