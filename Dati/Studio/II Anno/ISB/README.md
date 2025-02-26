@@ -1,4 +1,4 @@
-# Ingegneria dei sistemi biologici
+# Materiale per lo studio di Ingegneria dei Sistemi Biologici
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _ingengeria dei sistemi biologici_.
 
