@@ -1,4 +1,4 @@
-# Fisica 2
+# Materiale per lo studio di Fisica 2
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _fisica 2_.
 
