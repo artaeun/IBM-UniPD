@@ -1,4 +1,4 @@
-# Storia della tecnologia dell'informazione
+# Materiale per lo studio di Storia della Tecnologia dell'Informazione
 
 Qui potete trovare consigli e materiale utile alla stesura dell'elaborato di _Storia della tecnologia dell'informazione_.
 
