@@ -1,4 +1,4 @@
-# Fondamenti di Elettronica
+# Materiale per lo studio di Fondamenti di Elettronica
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _fondamenti di elettronica_.
 
