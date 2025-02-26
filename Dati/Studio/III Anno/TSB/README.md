@@ -1,4 +1,4 @@
-# Tecnologia e strumentazione biomedica
+# Materiale per lo studio di Tecnologia e Strumentazione Biomedica
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _tecnologia e strumentazione biomedica_.
 
