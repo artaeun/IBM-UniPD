@@ -2,7 +2,20 @@
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _biomeccanica_.
 
-## Riassunti capitoli 
-- [Capitolo 01 - Cariche elettriche e correnti elettriche](/Dati/Studio/II%20Anno/TDC/Cariche%20elettriche%20e%20correnti%20elettriche%20(credits%20Matteo%20Grigolon).pdf)
+## Materiale vario
+- [Formulario 1](/Dati/Studio/III%20Anno/Biomeccanica/Materiale_vario/Formulario1.pdf)
+- [Formulario 2](/Dati/Studio/III%20Anno/Biomeccanica/Materiale_vario/Formulario2.pdf)
 
+## Temi d'esame
+- Pavan:
+  - [Esercizi tratti dalle prove d'esame 1](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Pavan/IBM-Biomeccanica_Prove-esame1.pdf)
+  - [Esercizi tratti dalle prove d'esame 2](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Pavan/IBM-Biomeccanica_Prove-esame2.pdf)
+- Berardo:
+  - [Facsimile pova d'esame](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Berardo/Facsimile)
+  - [Anno acccademico 2022/2023](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Berardo/AA_22-23)
+  - [Anno accademico 2023/2024](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Berardo/AA_23-24)
+  - [Anno accademico 2024/2025](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Berardo/AA_24-25)
+
+## Libri e dispense
+- [Scienza delle costruzioni - Paolo Casini, Marcello Vasta](/Dati/Studio/III%20Anno/Biomeccanica/Libri_e_dispense/Scienza_delle_costruzioni_Casini_Vasta.pdf)
 
