@@ -12,7 +12,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
 - [PDF lezioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/PDF%20lezioni)
 
 ## Libri e dispense
-- [Protezione dai campi elettromagnetici non ionizzanti (2001)](/Dati/Studio/III%20Anno/BEM/Libri%20e%20dispense/Protezione%20dai%20campi%20elettromagnetici%20-%20Andreucetti%20Daniele.pdf)
+- [Protezione dai campi elettromagnetici non ionizzanti (2001) - Daniele Andreucetti](/Dati/Studio/III%20Anno/BEM/Libri%20e%20dispense/Protezione%20dai%20campi%20elettromagnetici%20-%20D.%20Andreucetti.pdf)
 
 ## Temi d'esame e domande di teoria
 - []()
