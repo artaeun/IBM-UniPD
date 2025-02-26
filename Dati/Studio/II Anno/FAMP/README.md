@@ -3,8 +3,8 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _fondamenti di analisi matematica e probabilità_.
 
 ## Materiale vario
-- [Formulario di analisi 2 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Materiale&20vario/)
-- [Formulario di probabilità (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Materiale%20vario/)
+- <!--- [Formulario di analisi 2 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Materiale&20vario/) --->
+- <!--- [Formulario di probabilità (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Materiale%20vario/) --->
 
 ## Quiz settimanali
 - [Quiz 01 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2001%20(credits%20Matteo%20Grigolon).pdf)
@@ -26,7 +26,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 
 ## Libri e dispense
 - [Libro di Analisi 2](/Dati/Studio/II%20Anno/FAMP/Libri%20e%20dispense/Appunti%20di%20Calcolo%20in%20più%20variabili%20-%20Carlo%20Mariconda,%20Ermal%20Felequi.pdf)
-- [Libro di probabilità](/Dati/Studio/II%20Anno/FAMP/Libri%20e%20dispense/Appunti%20di%20Calcolo%20delle%20Probabilità%20-%20Carlo%20Mariconda.pdf)
+- [Libro di Probabilità](/Dati/Studio/II%20Anno/FAMP/Libri%20e%20dispense/Appunti%20di%20Calcolo%20delle%20Probabilità%20-%20Carlo%20Mariconda.pdf)
 - [Dispensa esercizi (credits Simone Bortolin)](/Dati/Studio/II%20Anno/FAMP/Libri%20e%20dispense/FAMP_dispensa.pdf)
 
 

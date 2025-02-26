@@ -1,9 +1,9 @@
 # Ingegneria dei sistemi biologici
 
-Qui potete trovare il materiale utile alla preparazione per il corso di _Ingengeria dei sistemi biologici_.
+Qui potete trovare il materiale utile alla preparazione per il corso di _ingengeria dei sistemi biologici_.
 
 ## Materiale vario
-- [Domande di teoria](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Domande%20di%20teoria%20Ingegneria%20dei%20sistemi%20biologici.pdf)
+- [Domande per la parte di teoria e relativa risposta](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Domande%20di%20teoria%20Ingegneria%20dei%20sistemi%20biologici.pdf)
 - [Formulario](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Formulario_ISB.pdf)
 - [Esercitazioni e simulazioni](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Esercitazioni%20e%20simulazioni%20ISB.pdf)
 - [Soluzioni simulazioni](/Dati/Studio/II%20Anno/ISB/Materiale%20vario/Soluzione%20esercitazioni%20ISB.pdf)

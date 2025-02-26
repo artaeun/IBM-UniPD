@@ -2,8 +2,29 @@
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _fondamenti di automatica_.
 
-## Riassunti capitoli 
-- [Capitolo 01 - Cariche elettriche e correnti elettriche](/Dati/Studio/II%20Anno/TDC/Cariche%20elettriche%20e%20correnti%20elettriche%20(credits%20Matteo%20Grigolon).pdf)
+## Materiale Vario 
+- [Homeworks e soluzioni](/Dati/Studio/III%20Anno/FDA/Materiale%20vario/Homeworks)
+- [Esercizi vari](/Dati/Studio/III%20Anno/FDA/Materiale%20vario/Esercizi)
+
+## Temi d'esame
+- [Anno accademico 2011/2012](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_11-12)
+- [Anno accademico 2012/2013](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_12-13)
+- [Anno accademico 2013/2014](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_13-14)
+- [Anno accademico 2014/2015](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_14-15)
+- [Anno accademico 2015/2016](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_15-16)
+- [Anno accademico 2016/2017](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_16-17)
+- [Anno accademico 2017/2018](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_17-18)
+- [Anno accademico 2018/2019](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_18-19)
+- [Anno accademico 2019/2020](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_19-20)
+- [Anno accademico 2020/2021](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_20-21)
+- [Anno accademico 2021/2022](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_21-22)
+- [Anno accademico 2022/2023](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_22-23)
+- [Anno accademico 2024/2025](Dati/Studio/III%20Anno/FDA/Temi%20d'esame/AA_24-25)
+
+## Libri e dispense
+- [Dispensa di Automatica](/Dati/Studio/III%20Anno/FDA/Libri%20e%20dispense/dispensa_FDA.pdf)
+- [Appunti di automatica per l'Ingegneria Biomedica - Augusto Ferrante](Dati/Studio/III%20Anno/FDA/Libri%20e%20dispense/Apppunti%20di%20automatica%20per%20l'Ingegneria%20Biomedica%20-%20Augusto%20Ferrante.pdf)
+
 
 ## Videolezioni prof. Ferrante
 Le videolezioni del prof. Ferrante si possono trovare al seguente link: [registrazioni video](https://drive.google.com/drive/folders/1GLcoaMWgCbmqEZUNV54SHUBjB7nE1FJl)
