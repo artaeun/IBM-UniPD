@@ -1,4 +1,4 @@
-# Informatica medica
+# Materiale per lo studio di Informatica Medica
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _informatica medica_.
 
