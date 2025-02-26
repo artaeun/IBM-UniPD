@@ -5,7 +5,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _teoria 
 ## Riassunti dei capitoli 
 - [Riassunto di Teoria dei Circuiti(credits Matteo Grigolon)](/Dati/Studio/II%20Anno/TDC/Materiale%20vario/Riassunto%20di%20Teoria%20dei%20Circuiti%20(credits%20Matteo%20Grigolon).pdf)
 ## Domande di teoria e risposte
-Nota: le risposte non comprendono la domanda inerente il GCPC perché il ragazzo che le ha fatte è di Ingegneria Elettronica e non era presente tra quelle fornite dal docente.
+> Nota: le risposte non comprendono la domanda inerente il GCPC perché il ragazzo che le ha fatte è di Ingegneria Elettronica e non era presente tra quelle fornite dal docente.
 - [Domande di teoria](/Dati/Studio/II%20Anno/TDC/Materiale%20vario/Domande%20di%20teoria%20TDC.pdf)
 - [Risposte alle domande di teoria TDC (credits Tommaso Boscardin)](/Dati/Studio/II%20Anno/TDC/Materiale%20vario/Risposte%20alle%20domande%20di%20Teoria%20(credits%20Tommaso%20Boscardin).pdf)
 
