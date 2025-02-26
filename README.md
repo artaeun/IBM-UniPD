@@ -3,7 +3,7 @@
   <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
   </p> --->
 
-Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2017 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
+Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2025 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
 
 
 ## 🎓*Scheda del corso* 
