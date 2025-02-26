@@ -1,4 +1,4 @@
-# Segnali e sistemi
+# Materiale per lo studio di Segnali e Sistemi
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _segnali e sistemi_.
 
