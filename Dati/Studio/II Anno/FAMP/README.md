@@ -1,4 +1,4 @@
-# Fondamenti di analisi matematica e probabilità
+# Materiale per lo studio di Fondamenti di Analisi Matematica e Probabilità
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _fondamenti di analisi matematica e probabilità_.
 
