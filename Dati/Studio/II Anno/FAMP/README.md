@@ -3,8 +3,8 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _fondamenti di analisi matematica e probabilità_.
 
 ## Materiale vario
-- [Formulario di analisi 2 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Materiale&20vario/)
-- [Formulario di probabilità (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Materiale%20vario/)
+- <!--- [Formulario di analisi 2 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Materiale&20vario/) --->
+- <!--- [Formulario di probabilità (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Materiale%20vario/) --->
 
 ## Quiz settimanali
 - [Quiz 01 (credits Matteo Grigolon)](/Dati/Studio/II%20Anno/FAMP/Quiz%20settimanali/Quiz%2001%20(credits%20Matteo%20Grigolon).pdf)
