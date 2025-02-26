@@ -1,4 +1,4 @@
-# Biomateriali
+# Materiale per lo studio di Biomateriali
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _biomateriali_.
 
