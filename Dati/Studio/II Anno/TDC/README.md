@@ -1,6 +1,6 @@
 # Teoria dei circuiti
 
-Qui potete trovare il materiale utile alla preparazione per il corso di Teoria dei Circuiti.
+Qui potete trovare il materiale utile alla preparazione per il corso di _teoria dei circuiti_.
 
 ## Riassunti dei capitoli 
 - [Riassunto di Teoria dei Circuiti(credits Matteo Grigolon)](/Dati/Studio/II%20Anno/TDC/Materiale%20vario/Riassunto%20di%20Teoria%20dei%20Circuiti%20(credits%20Matteo%20Grigolon).pdf)
@@ -17,13 +17,4 @@ Nota: le risposte non comprendono la domanda inerente il GCPC perché il ragazzo
 - [Dispensa esercizi 2](/Dati/Studio/II%20Anno/TDC/Libri%20e%20dispense/Dispensa%20esercizi%202%20TDC.pdf)
 - [Dispensa teoria](/Dati/Studio/II%20Anno/TDC/Libri%20e%20dispense/Dispensa%20teoria%20TDC.pdf)
 - [Elettrotecnica 1 - Principi (2020)](/Dati/Studio/II%20Anno/TDC/Libri%20e%20dispense/Elettrotecnica%201%20-%20Principi.zip)
-
-
----
-
-## Disclaimer
-
-##### *I contenuti qua presenti non sostituiscono i canali di comunicazioni già esistenti ([Moodle](https://stem.elearning.unipd.it/course/index.php?categoryid=11), [sito ufficiale di UniPD](https://www.unipd.it/)). La repo qua presente è gestita esclusivamente da studenti e/o rappresentati degli studenti di questo corso. UniPd e gli autori di queste pagine non si assumono nessuna responsabilità per il contenuto pubblicato qui. Le comunicazioni ai rappresentanti da parte degli utenti non costituiscono né garantiscono comunicazione di alcun genere a UniPd o agli organi affiliati. I suoi contenuti vengono messi a disposizione così come sono e non viene fornita alcuna garanzia per l’aggiornamento, la correttezza, la completezza o la qualità delle informazioni messe a disposizione.*
-
-##### *Il server Discord non vuole sostituirsi ai canali di comunicazioni già esistenti (Moodle, e-mail istituzionale) in alcun modo ed è gestito esclusivamente da studenti e/o rappresentati degli studenti di questo corso. UniPd e l'autore non si assumono nessuna responsabilità per il contenuto pubblicato qui. Le comunicazioni ai rappresentanti da parte degli utenti non costituiscono né garantiscono comunicazione di alcun genere a UniPd o agli organi affiliati. Il server e i suoi contenuti vengono messi a disposizione così come sono e non viene fornita alcuna garanzia per l’aggiornamento, la correttezza, la completezza o la qualità delle informazioni messe a disposizione.*
 
