@@ -1,4 +1,4 @@
-# Misure e acquisizione di dati biomedici
+# Materiale per lo studio di Misure e Acquisizione di Dati Biomedici
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _misure e acquisizione di dati biomedici_.
 
