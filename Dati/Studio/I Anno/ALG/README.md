@@ -6,9 +6,9 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _algebra
 - [Quiz di autovalutazione (senza soluzione)](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Quiz_ALG.pdf)
 - [Quiz di autovalutazione (con soluzione)](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Quiz_ALG-Soluzione.pdf)
   Esercizi del tutorato
-  - [Tutorato 2021/2022]((/Dati/Studio/I%20Anno/ALG/Materiale_vario/Tutorato/Tutorato_21-22.pdf)
-  - [Tutorato 202/2023]((/Dati/Studio/I%20Anno/ALG/Materiale_vario/Tutorato/Tutorato_22-23)
-  - [Tutorato 2023/2024]((/Dati/Studio/I%20Anno/ALG/Materiale_vario/Tutorato/Tutorato_23-24)
+  - [Tutorato 2021/2022](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Tutorato/Tutorato_21-22.pdf)
+  - [Tutorato 202/2023](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Tutorato/Tutorato_22-23)
+  - [Tutorato 2023/2024](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Tutorato/Tutorato_23-24)
 
 ## Temi d'esame
 Tutti i temi d'esame sono presenti nel sito del prof. Bottaccin al seguente link: [temi d'esame](https://www.math.unipd.it/~bottacin/falgesami.htm)
