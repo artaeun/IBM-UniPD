@@ -3,7 +3,7 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _algebra lineare e geometria_.
 
 ## Materiale vario
-- [Quiz di autovalutazione (senza soluzione)](/Dati/Studio/I%20Anno/ALG/Materiuale_vario/Quiz_ALG.pdf)
+- [Quiz di autovalutazione (senza soluzione)](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Quiz_ALG.pdf)
 - [Quiz di autovalutazione (con soluzione)](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Quiz_ALG-Soluzione)
 
 ## Temi d'esame
