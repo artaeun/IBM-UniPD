@@ -44,11 +44,11 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 ## :book: Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
 > NB: si consiglia di aprire le cartelle in formato .zip da pc.
 ### 1° Anno
-  - <!--- [Analisi 1] --->
-  - <!--- [Fondamenti di Chimica] --->
-  - <!--- [Fisica 1] --->
-  - <!--- [Algebra Lineare e Geometria] --->
-  - <!--- [BFA - Biologia, Fisiologia e Anatomia] --->
+  - [AM1 - Analisi 1](/Dati/Studio/I%20Anno/AM1/README.md)
+  - [FCB - Fondamenti di Chimica per la Bioingegneria](/Dati/Studio/I%20Anno/FCB/README.md)
+  - [Fisica 1](/Dati/Studio/I%20Anno/Fisica1/README.md)
+  - [ALG- Algebra Lineare e Geometria](/Dati/Studio/I%20Anno/ALG/README.md)
+  - [BFA - Biologia, Fisiologia e Anatomia](/Dati/Studio/I%20Anno/BFA/README.md)
 ### 2° Anno
   - [TDC - Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC/README.md)
   - [EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)
