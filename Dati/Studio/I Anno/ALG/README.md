@@ -2,8 +2,18 @@
 
 Qui potete trovare il materiale utile alla preparazione per il corso di _algebra lineare e geometria_.
 
-## Temi d'same
+## Materiale vario
+- [Quiz di autovalutazione (senza soluzione)](/Dati/Studio/I%20Anno/ALG/Materiuale_vario/Quiz_ALG.pdf)
+- [Quiz di autovalutazione (con soluzione)](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Quiz_ALG-Soluzione)
+
+## Temi d'esame
 Tutti i temi d'esame sono presenti nel sito del prof. Bottaccin al seguente link: [temi d'esame](https://www.math.unipd.it/~bottacin/falgesami.htm)
+
+## Libri e dispense
+- [Algebra Lineare e Geometria - Francesco Bottacin](/Dati/Studio/I%20Anno/ALG/Libri_e_dispense/Algebra%20Lineare%20e%20Geometria%20-%20Francesco%20Bottacin.pdf)
+- [Esercizi di Algebra Lineare e GEometria - Francesco Bottaccin](/Dati/Studio/I%20Anno/ALG/Libri_e_dispense/Esercizi%20di%20Algebra%20Lineare%20e%20Geometria%20-%20Francesco%20Bottacin.pdf)
+- [Linear Algebra and Geometry - Francesco Bottaccin](/Dati/Studio/I%20Anno/ALG/Libri_e_dispense/Linear%20Algebra%20and%20Geometry.pdf)
+- [Exercises in Linear Algebra and Geometry](/Dati/Studio/I%20Anno/ALG/Libri_e_dispense/Exercises%20in%20Linear%20Algebra%20and%20Geometry.pdf)
 
 ## Videolezioni prof. Bottaccin
 Le videolezioni del prof. Bottaccin si possono trovare al seguente link: [registrazioni video](https://www.youtube.com/channel/UCpJGeVBfmf-6S3neeImAw1w)
