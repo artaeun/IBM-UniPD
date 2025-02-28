@@ -7,10 +7,10 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _biomecc
 - [Formulario 2](/Dati/Studio/III%20Anno/Biomeccanica/Materiale_vario/Formulario2.pdf)
 
 ## Temi d'esame
-- **Pavan:**
+- **Pavan**
   - [Esercizi tratti dalle prove d'esame 1](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Pavan/IBM-Biomeccanica_Prove-esame1.pdf)
   - [Esercizi tratti dalle prove d'esame 2](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Pavan/IBM-Biomeccanica_Prove-esame2.pdf)
-- **Berardo:**
+- **Berardo**
   - [Facsimile pova d'esame](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Berardo/Facsimile)
   - [Anno accademico 2022/2023](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Berardo/AA_22-23)
   - [Anno accademico 2023/2024](/Dati/Studio/III%20Anno/Biomeccanica/Temi_d'esame/Berardo/AA_23-24)
