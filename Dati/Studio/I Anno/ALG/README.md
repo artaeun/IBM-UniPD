@@ -5,7 +5,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _algebra
 ## Materiale vario
 - [Quiz di autovalutazione (senza soluzione)](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Quiz_ALG.pdf)
 - [Quiz di autovalutazione (con soluzione)](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Quiz_ALG-Soluzione.pdf)
-  Esercizi del tutorato
+- Esercizi del tutorato
   - [Tutorato 2021/2022](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Tutorato/Tutorato_21-22.pdf)
   - [Tutorato 202/2023](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Tutorato/Tutorato_22-23)
   - [Tutorato 2023/2024](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Tutorato/Tutorato_23-24)
