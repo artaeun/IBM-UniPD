@@ -4,7 +4,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _algebra
 
 ## Materiale vario
 - [Quiz di autovalutazione (senza soluzione)](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Quiz_ALG.pdf)
-- [Quiz di autovalutazione (con soluzione)](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Quiz_ALG-Soluzione)
+- [Quiz di autovalutazione (con soluzione)](/Dati/Studio/I%20Anno/ALG/Materiale_vario/Quiz_ALG-Soluzione.pdf)
 
 ## Temi d'esame
 Tutti i temi d'esame sono presenti nel sito del prof. Bottaccin al seguente link: [temi d'esame](https://www.math.unipd.it/~bottacin/falgesami.htm)
