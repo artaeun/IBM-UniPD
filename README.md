@@ -10,11 +10,11 @@ Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazi
 
 Qua trovate il quadro generale delle attività formattive, syllabus/contenuto e modalità di esami dei singoli insegnamenti:
 
-[**Anno 1 - Scheda del corso**](https://didattica.unipd.it/off/2023/LT/IN/IN2374)
+[**Anno 1 - Scheda del corso**](https://didattica.unipd.it/off/2024/LT/IN/IN2374)
 
-[**Anno 2 - Scheda del corso**](https://didattica.unipd.it/off/2022/LT/IN/IN2374)
+[**Anno 2 - Scheda del corso**](https://didattica.unipd.it/off/2023/LT/IN/IN2374)
 
-[**Anno 3 - Scheda del corso**](https://didattica.unipd.it/off/2021/LT/IN/IN2374)
+[**Anno 3 - Scheda del corso**](https://didattica.unipd.it/off/2022/LT/IN/IN2374)
 
 Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel insegnamento.
 
