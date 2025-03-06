@@ -14,6 +14,8 @@ Qui di seguito si possono trovare, ad ausilio per lo studio, i files pdf con tut
   > [Note delle lezioni](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Note_lezioni)
 
 ## Temi d'esame
+- [Anno accademico 2013/2014](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_13-14)
+- [Anno accademico 2014/2015](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_14-15)
 - [Anno accademico 2015/2016](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_15-16)
 - [Anno accademico 2016/2017](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_16-17)
 - [Anno accademico 2017/2018](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_17-18)
