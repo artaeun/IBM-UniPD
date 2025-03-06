@@ -5,11 +5,24 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fisica 
 ## Materiale vario
 - [Domande di autovalutazione (senza soluzione)](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Quiz_Fisica1.pdf)
 - [Domande di autovalutazione (con soluzione)](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Quiz_Fisica1.pdf)
+- [Esercizi vari](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/ESercizi)
+- [Tutorato](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Tutorato)
 - Note delle lezioni del prof. Naletto:
   > Nell'anno accademico 2019/20 le lezioni del corso si sono svolte online descrivendo in video gli argomenti e scrivendo su tablet (al posto di usare la lavagna).
 Qui di seguito si possono trovare, ad ausilio per lo studio, i files pdf con tutto quanto è stato scritto a lezione su tablet. I files sono raccolti per argomento, anche se ciò corrisponde solo parzialmente all'ordine in cui si sono svolte le lezioni. NB Qualche errore potrebbe essere presente...
   
   > [Note delle lezioni](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Note_lezioni)
+
+## Temi d'esame
+- [Anno accademico 2015/2016](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_15-16)
+- [Anno accademico 2016/2017](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_16-17)
+- [Anno accademico 2017/2018](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_17-18)
+- [Anno accademico 2018/2019](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_18-19)
+- [Anno accademico 2020/2021](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_20-21)
+- [Anno accademico 2021/2022](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_21-22)
+- [Anno accademico 2022/2023](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_22-23)
+- [Anno accademico 2023/2024](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_23-24)
+
 
 ## Libri e dispense
 - [Problemi di fisica generale - P. Zotto, S. Lo Russo](/Dati/Studio/I%20Anno/Fisica1/Libri_e_dispense/Problemi%20di%20Fisica%20Generale.%20Meccanica%20e%20Termodinamica%20-%20P.%20Zotto,%20S.%20Lo%20Russo.pdf)
