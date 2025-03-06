@@ -8,12 +8,16 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fisica 
 - Note delle lezioni del prof. Naletto:
   > Nell'anno accademico 2019/20 le lezioni del corso si sono svolte online descrivendo in video gli argomenti e scrivendo su tablet (al posto di usare la lavagna).
 Qui di seguito si possono trovare, ad ausilio per lo studio, i files pdf con tutto quanto è stato scritto a lezione su tablet. I files sono raccolti per argomento, anche se ciò corrisponde solo parzialmente all'ordine in cui si sono svolte le lezioni. NB Qualche errore potrebbe essere presente...
-  [NOte delle lezioni](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Note_lezioni)
+  
+  > [Note delle lezioni](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Note_lezioni)
 
 ## Libri e dispense
 - [Problemi di fisica generale - P. Zotto, S. Lo Russo](/Dati/Studio/I%20Anno/Fisica1/Libri_e_dispense/Problemi%20di%20Fisica%20Generale.%20Meccanica%20e%20Termodinamica%20-%20P.%20Zotto,%20S.%20Lo%20Russo.pdf)
 - [Problemi di fisica generale - P. Mazzoldi, A. Saggion, C. Voci](/Dati/Studio/I%20Anno/Fisica1/Libri_e_dispense/Problemi%20di%20Fisica%20Generale.%20Meccanica%20e%20Termodinamica%20-%20P.%20Mazzoldi,%20A.%20Saggion,%20C.%20Voci.pdf)
-- 
+- [Elementi di Fisica Meccanica e Termodinamica 3rd - P. Mazzoldi, M.Nigro](/Dati/Studio/I%20Anno/Fisica1/Libri_e_dispense/Elementi%20di%20Fisica%20Meccanica%20e%20Termodinamica%203rd%20-%20P.%20Mazzoldi,%20M.%20Nigro.pdf)
+- [Fisica Generale. Meccanica e Termodinamica - P. Zotto, S. Lo Russo, P. Sartori](/Dati/Studio/I%20Anno/Fisica1/Libri_e_dispense/Fisica%20Generale.%20Meccanica%20e%20Termodinamica%20-%20P.%20Zotto,%20S.%20Lo%20Russo,%20P.%20Sartori.pdf)
+- [Fisica in laboratorio - G. Mazzi, P. Ronchese, P. Zotto](/Dati/Studio/I%20Anno/Fisica1/Libri_e_dispense/Fisica%20in%20laboratorio%20-%20G.%20Mazzi,%20P.%20Ronchese,%20P.%20Zotto.pdf)
+- [Fisica Vol. 1 Meccanica e Termodinamica - P. Mazzoldi, M. Nigro, C. Voci](/Dati/Studio/I%20Anno/Fisica1/Libri_e_dispense/Fisica%20Vol1%20Meccanica%20e%20Termodinamica%20-%20P.%20Mazzoldi,%20M.%20Nigro,%20C.%20Voci.pdf)
 
 ## Videolezioni prof. Naletto
 Le videolezioni del prof. Naletto si possono trovare nei Moodle dell'anno accademico [20/21](https://elearning.dei.unipd.it/course/view.php?id=7256). 
