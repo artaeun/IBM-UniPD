@@ -14,14 +14,14 @@ Qui di seguito si possono trovare, ad ausilio per lo studio, i files pdf con tut
   > [Note delle lezioni](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Note_lezioni)
 
 ## Temi d'esame
-- [Anno accademico 2015/2016](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Temi_d'esame/AA_15-16)
-- [Anno accademico 2016/2017](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Temi_d'esame/AA_16-17)
-- [Anno accademico 2017/2018](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Temi_d'esame/AA_17-18)
-- [Anno accademico 2018/2019](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Temi_d'esame/AA_18-19)
-- [Anno accademico 2020/2021](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Temi_d'esame/AA_20-21)
-- [Anno accademico 2021/2022](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Temi_d'esame/AA_21-22)
-- [Anno accademico 2022/2023](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Temi_d'esame/AA_22-23)
-- [Anno accademico 2023/2024](/Dati/Studio/I%20Anno/Fisica1/Materiale_vario/Temi_d'esame/AA_23-24)
+- [Anno accademico 2015/2016](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_15-16)
+- [Anno accademico 2016/2017](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_16-17)
+- [Anno accademico 2017/2018](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_17-18)
+- [Anno accademico 2018/2019](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_18-19)
+- [Anno accademico 2020/2021](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_20-21)
+- [Anno accademico 2021/2022](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_21-22)
+- [Anno accademico 2022/2023](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_22-23)
+- [Anno accademico 2023/2024](/Dati/Studio/I%20Anno/Fisica1/Temi_d'esame/AA_23-24)
 
 
 ## Libri e dispense
