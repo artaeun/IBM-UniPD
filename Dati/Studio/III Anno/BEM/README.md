@@ -3,19 +3,19 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _bioelettromagnetismo_.
 
 ## Materiale vario
-- [Appunti sulle lezioni di laboratorio e il metodo FDTD](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/BEM%20laboratorio%20e%20lezioni%20FDTD%20(credits%20Davide%20Bosco).pdf)
-- [Definizioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/definitions.pdf)
-- [Alfabeto greco](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/alfabeto_greco.pdf)
-- [Operatori vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_operators.pdf)
-- [Identità vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_identities.pdf)
-- [Articoli e rapporti](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/Articoli%20e%20rapporti)
-- [PDF lezioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/PDF%20lezioni)
+- [Appunti sulle lezioni di laboratorio e il metodo FDTD](/Dati/Studio/III_Anno/BEM/Materiale_vario/BEM%20laboratorio%20e%20lezioni%20FDTD%20(credits%20Davide%20Bosco).pdf)
+- [Definizioni](/Dati/Studio/III_Anno/BEM/Materiale_vario/definitions.pdf)
+- [Alfabeto greco](/Dati/Studio/III_Anno/BEM/Materiale_vario/alfabeto_greco.pdf)
+- [Operatori vettoriali](/Dati/Studio/III_Anno/BEM/Materiale_vario/vector_operators.pdf)
+- [Identità vettoriali](/Dati/Studio/III_Anno/BEM/Materiale_vario/vector_identities.pdf)
+- [Articoli e rapporti](/Dati/Studio/III_Anno/BEM/Materiale_vario/Articoli_e_rapporti)
+- [PDF lezioni](/Dati/Studio/III_Anno/BEM/Materiale_vario/PDF_lezioni)
 
 ## Libri e dispense
-- [Protezione dai campi elettromagnetici non ionizzanti (2001) - Daniele Andreucetti](/Dati/Studio/III%20Anno/BEM/Libri%20e%20dispense/Protezione%20dai%20campi%20elettromagnetici%20-%20D.%20Andreucetti.pdf)
+- [Protezione dai campi elettromagnetici non ionizzanti (2001) - Daniele Andreucetti](/Dati/Studio/III_Anno/BEM/Libri_e_dispense/Protezione%20dai%20campi%20elettromagnetici%20-%20D.%20Andreucetti.pdf)
 
 ## Temi d'esame e domande di teoria
-- []()
+<!--- - []() --->
 - Domande di teoria raccolte dai precedenti appelli:
   ```
   GIUGNO 2020
@@ -42,7 +42,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
   	- all'equilibrio se le densità di corrente della diff ionica e libera erano concordi discordi o nulle 
   	- il periodo refrattario che cosa indica 
   	- i modelli in volumi conduttori per le bio sorgenti
-  	- per le radiazioni Nir se f< 100 kHz quali erano i parametri da tenere sotto controllo (più o meno)
+  	- per le radiazioni Nir se f<100 kHz quali erano i parametri da tenere sotto controllo (più o meno)
   	- se div(B) era = o ≠ da 0
   	- in 1 cm^3 di volume ti dava la densità di carica volumetrica e ti dovevi calcolare il flusso di D
   	- un materiale buon conduttore con sigma e epsilon che ti dava dovevi calcolarti la frequenza minima 
