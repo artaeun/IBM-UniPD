@@ -3,8 +3,8 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _informatica medica_.
 
 ## Materiale vario
-- [Riassunto di Informatica medica (credits Arianna Zuanazzi)](/Dati/Studio/III%20Anno/InfoMed/Materiale%20vario/Appunti%20di%20Informatica%20Medica%20(credits%20Arianna%20Zuanazzi).pdf)
-- [Domande preparatorie all'esame](/Dati/Studio/III%20Anno/InfoMed/Materiale%20vario/Domande%20preparatorie%20InfoMed.pdf)
+- [Riassunto di Informatica medica (credits Arianna Zuanazzi)](/Dati/Studio/III_Anno/InfoMed/Materiale_vario/Appunti%20di%20Informatica%20Medica%20(credits%20Arianna%20Zuanazzi).pdf)
+- [Domande preparatorie all'esame](/Dati/Studio/III_Anno/InfoMed/Materiale_vario/Domande%20preparatorie%20InfoMed.pdf)
 - Preparazione comandi SQL:
   ```
   %% Per eseguire il programma sqlite3 sotto Windows
@@ -21,4 +21,4 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _informa
   ```
 
 ## Temi d'esame
-- [Appelli d'esame degli anni passati](/Dati/Studio/III%20Anno/InfoMed/Esami)
+- [Appelli d'esame degli anni passati](/Dati/Studio/III_Anno/InfoMed/Temi_d'esame)
