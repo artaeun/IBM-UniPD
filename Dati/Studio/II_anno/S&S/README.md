@@ -1,0 +1,20 @@
+# Materiale per lo studio di Segnali e Sistemi
+
+Qui potete trovare il materiale utile alla preparazione per il corso di _segnali e sistemi_.
+
+## Materiale vario
+- [Formulario di segnali e sistemi (credits Matteo Grigolon)](/Dati/Studio/II_Anno/S&S/Materiale_vario/Formulario%20completo%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
+- [Esercizi prof. Erseghe](/Dati/Studio/II_Anno/S&S/Materiale_vario/Esercizi_Erseghe)
+
+## Temi d'esame
+- [Prove Matlab degli anni passati](/Dati/Studio/II_Anno/S&S/Temi_d'esame/Prove_Matlab)
+
+## Libri e dispense
+- [Comandi di Matlab (credits Matteo Grigolon)](/Dati/Studio/II_Anno/S&S/Libri_e_dispense/Dispensa%20di%20Matlab%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
+- [Segnali e sistemi - Lorenzo Finesso](/Dati/Studio/II_Anno/S&S/Libri_e_dispense/Segnali%20e%20sistemi%20-%20Lorenzo%20Finesso.pdf)
+
+## Videoleioni prof. Erseghe
+Le videolezioni del prof. Eserseghe si possono trovare nei Moodle dell'anno accademico [21/22](https://drive.google.com/drive/folders/1r8hCEMVF28S5iHYNOSL0z50OHtfRiQTK?usp=sharing) e [22/23](https://drive.google.com/drive/folders/1r8hCEMVF28S5iHYNOSL0z50OHtfRiQTK?usp=sharing). 
+> NB: per visualizzare i video è necessario fare l'accesso al relativo corso su Moodle.
+
+In caso i video venissero rimossi, possono essere reperiti al seguente link: [registrazioni video](https://drive.google.com/drive/folders/1r8hCEMVF28S5iHYNOSL0z50OHtfRiQTK?usp=sharing)

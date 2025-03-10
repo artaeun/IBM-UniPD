@@ -1,0 +1,406 @@
+'''
+   Esame di Elementi di Informatica e Programmazione -
+   Secondo Compitino AA 2019-20
+
+   Copiare questo file in CognomeMatricola.py usando il proprio cognome
+   e il proprio numero di matricola. Se il cognome contiene spazi o apostrofo,
+   ignorarli; se contiene lettere accentate, usare la corrispondente lettera
+   non accentata.
+
+   LA COMPRENSIONE DEL TESTO E' PARTE INTEGRANTE DELL'ESAME
+   
+   MODIFICARE SOLTANTO IL FILE CognomeMatricola.py !!!!!!!!
+   Quello sarà il file valutato per l'esame.
+
+   TEMPO A DISPOSIZIONE = 2 ore e mezza (150 minuti)
+   
+   Non e' possibile utilizzare caratteristiche del linguaggio che non siano
+   state presentate a lezione in questo anno accademico.
+
+   Il compito consiste in 2 esercizi indipendenti tra loro
+
+   Ciascun Esercizio e' descritto nel commento che la precede, che a volte
+   contiene anche delle prescrizioni o dei divieti da seguire durante la
+   scrittura del codice che valgono soltanto per la funzione/classe a cui
+   si riferisce il commento.
+   
+   Alcune sezioni di codice sono gia' presenti e non possono essere modificate!
+   Le sezioni di codice mancante e da scrivere sono identificate dal commento
+   # SCRIVERE QUI
+   
+   E' VIETATO MODIFICARE ALTRE PARTI DEL CODICE
+   E/O CAMBIARE NOME ALLE FUNZIONI/CLASSI
+   
+   Non cancellare le istruzioni date dal docente !!!!!
+
+   Buon lavoro!
+   
+'''
+
+
+
+###############################################################################
+#ESERCIZIO 1 
+###############################################################################
+'''
+Sia data la definizione di Classe Persona specificata piu' in basso.
+Si chiede di progettare la sottoclasse Studente che:
+a)  Erediti le variabili di istanza dalla superclasse e abbia, in aggiunta,
+    i) una variabile di istanza relativa al nome del corso di laurea e ii) una variabile
+    di istanza di tipo dict (un dizionario) con le informazioni relative alla carriera
+    dello studente.
+    In particolare, questo dizionario deve contenere, come chiavi i nomi degli esami sostenuti
+    e come valore, in corrispondenza a ogni chiave, una lista (OBBLIGATORIAMENTE un oggetto di tipo list)
+    con i voti di tutti gli appelli sostenuti per quell'esame fino a quel momento.
+    Ad esempio:
+    {'Analisi': [12, 18], 'Fisica': [21], 'EIP': [28]}
+    indica che uno studente ha tentato
+    - Analisi 2 volte con esito 12 e 18, rispettivamente al primo e al secondo tentativo
+    - Fisica 1 volta con esito 21
+    - EIP 1 volta con esito 28
+    ATTENZIONE: nel costruttore questa variabile va inizializzata come un dizionario vuoto
+b)  Aggiunga il metodo "inserisciEsame" che consenta di inserire nel dizionario
+    - il nome dell'esame con il voto se lo studente tenta per la prima volta l'Esame
+      (e quindi il nome dell'esame non è tra le chiavi del dizionario)
+    - il nuovo voto se l'esame era già stato tentato
+c)  Aggiunga il metodo "calcolaMedia" che restituisca in output la media attuale dello studente
+    considerando solo gli esami presenti nel dizionario e,
+    per ogni esame, solo l'ultimo voto inserito.
+d)  Sovrascriva il metodo "stampa" in modo di poter stampare anche
+    il nome del corso di laurea e la carriera dello studente
+
+# E' VIETATO USARE ESPLICITAMENTE LE VARIABILI DI ISTANZA DELLA SUPERCLASSE
+# E' VIETATO AGGIUNGERE METODI ALLA SUPERCLASSE
+# E' VIETATO CAMBIARE NOME AI METODI E ALLA CLASSI
+
+'''
+
+class Persona:
+
+    def __init__(self, nome, cognome, age, residenza):
+        self._nome = nome
+        self._cognome = cognome
+        self._age = age
+        self._residenza = residenza
+
+    def stampa(self):
+        scheda = "\nNome: "+self._nome+"\nCognome: "+self._cognome+"\nEtà: "+str(self._age)+"\nResidenza: "+self._residenza
+        print(scheda)
+
+    def modificaScheda(self):
+        print("""Modifica Scheda:
+        1 - Nome
+        2 - Cognome
+        3 - Età
+        4 - Residenza""")
+        scelta = input("Cosa Desideri modificare?")
+        if scelta == "1":
+            self._nome = input("Nuovo Nome--> ")
+        elif scelta == "2":
+            self. _cognome = input("Nuovo Cognome --> ")
+        elif scelta == "3":
+            self._age = int(input("Nuova età --> "))
+        elif scelta == "4":
+            self._residenza = input("Nuova Residenza --> ")
+
+
+
+
+class Studente(Persona):
+    def __init__(self, nome, cognome, age, residenza, corso_di_laurea):
+        super().__init__(nome, cognome, age, residenza)
+        self._corso_di_laurea = corso_di_laurea
+        self._carriera = dict()
+
+    def inserisciEsame(self,esame,voto):
+        if esame not in self._carriera:
+            self._carriera[esame] = [voto]
+        else :
+            self._carriera[esame].append(voto)
+
+    def calcolaMedia(self):
+        if len(self._carriera)==0:
+            media = None
+        else:
+            somma=0
+            conta=0
+            for (k,e) in self._carriera.items() :
+                conta=conta+1
+                somma=somma+e[-1]
+            media= somma/conta
+        return(media)
+
+    def stampa(self):
+        super().stampa()
+        print("\nCorso di laurea: ", self._corso_di_laurea)
+        print("\nCarriera: ")
+        for (k,e) in self._carriera.items() :
+            print(k, e)
+
+
+# TEST ESERCIZIO 1
+# Quel che segue sono ESEMPI di utilizzo della classe Studente
+# e di output (o di messaggi di errore) che dovreste ottenere. 
+# Potete usare questi esempi o simili per testare il codice
+# dall'IDLE di Python (non togliete i commenti). 
+
+'''
+>>> p=Studente("Anna","Re",25,"via Zara ...", "Ing Biom")
+>>> p.stampa()
+
+Nome: Anna
+Cognome: Re
+Età: 25
+Residenza: via Zara ...
+
+Corso di laurea:  Ing Biom
+
+Carriera: 
+
+>>> print(p.calcolaMedia())
+None
+
+>>> p.inserisciEsame("Analisi",22)
+>>> p.inserisciEsame("Analisi",25)
+>>> p.inserisciEsame("EIP",25)
+>>> p.inserisciEsame("Fisica",29)
+>>> p.stampa()
+
+Nome: Anna
+Cognome: Re
+Età: 25
+Residenza: via Zara ...
+
+Corso di laurea:  Ing Biom
+
+Carriera: 
+Analisi [22, 25]
+EIP [25]
+Fisica [29]
+
+
+>>> vm=p.calcolaMedia()
+>>> print(vm)
+26.333333333333332
+
+'''
+
+
+
+
+###############################################################################
+#ESERCIZIO 2 
+###############################################################################
+'''
+Sia data la seguente classe «Pila».
+'''
+class Pila:    #LIFO Stack implementation using a list as underlying storage.
+
+    def __init__ (self):        #Create an empty stack.
+        self._data = [] # nonpublic list instance
+
+    def __len__(self):        #Return the number of elements in the stack.
+        return len(self._data)
+
+    def is_empty(self):        #Return True if the stack is empty.
+        return len(self._data) == 0
+
+    def push(self, e):        #Add element e to the top of the stack.
+        self._data.append(e) # new item stored at end of list
+
+    def top(self):        #Return (but do not remove) the element at the top of the stack.
+        if self.is_empty( ):
+            raise IndexError(" Stack is empty ")
+        return self._data[-1] # the last item in the list
+
+    def pop(self):    #Remove and return the element from the top of the stack
+        if self.is_empty( ):
+            raise IndexError(" Stack is empty ")
+        return self._data.pop( ) # remove last item from list
+
+'''
+Si chiede di scrivere una funzione che chieda all'utente
+di inserire da tastiera una stringa che descrive una
+operazione aritmetica pienamente parentesizzata.
+Ad esempio:
+21+3 non è completamente parentesizzata
+(21+ 3 * 52) non è completamente parentesizzata
+Mentre
+(21+3) è completamente parentesizzata
+(21+ (3 * 52)) è completamente parentesizzata
+
+ATTENZIONE: sono ammesse solo parentesi tonde e solo i seguenti operatori: '+','-','*','/'
+
+Come risposta (da stampare e restituire in output) la funzione deve
+valutare l’espressione inserita dall’utente
+o sollevare un messaggio di errore di tipo SyntaxError se essa non è “ben formattata”
+(cioè non obbedisce alle regole della sintassi delle espressioni
+o non è parentesizzata in maniera corretta).
+
+SPECIFICHE DI REALIZZAZIONE (obbligatorie):
+
+La funzione analizza i caratteri della stringa in input a partire dal primo
+e fa uso di tre oggetti di tipo Pila,
+chiamati nel seguito pila0, pila1 e pila2
+per i quali si deve utilizzare la classe
+definita sopra dal docente.
+
+La funzione opera in 3 fasi.
+
+FASE1
+Innanzitutto la funzione analizza i caratteri della stringa in input
+A PARTIRE DALLA FINE DELLA STRINGA
+e inserisce nella pila0 le parentesi, gli operatori e gli operandi.
+ATTENZIONE: gli spazi vanno ignorati
+ATTENZIONE: i caratteri che non siano spazi, cifre, operatori o parentesi tonde
+devono far sollevare un'eccezione di tipo TypeError segnalando che
+"L'espressione contiene caratteri non validi"
+
+FASE2
+Poi la funzione analizza uno alla volta gli elementi della pila 0 e:
+    - se l'elemento è una parentesi aperta viene ignorato 
+    - se l'elemento è un numero viene inserito nella pila2
+    - se l'elemento  è un operatore viene inserito nella pila1
+    - se l'elemento  è una parentesi chiusa viene fatto il pop di
+      un operatore dalla pila1 e di due numeri (i due operandi quindi)
+      dalla pila 2. Operatore e operandi vengono usati per ottenere
+      un nuovo valore (il risultato dell’operazione) che viene
+      «pushato» nella pila 2.
+
+FASE3
+Infine, quando la pila0 è vuota, se la pila1 è vuota e la pila2 contiene un solo elemento,
+allora questo e il risultato dell'operazione che deve essere stampato e restituito in output.
+Altrimenti, se una di queste condizioni fallisce la formula non era
+sintatticamente corretta e non può essere valutata. La funzione deve
+sollevare un errore di tipo SyntaxError
+
+
+'''
+
+# NOTA IMPORTANTE
+# E' OBBLIGATORIO USARE pila0, pila1 e pila2 COME NOMI DELLE VARIABILI LOCALI PER LE TRE PILE !!!!
+
+def valutaEspressione():
+    #SCRIVERE QUI
+
+    espressione = input("inserisci un'espressione completamente parentesizzata: ")
+    while len(espressione)==0:
+        espressione = input("inserisci un'espressione completamente parentesizzata: ")
+
+    operatori=('+','-','*','/')
+    parentesi=('(',')')
+    cifre=('0','1','2','3','4','5','6','7','8','9')
+
+    #FASE1
+    #riempio la pila0
+    pila0=Pila()
+    i=len(espressione)-1
+    contaPA=0
+    contaPC=0
+    while i>=0:
+        car=espressione[i]
+        if car in operatori or car in parentesi:
+            pila0.push(car)
+            i=i-1
+            if car=="(": contaPA +=1
+            elif car==")": contaPC +=1
+        elif car==" ":
+            i=i-1
+        elif car in cifre:
+            numero=car
+            i=i-1
+            car=espressione[i]
+            while car in cifre:
+                numero=car+numero
+                i=i-1
+                car=espressione[i]
+            operando=float(numero)
+            pila0.push(operando)
+        else:
+            raise TypeError("L'espressione contiene caratteri non validi")
+    if contaPA!=contaPC:
+        raise SyntaxError("L'espressione in input non è corretta")
+
+    #FASE2
+    pila1=Pila()
+    pila2=Pila()
+    L=len(pila0)
+    for i in range(L):
+        el=pila0.pop()
+        if el in operatori:
+            pila1.push(el)
+        elif el =="(":
+            continue
+        elif el==")":
+            try:
+                oper=pila1.pop()
+                op2=pila2.pop()
+                op1=pila2.pop()
+            except:
+                raise SyntaxError("L'espressione in input non è corretta")
+
+            #print("\n",op1,oper,op2,"\n")
+            if oper=="+": res=op1+op2
+            elif oper=="-": res=op1-op2
+            elif oper=="/": res=op1/op2
+            elif oper=="*": res=op1*op2
+            pila2.push(res)
+        else: #el è un numero
+            pila2.push(el)
+
+    #ora la pila0 è vuota
+    #FASE3
+    if pila1.is_empty() and len(pila2)==1:
+        result=pila2.pop()
+        print("OUTPUT:",result)
+    else:
+        raise SyntaxError("L'espressione in input non è corretta")
+    return(result)
+
+
+# TEST ESERCIZIO 2
+# Quel che segue sono ESEMPI di chiamata della funzione valutaEspressione()
+# e di output che dovreste ottenere. OUTPUT indica l'output atteso
+# i messaggi di errore indicano i messaggi di errore attesi
+# Potete usare questi esempi o simili per testare il codice 
+# dall'IDLE di Python (non togliete i commenti). 
+
+'''
+>>> r=valutaEspressione()
+inserisci un'espressione completamente parentesizzata: (21+59)
+OUTPUT: 80.0
+>>> print(r)
+80.0
+
+>>> r=valutaEspressione()
+inserisci un'espressione completamente parentesizzata: (21 + 59)
+OUTPUT: 80.0
+
+>>> r=valutaEspressione()
+inserisci un'espressione completamente parentesizzata: ((21/3)+3)
+OUTPUT: 10.0
+
+>>> r=valutaEspressione()
+inserisci un'espressione completamente parentesizzata: (((((2+3)*7)*91)/5)-3)
+OUTPUT: 634.0
+
+>>> r=valutaEspressione()
+inserisci un'espressione completamente parentesizzata: 21+59
+Traceback (most recent call last):
+  ...
+SyntaxError: L'espressione in input non è corretta
+
+>>> r=valutaEspressione()
+inserisci un'espressione completamente parentesizzata: ((2+3)*5
+Traceback (most recent call last):
+  ...
+SyntaxError: L'espressione in input non è corretta
+
+>>> r=valutaEspressione()
+inserisci un'espressione completamente parentesizzata: ((21/3)+3e)
+Traceback (most recent call last):
+  ...
+TypeError: L'espressione contiene caratteri non validi
+'''
+    
+
