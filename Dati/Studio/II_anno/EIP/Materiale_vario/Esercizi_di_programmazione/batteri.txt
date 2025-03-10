@@ -1,0 +1,98 @@
+"""
+Si implementi un programma che simula, in una griglia quadrata 2D di L per L celle (non è necessario visualizzarla),
+l'interazione tra cellule batteriche e cellule del sistema immunitario.
+La griglia è occupata in una certa percentuale da cellule batteriche
+e in un'altra percentuale da cellule del sistema immunitario (percentuali date in input dall'utente).
+Le celle rimanenti sono da considerare "libere".
+
+
+Il tempo viene simulato attravero un ciclo for e una variabile di iterazione t
+per un numero di iterazioni t_max fornito dall'utente.
+
+Ogni iterazione è divisa in due fasi. Quando la fase 1 è completata, inizia la fase 2.
+FASE 1:
+Ogni cellula (batterica e del sistema immunitario) si sposta di posizione in una casella nel suo intorno
+a una distanza massima di raggio rmov fornito dall'utente. Se nel raggio di azione non ci sono posizioni libere
+la cellula non si muove.
+FASE 2:
+Ogni cellula batterica che abbia raggiunto volume >= 2 si divide (vd. DIVISIONE CELLULARE),
+altrimenti aumenta il suo volume del 30%.
+A questo punto, se una cellula batterica ha come vicine delle cellule del sistema immunitario, viene attaccata
+a turno da ciascuna delle vicine con una probabilità di morire del 20%. Se muore ovviamente non ci sono ulteriori attacchi
+Se la cellula del sistema immunitario vince contro il batterio, il batterio scompare dalla griglia
+e al suo posto appare una nuova cellula del sistema immunitario.
+Dopo 9 attacchi (con o senza successo) la cellula del sistema immunitario muore.
+
+DIVISIONE CELLULARE
+Le cellule batteriche, quando nascono, hanno volume iniziale = 1 e, quando raggungono volume >= 2 si dividono
+in due cellule figlie ciascuna di volume 1. Una resta nella posizione della cellula genitore,
+l'altra compare nella griglia in una posizione random che non sia però occupata
+da cellule batteriche o del sistema immunitario.
+Se non ci sono più posizioni libere la seconda cellula non compare nella griglia.
+La seconda cellula non subisce attacchi nella iterazione in cui è stata creata.
+
+
+Il codice seguente implementa il programma BACTvsIS.py che fa uso di due classi: Batterio e IScell,
+entrambe figlie della superclasse Cellula.
+Il programma salva in un file, ad ogni iterazione, il numero di cellule batteriche e il numero di cellule
+del sistema immunitario presenti nel sistema.
+Implementare il codice che definisce le tre classi in modo che il programma funzioni correttamente. 
+il codice implementato va salvato nel file cellule.py
+"""
+
+import random
+from cellule import Cellula, Batterio, IScell
+
+#inizializza la griglia 2D L per L con 0 in corrispondenza di cella vuota, e oggetti di tipo Batterio o IScell altrimenti
+# con probabilità specificate dai parametri perc_batt e perc_is, rispettivamente
+# @L lato griglia quadrata
+# @perc_batt % batteri iniziale (un numero tra 0 e 1)
+# @perc_is % cellule IS iniziale (un numero tra 0 e 1)
+def gridinit(L = 20, perc_is = 0.1, perc_batt = 0.01):
+    grid = []  
+    new = []
+    for i in range(L):
+        for j in range(L):
+            if random.random() <= perc_is:
+                new.append(IScell(i,j))
+            elif random.random() <= perc_batt:
+                new.append(Batterio(i,j))
+            else:
+                new.append(Cellula.EMPTY)
+        grid.append(new)
+        new = []
+    return (grid)
+
+# itera t_max volte un processo di
+#@ 1) movimento di tutte le cellule batteriche e IS
+#@ 2) azione delle cellule batteriche (dividersi, morire, crescere) e rispettiva azione cellule IS se queste attaccano
+def itera(t_max, grid, rmov, filename):
+    L = len(grid)
+    outfile = open(filename, "w")
+    for t in range(t_max):
+        print(t, "\t", Batterio.contaBatteri, "\t", IScell.contaIS)
+        outfile.write(str(Batterio.contaBatteri)+"\t"+str(IScell.contaIS)+"\n")
+        for i in range(L):
+            for j in range(L):
+                if (grid[i][j]!=Cellula.EMPTY):
+                    grid[i][j].move(grid, rmov)
+        for i in range(L):
+            for j in range(L):
+                if (grid[i][j]!=Cellula.EMPTY):
+                    grid[i][j].act(grid)
+    outfile.close()     
+
+
+def main():
+    L = int(input("Input size of square 2D grid. It must be an int: "))
+    perc_is = float(input("Input % of immune system (IS) cells at time 0 (a number between 0 and 1): "))
+    perc_batt = float(input("Input % of bacteria cells at time 0(a number between 0 and 1): "))
+    griglia = gridinit(L, perc_is, perc_batt)    
+    filename = input("Input the name of the output file: ")
+    t_max = int(input("Input number of iterations. It must be an int: "))
+    raggioMov = int(input("Input max movement distance r. It must be an int: "))
+    itera(t_max = t_max, grid = griglia, rmov = raggioMov, filename = filename)
+  
+
+
+main() 

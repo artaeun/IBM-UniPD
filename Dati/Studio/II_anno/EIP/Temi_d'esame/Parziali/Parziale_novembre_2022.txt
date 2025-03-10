@@ -1,0 +1,390 @@
+"""
+Compitino di Elementi di Informatica e Programmazione - Novembre 2022
+
+Copiare questo file in CognomeMatricola.py usando il proprio cognome
+e il proprio numero di matricola. Se il cognome contiene spazi o apostrofo,
+ignorarli; se contiene lettere accentate, usare la corrispondente lettera
+non accentata.
+
+MODIFICARE SOLTANTO IL FILE CognomeMatricola.py !!!!!!!!
+Quello sara' il file valutato per l'esame.
+
+TEMPO A DISPOSIZIONE = 1 ora e 30 minuti (90 minuti)
+
+Il progetto consiste nello sviluppo di alcune funzioni cooperanti tra loro,
+ma la struttura della cooperazione (cioe' dell'interazione tra le funzioni)
+e' gia' delineata.
+ 
+[IMPORTANTE SOPRATTUTTO PER I "RIPETENTI" (ma non solo)]
+Non e' possibile utilizzare caratteristiche del linguaggio che non siano
+state presentate a lezione in questo anno accademico.
+
+Ciascuna funzione e' descritta nel commento che la precede, che a volte
+contiene anche delle prescrizioni o dei divieti da seguire durante la
+scrittura del codice che valgono soltanto per la funzione a cui si riferisce il commento.
+
+Alcune sezioni di codice sono gia' presenti e non possono essere modificate!
+Le sezioni di codice mancante e da scrivere sono identificate dal commento
+# SCRIVERE QUI
+
+E' VIETATO MODIFICARE ALTRE PARTI DEL CODICE O DEFINIRE FUNZIONI NON RICHIESTE
+
+Buon lavoro!
+   
+"""
+##########################################################################
+
+# funzione insertionSort
+
+##########################################################################
+
+'''
+Si implementi la funzione insertionSort che, come visto a lezione,
+ordina una lista senza farne una copia
+
+Si assume che la sequenza da ordinare sia partizionata in una sottosequenza già ordinata
+(all'inizio composta da un solo elemento) e una ancora da ordinare.
+Alla k-esima iterazione, la sequenza già ordinata contiene k elementi.
+In ogni iterazione, si procede estendendo la parte ordinata,
+includendo nella sottolista ordinata il primo elemento della parte non ordinata
+che viene inserito (da cui il nome dell'algoritmo) nella posizione corretta
+della sottosequenza ordinata, estendendola così di un elemento.
+'''
+## Ordina una lista usando l'algoritmo insertion sort.
+# @param values la lista da ordinare
+
+def insertionSort(values) :
+    #SCRIVERE QUI
+
+# provate a testare la funzione con questi o altri esempi...
+#RICOMMENTARE DOPO L'USO PRIMA DI CONSEGNARE IL COMPITO
+'''
+lista = [1,3,2,1,4]
+insertionSort(lista)
+print(lista) # ci si attende [1, 1, 2, 3, 4]
+
+lista = [1]
+insertionSort(lista)
+print(lista) # ci si attende [1]
+
+lista = []
+insertionSort(lista)
+print(lista) # ci si attende []
+'''
+
+
+##########################################################################
+
+# funzione createMat
+
+##########################################################################
+
+'''
+Si implementi la funzione createMat che, crea e restituisce
+una matrice (una lista di liste) di numeri interi casuali
+in modo tale che len(matrice) sia uguale al numero di righe.
+La matrice deve avere n righe ed m colonne, con n ed m dati in input
+e generare numeri interi nell'intervallo [a, b] con a e b dati in input.
+'''
+## Crea una matrice (una lista di liste) di numeri interi casuali
+# @param n il numero di righe della matrice
+# @param m il numero di colonne della matrice
+# @param a il minimo numero intero
+# @param b il massimo numero intero
+# @return una lista di liste che rappresenta la matrice creata
+from random import randint
+def createMat(n,m,a,b):
+    #SCRIVERE QUI
+
+# provate a testare la funzione con questi o altri esempi...
+#RICOMMENTARE DOPO L'USO PRIMA DI CONSEGNARE IL COMPITO
+'''
+matrice = createMat(2,3,1,100)
+for r in matrice:
+    for elem in r:
+        print(elem,end=" ")
+    print()
+
+print()
+matrice = createMat(3,5,10,10)
+for r in matrice:
+    for elem in r:
+        print(elem,end=" ")
+    print()
+        
+print()
+matrice = createMat(0,0,1,100)
+print(matrice == []) #dovrebbe essere TRUE
+'''
+
+
+
+
+##########################################################################
+
+#funzione ordinaRigheMat
+
+##########################################################################
+
+'''
+Si implementi la funzione ordinaRigheMat che, ordina ciascuna riga di una matrice 
+indipendentemente l'una dall'altra invocando la funzione InsertionSort
+'''
+## ordina ciascuna riga di una matrice indipendentemente l'una dall'altra invocando la funzione InsertionSort
+# @param mat la matrice (una lista di liste) 
+from random import randint
+def ordinaRigheMat(mat):
+    #SCRIVERE QUI
+
+# provate a testare la funzione con questo o altri esempi...
+#RICOMMENTARE DOPO L'USO PRIMA DI CONSEGNARE IL COMPITO
+'''
+matrice = [[0,0,1],[2,6,5],[100,21,34],[1,1,1],[4,2,8]]
+ordinaRigheMat(matrice)
+for r in matrice:
+    for elem in r:
+        print(elem,end=" ")
+    print()
+
+### ci si attende la seguente stampa ad output
+##0 0 1 
+##2 5 6 
+##21 34 100 
+##1 1 1 
+##2 4 8 
+'''
+
+
+
+
+##########################################################################
+
+# funzione textToList
+
+##########################################################################
+
+''' Si implementi la funzione textToList che legge un file di testo 
+inserisce tutte le parole in una lista di parole senza ripetizioni
+(escludendo spazi, segni di punteggiatura, apostrofi e qualsiasi simbolo non sia una lettera)
+e la restituisce con tutte le parole in maiuscolo e ordinata (invocare insertionSort).
+Come file potete usare romeo.txt messo a disposizione insienme al testo dell'esame
+e/o creare un file come nell'esempio fornito per testare la funzione.
+ATTENZIONE: nel caso in cui la funzione open (che potete utilizzare per leggere un file)
+non riconoscesse correttamente alcuni caratteri
+provate a settare il parametro encoding come encoding="UTF-8" o encoding="Latin1"
+'''
+## legge un file di testo, inserisce tutte le parole in una lista di parole senza ripetizioni
+## (escludendo spazi, segni di punteggiatura, apostrofi e qualsiasi simbolo non sia una lettera)
+## e la restituisce ordinata
+# @param filename il nome del file da leggere (se necessario specificando l'intero path)
+# @return una lista ordinata delle parole del file, in maiuscolo e senza ripetizioni
+
+import re
+def textToList(filename) :
+    #SCRIVERE QUI
+
+
+# provate a testare la funzione con questo o altri esempi...
+#RICOMMENTARE DOPO L'USO PRIMA DI CONSEGNARE IL COMPITO
+'''
+outputFile = open("prova.txt", 'w')
+outputFile.write("Hello, World!\n")
+outputFile.write("Hello, Students!\n")
+outputFile.write("Do you like holidays?\n")
+outputFile.close()
+print(textToList("prova.txt")) # dovrebbe stampare ['DO', 'HELLO', 'HOLIDAYS', 'LIKE', 'STUDENTS', 'WORLD', 'YOU']
+
+lista = textToList("romeo.txt")
+
+'''
+
+
+
+
+##########################################################################
+
+##### NON MODIFICARE IL CODICE CHE SEGUE MA TOGLIERE IL COMMENTO QUANDO SI VUOLE TESTARE IL PROGRAMMA COMPLETO#####
+
+def main() :
+    """
+    Alcuni collaudi... NON MODIFICARE
+
+    Ovviamente finché non saranno state realizzate tutte le funzioni verrà visualizzato
+    il messaggio "Collaudo non riuscito".
+       
+    NON CANCELLARE RIGHE PER NESSUN MOTIVO.
+
+    NON è NECESSARIO ANALIZZARE IL CODICE DI QUESTA FUNZIONE.
+    """
+
+    ##collaudo insertionSort
+    print("\n###########\nCollaudo insertionSort")
+    collaudook=True
+    lista1 = [1,7,2,1,4]
+    lista2 = [1]
+    lista3 = []
+    codice = 1
+    try:
+        insertionSort(lista1)
+    except:
+        print("\nErrore nella funzione insertionSort")
+        collaudook=False
+        codice = 0
+    if codice ==1:
+        if lista1 == [1,1,2,4,7]:
+            print("\nLa funzione insertionSort da' un output corretto a lista1")
+        else:
+            print("\nLa funzione insertionSort NON da' un output corretto a lista1")
+            collaudook=False
+            
+    codice = 1
+    try:
+        insertionSort(lista2)
+    except:
+        print("\nErrore nella funzione insertionSort")
+        collaudook=False
+        codice = 0
+    if codice ==1:
+        if lista2 == [1]:
+            print("\nLa funzione insertionSort da' un output corretto a lista2")
+        else:
+            print("\nLa funzione insertionSort NON da' un output corretto a lista2")
+            collaudook=False
+
+    codice = 1
+    try:
+        insertionSort(lista3)
+    except:
+        print("\nErrore nella funzione insertionSort")
+        collaudook=False
+        codice = 0
+    if codice ==1:
+        if lista3 == []:
+            print("\nLa funzione insertionSort da' un output corretto a lista3")
+        else:
+            print("\nLa funzione insertionSort NON da' un output corretto a lista3")
+            collaudook=False
+            
+    collaudookInsertionSort = collaudook
+
+
+
+    ##collaudo createMat
+    print("\n###########\nCollaudo createMat")
+    collaudook = True
+    codice = 1
+    try:
+        matrice = createMat(20,30,1,100)
+    except:
+        print("\nErrore nella funzione createMat")
+        collaudook=False
+        codice = 0
+    if codice ==1:
+        ri1 = matrice[0]
+        ri2 = matrice[1]
+        if ri1 is ri2:
+            print("\nLa funzione createMat NON da' un output corretto perché crea righe che sono l'alias l'una dell'altra")
+            collaudook=False
+        if len(matrice)!=20 or len(matrice[0])!=30: #non uso elif perché potrebbe essere un errore aggiuntivo
+            print("\nLa funzione createMat NON da' un output corretto perché le dimensioni non sono corrette")
+            collaudook=False
+        else: #le dim sono corrette
+            unlisted = list()
+            for r in matrice:
+                for elem in r:
+                    unlisted.append(elem)
+            for ul in unlisted:
+                if not isinstance(ul,int):
+                    print("\nLa funzione createMat NON da' un output corretto perché gli elementi non sono interi")
+                    collaudook=False
+        if collaudook:
+            print("\nLa funzione createMat da' un output corretto ai test effettuati")
+
+    collaudookcreateMat = collaudook
+
+
+    ##collaudo ordinaRigheMat
+    print("\n###########\nCollaudo ordinaRigheMat")
+    collaudook = True
+    codice = 1
+    matrice = [[0,0,1],[2,6,5],[100,21,34],[1,1,1],[4,2,8]]
+    expres = [[0, 0, 1], [2, 5, 6], [21, 34, 100], [1, 1, 1], [2, 4, 8]]
+    try:
+        ordinaRigheMat(matrice)
+    except:
+        print("\nErrore nella funzione ordinaRigheMat")
+        collaudook=False
+        codice = 0
+    if codice ==1:
+        if matrice == expres:
+            print("\nLa funzione ordinaRigheMat da' un output corretto a matrice")
+        else:
+            print("\nLa funzione ordinaRigheMat NON da' un output corretto a matrice")
+            collaudook=False
+            
+    collaudookordinaRigheMat = collaudook
+
+    ##collaudo textToList
+    print("\n###########\nCollaudo textToList")
+    collaudook = True
+    codice = 1
+    outputFile = open("prova.txt", 'w')
+    outputFile.write("Hello, World!\n")
+    outputFile.write("Hello, Students!\n")
+    outputFile.write("Do you like holidays?\n")
+    outputFile.close()
+
+    try:
+        parole = textToList("prova.txt")
+    except:
+        print("\nErrore nella funzione textToList")
+        collaudook=False
+        codice = 0
+    if codice ==1:
+        if (parole == ['DO', 'HELLO', 'HOLIDAYS', 'LIKE', 'STUDENTS', 'WORLD', 'YOU']):
+            print("\nLa funzione textToList da' un output corretto a prova.txt")
+        else:
+            print("\nLa funzione textToList NON da' un output corretto a prova.txt")
+            collaudook=False
+    
+    try:
+        parole = textToList("romeo.txt")
+    except:
+        print("\nErrore nella funzione textToList")
+        collaudook=False
+        codice = 0
+    if codice ==1:
+        if (parole == ['A', 'AIRY', 'ALL', 'ALREADY', 'AM', 'AND', 'ANSWER', 'ARISE', 'ART',
+                       'AS', 'BE', 'BIRDS', 'BOLD', 'BREAKS', 'BRIGHT', 'BRIGHTNESS', 'BUSINESS',
+                       'BUT', 'CAST', 'CHEEK', 'DAYLIGHT', 'DISCOURSES', 'DO', 'DOTH', 'EAST',
+                       'ENTREAT', 'ENVIOUS', 'EYE', 'EYES', 'FAIR', 'FAIREST', 'FAR', 'FOOLS',
+                       'GLOVE', 'GREEN', 'GRIEF', 'HAND', 'HAVING', 'HEAD', 'HEAVEN', 'HER',
+                       'HOW', 'I', 'IF', 'IN', 'IS', 'IT', 'JULIET', 'KILL', 'KNEW', 'LADY',
+                       'LAMP', 'LEANS', 'LIGHT', 'LIVERY', 'LOVE', 'MAID', 'ME', 'MIGHT', 'MOON',
+                       'MORE', 'MY', 'NIGHT', 'NONE', 'NOT', 'NOTHING', 'OF', 'OFF', 'OH', 'PALE',
+                       'REGION', 'RETURN', 'SAYS', 'SEE', 'SHAME', 'SHE', 'SICK', 'SINCE', 'SING',
+                       'SO', 'SOFT', 'SOME', 'SPEAKS', 'SPHERES', 'STARS', 'STREAM', 'SUN', 'THAN',
+                       'THAT', 'THE', 'THEIR', 'THERE', 'THEY', 'THINK', 'THOSE', 'THOU', 'THROUGH',
+                       'TILL', 'TIS', 'TO', 'TOO', 'TOUCH', 'TWINKLE', 'TWO', 'UPON', 'VESTAL',
+                       'WEAR', 'WERE', 'WHAT', 'WHO', 'WILL', 'WINDOW', 'WITH', 'WOULD', 'YET', 'YONDER']):
+            print("\nLa funzione textToList da' un output corretto a romeo.txt")
+        else:
+            print("\nLa funzione textToList NON da' un output corretto a romeo.txt")
+            collaudook=False
+ 
+    collaudooktextToList = collaudook
+            
+
+
+    if collaudookInsertionSort and collaudookcreateMat and collaudookordinaRigheMat and collaudooktextToList:
+        print("\n\nCollaudo riuscito! ma non significa che non ci siano errori...")
+    else:
+        print("\n\nCollaudo NON riuscito")
+
+    """
+    Qui sotto si possono inserire altri collaudi, ma poi devono essere eliminati (o commentati).
+    """
+    # EVENTUALMENTE SCRIVERE QUI
+
+# fine main
+main()

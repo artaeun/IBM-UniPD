@@ -1,0 +1,100 @@
+# Materiale per lo studio di Bioelettromagnetismo
+
+Qui potete trovare il materiale utile alla preparazione per il corso di _bioelettromagnetismo_.
+
+## Materiale vario
+- [Appunti sulle lezioni di laboratorio e il metodo FDTD](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/BEM%20laboratorio%20e%20lezioni%20FDTD%20(credits%20Davide%20Bosco).pdf)
+- [Definizioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/definitions.pdf)
+- [Alfabeto greco](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/alfabeto_greco.pdf)
+- [Operatori vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_operators.pdf)
+- [Identità vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_identities.pdf)
+- [Articoli e rapporti](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/Articoli%20e%20rapporti)
+- [PDF lezioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/PDF%20lezioni)
+
+## Libri e dispense
+- [Protezione dai campi elettromagnetici non ionizzanti (2001) - Daniele Andreucetti](/Dati/Studio/III%20Anno/BEM/Libri%20e%20dispense/Protezione%20dai%20campi%20elettromagnetici%20-%20D.%20Andreucetti.pdf)
+
+## Temi d'esame e domande di teoria
+- []()
+- Domande di teoria raccolte dai precedenti appelli:
+  ```
+  GIUGNO 2020
+  Domanda aperta:
+  	1. core conductor model 
+  Domande a crocette:
+  	- ricavare da quale eq di Maxwell derivava una che è 
+  	- se ε_1≠ε_2 come si conserva il campo elettrico
+  	- in una opu com'è il campo magnetico rispetto a quello elettrico
+  	- come decade il vettore di Poynting di un antenna filiforme
+  	- domanda aperta: teorema di Poynting
+  	- canali K e Na+
+  	- membrana come capacità se ha effetto nel transitorio o nell'equilibrio
+  	- da cosa dipende le soglie dell'ICNIRP
+  	- modelli analitici vs numerici
+  	- domanda aperta: core conductor model 
+  
+  LUGLIO 2020
+  Domande aperte:
+  	1. l'equazione di D'Alembert, dimostrazione e commentare la soluzione
+  	2. l'esperimento di voltage-clamp.
+  Domande a crocette:
+    - un’antenna con guadagno più elevato di un’altra antenna deve irradiare: in ogni direzione, in direzioni specifiche o deve avere potenziale di alimentazione più elevato
+  	- all'equilibrio se le densità di corrente della diff ionica e libera erano concordi discordi o nulle 
+  	- il periodo refrattario che cosa indica 
+  	- i modelli in volumi conduttori per le bio sorgenti
+  	- per le radiazioni Nir se f< 100 kHz quali erano i parametri da tenere sotto controllo (più o meno)
+  	- se div(B) era = o ≠ da 0
+  	- in 1 cm^3 di volume ti dava la densità di carica volumetrica e ti dovevi calcolare il flusso di D
+  	- un materiale buon conduttore con sigma e epsilon che ti dava dovevi calcolarti la frequenza minima 
+  	- se un antenna con un guadagno più elevato di un altra doveva irradiare in ogni direzione o in direzioni specifiche o avere potenza di alimentazione più elevata
+  
+  
+  AGOSTO 2022
+  Domande aperte: 
+  	1. l'equazione di continuità, derivarla e significato fisico
+  	2. derivare l'equazione di Nernst, il potenziale di transmembrana
+  Domande a crocette: 
+  	- l'equazione di Helmholtz
+  	- la prima legge di continuità 
+  	- ricavare lo spessore di penetrazione avendo la f
+  	- σ e ε
+  	- dire se un guadagno elevato provocava un'antenna più direttiva 
+  	- una sul trasporto attivo
+  	- la pompa sodio potassio 
+  	- una sull'esperimento di Voltage Clamp 
+  Domanda laboratorio:
+  	- quando viene usato il metodo FDTD (quando il metodo analitico non va bene) 
+  
+  SETTEMBRE 2023
+  Domande aperte: 
+  	1. derivare e descrivere l'eq di Helmholtz per il campo magnetico e le proprietà delle soluzioni
+  	2. descrivere il modello elettrico utilizzato per descrivere la propagazione sopra soglia nell'assone amielinico
+  Domande a crocette: 
+  	- Maxwell
+  	- condizioni di continuità
+  	- densità di potenza attiva in una opu 
+  	- direttività di un'antenna 
+  	- pompa sodio-potassio 
+  	- modello HH 
+  	- propagazione sopra soglia in un assone 
+  	- qual è il limite di energia per avere una radiazione ionizzante
+  Domanda laboratorio:
+  	- in FDTD come cambia il passo temporale se si aumenta il valore delle frequenze utilizzate, se cambia il valore massimo del SAR se lo si calcola su campioni da 10g vs campioni da 1g
+  
+  SETTEMBRE 2024
+  Domande aperte: 
+  	1. equazione di continuità (da derivare e spiegare)
+  	2. core-conduction model per propagazione sotto soglia
+  Domande a  crocette: 
+  	- equazione di Helmholtz 
+  	- costante dielettrica in due mezzi nei quali ε'n=3ε''n (chiedeva se ε' fosse maggiore minore o uguale a ε'')
+  	- spessore di penetrazione 
+  	- direttività di un'antenna
+  	- funzione del trasporto attivo 
+  	- dissipazione del potenziale con impulso sotto soglia 
+  	- esperimento voltage clamp, quando viene utilizzato il metodo FDTD. 
+  	- come cambia l'aumento di temperatura se raddoppio l'intensità del campo elettrico (bio-calore) 
+  	- domanda sul far-field (riguardava la frequenza massima o minima)
+  Domanda laboratorio: 
+  	- quando viene utilizzato il metodo FDTD
+  ``` 
