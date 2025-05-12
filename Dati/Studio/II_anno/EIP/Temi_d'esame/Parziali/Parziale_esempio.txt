@@ -1,0 +1,220 @@
+"""
+    Esame di Elementi di Informatica e Programmazione - Esempio di Compitino 
+
+    Copiare questo file in CognomeMatricola.py usando il proprio cognome
+    e il proprio numero di matricola. Se il cognome contiene spazi o apostrofo,
+    ignorarli; se contiene lettere accentate, usare la corrispondente lettera
+    non accentata.
+
+    LA COMPRENSIONE DEL TESTO E' PARTE INTEGRANTE DELL'ESAME
+
+    MODIFICARE SOLTANTO IL FILE CognomeMatricola.py !!!!!!!!
+    Quello sara' il file valutato per l'esame.
+
+    TEMPO A DISPOSIZIONE = 1 ora e mezza
+
+    Vi viene fornito il file dati.csv contenente le informazioni relative
+    all'espressione genica (quanto RNA viene trascritto) di 20 geni su 40 campioni
+    di tessuto adiposo provenienti da 40 pazienti.
+    Il file e' in forma tabellare con i geni sulle colonne e i pazienti sulle righe.
+    All'interno del fle, il separatore di dati utilizzato e' la virgola, ovvero il carattere ",".
+
+    Vi viene chiesto di realizzare un programma che apra il file, lo legga
+    e memorizzi i dati in formato numerico su una matrice costituita da una lista di liste.
+
+    A questo punto il programma chiama la funzione kmeans che esegue il clustering sui soggetti
+    (vedi istruzioni successive) ovvero una funzione che raggruppa i soggetti in cluster (gruppi)
+    di pazienti simili.
+
+
+    ######################### DESCRIZIONE funzione kmeans DA REALIZZARE #############
+    - Il clustering e' una famiglia di metodi per raggruppare oggetti simili.
+    - In questo caso specifico vogliamo raggruppare i soggetti (le righe della matrice).
+    in k gruppi con espressione genica simile (le righe dei soggetti dello stesso gruppo.
+    saranno piu' simili di quelle di soggetti di gruppi diversi).
+    - La somiglianza e' definita in termini di distanza Euclidea.
+    - La funzione kmeans prende in input i) un parametro matdati (la lista di liste 
+    corrispondente alla matrice di dati);
+    ii) un parametro k (un intero che rappresenta il numero di cluster desiderato); 
+    iii) un parametro maxit (un intero,
+    con valore di default = 100) che rappresenta il numero massimo di iterazioni 
+    da effettuare; 
+    iv) un parametro fileout (il nome di un file di output, opzionale, default = None)
+    - Restituisce una lista di lunghezza uguale al numero di righe della matrice in input,
+    che contiene numeri interi compresi tra 0 e (k-1) che indicano, per ogni riga, 
+    a quale cluster appartiene la riga stessa.
+
+    L'algoritmo da implementare nella funzione kmeans e' il seguente:
+
+    Inizializza in maniera random una lista di lunghezza uguale al numero di righe della 
+    matrice dei dati in input, in modo che contenga numeri interi random compresi tra 0 e (k-1) 
+    che indicano, per ogni riga, a quale cluster appartiene la riga stessa.
+    
+    Finche' non e' verificata la condizione di termine (vedi specifica piu' in basso)
+        - Calcola il centroide (vedi definizione specifica piu'in basso) di ogni gruppo di righe (ovvero di ogni cluster)
+        - Per tutte le righe ri della matrice
+            - Calcola la distanza Euclidea della riga ri da ogni centroide
+            - Assegna la riga al cluster con il centroide piu' vicino in termini 
+              di distanza euclidea e aggiorna di conseguenza la lista appartenenza
+
+    SPECIFICHE UTILI
+    Come CONDIZIONE DI TERMINE usare:  E' stato raggiunto il numero massimo di iterazioni oppure
+    all'iterazione precedente nessuna riga ha cambiato cluster di appartenenza.
+
+    CENTROIDE: Dato un insieme di n < N righe di una matrice di N righe ed M colonne, il centroide
+    e' un vettore di dimensione M calcolato facendo la media tra gli n valori dell'elemento j-esimo
+    delle righe con j che va da 1 a M (o da 0 a M-1 considerando l'indicizzazione nelle liste).
+    Ad esempio, date le seguenti n=3 righe di una matrice N per M, con N>n e M=7 
+    [
+    [1, 4, 6, 2, 1, 2, 1]
+    [2, 2, 5, 2, 5, 5, 8]
+    [3, 3, 7, 2, 15, 2, 6]
+    ]
+
+    Il centroide e' uguale a
+    [2, 3, 6, 2, 7, 3, 5]
+            
+    #####################################################################################    
+
+    Realizzare il programma in modo che possa essere lanciato da riga di comando
+    specificando le opzioni del clustering. Il programma deve consentire di specificare da riga di comando:
+    - il file di input  (primo argomento dopo il nome del programma)
+    - il numero k di cluster (obbligatorio preceduto da -k)
+    - il numero massimo di iterazioni maxIt (opzionale, preceduto da -m)  
+    - il file di output fileout (opzionale, preceduto da -f)  
+
+    ESEMPI DI CHIAMATA DA RIGA DI COMANDO:
+    python3 k_means_programma.py dati.csv -k 4
+    python3 k_means_programma.py dati.csv -k 4 -f output.txt
+    python3 k_means_programma.py dati.csv -f output.txt -k 4
+    python3 k_means_programma.py dati.csv -f output.txt -k 4 -m 200
+    python3 k_means_programma.py dati.csv -m 200 -f output.txt -k 4
+
+
+    #####################################################################################    
+
+
+    Alcune sezioni di codice sono gia' presenti e non possono essere modificate!
+    Le sezioni di codice mancante e da scrivere sono identificate dal commento
+    # SCRIVERE QUI
+
+"""
+
+###################### IMPORT MODULI ##################
+
+from math import sqrt
+from random import randint
+from sys import argv
+
+
+
+###################### DEFINIZIONE DI FUNZIONI ##################
+
+"""
+La funzione calcCentroidi prende in ingresso una matrice (una lista di liste)
+con N righe ed M colonne, la lista appartenenza e il numero di cluster k.
+La lista appartenenza ha lunghezza N e contiene numeri interi compresi
+tra 0 e (k-1) che indicano, per ogni riga, a quale cluster appartiene la riga stessa.
+La funzione restituisce in output il centroide di ogni cluster nella forma
+di una matrice (una lista di liste) con k righe e M colonne
+
+Suggerimento: per calcolare il centroide del cluster 1, la funzione calcola
+la media per colonne della matrice matdati limitandosi alle righe specificate
+come "1" dalla lista appartenenza
+"""
+def calcCentroidi(matdati,appartenenza,k):
+    nr = len(matdati)
+    nc = len(matdati[0])
+    #centroidi = []*k #ATTENZIONE A NON INIZIALIZZARE COSI' PERCHE' CREO ALIAS DELLE RIGHE
+    centroidi = list()
+
+    #SCRIVERE QUI
+
+    return(centroidi)
+
+
+
+"""
+La funzione distDaCentr prende in ingresso una matrice (una lista di liste)
+numerica con M colonne e calcola la distanza di ogni riga da un vettore
+(una lista) numerico di dimensione M, restituendo tutte le distanze in output
+in una lista
+"""
+
+def distDaCentr(matrice,vettore):
+    distanze = list()
+    for ri in matrice:
+        S = 0
+        for i in range(len(ri)):
+            x = ri[i]
+            y = vettore[i]
+            S = S + (x-y)**2
+        distanze.append(sqrt(S))    
+    return(distanze)
+    
+'''
+La funzione kmeans implementa il clustering così come indicato nell'intestazione del programma
+'''
+def kmeans(matdati,k,fileout=None,maxit=100):
+    # partizione random delle righe in k cluster.
+    # Il vettore di appartenenza indica a che cluster
+    # appartiene la riga (da 0 a k-1)
+    appartenenza = list()
+    for i in range(len(matdati)):
+        appartenenza.append(randint(0,k-1))
+    
+    it = 1
+    change = True
+    while #SCRIVERE QUI :
+        print("Iterazione: ", it)
+        #calcolo dei centroidi nello spazio a M dimensioni 
+        centroidi = calcCentroidi(matdati,appartenenza,k)
+     
+        #per ogni riga, calcola la distanza dai k centroidi e assegna la riga al cluster 
+        #con il centroide piu' vicino
+
+        #SCRIVERE QUI
+
+    if fileout is None:
+        print(appartenenza)
+    else:
+        try:
+            fileouthand = open(fileout, 'w')
+        except:
+            exit("Cannot open the file in output")
+        print(appartenenza, file = fileouthand)
+        fileouthand.close()
+
+    return appartenenza  
+
+
+###################### PASSAGGIO DEI PARAMETRI ##################
+
+##for cmd in range(len(argv)):
+##    print(cmd)
+
+
+#SCRIVERE QUI
+
+##Suggerimento: in prima istanza, usare le seguenti 4 righe di codice.
+##fname = "dati.csv"
+##inputk = 3
+##outfname = "out.txt"
+##inputMaxIt = 100
+##Poi, una volta implementato il passaggio dei parametri, ricommentare le 4 righe qui sopra
+
+
+  
+###################### APERTURA DEL FILE E CREAZIONE DELLA MATRICE ##################
+
+matriceDati = list()
+
+#SCRIVERE QUI
+
+print("Ho letto una matrice di ", nr, "righe e ", nc, "colonne")
+
+####################### CHIAMATA DELLA FUNZIONE KMEANS ####################
+
+         
+resKmeans = kmeans(matdati=matriceDati,k=inputk, fileout=outfname, maxit=inputMaxIt) #questa e' la chiamata di kmeans
+
