@@ -18,5 +18,5 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _biomecc
   - [Anno accademico 2024/2025](/Dati/Studio/III_Anno/Biomeccanica/Temi_d'esame/Berardo/AA_24-25)
 
 ## Libri e dispense
-- [Scienza delle costruzioni - Paolo Casini, Marcello Vasta](/Dati/Studio/III_Anno/Biomeccanica/Libri_e_dispense/Scienza_delle_costruzioni_Casini_Vasta.pdf)
+- [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/Jt1XlBYb)
 

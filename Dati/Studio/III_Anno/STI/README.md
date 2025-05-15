@@ -1,6 +1,6 @@
 # Materiale per lo studio di Storia della Tecnologia dell'Informazione
 
-Qui potete trovare consigli e materiale utile alla stesura dell'elaborato di _Storia della tecnologia dell'informazione_.
+Qui potete trovare consigli e materiale utile alla stesura dell'elaborato di _storia della tecnologia dell'informazione_.
 
 ### Consigli
 - Giustificare il testo.

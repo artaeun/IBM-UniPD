@@ -12,42 +12,41 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
 - [PDF lezioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/PDF%20lezioni)
 
 ## Libri e dispense
-- [Protezione dai campi elettromagnetici non ionizzanti (2001) - Daniele Andreucetti](/Dati/Studio/III%20Anno/BEM/Libri%20e%20dispense/Protezione%20dai%20campi%20elettromagnetici%20-%20D.%20Andreucetti.pdf)
+- [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/kgtlTLBb)
 
 ## Temi d'esame e domande di teoria
 - []()
 - Domande di teoria raccolte dai precedenti appelli:
+
   ```
   GIUGNO 2020
   Domanda aperta:
-  	1. core conductor model 
+    1. core conductor model
+    2. teorema di Poynting
   Domande a crocette:
-  	- ricavare da quale eq di Maxwell derivava una che è 
-  	- se ε_1≠ε_2 come si conserva il campo elettrico
-  	- in una opu com'è il campo magnetico rispetto a quello elettrico
-  	- come decade il vettore di Poynting di un antenna filiforme
-  	- domanda aperta: teorema di Poynting
-  	- canali K e Na+
-  	- membrana come capacità se ha effetto nel transitorio o nell'equilibrio
-  	- da cosa dipende le soglie dell'ICNIRP
-  	- modelli analitici vs numerici
-  	- domanda aperta: core conductor model 
-  
+    - ricavare da quale eq di Maxwell derivava una che è
+    - se ε_1≠ε_2 come si conserva il campo elettrico
+    - in una opu com'è il campo magnetico rispetto a quello elettrico
+    - come decade il vettore di Poynting di un antenna filiforme
+    - canali K e Na+
+    - membrana come capacità se ha effetto nel transitorio o nell'equilibrio
+    - da cosa dipende le soglie dell'ICNIRP
+    - modelli analitici vs numerici
+
   LUGLIO 2020
   Domande aperte:
-  	1. l'equazione di D'Alembert, dimostrazione e commentare la soluzione
-  	2. l'esperimento di voltage-clamp.
+    1. l'equazione di D'Alembert, dimostrazione e commentare la soluzione
+    2. l'esperimento di voltage-clamp
   Domande a crocette:
     - un’antenna con guadagno più elevato di un’altra antenna deve irradiare: in ogni direzione, in direzioni specifiche o deve avere potenziale di alimentazione più elevato
-  	- all'equilibrio se le densità di corrente della diff ionica e libera erano concordi discordi o nulle 
-  	- il periodo refrattario che cosa indica 
-  	- i modelli in volumi conduttori per le bio sorgenti
-  	- per le radiazioni Nir se f< 100 kHz quali erano i parametri da tenere sotto controllo (più o meno)
-  	- se div(B) era = o ≠ da 0
-  	- in 1 cm^3 di volume ti dava la densità di carica volumetrica e ti dovevi calcolare il flusso di D
-  	- un materiale buon conduttore con sigma e epsilon che ti dava dovevi calcolarti la frequenza minima 
-  	- se un antenna con un guadagno più elevato di un altra doveva irradiare in ogni direzione o in direzioni specifiche o avere potenza di alimentazione più elevata
-  
+    - all'equilibrio se le densità di corrente della diff ionica e libera erano concordi discordi o nulle
+    - il periodo refrattario che cosa indica
+    - i modelli in volumi conduttori per le bio sorgenti
+    - per le radiazioni Nir se f< 100 kHz quali erano i parametri da tenere sotto controllo (più o meno)
+    - se div(B) era = o ≠ da 0
+    - in 1 cm^3 di volume ti dava la densità di carica volumetrica e ti dovevi calcolare il flusso di D
+    - un materiale buon conduttore con sigma e epsilon che ti dava dovevi calcolarti la frequenza minima
+    - se un antenna con un guadagno più elevato di un altra doveva irradiare in ogni direzione o in direzioni specifiche o avere potenza di alimentazione più elevata
   
   AGOSTO 2022
   Domande aperte: 

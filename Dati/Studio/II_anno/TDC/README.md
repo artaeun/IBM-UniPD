@@ -16,5 +16,5 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _teoria 
 - [Dispensa di esercizi 1](/Dati/Studio/II_Anno/TDC/Libri_e_dispense/Dispensa%20esercizi%201%20TDC.pdf)
 - [Dispensa di esercizi 2](/Dati/Studio/II_Anno/TDC/Libri_e_dispense/Dispensa%20esercizi%202%20TDC.pdf)
 - [Dispensa di teoria](/Dati/Studio/II_Anno/TDC/Libri_e_dispense/Dispensa%20teoria%20TDC.pdf)
-- [Elettrotecnica 1 - Principi (2020)](/Dati/Studio/II_Anno/TDC/Libri_e_dispense/Elettrotecnica%201%20-%20Principi.zip)
+- [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/l01FibST)
 

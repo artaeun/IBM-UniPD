@@ -32,7 +32,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 - [Anno accademico 2023/2024](/Dati/Studio/II_Anno/FDE/Temi_d'esame/AA_23-24)
 
 ## Libri e dispense
-- [Microelettronica (2018)](/Dati/Studio/II_Anno/FDE/Libri_e_dispense/Microelettronica%20(2018)%20-%20Richard%20C.%20Jaeger,%20Travis%20N.%20Blalock.pdf)
+- [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/F00FwRhS)
 
 ## Videolezioni prof. Meneghesso
 Le videolezioni del prof. Meneghesso si possono trovare al seguente link: [registrazioni video](https://youtube.com/playlist?list=PL5JNcyGPaynmqC3SiVR0JbAyR8hV5D4g9&feature=shared)

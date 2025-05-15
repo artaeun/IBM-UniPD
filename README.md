@@ -3,20 +3,20 @@
   <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
   </p> --->
 
-Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2017 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
+Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2022 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
 
 
 ## 🎓*Scheda del corso* 
 
-Qua trovate il quadro generale delle attività formattive, syllabus/contenuto e modalità di esami dei singoli insegnamenti:
+Qua trovate il quadro generale delle attività formattive, syllabus/contenuto e modalità d'esame dei singoli insegnamenti:
 
-[**Anno 1 - Scheda del corso**](https://didattica.unipd.it/off/2023/LT/IN/IN2374)
+[**Anno 1 - Scheda del corso**](https://didattica.unipd.it/off/2024/LT/IN/IN2374)
 
-[**Anno 2 - Scheda del corso**](https://didattica.unipd.it/off/2022/LT/IN/IN2374)
+[**Anno 2 - Scheda del corso**](https://didattica.unipd.it/off/2023/LT/IN/IN2374)
 
-[**Anno 3 - Scheda del corso**](https://didattica.unipd.it/off/2021/LT/IN/IN2374)
+[**Anno 3 - Scheda del corso**](https://didattica.unipd.it/off/2022/LT/IN/IN2374)
 
-Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel insegnamento.
+Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quell'insegnamento.
 
 
 
@@ -38,34 +38,47 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quel i
 - *[🍂 3° Anno - Presentazioni Lauree Magistrali](https://www.dei.unipd.it/node/1653)*
 - *[🍂 3° Anno - Cose da sapere per **Laurearsi**](https://stem.elearning.unipd.it/mod/book/view.php?id=234&chapterid=46)* - *come scrivo la mia tesi?*, *Quando mi laureo?*, *Come si calcola il voto finale?*
 - *[🍂 3° Anno - Come fare domanda di laurea](https://www.unipd.it/laurearsi)*
+- [ABC della ricerca](https://biblio.unipd.it/usa-le-biblioteche/laboratori-formazione/laboratorio-abc-ricerca) - un corso gratuito fornito dal sistema bibliotecario di ateneo (SBA) per poter gestire la bibliografia della tesi. È indicato principalmente per chi svolge una tesi bibliografica
 
 ###  Salute Convenzionata UniPD
 - [💊 Assistenza sanitaria e psicologica gratuita per studenti](https://www.unipd.it/assistenza-sanitaria)
 - [🎐 Risorse e supporti per studentesse e studenti con disabilità o difficoltà di apprendimento](https://www.unipd.it/risorse-supporti-studenti-disabilita-difficolta-apprendimento) (anche per studenti con solo problemi di ansia/disturbi dell'umore/depressione documentati, anche in assenza di certificazioni)
 
 ## Materiale di studio (libri, appunti, dispense, prove d'esame, quiz, ...)
-NB: si consiglia di aprire le cartelle in formato .zip da pc.
+> Di seguito sono riportati tutti i corsi obbligatori e facoltativi di ingegneria biomedica; tali corsi sono presentati in **ordine alfabetico**.
+
+[Lista con i contatti dei docenti](/Dati/Altro/contatti_insegnanti.md)
+
 - 1° Anno
-  - <!--- [Analisi 1] --->
-  - <!--- [Fondamenti di Chimica] --->
-  - <!--- [Fisica 1] --->
-  - <!--- [Algebra Lineare e Geometria] --->
-  - <!--- [BFA - Biologia, Fisiologia e Anatomia] --->
+  - [ALG - Algebra Lineare e Geometria](/Dati/Studio/I_Anno/ALG/README.md)
+  - [Analisi 1](/Dati/Studio/I_Anno/AM1/README.md)
+  - [BFA - Biologia, Fisiologia e Anatomia](/Dati/Studio/I_Anno/BFA/README.md)
+  - [FCB - Fondamenti di Chimica per la Bioingegneria](/Dati/Studio/I_Anno/FCB/README.md)
+  - [Fisica 1](/Dati/Studio/I_Anno/F1/README.md)
 - 2° Anno
-  - [Teoria dei circuiti](/Dati/Studio/II%20Anno/TDC)
-  - [EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II%20Anno/EIP/README.md)
-  - [Fisica 2](/Dati/Studio/II%20Anno/Fisica2)
-  - [FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II%20Anno/FAMP)
-  - [Biomateriali](/Dati/Studio/II%20Anno/Biomateriali)
-  - [S&S - Segnali e Sistemi](/Dati/Studio/II%20Anno/S&S)
-  - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II%20Anno/ISB)
+  - [Biomateriali](/Dati/Studio/II_Anno/Biomateriali/README.md)
+  - [EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II_Anno/EIP/README.md)
+  - [FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II_Anno/FAMP/README.md)
+  - [FDE - Fondamenti di Elettronica](/Dati/Studio/II_Anno/FDE/README.md)
+  - [Fisica 2](/Dati/Studio/II_Anno/F2/README.md)
+  - [ISB - Ingegneria dei Sistemi Biologici](/Dati/Studio/II_Anno/ISB/README.md)
+  - [S&S - Segnali e Sistemi](/Dati/Studio/II_Anno/S&S/README.md)
+  - [Teoria dei circuiti](/Dati/Studio/II_Anno/TDC/README.md)
 - 3° Anno
-  - [Biomeccanica](Dati/Studio/III%20Anno/Biomeccanica)
-  - [ESB - Elaborazione di Segnali Biomedici](/Dati/Studio/III%20Anno/ESB)
-  - [FDA - Fondamenti di Automatica](/Dati/Studio/III%20Anno/FDA)
-  - [MADB - Misure e Acquisizione di Dati Biomedici](/Dati/Studio/III%20Anno/MADB)
-  - [InfoMed - Informatica Medica](/Dati/Studio/III%20Anno/InfoMed)
-  - [TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III%20Anno/TSB)
+  - [BEM - Bioelettromagnetismo](/Dati/Studio/III_Anno/BEM/README.md)
+  - [Biomeccanica](Dati/Studio/III_Anno/Biomeccanica/README.md)
+  - [DF - Dinamica dei Fluidi per l'Ingegneria Biomedica](/Dati/Studio/III_Anno/DF/README.md)
+  - [ESB - Elaborazione di Segnali Biomedici](/Dati/Studio/III_Anno/ESB/README.md)
+  - [FDA - Fondamenti di Automatica](/Dati/Studio/III_Anno/FDA/README.md)
+  - [HMB - Human Movement Bioengineering](/Dati/Studio/III_Anno/HMB/README.md)
+  - [InfoMed - Informatica Medica](/Dati/Studio/III_Anno/InfoMed/README.md)
+  - [MADB - Misure e Acquisizione di Dati Biomedici](/Dati/Studio/III_Anno/MADB/README.md)
+  - [MEC-MAT - Meccanica dei Materiali](/Dati/Studio/III_Anno/MEC-MAT/README.md)
+  - [MPB - Meccanica Per Bioingegneria](/Dati/Studio/III_Anno/MPB/README.md)
+  - [PM - Project Managenent](/Dati/Studio/III_Anno/PM/README.md)
+  - [SGEIA - Saperi di Genere ed Etica nell'Intelligenza Aetificiale](/Dati/Studio/III_Anno/SGEIA/README.md)
+  - [STI - Storia della Tecnologia dell'Informazione](/Dati/Studio/III_Anno/STI/README.md)
+  - [TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III_Anno/TSB/README.md)
 ---
 
 ## 📱Discord 
@@ -76,64 +89,16 @@ NB: si consiglia di aprire le cartelle in formato .zip da pc.
 - **_Tutti gli altri server / Hub UniPD_**: [https://discord.gg/dtaThyfrDA](https://discord.gg/dtaThyfrDA)
 
 ### Regole
-- *[Regole del server Discord](/Dati/Altro/regole.md)*
+- *[Regole del server Discord](/Dati/Altro/regole_Discord.md)*
 - ***[Guida all'utilizzo di Discord](http://tiny.cc/guidaDiscord)*** (da leggere da PC o Tablet)
 - *[Guida per il principiante (ufficiale)](https://support.discord.com/hc/it/articles/360045138571)*
 
 ---
-## 👩‍🎓 Lista rappresentanti Biomedica/Bioingegneria 2022-2024
+## 👩‍🎓 Lista rappresentanti Biomedica/Bioingegneria 2024-2026
 
-[Lista rappresentantə](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio) - Guardate sotto il biennio attuale, e nel file dell'"Elenco degli studenti eletti".
+[Lista rappresentantə](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio) - Guardate sotto il biennio attuale e nel file dell'"Elenco degli studenti eletti".
 
-Per contattarlə, consiglio o una ricerca su Internet includendo la parola "UniPd", o usando "nome.cognome@studenti.unipd.it"
-
-<div align="center">
-  
-| NOME            | COGNOME       |
-|-----------------|---------------|
-| GIADA           | AURELI        |
-| ALVISE          | CASONATO      |
-| PIETRO          | CERON         |
-| EMANUELE        | DI BERARDINO  |
-| LEONARDO        | FOLLADOR      |
-| MARIA ELISABETTA| GRANIERI      |
-| CHARLOTTE       | MEREL         |
-| STEFANO         | MINGONI       |
-| MICHELA         | NIDOLA        |
-| MATTIA          | PAPAPIETRO    |
-| LUDOVICA        | PIOVAN        |
-| ARIANNA         | SCHIAVI       |
-| MARTINA         | SPIZZUOCO     |
-
-</div>
-
-<div align="center">
-  <table border="1" cellspacing="0" cellpadding="8" style="text-align: left;">
-    <thead>
-      <tr>
-        <th style="text-align: left;">NOME</th>
-        <th style="text-align: left;">COGNOME</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>GIADA</td><td>AURELI</td></tr>
-      <tr><td>ALVISE</td><td>CASONATO</td></tr>
-      <tr><td>PIETRO</td><td>CERON</td></tr>
-      <tr><td>EMANUELE</td><td>DI BERARDINO</td></tr>
-      <tr><td>LEONARDO</td><td>FOLLADOR</td></tr>
-      <tr><td>MARIA ELISABETTA</td><td>GRANIERI</td></tr>
-      <tr><td>CHARLOTTE</td><td>MEREL</td></tr>
-      <tr><td>STEFANO</td><td>MINGONI</td></tr>
-      <tr><td>MICHELA</td><td>NIDOLA</td></tr>
-      <tr><td>MATTIA</td><td>PAPAPIETRO</td></tr>
-      <tr><td>LUDOVICA</td><td>PIOVAN</td></tr>
-      <tr><td>ARIANNA</td><td>SCHIAVI</td></tr>
-      <tr><td>MARTINA</td><td>SPIZZUOCO</td></tr>
-    </tbody>
-  </table>
-</div>
-
-
+Per contattarlə, consiglio o una ricerca su Internet includendo la parola "UniPd" o usando "nome.cognome@studenti.unipd.it" o verificando tramite Community Whatsapp.
 
 ## Credits
 

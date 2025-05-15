@@ -3,7 +3,7 @@
 
 ## *Indice*:<!-- omit in toc -->
 - [Link e Contatti Utili UniPD e Corso](#link-e-contatti-utili-unipd-e-corso)
-  - [🌐 Discord](#-discord)
+  - [👾 Discord](#-discord)
   - [🎓 Università e Corso](#-università-e-corso)
   - [🎓📆 DIDATTICA](#-didattica)
   - [🎓📲 Le App di UniPD](#-le-app-di-unipd)
@@ -17,16 +17,20 @@
 
 ---
 
-## 🌐 Discord
+## 👾 Discord
 
 - Link al server Discord di IBM, da usare come invito: udupadova.it/discord/IngBiomedica o in alternativa https://discord.gg/QvQ92GE
 
 ---
 ## 🎓 Università e Corso
 
-- [***Scheda del Corso***](https://didattica.unipd.it/off/2019/LT/IN/IN2374) - Contiene TUTTI link e informazioni utili riguardo al Curriculum Generale e Applicativo e relativi corsi, crediti, docenti, prospetto tasse, syllabus, ecc.
+- Sono presenti TUTTI i link e le informazioni utili riguardo al Curriculum Generale e Applicativo e relativi corsi, crediti, docenti, prospetto tasse, syllabus, ecc.
+  - [**Anno 1 - Scheda del corso**](https://didattica.unipd.it/off/2024/LT/IN/IN2374)
+  - [**Anno 2 - Scheda del corso**](https://didattica.unipd.it/off/2023/LT/IN/IN2374)
+  - [**Anno 3 - Scheda del corso**](https://didattica.unipd.it/off/2022/LT/IN/IN2374)
+  > Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quell'insegnamento.
 - [UniWeb](https://uniweb.unipd.it/) - il punto di riferimento per quanto riguarda l'iscrizione agli esami, il pagamento delle tasse, richiesta di borsa di studio e agevolazioni, ecc.
-- [Moodle E-learning](https://elearning.dei.unipd.it/)- Il punto di riferimento per quanto riguarda il materiale didattico.
+- [Moodle E-learning](https://stem.elearning.unipd.it/) - Il punto di riferimento per quanto riguarda il materiale didattico.
 - [Il Vademecum di UniPD](https://www.spgi.unipd.it/corsi/guida-rapida-gli-studenti)
 - [Link per attivazione dell'account personale DEI](https://www.dei.unipd.it/nuovoaccount/), per uso dei laboratori e aule informatica nel Polo di ingegneria dell'Informazione per il 2° e 3° anno. 
     > È un account che non c'entra niente con gli account per l'accesso all'aula Taliercio. <br> Viene usato anche per richiedere accesso ai cluster computazionali del DEI.
@@ -82,7 +86,7 @@
   - e-mail: segredei@dei.unipd.it
   - telefono: [049 827 7600](tel:0498277600)
   - [Orari, responsabili, ecc.](https://www.dei.unipd.it/node/809)
-  - [Sito segreteria didattica](https://elearning.dei.unipd.it/mod/book/view.php?id=3&chapterid=47)
+  - [Sito del dipartimento](https://www.dei.unipd.it/)
 
 
   Si consiglia soprattutto di contattare la Sig.ra ***Roberta Pellizzaro*** per le necessità che coinvolgono il corso di laurea (piani di studio, manifesti, corsi, ecc.):
