@@ -8,9 +8,9 @@ Il progetto è uno strumento **student-driven**, pensato da e per studentə del 
 
 ## 🗂 Cosa trovi nella Wiki
 
-🔗 **Link utili**: calendari, valutazioni dei docenti, orari delle lezioni e altro
+🔗 **Link utili**: calendari, valutazioni dei docenti, orari delle lezioni e altro  
 📝 **Guide universitarie**: per matricole, tesi, laurea, curriculum e altro  
-📖 **Materiale di studio**: libri, appunti, esercitazioni, quiz, prove d’esame e altro
+📖 **Materiale di studio**: libri, appunti, esercitazioni, quiz, prove d’esame e altro  
 🧑‍🏫 **Contatti di docenti e rappresentanti**  
 💬 **Informazioni Discord e regole del server**  
 
@@ -27,7 +27,7 @@ Tutto è diviso per anno e insegnamento, con link diretti alle pagine di approfo
 
 ## 🤝 Contribuisci
 
-Hai suggerimenti, materiale utile o vuoi correggere un errore? Apri una _Pull Request_ o scrivici sul server Discord!
+Hai suggerimenti, materiale utile o vuoi correggere un errore? Apri una _Pull Request_, scrivici sul server Discord o vai alla [sezione contatti](https://github.com/artaeun/IBM-UniPD/wiki/%F0%9F%93%A2-Contatti-per-supporto)!
 
 ---
 
