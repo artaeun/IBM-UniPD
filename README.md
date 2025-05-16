@@ -2,10 +2,8 @@
 
 Benvenutə nella repository di supporto per il corso di **Ingegneria Biomedica** dell'**Università di Padova** (ordinamento 2022, codice IN2374).  
 Questo progetto nasce per raccogliere in un unico posto tutte le **informazioni utili**, **guide**, **date**, **testi** ed **esercitazioni**, a supporto della community triennale.
+Il progetto è uno strumento **student-driven**, pensato da e per studentə del **corso triennale - D.M. 270/2004**.
 
-Alcune cose flash da sapere
-🎓 **Corso triennale - D.M. 270/2004**  
-🧠 **Student-driven**  
 ---
 
 ## 🗂 Cosa trovi nella Wiki
