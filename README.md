@@ -1,21 +1,18 @@
-# **Ingegneria Biomedica** - Università di Padova 
-
-# 📚 Wiki - Ingegneria Biomedica @ UniPd (ordinamento 2022)
+# 📚 Ingegneria Biomedica @ UniPd (ordinamento 2022)
 
 Benvenutə nella repository di supporto per il corso di **Ingegneria Biomedica** dell'**Università di Padova** (ordinamento 2022, codice IN2374).  
-Questa Wiki nasce per raccogliere in un unico posto tutte le **informazioni utili**, **guide**, **date**, **testi** ed **esercitazioni**, a supporto della community attiva sul server Discord dedicato.
+Questo progetto nasce per raccogliere in un unico posto tutte le **informazioni utili**, **guide**, **date**, **testi** ed **esercitazioni**, a supporto della community triennale.
 
+Alcune cose flash da sapere
 🎓 **Corso triennale - D.M. 270/2004**  
 🧠 **Student-driven**  
-💬 **Server Discord**: [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
-
 ---
 
 ## 🗂 Cosa trovi nella Wiki
 
-🔗 **Link utili**: calendari, valutazioni dei docenti, orari delle lezioni  
-📝 **Guide universitarie**: per matricole, tesi, laurea, curriculum, e altro  
-📖 **Materiale di studio**: libri, appunti, esercitazioni, quiz, prove d’esame  
+🔗 **Link utili**: calendari, valutazioni dei docenti, orari delle lezioni e altro
+📝 **Guide universitarie**: per matricole, tesi, laurea, curriculum e altro  
+📖 **Materiale di studio**: libri, appunti, esercitazioni, quiz, prove d’esame e altro
 🧑‍🏫 **Contatti di docenti e rappresentanti**  
 💬 **Informazioni Discord e regole del server**  
 
