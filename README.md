@@ -21,7 +21,7 @@ Tutto è diviso per anno e insegnamento, con link diretti alle pagine di approfo
 ## 🚀 Inizia da qui
 
 👉 La documentazione completa è disponibile nella [Wiki](https://github.com/artaeun/IBM-UniPD/wiki) per iniziare a navigare tra i materiali.  
-👉 Se sei matricola o cerchi una guida rapida, visita subito la sezione **"Informazioni e Guide"**.
+👉 Se sei matricola o cerchi una guida rapida, visita subito la sezione [**"Informazioni e Guide"**](https://github.com/artaeun/IBM-UniPD/wiki#informazioni-e-guide).
 
 ---
 
