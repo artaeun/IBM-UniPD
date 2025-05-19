@@ -56,7 +56,7 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quell'
   - [FCB - Fondamenti di Chimica per la Bioingegneria](/Dati/Studio/I_Anno/FCB/README.md)
   - [Fisica 1](/Dati/Studio/I_Anno/F1/README.md)
 - 2° Anno
-  - [Biomateriali](/Dati/Studio/II_Anno/Biomateriali/README.md)
+  - [Biomateriali](/Dati/Studio/II_Anno/Biomateriali)
   - [EIP - Elementi di Informatica e Programmazione](/Dati/Studio/II_Anno/EIP/README.md)
   - [FAMP - Fondamenti di Analisi Matematica e Probabilità](/Dati/Studio/II_Anno/FAMP/README.md)
   - [FDE - Fondamenti di Elettronica](/Dati/Studio/II_Anno/FDE/README.md)
