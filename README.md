@@ -4,6 +4,11 @@ Benvenutə nella repository di supporto per il corso di **Ingegneria Biomedica**
 Questo progetto nasce per raccogliere in un unico posto tutte le **informazioni utili**, **guide**, **date**, **testi** ed **esercitazioni**, a supporto della community triennale.
 Il progetto è uno strumento **student-driven**, pensato da e per studentə del **corso triennale - D.M. 270/2004**.
 
+## 🚀 Inizia da qui
+
+👉 La documentazione completa è disponibile nella [Wiki](https://github.com/artaeun/IBM-UniPD/wiki) per iniziare a navigare tra i materiali.  
+👉 Se sei matricola o cerchi una guida rapida, visita subito la sezione [**"Informazioni e Guide"**](https://github.com/artaeun/IBM-UniPD/wiki#informazioni-e-guide).
+
 ---
 
 ## 🗂 Cosa trovi nella Wiki
@@ -15,13 +20,6 @@ Il progetto è uno strumento **student-driven**, pensato da e per studentə del 
 💬 **Informazioni Discord e regole del server**  
 
 Tutto è diviso per anno e insegnamento, con link diretti alle pagine di approfondimento.
-
----
-
-## 🚀 Inizia da qui
-
-👉 La documentazione completa è disponibile nella [Wiki](https://github.com/artaeun/IBM-UniPD/wiki) per iniziare a navigare tra i materiali.  
-👉 Se sei matricola o cerchi una guida rapida, visita subito la sezione [**"Informazioni e Guide"**](https://github.com/artaeun/IBM-UniPD/wiki#informazioni-e-guide).
 
 ---
 
