@@ -25,7 +25,7 @@ Tutto è diviso per anno e insegnamento, con link diretti alle pagine di approfo
 
 ## 🤝 Contribuisci
 
-Hai suggerimenti, materiale utile o vuoi correggere un errore? Apri una _Pull Request_, scrivici sul server Discord o vai alla [sezione contatti](https://github.com/artaeun/IBM-UniPD/wiki/%F0%9F%93%A2-Contatti-per-supporto)!
+Hai suggerimenti, materiale utile o vuoi correggere un errore? Apri una _Pull Request_, scrivici sul server Discord o vai alla [sezione contatti](https://github.com/artaeun/IBM-UniPD/wiki/%F0%9F%93%A2-Contatti-per-assistenza)!
 
 ---
 
