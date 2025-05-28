@@ -123,7 +123,7 @@ Termini e scadenze qua: https://www.unipd.it/cambio-curriculum
 
 ## Posso cambiare curriculum in qualsiasi momento/anno di studio?
 Dipende, perché c’è sempre un termine di scadenza che però in circostanze come quelle attuali (post pandemia) potrebbero essere estesi. 
-I termini di scadenza attuali sono presenti qua: https://www.unipd.it/cambio-curriculum (***attualmente dal 15 luglio al 29 ottobre 2020***)
+I termini di scadenza attuali sono presenti qua: https://www.unipd.it/cambio-curriculum.
 
 Conviene mandare una mail alla segreteria del DEI per avere conferma.
 
