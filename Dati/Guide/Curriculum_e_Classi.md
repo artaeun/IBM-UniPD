@@ -75,7 +75,7 @@ Poi ci sono 15 CFU a scelta vincolata, in base alla classe di laurea di apparten
 ---
 
 ## Che differenza c’è tra i due curricula?
-Nel curriculum applicativo un esame (di 6 crediti) dei 15 CFU a scelta vincolata viene sostituito dal tirocinio."
+Nel curriculum applicativo un esame (di 6 crediti) dei 15 CFU a scelta vincolata viene sostituito dal tirocinio.
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
@@ -106,7 +106,7 @@ Non esattamente. Se sei parte di un curriculum o l’altro, puoi scegliere solo 
 
 ![curriculum](/Dati/.img/curricula.png)
 
-Di default, se non specifichi il tuo percorso, vieni assegnato al percorso 1.
+Di default, se non specifichi il tuo percorso, vieni assegnato al percorso L8.
 Facendo il piano di studi è molto più facile da capire.
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
@@ -122,7 +122,7 @@ Termini e scadenze qua: https://www.unipd.it/cambio-curriculum
 ---
 
 ## Posso cambiare curriculum in qualsiasi momento/anno di studio?
-Dipende, perché c’è sempre un termine di scadenza che però in circostanze come quelle attuali (post pandemia) potrebbero essere estesi. 
+Dipende, perché c’è sempre un termine di scadenza che però, in circostanze come quelle attuali (post pandemia), potrebbe essere esteso. 
 I termini di scadenza attuali sono presenti qua: https://www.unipd.it/cambio-curriculum.
 
 Conviene mandare una mail alla segreteria del DEI per avere conferma.
@@ -147,13 +147,13 @@ Le classi ti inquadrano (assieme al curriculum) nella scelta degli esami da dare
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
 
-## Si ma quindi oltre a questo a me cosa cambiano le classi?
+## A livello pratico cosa cambia nella scelta delle classi di lurea?
 Se vuoi fare la magistrale di Bioingegneria a Padova non ti cambia niente se non gli esami che puoi dare. Ma se vuoi fare per esempio una laurea di Ingegneria Industriale (fuori o dentro Padova) è probabile che ti verrà chiesta una classe L9. O magari di integrare qualche esame per poter fare richiesta di ammissione al corso. Queste informazioni si possono trovare sul bando di ammissione al corso di studi magistrale che si vorrà intraprendere. 
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
 
-## Come si fa a cambiare la classe?
+## Come si fa a cambiare la classe di laurea?
 Attualmente si  compila il modulo di cambio classe che trovi qua: https://www.unipd.it/cambio-classe
 
 Si manda via mail assieme a fotocopia del documento di identità a carriere.studenti@unipd.it o anche a ingegneria.studenti@unipd.it
@@ -194,7 +194,7 @@ La "Guida alla compilazione del piano di studi" si trova qui: www.astro.unipd.it
 ---
 
 ## Quali sono gli esami a libera scelta?
-Tutti quelli della lista seguente (escludendo quelli che sono vincolati, e quindi dovete comunque dare a prescindere):
+Tutti quelli della lista seguente, escludendo quelli che sono vincolati e che quindi dovete dare a prescindere):
 
 ***Semestre 1***
 
@@ -210,8 +210,8 @@ Tutti quelli della lista seguente (escludendo quelli che sono vincolati, e quind
 - Meccanica dei Materiali (9 CFU)
 - Bioelettromagnetismo (6 CFU)
 
-***Nota bene***
-- sono inclusi in questa lista anche ***esami che NON sono di Ingegneria Biomedica***. Vedere [questa domanda](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa) per più informazioni.
+> ***Nota bene***
+> - sono inclusi in questa lista anche ***esami che NON sono di Ingegneria Biomedica***. Vedere [questa domanda](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa) per più informazioni.
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
 ---
@@ -256,7 +256,7 @@ Se già approvati tramite domanda di riconoscimento preventiva e già caricati a
 
 ## Ma per il tirocinio come si fa? Quando si fa? Quanto dura?
 
-Trovate tutte le informazioni, linee guida e modalità  [qui](https://elearning.dei.unipd.it/mod/book/view.php?id=3&chapterid=37). 
+Trovate tutte le informazioni, linee guida e modalità  [qui](https://stem.elearning.unipd.it/mod/book/view.php?id=234&chapterid=50). 
 
 Potete farlo in un momento qualsiasi dell'anno, finché rispetta i criteri stabiliti da Unipd. 
 
@@ -520,6 +520,6 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
  ---
    
 ## Ho trovato un errore in questa guida. Come posso contribuire?
-Se sei famigliare con GitHub sai già rispondere a questa domanda. Altrimenti puoi mandarmi una mail ad alexandru.mihailescu#studenti.unipd.it (metti una chiocciola al posto del **"#"**) e vedrò di correggerlo al più presto.
+Se sei famigliare con GitHub sai già rispondere a questa domanda. Altrimenti puoi contattare dalla pagina [📢 Contatti](https://github.com/artaeun/IBM-UniPD/wiki/%F0%9F%93%A2-Contatti-per-assistenza) e vedremo di correggerlo al più presto.
 
 ###### *<p align="right">[Torna all'indice](#indice)</p>*<!-- omit in toc -->
