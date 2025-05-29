@@ -228,7 +228,7 @@ Se la cosa ti lascia un po' basitə, dai un'occhiata [qui](#aiuto-come-posso-str
 
 Tecnicamente sì, basta che siano dell'ambito Ingegneristico o che ci siano le propedeuticità. 
 
-Per farlo bisogna che siano stati sottomessi e approvati dalla Segreteria del DEI (la cui referente per le Carriere è la [professoressa Saccomani Maria Pia]( https://www.dei.unipd.it/persona/0A7F06976D2D39F73AEDD095D97CF91A)) attraverso il piano di studi ad approvazione. 
+Per farlo bisogna che siano stati sottomessi e approvati dalla Segreteria del DEI (i cui referenti per le Carriere sono il  [professore Pedersen Morten Gram ](https://www.dei.unipd.it/persona/6621497527C5ABCD2BC3FCAE2216A92C) per i piani di studio e il [professore Simone Del Favero](https://www.unipd.it/en/contatti/rubrica/?ruolo=1&checkout=cerca&persona=DEL%20FAVERO&key=0FDEFA3F9950B4366C65A7BA78C5FD88) per il riconoscimento delle carriere pregresse) attraverso il piano di studi ad approvazione. 
 
 Questi esami contano solo verso la somma totale di **crediti a libera scelta**. Volendo, si possono avere tutti esami esterni come crediti a libera scelta, basta che siano approvati.
 
