@@ -1,12 +1,14 @@
-# **Ingegneria Biomedica** - Università di Padova 
-<!--- <p align="right">
-  <img src="https://github.com/artaeun/IBM-UniPD/blob/branch_modifiche_in_corso/Dati/.img/Logo_Universit%C3%A0_Padova.png" width="125" height="125" />
-  </p> --->
+# 📚 Ingegneria Biomedica @ UniPd (ordinamento 2022)
 
-Guide, date, testi, scadenze, tutto raccolto in un unica repository di informazioni, relativi al corso di ***Ingegneria Biomedica*** dell'*Università di Padova*, ordinamento del 2022 (*IN2374*, D.M. 270/2004) per il server Discord presente a questo link: [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
+Benvenutə nella repository di supporto per il corso di **Ingegneria Biomedica** dell'**Università di Padova** (ordinamento 2022, codice IN2374).  
+Questo progetto nasce per raccogliere in un unico posto tutte le **informazioni utili**, **guide**, **date**, **testi** ed **esercitazioni**, a supporto della community triennale.
+Il progetto è uno strumento **student-driven**, pensato da e per studentə del **corso triennale - D.M. 270/2004**.
 
+## 🚀 Inizia da qui
 
-## 🎓*Scheda del corso* 
+👉 La documentazione completa è disponibile nella [Wiki](https://github.com/artaeun/IBM-UniPD/wiki) per iniziare a navigare tra i materiali.  
+👉 Se sei matricola o cerchi una guida rapida, visita subito la sezione [**"Informazioni e Guide"**](https://github.com/artaeun/IBM-UniPD/wiki#informazioni-e-guide).
+
 
 Qua trovate il quadro generale delle attività formattive, syllabus/contenuto e modalità d'esame dei singoli insegnamenti:
 
@@ -79,36 +81,29 @@ Se fuori corso, per ogni esame ancora da dare, guardare l'anno relativo a quell'
   - [SGEIA - Saperi di Genere ed Etica nell'Intelligenza Aetificiale](/Dati/Studio/III_Anno/SGEIA/README.md)
   - [STI - Storia della Tecnologia dell'Informazione](/Dati/Studio/III_Anno/STI/README.md)
   - [TSB - Tecnologia e Strumentazione Biomedica](/Dati/Studio/III_Anno/TSB/README.md)
----
-
-## 📱Discord 
-### Link server
-- **_Ingegneria Biomedica_** : [https://discord.com/invite/QvQ92GE](https://discord.com/invite/QvQ92GE)
-- **_Bioingegneria_**: [https://discord.com/invite/GHa9tQe](https://discord.com/invite/GHa9tQe)
-
-- **_Tutti gli altri server / Hub UniPD_**: [https://discord.gg/dtaThyfrDA](https://discord.gg/dtaThyfrDA)
-
-### Regole
-- *[Regole del server Discord](/Dati/Altro/regole_Discord.md)*
-- ***[Guida all'utilizzo di Discord](http://tiny.cc/guidaDiscord)*** (da leggere da PC o Tablet)
-- *[Guida per il principiante (ufficiale)](https://support.discord.com/hc/it/articles/360045138571)*
-
----
-## 👩‍🎓 Lista rappresentanti Biomedica/Bioingegneria 2024-2026
-
-[Lista rappresentantə](https://www.unipd.it/elezioni-comitato-sport-cda-azienda-regionale-diritto-studio) - Guardate sotto il biennio attuale e nel file dell'"Elenco degli studenti eletti".
-
-Per contattarlə, consiglio o una ricerca su Internet includendo la parola "UniPd" o usando "nome.cognome@studenti.unipd.it" o verificando tramite Community Whatsapp.
-
-## Credits
-
-#### Il Server Discord nella sua interità e questa repository sono stati creati da Alexandru Mihailescu, con l'aiuto del rappresentante degli studenti della facoltà di Ingegneria Biomedica UniPD, Andrea Pasinato (2018-2020).
 
 ---
 
-## Disclaimer
+## 🗂 Cosa trovi nella Wiki
 
-##### *I contenuti qua presenti non sostituiscono i canali di comunicazioni già esistenti ([Moodle](https://stem.elearning.unipd.it/course/index.php?categoryid=11), [sito ufficiale di UniPD](https://www.unipd.it/)). La repo qua presente è gestita esclusivamente da studenti e/o rappresentati degli studenti di questo corso. UniPd e gli autori di queste pagine non si assumono nessuna responsabilità per il contenuto pubblicato qui. Le comunicazioni ai rappresentanti da parte degli utenti non costituiscono né garantiscono comunicazione di alcun genere a UniPd o agli organi affiliati. I suoi contenuti vengono messi a disposizione così come sono e non viene fornita alcuna garanzia per l’aggiornamento, la correttezza, la completezza o la qualità delle informazioni messe a disposizione.*
+🔗 **Link utili**: calendari, valutazioni dei docenti, orari delle lezioni e altro  
+📝 **Guide universitarie**: per matricole, tesi, laurea, curriculum e altro  
+📖 **Materiale di studio**: libri, appunti, esercitazioni, quiz, prove d’esame e altro  
+🧑‍🏫 **Contatti di docenti e rappresentanti**  
+💬 **Informazioni Discord e regole del server**  
 
-##### *Il server Discord non vuole sostituirsi ai canali di comunicazioni già esistenti (Moodle, e-mail istituzionale) in alcun modo ed è gestito esclusivamente da studenti e/o rappresentati degli studenti di questo corso. UniPd e l'autore non si assumono nessuna responsabilità per il contenuto pubblicato qui. Le comunicazioni ai rappresentanti da parte degli utenti non costituiscono né garantiscono comunicazione di alcun genere a UniPd o agli organi affiliati. Il server e i suoi contenuti vengono messi a disposizione così come sono e non viene fornita alcuna garanzia per l’aggiornamento, la correttezza, la completezza o la qualità delle informazioni messe a disposizione.*
+Tutto è diviso per anno e insegnamento, con link diretti alle pagine di approfondimento.
+
+---
+
+## 🤝 Contribuisci
+
+Hai suggerimenti, materiale utile o vuoi correggere un errore? Apri una _Pull Request_, scrivici sul server Discord o vai alla [sezione contatti](https://github.com/artaeun/IBM-UniPD/wiki/%F0%9F%93%A2-Contatti-per-assistenza)!
+
+---
+
+## 📢 Disclaimer
+
+Questo progetto non è affiliato ufficialmente con l'Università di Padova.  
+È gestito da studentə volontarə per supportare altri studenti. Verifica sempre le informazioni ufficiali sui canali dell’ateneo.
 
