@@ -4,7 +4,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _informa
 
 ## Materiale vario
 - [Riassunto di informatica medica (credits Arianna Zuanazzi)](/Dati/Studio/III_Anno/InfoMed/Materiale_vario/Appunti%20di%20Informatica%20Medica%20(credits%20Arianna%20Zuanazzi).pdf)
-- [Appunti di informatica medica (credits Davide Bosco](https://drive.google.com/file/d/1jhR5vSEXS7ma3A6apim2xKq3Vlpu8qaV/view?usp=drive_link)
+- [Appunti di informatica medica (credits Davide Bosco)](https://drive.google.com/file/d/1jhR5vSEXS7ma3A6apim2xKq3Vlpu8qaV/view?usp=drive_link)
 - [Domande di preparatorie all'esame](/Dati/Studio/III_Anno/InfoMed/Materiale_vario/Domande%20preparatorie%20InfoMed.pdf)
 - Preparazione comandi SQL:
   ```
