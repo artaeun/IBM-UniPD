@@ -4,7 +4,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _tecnolo
 
 ## Materiale vario
 - [Database domande di teoria (senza soluzione)](/Dati/Studio/III_Anno/TSB/Materiale_vario/Database_TSB.pdf)
-- [Database domande di teoria (con soluzione)](/Dati/Studio/III_Anno/TSB/Materiale_vario/Database_TSB-Soluzione.pdf)
+- [Database domande di teoria (con soluzione)](/Dati/Studio/III_Anno/TSB/Materiale_vario/Databse_TSB-Soluzione.pdf)
 - [Esercizi vari](/Dati/Studio/III_Anno/TSB/Materiale_vario/Esercizi%20TSB.pdf)
 - [Esercizi vari suddivisi in capitoli](/Dati/Studio/III_Anno/TSB/Materiale_vario/Esercizi%20TSB%20capitoli.pdf)
 
