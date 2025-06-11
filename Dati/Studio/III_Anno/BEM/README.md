@@ -3,13 +3,13 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _bioelettromagnetismo_.
 
 ## Materiale vario
-- [Appunti sulle lezioni di laboratorio e il metodo FDTD (credits Davide Bosco)](/Dati/Studio/III%20Anno/BEM/Materiale_vario/BEM%20laboratorio%20e%20lezioni%20FDTD%20(credits %20Davide%20Bosco).pdf)
-- [Definizioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/definitions.pdf)
-- [Alfabeto greco](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/alfabeto_greco.pdf)
-- [Operatori vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_operators.pdf)
-- [Identità vettoriali](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/vector_identities.pdf)
-- [Articoli e rapporti](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/Articoli%20e%20rapporti)
-- [PDF lezioni](/Dati/Studio/III%20Anno/BEM/Materiale%20vario/PDF%20lezioni)
+- [Appunti sulle lezioni di laboratorio e il metodo FDTD (credits Davide Bosco)](</Dati/Studio/III_Anno/BEM/Materiale_vario/BEM laboratorio e lezioni FDTD (credits Davide Bosco).pdf>)
+- [Definizioni](/Dati/Studio/III_Anno/BEM/Materiale_vario/definitions.pdf)
+- [Alfabeto greco](/Dati/Studio/III_Anno/BEM/Materiale_vario/alfabeto_greco.pdf)
+- [Operatori vettoriali](/Dati/Studio/III_Anno/BEM/Materiale_vario/vector_operators.pdf)
+- [Identità vettoriali](/Dati/Studio/III_Anno/BEM/Materiale_vario/vector_identities.pdf)
+- [Articoli e rapporti](/Dati/Studio/III_Anno/BEM/Materiale_vario/Articoli%20e%20rapporti)
+- [PDF lezioni](/Dati/Studio/III_Anno/BEM/Materiale_vario/PDF%20lezioni)
 
 ## Libri e dispense
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/kgtlTLBb)
