@@ -3,6 +3,7 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _elaborazione di segnali biomedici_.
 
 ## Materiale vario
+- [Appunti di Elaborazione di Segnali Biomedici (credits Davide Bosco)](</Dati/Studio/III_Anno/ESB/Materiale_vario/Appunti ESB (credits Davide Bosco).pdf>)
 - [PDF seminari](/Dati/Studio/III_Anno/ESB/Materiale_vario/Seminari)
 - [Articoli](/Dati/Studio/III_Anno/ESB/Materiale_vario/Articoli)
 - [Laboratorio 01](/Dati/Studio/III_Anno/ESB/Materiale_vario/Laboratorio/Lab02)
