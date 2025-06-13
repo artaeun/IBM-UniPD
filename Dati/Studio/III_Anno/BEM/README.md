@@ -4,7 +4,6 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
 
 ## Materiale vario
 - [Appunti di Bioelettromagnetismo (credits Davide Bosco)](</Dati/Studio/III_Anno/BEM/Materiale_vario/Appunti BEM (credits Davide Bosco).pdf>)
-- [Appunti sulle lezioni di laboratorio e il metodo FDTD (credits Davide Bosco)](</Dati/Studio/III_Anno/BEM/Materiale_vario/BEM laboratorio e lezioni FDTD (credits Davide Bosco).pdf>)
 - [Definizioni](/Dati/Studio/III_Anno/BEM/Materiale_vario/definitions.pdf)
 - [Alfabeto greco](/Dati/Studio/III_Anno/BEM/Materiale_vario/alfabeto_greco.pdf)
 - [Operatori vettoriali](/Dati/Studio/III_Anno/BEM/Materiale_vario/vector_operators.pdf)
