@@ -4,9 +4,9 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _dinamic
 
 ## Materiale vario
 - [PDF lezioni](/Dati/Studio/III_Anno/DF/Materiale_vario/PDF_lezioni.pdf)
-- [Domand ricorrenti](/Dati/Studio/III_Anno/DF/Materiale_vario/Domande_Ricorrenti_Fluidi.pdf)
+- [Domande ricorrenti](/Dati/Studio/III_Anno/DF/Materiale_vario/Domande_Ricorrenti_Fluidi.pdf)
 - [Appunti per il ripasso](/Dati/Studio/III_Anno/DF/Materiale_vario/Ripasso_per_esame.pdf)
-- [Esercizi vari](/Dati/Studio/III_Anno/DF/Materiale_vario/esecizi_vari.pdf)
+- [Esercizi vari](/Dati/Studio/III_Anno/DF/Materiale_vario/Esercizi_vari.pdf)
 
 ## Temi d'esame
 - [Anno Accademico 2021/2022](/Dati/Studio/III_Anno/DF/Temi_d'esame/AA_21-22)
