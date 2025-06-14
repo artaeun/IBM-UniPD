@@ -7,6 +7,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _ingenge
 - [Formulario](/Dati/Studio/II_Anno/ISB/Materiale_vario/Formulario_ISB.pdf)
 - [Esercitazioni e simulazioni](/Dati/Studio/II_Anno/ISB/Materiale_vario/Esercitazioni%20e%20simulazioni%20ISB.pdf)
 - [Soluzioni simulazioni](/Dati/Studio/II_Anno/ISB/Materiale_vario/Soluzione%20esercitazioni%20ISB.pdf)
+- SOFTWARE - [SMath Studio](https://smath.com/en-US/): programma che permette di fare conti con unità di misura e conversioni, utile per la parte di esercizi dell'esame.
 
 ## Libri
 - [Dispensa di teoria](/Dati/Studio/II_Anno/ISB/Libri_e_dispense/Dispensa_ISB.pdf)
