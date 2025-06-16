@@ -24,7 +24,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
     1. core conductor model
     2. teorema di Poynting
   Domande a crocette:
-    - ricavare da quale eq di Maxwell derivava una che è
+    - ricavare da quale eq di Maxwell derivava una che hanno dato loro
     - se ε_1≠ε_2 come si conserva il campo elettrico
     - in una opu com'è il campo magnetico rispetto a quello elettrico
     - come decade il vettore di Poynting di un antenna filiforme
