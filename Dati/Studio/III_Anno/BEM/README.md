@@ -54,8 +54,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
   Domande a crocette: 
     - l'equazione di Helmholtz
     - la prima legge di continuità 
-    - ricavare lo spessore di penetrazione avendo la f
-    - σ e ε
+    - ricavare lo spessore di penetrazione avendo la f, σ e ε
     - dire se un guadagno elevato provocava un'antenna più direttiva 
     - una sul trasporto attivo
     - la pompa sodio potassio 
