@@ -84,7 +84,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
     2. core-conduction model per propagazione sotto soglia
   Domande a  crocette: 
     - equazione di Helmholtz 
-    - costante dielettrica in due mezzi nei quali ε'n=3ε''n (chiedeva se ε' fosse maggiore minore o uguale a ε'')
+    - costante dielettrica in due mezzi nei quali E'n=3E''n (chiedeva se ε' fosse maggiore minore o uguale a ε'')
     - spessore di penetrazione 
     - direttività di un'antenna
     - funzione del trasporto attivo 
