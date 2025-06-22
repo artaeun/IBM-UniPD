@@ -6,7 +6,7 @@
 - [1app_2024](1app_2024)
 - [2app_2024](2app_2024)
 - [altro_appello](altro_appello)
-- [Appello 2024](Dati/Studio/III_Anno/InfoMed/Temi_d'esame/Appello%2024)
+- [Appello 2024](Appello_2024)
 - [2019 - simulazione compito.pdf](/Dati/Studio/III_Anno/InfoMed/Temi_d'esame/2019%-%simulazione%compito.pdf)
 - [estratto_compitino_1_0506.pdf](estratto_compitino_1_0506.pdf)
 - [estratto_correzione_compitino_1_0708.pdf](estratto_correzione_compitino_1_0708.pdf)
