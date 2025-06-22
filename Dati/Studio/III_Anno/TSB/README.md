@@ -11,4 +11,8 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _tecnolo
 ## Libri e dispense
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/cktjTJZI)
 
+## Appunti
+- [Appunti TSB - Luca di Mauro](Dati/Studio/III_Anno/TSB/Appunti/appunti_TSB-Luca_di_Mauro.pdf)
+
+
 
