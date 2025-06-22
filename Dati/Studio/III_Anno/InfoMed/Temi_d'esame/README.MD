@@ -1,12 +1,12 @@
 ﻿# Temi d'esame di Informatica Medica
 
 
-- [1app_2023_A](1app_2023_A)
-- [1app_2023_B](1app_2023_B)
-- [1app_2024](1app_2024)
-- [2app_2024](2app_2024)
-- [altro_appello](altro_appello)
-- [Appello 2024](Appello_2024)
+- [1app_2023_A](1app_2023_A/README.md)
+- [1app_2023_B](1app_2023_B/README.md)
+- [1app_2024](1app_2024/README.md)
+- [2app_2024](2app_2024/README.md)
+- [altro_appello](altro_appello/README.md)
+- [Appello 2024](Appello_2024/README.md)
 - [2019 - simulazione compito.pdf](/Dati/Studio/III_Anno/InfoMed/Temi_d'esame/2019%-%simulazione%compito.pdf)
 - [estratto_compitino_1_0506.pdf](estratto_compitino_1_0506.pdf)
 - [estratto_correzione_compitino_1_0708.pdf](estratto_correzione_compitino_1_0708.pdf)
