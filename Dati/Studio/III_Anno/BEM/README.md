@@ -28,7 +28,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
     - se ε_1≠ε_2 come si conserva il campo elettrico
     - in una opu com'è il campo magnetico rispetto a quello elettrico
     - come decade il vettore di Poynting di un antenna filiforme
-    - canali K e Na+
+    - canali K+ e Na+
     - membrana come capacità se ha effetto nel transitorio o nell'equilibrio
     - da cosa dipende le soglie dell'ICNIRP
     - modelli analitici vs numerici
