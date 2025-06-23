@@ -89,7 +89,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
     - direttività di un'antenna
     - funzione del trasporto attivo 
     - dissipazione del potenziale con impulso sotto soglia 
-    - esperimento voltage clamp, quando viene utilizzato il metodo FDTD. 
+    - esperimento voltage clamp
     - come cambia l'aumento di temperatura se raddoppio l'intensità del campo elettrico (bio-calore) 
     - domanda sul far-field (riguardava la frequenza massima o minima)
   Domanda laboratorio: 
