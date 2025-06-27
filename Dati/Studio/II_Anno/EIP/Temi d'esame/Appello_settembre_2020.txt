@@ -1,0 +1,552 @@
+"""
+
+   Esame di Elementi di Informatica e Programmazione - 10/09/2020
+   
+   TEMPO A DISPOSIZIONE = 120 minuti (due ore)
+
+   PRIMA CONSEGNA PARZIALE DOPO 40 minuti (il docente avvisera')
+
+   SECONDA CONSEGNA PARZIALE DOPO 80 minuti (il docente avvisera') 
+
+   Copiare questo file in CognomeMatricola.py usando il proprio cognome
+   e il proprio numero di matricola. Se il cognome contiene spazi o apostrofo,
+   ignorarli; se contiene lettere accentate, usare la corrispondente lettera
+   non accentata.   
+   MODIFICARE SOLTANTO IL FILE CognomeMatricola.py !!!!!!!!
+   Quello sara' il file valutato per l'esame.
+   
+
+   LA COMPRENSIONE DEL TESTO E' PARTE INTEGRANTE DELL'ESAME   
+   Non e' possibile utilizzare caratteristiche del linguaggio che non siano
+   state presentate a lezione in questo anno accademico.
+   
+   Le sezioni di codice mancante e da scrivere sono identificate dal commento
+   # SCRIVERE QUI 
+   Le funzioni e i metodi "vuoti" sono costituiti dal solo enunciato pass.
+   Tali enunciati possono essere
+   rimossi quando si scrive la funzione o il metodo (ma possono anche rimanere
+   al loro posto, sono ininfluenti)
+
+*** DESCRIZIONE DEL TEMA D'ESAME **********************
+
+Un grafo e' una struttura dati costituita da una serie di nodi,
+alcuni dei quali sono connessi tra di loro. Le connessioni sono dette archi.
+
+In particolare un grafo diretto (o grafo orientato) G e' una coppia (V,E) dove
+• V e' un insieme di nodi (o vertici);
+• E e' un insieme di archi orientati ovvero con una direzione da un nodo a un altro nodo
+Un esempio generico di un grafo è fornito nell'immagine che trovate su moodle insieme al testo dell'esame.
+
+Viene richiesto di progettare la classe Grafo, i cui esemplari abbiano
+il comportamento di un grafo realizzato mediante un dizionario in
+cui i nomi dei nodi del grafo sono le chiavi (di tipo stringa) e i valori
+associati alle chiavi sono elementi di un'altra classe,
+la classe Nodo sotto definita
+
+I metodi da realizzare nella classe sono gia' indicati, con commenti adeguati
+per specificarne il comportamento. 
+
+E' poi presente il metodo main(), gia' scritto, che effettua il collaudo e
+utilizza alcune funzioni ausiliarie che vanno realizzate come indicato
+(al di fuori della classe).
+
+
+Buon lavoro!
+
+*** FINE DELLE ISTRUZIONI INIZIALI ***
+
+"""
+
+##########################################################################################
+#  Classe Nodo
+##########################################################################################
+
+
+"""
+   Gli esemplari di questa classe rappresentano nodi.
+   I nodi sono una classe avente come attributi
+   - un nome,
+   - una lista di stringhe _out che identifica il nome di altri nodi collegati con un arco uscente dal nodo
+   - una lista di stringhe _in che identifica il nome di altri nodi collegati con un arco entrante nel nodo
+   
+   Nella figura fornita come esempio, troviamo il nodo di nome "b" che ha i seguenti attributi:
+   self._name = "b"
+   self._out = ["c", "f", "e"] # perché da "b" escono archi diretti verso "c", "f", "e"
+   self._in = ["a"]     # perché l'unico arco entrante in "b" proviene da "a"
+   
+   Non c'è nessun requisito particolare per l'ordinamento delle stringhe nelle due liste.
+"""
+
+
+class Nodo:
+
+    """
+    __init__ inizializza un nodo senza archi
+    """
+
+    def __init__(self, name):
+        self._name = name
+        self._out = []
+        self._in = []
+
+    """
+   getName restituisce il nome del nodo 
+   """
+
+    def getName(self):
+        return self._name
+
+    """
+   getOut restituisce la lista _out
+   """
+
+    def getOut(self):
+        return self._out
+
+    """
+   getIn restituisce la lista _in
+   """
+
+    def getIn(self):
+        return self._in
+
+    """
+   addOut aggiunge il nome di un nodo alla lista _out
+   Se questo è già presente non viene aggiunto e viene stampato un messaggio
+   di warning (non un errore) che avvisa appunto che un nodo con quel nome è già presente
+   """
+
+    def addOut(self, nmnd):
+        if nmnd not in self._out:
+            self._out.append(nmnd)
+        else:
+            print(
+                "Il nome del nodo",
+                nmnd,
+                "è già presente nella lista dei nodi collegati con un arco uscente da",
+                self.getName(),
+            )
+
+    """
+   addIn aggiunge il nome di un nodo alla lista _in
+   Se questo è già presente non viene aggiunto e viene stampato un messaggio
+   di warning (non un errore) che avvisa appunto che un nodo con quel nome è già presente
+   """
+
+    def addIn(self, nmnd):
+        if nmnd not in self._in:
+            self._in.append(nmnd)
+        else:
+            print(
+                "Il nome del nodo",
+                nmnd,
+                "è già presente nella lista dei nodi collegati con un arco entrante in ",
+                self.getName(),
+            )
+
+    """
+   removeOut rimuove il nome di un nodo dalla lista _out
+   Se questo non è presente non viene rimosso e viene stampato un messaggio
+   di warning (non un errore) che avvisa che il nodo non è presente
+   nella lista dei nodi collegati con un arco uscente
+   """
+
+    def removeOut(self, nmnd):
+        if nmnd in self._out:
+            self._out.remove(nmnd)
+        else:
+            print(
+                "Il nome del nodo",
+                nmnd,
+                "non è presente nella lista dei nodi collegati con un arco uscente da",
+                self.getName(),
+            )
+
+    """
+   removeIn rimuove il nome di un nodo dalla lista _in
+   Se questo non è presente non viene rimosso e viene stampato un messaggio
+   di warning (non un errore) che avvisa che il nodo non è presente
+   nella lista dei nodi collegati con un arco entrante
+   """
+
+    def removeIn(self, nmnd):
+        if nmnd in self._in:
+            self._in.remove(nmnd)
+        else:
+            print(
+                "Il nome del nodo",
+                nmnd,
+                "non è presente nella lista dei nodi collegati con un arco entrante in ",
+                self.getName(),
+            )
+
+
+##########################################################################################
+#  Classe Grafo
+##########################################################################################
+
+"""
+
+   Gli esemplari di questa classe rappresentano grafi (descritti
+   nel commento iniziale di questo file) usando un dizionario.
+
+   Ogni elemento del dizionario ha una chiave che corrisponde al nome del nodo
+   e un dato che corrisponde a un oggetto di classe Nodo
+
+   ATTENZIONE: Al solito è proibito accedere direttamente agli attributi della classe Nodo.
+   Usate invece i metodi sopra definiti
+   
+"""
+
+
+class Graph:
+
+    """
+    __init__ inizializza un grafo vuoto
+    """
+
+    def __init__(self):
+        self._data = dict()
+
+    # QUESTO METODO/COSTRUTTORE NON PUO' ESSERE MODIFICATO
+
+    """
+   getNodeNames restituisce una lista con i nomi di tutti i nodi nel grafo
+   """
+
+    def getNodeNames(self):
+        # SCRIVERE QUI
+        pass
+
+    """
+   getNode riceve in input il nome di un nodo (parametro nmnd)
+   e restituisce il corrispondente nodo (un oggetto di classe Nodo)
+   Se l'argomento passato a nmnd non è una chiave del dizionario
+   il metodo getNode deve sollevare un messaggio di errore KeyError
+   """
+
+    def getNode(self, nmnd):
+        # SCRIVERE QUI
+        pass
+
+    """
+   addNode aggiunge un oggetto di classe Nodo (parametro nd) al grafo
+   Prima di aggiungere il nodo al grafo bisogna controllare che:
+   - il nome del nodo non sia già presente
+   - i nomi dei nodi presenti negli attributi _in e _out del nodo nd
+     siano nomi di nodi effettivamente presenti nel grafo   
+   Suggerimento: ricordando e utilizzando le proprietà degli insiemi si può scrivere codice
+   molto semplice, ma il metodo si può scrivere (con codice più complesso) anche usando soltanto liste.
+   
+   Dopo aver inserito il nodo (se l'operazione è ammessa), vanno modificati gli attributi dei nodi
+   del grafo che risultano collegati al nuovo nodo da un arco, sulla base delle sue liste di archi
+   entranti e uscenti.
+   
+   Nella figura di riferimento, immaginiamo di inserire il nodo "g" dopo che siano stati inseriti
+   tutti gli altri nodi. Questo comporta l'aggiunta di "g" alla lista _in dei nodi "f" e "h"
+   (perché "g" ha "f" e "h" elencati nella propria lista _out
+   e alla lista _out dei nodi "c" e "f"
+   (perché "g" ha "c" e "f" elencati nella propria lista _in)
+   
+   Ricordate che è proibito accedere direttamente agli attributi _name, _in e _out del nodo nd
+   
+   """
+
+    def addNode(self, nd):
+        # SCRIVERE QUI
+        pass
+
+    """
+   removeNode riceve in input il nome di un nodo (parametro nmnd) da rimuovere dal grafo
+   Prima di rimuovere il nodo dal grafo bisogna controllare che il nome del nodo sia presente
+   (Suggerimento: usare semplicemente il metodo getNode() che dà errore se il nome del nodo non è presente nel grafo )
+   Se il nome del nodo è presente va rimosso.
+   
+   ATTENZIONE: vanno prima modificati gli attributi dei nodi collegati da archi al nodo da rimuovere,
+   in modo da evitare che rimangano, nel grafo, archi privi di uno dei due estremi
+   
+   Nella figura di riferimento, immaginiamo di rumuovere il nodo "g".
+   Questo comporta l'eliminazione di "g" dalla lista _in dei nodi "f" e "h"
+   (perché "g" ha "f" e "h" elencati nella propria lista _out)
+   e dalla lista _out dei nodi "c" e "f"
+   (perché "g" ha "c" e "f" elencati nella propria lista _in)
+  
+   Ricordate che è proibito accedere direttamente agli attributi _name, _in e _out di un nodo  
+   """
+
+    def removeNode(self, nmnd):
+        # SCRIVERE QUI
+        pass
+
+    """
+   addEdge aggiunge un arco al grafo.
+   Riceve in input il nome di 2 nodi, uno da cui l'arco esce (parametro nameout)
+   e uno in cui l'arco entra (namein), e modifica di conseguenza le liste _in e _out
+   dei due nodi coinvolti.
+   Suggerimento: Anche in questo caso è il metodo getNode() a dare errore
+   se il nome di uno dei 2 nodi non è presente nel grafo
+  
+   Ricordate che è proibito accedere direttamente agli attributi _name, _in e _out di un nodo  
+   """
+
+    def addEdge(self, nameout, namein):
+        # SCRIVERE QUI
+        pass
+
+    """
+   removeEdge rimuove un arco dal grafo.
+   Riceve in input il nome di 2 nodi, uno da cui l'arco esce (parametro nameout)
+   e uno in cui l'arco entra (namein), e modifica di conseguenza le liste _in e _out
+   dei due nodi coinvolti.
+   Suggerimento: Anche in questo caso è il metodo getNode() a dare errore
+   se il nome di uno dei 2 nodi non è presente nel grafo
+  
+   Ricordate che è proibito accedere direttamente agli attributi _name, _in e _out di un nodo  
+   """
+
+    def removeEdge(self, nameout, namein):
+        # SCRIVERE QUI
+        pass
+
+
+##########################################################################################
+#  Funzioni utili a costruire il grafo e a visualizzarne la matrice di adiacenza
+##########################################################################################
+"""
+readGraphFromList() legge le informazioni relative a un grafo da una lista
+passata in input e crea il corrispondente oggetto di tipo Grafo
+
+Il primo elemento della lista contiene una stringa con i nomi di tutti i nodi del grafo separati da spazio
+Il secondo elemento della lista contiene una stringa con i nomi di tutti i nodi a cui il primo nodo è collegato da un arco uscente
+Il terzo elemento della lista contiene una stringa con i nomi di tutti i nodi a cui il secondo nodo è collegato da un arco uscente
+e così via...
+
+I nomi dei nodi in ciascuna stringa sono sempre separati da spazio
+
+ATTENZIONE: negli esempi qui riportati i nomi dei nodi sono sempre singole lettere
+ma la funzione deve accettare stringhe qualsiasi (ovviamente senza spazi)
+
+ATTENZIONE: 
+Se la prima stringa è vuota, viene creato un grafo vuoto, privo di nodi e di archi.
+Se una delle altri stringhe è vuota significa che il nodo corrispondente non ha archi uscenti.
+
+Ad esempio la lista seguente
+
+[ "A B C D", "B", "", "A B", "D B"]
+
+sta ad indicare un grafo di 4 nodi A, B, C, D in cui
+A è collegato a B da un arco che va da A a B (A->B)
+B non ha archi uscenti
+C è collegato a A da un arco che va da C ad A (C->A) ed è collegato a B da un arco che va da C a B (C->B)
+D è collegato a se stesso da un arco che va da D a D (D->D) ed è collegato a B da un arco che va da D a B (D->B)
+
+Se la lunghezza della lista non è compatibile con quanto descritto sopra (ad esempio il numero di elementi della lista
+non è compatibile con il numero di nodi osservati nella prima stringa) viene sollevata un'eccezione di tipo ValueError
+"""
+
+
+def readGraphFromList(infograph):
+    # SCRIVERE QUI
+    pass
+
+
+"""
+QUESTA FUNZIONE SERVE SOLTANTO AL COLLAUDO E NON è NECESSARIO LEGGERLA
+TUTTAVIA, CAPIRE COSA SIA UNA MATRICE DI ADIACENZA LEGGENDO IL COMMENTO CHE SEGUE VI PUO'
+AIUTARE NELLA FASE DI COLLAUDO
+
+matriceAdiacenza() prende come parametro in input un oggetto di tipo grafo e restituisce in output
+la sua matrice di adiacenza ovvero una lista di liste  che rappresenti una matrice binaria quadrata.
+In posizione [i][j] della matrice si trova un 1 se e solo se esiste nel grafo un arco
+che va dal vertice i al vertice j altrimenti si trova uno 0.
+
+Nella definizione della corrispondenza tra indici i j della matrice di adiacenza
+e nomi dei nodi va considerato l'ordine lessicografico di questi ultimi
+"""
+
+
+def matriceAdiacenza(graph):
+    nodigrafo = graph.getNodeNames()  # chiavi del dizionario (nomi dei nodi)
+    nodigrafo.sort()
+    n = len(nodigrafo)
+
+    # inizializzo una lista di liste con tutti 0
+    adjmat = []
+    for i in range(0, n):
+        a = []
+        for j in range(0, n):
+            a.append(0)
+        adjmat.append(a)
+
+    for i in range(0, n):
+        item = graph.getNode(
+            nodigrafo[i]
+        )  # il nodo corrispondente al nome nodigrafo[i] viene restituito
+        listaout = item.getOut()  # lista dei noti collegati con un arco uscente
+        for nmout in listaout:
+            k = nodigrafo.index(nmout)
+            adjmat[i][k] = 1
+
+    return adjmat
+
+
+def main():
+    # QUI NON SI POSSONO FARE MODIFICARE
+    # (eventualmente si possono fare modifiche temporanee, ma poi
+    #  bisogna ripristinare la funzione al suo contenuto originario)
+
+    # Si possono togliere i commenti dalle
+    # istruzioni print per indagare meglio...
+
+    failed = False
+
+    grafo0 = ["A B", "B", "A"]
+    # print("\n\nLista grafo0: ", grafo0)
+    G = readGraphFromList(grafo0)
+    m = matriceAdiacenza(G)
+    a = G.getNodeNames()
+    a.sort()
+    if " ".join(a) != grafo0[0]:
+        failed = True
+        print("Fail: lista dei nodi ", a)
+    # print("\nMatrice di adiacenza")
+    # for ri in m: print(ri)
+
+    # print("Aggiungo il nodo 'C' con arco C->A")
+    C = Nodo("C")
+    C.addOut("A")
+    G.addNode(C)
+    a = G.getNodeNames()
+    a.sort()
+    if " ".join(a) != "A B C":
+        failed = True
+        print("Fail: lista dei nodi ", a)
+    m = matriceAdiacenza(G)
+    # print("Matrice di adiacenza dopo aver aggiunto il nodo C")
+    # for ri in m: print(ri)
+
+    # print("Rimuovo il nodo 'B'")
+    G.removeNode("B")
+    m = matriceAdiacenza(G)
+    a = G.getNodeNames()
+    a.sort()
+    if " ".join(a) != "A C":
+        failed = True
+        print("Fail: lista dei nodi ", a)
+    # print("Matrice di adiacenza dopo aver rimosso il nodo B")
+    # for ri in m: print(ri)
+
+    # print("Cerco di aggiungere il nuovo nodo 'A'")
+    a = Nodo("A")
+    try:
+        G.addNode(a)
+        failed = True
+        print(
+            "\n\nfail: Cercare di aggiungere un nodo con un nome già presente nel grafo dovrebbe dare errore"
+        )
+    except:
+        pass
+
+    # print("Cerco di rimuovere nuovamente il nodo 'B'")
+    try:
+        G.removeNode("B")
+        failed = True
+        print(
+            "\n\nfail: Cercare di rimuovere un nodo non presente nel grafo dovrebbe dare errore"
+        )
+    except:
+        pass
+
+    grafo1 = ["A B C D E", "B C", "D E", "A D E", "", "A"]
+    # print("\n\nLista grafo1: ", grafo1)
+    G = readGraphFromList(grafo1)
+    m = matriceAdiacenza(G)
+    a = G.getNodeNames()
+    a.sort()
+    if " ".join(a) != grafo1[0]:
+        failed = True
+        print("Fail: lista dei nodi ", a)
+    # print("\nMatrice di adiacenza")
+    # for ri in m: print(ri)
+
+    print(
+        "\nCerco di aggiungere un arco B->D: IL PROGRAMMA DEVE SEGNALARE UN (doppio) WARNING\n"
+    )
+    G.addEdge("B", "D")
+    # print("Cerco di aggiungere un arco D->B")
+    G.addEdge("D", "B")
+    m = matriceAdiacenza(G)
+    a = G.getNodeNames()
+    a.sort()
+    # print("Nodi ordinati del grafo1:\n",a,"\nMatrice di adiacenza dopo aver aggiunto l'arco D->B")
+    # for ri in m: print(ri)
+
+    # print("Cerco di rimuovere l'arco A->B")
+    G.removeEdge("A", "B")
+    m = matriceAdiacenza(G)
+    a = G.getNodeNames()
+    a.sort()
+    # print("Nodi ordinati del grafo1:\n",a,"\nMatrice di adiacenza dopo aver rimosso l'arco A->B")
+    # for ri in m: print(ri)
+
+    print(
+        "\nCerco di rimuovere l'arco C->B: IL PROGRAMMA DEVE SEGNALARE UN (doppio) WARNING\n"
+    )
+    G.removeEdge("C", "B")
+    m = matriceAdiacenza(G)
+    a = G.getNodeNames()
+    a.sort()
+    # print("Nodi ordinati del grafo1:\n",a,"\nMatrice di adiacenza dopo aver rimosso l'arco A->B")
+    # for ri in m: print(ri)
+
+    grafo2 = ["A B C D E", "B C", "D E", "A D E", "A", ""]
+    # print("\n\nLista grafo2: ", grafo2)
+    G = readGraphFromList(grafo2)
+    m = matriceAdiacenza(G)
+    a = G.getNodeNames()
+    a.sort()
+    if " ".join(a) != grafo2[0]:
+        failed = True
+        print("Fail: lista dei nodi ", a)
+    # print("\nMatrice di adiacenza")
+    # for ri in m: print(ri)
+
+    grafo3 = ["A B C D E", "B C", "D E", "A D E", "A", "C", "B A", "D"]
+    # print("\n\nLista grafo3: ", grafo3)
+    try:
+        G = readGraphFromList(grafo3)
+        failed = True
+        print("Fail: non è stato generato un errore nella creazione del grafo 3")
+    except:
+        pass
+
+    grafo4 = ["A B C D E", "B C", "F E", "A D E", "A", ""]
+    # print("\n\nLista grafo4: ", grafo4)
+    try:
+        G = readGraphFromList(grafo4)
+        failed = True
+        print("Fail: non è stato generato un errore nella creazione del grafo 4")
+    except:
+        pass
+
+    grafo5 = ["A B C D E", "B C", "D E"]
+    # print("\n\nLista grafo5: ", grafo5)
+    try:
+        G = readGraphFromList(grafo5)
+        failed = True
+        print("Fail: non è stato generato un errore nella creazione del grafo 5")
+    except:
+        pass
+
+    if failed:
+        print("\nCollaudo NON riuscito\n")
+    else:
+        print(
+            "\nAttenzione: devono essere stati segnalati i warning previsti (e soltanto quelli)"
+        )
+        print(
+            "\nCollaudo riuscito (ovviamente non significa che non ci siano errori...)\n"
+        )
+
+
+main()
