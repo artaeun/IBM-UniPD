@@ -6,7 +6,7 @@
 - [Commandi Python e Teoria EIP](Tutta_la_teoria.md) - Vale quanto per il mega-riassunto
 - [Elenco degli errori frequenti all'esame](/Dati/Studio/II_Anno/EIP/Materiale_vario/eip-errori-frequenti.pdf)
 - [Flashcards per il ripasso](/Dati/Studio/II_Anno/EIP/Materiale_vario/eip-flashcards.pdf)
-- A [questo link](https://inventwithpython.com/bigbookpython/) trovate 81 progetti (con soluzioni) da svolgere in Python, con diversi livelli di difficoltà
+- A [questo link](https://inventwithpython.com/bigbookpython/) trovate 81 progetti (con soluzioni) da svolgere in Python, con diversi livelli di difficoltà.
 - [Esercizi guidati](/Dati/Studio/II_Anno/EIP/Materiale_vario/Esercizi_guidati)
 - [Esercizi di programmazione e relativa soluzione](/Dati/Studio/II_Anno/EIP/Materiale_vario/Esercizi%20di%20programmazione)
 - Materiale dei laboratori
