@@ -4,6 +4,7 @@
 ## Materiale vario
 - [Mega-Riassunto del programma](/Dati/Studio/II_Anno/EIP/Materiale_vario/Mega_riassunto_EIP.md) (non contiene materiale che viene coperto meglio dalle slide del MOODLE) - Quello che vi è contenuto serve solo da rinfresco o spunti per approfondire cose che non ricordate bene.
 - [Commandi Python e Teoria EIP](Tutta_la_teoria.md) - Vale quanto per il mega-riassunto
+- Un corso online e gratuito di Phyton offerto dall'Univeristà di Helsinki, utile per capire con sempi pratici cosa vuol dire programmare, dando un'occhiata anche alla parte teorica: [MOOC 2023](https://programming-23.mooc.fi/)
 - [Elenco degli errori frequenti all'esame](/Dati/Studio/II_Anno/EIP/Materiale_vario/eip-errori-frequenti.pdf)
 - [Flashcards per il ripasso](/Dati/Studio/II_Anno/EIP/Materiale_vario/eip-flashcards.pdf)
 - A [questo link](https://inventwithpython.com/bigbookpython/) trovate 81 progetti (con soluzioni) da svolgere in Python, con diversi livelli di difficoltà.
