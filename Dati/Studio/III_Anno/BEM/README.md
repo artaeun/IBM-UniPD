@@ -15,7 +15,10 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/kgtlTLBb)
 
 ## Temi d'esame e domande di teoria
-- []()
+- [Esempio di prova scritta #1](/Dati/Studio/III_Anno/BEM/Temi_d'esame/esempio-prova-scritta-completa.pdf)
+- [Esempio di prova scritta #2](/Dati/Studio/III_Anno/BEM/Temi_d'esame/esempio-prova-scritta-completa_bis.pdf)
+- [Appello d'esame 1](</Dati/Studio/III_Anno/BEM/Temi_d'esame/BEM - prova scritta 1.pdf>)
+- [Appello d'esame 2](</Dati/Studio/III_Anno/BEM/Temi_d'esame/BEM - Prova scritta 2.pdf>)
 - Domande di teoria raccolte dai precedenti appelli:
 
   ```
