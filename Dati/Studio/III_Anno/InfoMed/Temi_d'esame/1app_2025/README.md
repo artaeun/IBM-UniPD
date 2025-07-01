@@ -1,19 +1,7 @@
-# 2023
+# 2025
 
-![](45543.png)
-![](234567.png)
-![](54345.png)
-![](87654567.png)
-![](098909.png)
-![](098765432.png)
-![](543212.png)
-![](2qse432.png)
-![](2qase4.png)
-![](4e5rf.png)
-![](4tgfr5.png)
-![](65454.png)
-![](5789876.png)
-![](5rfde34.png)
-![](6543.png)
-![](6yu876.png)
-![](7654.png)
+## Parte 2
+![](/Dati/Studio/III_Anno/InfoMed/Temi_d'esame/1app_2025/parte_2.jpg)
+![](https://cdn.discordapp.com/attachments/618754587612020736/1388077154037665792/image.png?ex=6864f116&is=68639f96&hm=3b2cbe8f072adf51f2582e0fffd50fb88866d4d3572e0b82b62dbde9d61b48c9&)
+## Parte 3
+![](https://cdn.discordapp.com/attachments/618754587612020736/1388077154667069440/image.png?ex=6864f116&is=68639f96&hm=6efcd60179c236572f07ce22abcbab9f202ee82a3091fc3977c8593fadbbce49&)
