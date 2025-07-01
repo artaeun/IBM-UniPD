@@ -5,6 +5,7 @@
 - [1app_2023_B](1app_2023_B/README.md)
 - [1app_2024](1app_2024/README.md)
 - [2app_2024](2app_2024/README.md)
+- [1_app_2025](1app_2025/README.md)
 - [altro_appello](altro_appello/README.md)
 - [Appello 2024](https://github.com/artaeun/IBM-UniPD/blob/master/Dati/Studio/III_Anno/InfoMed/Temi_d'esame/Appello_2024/README.MD)
 
