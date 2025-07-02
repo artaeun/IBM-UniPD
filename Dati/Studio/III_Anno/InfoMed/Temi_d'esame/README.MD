@@ -1,6 +1,6 @@
 ﻿## Temi d'esame di Informatica Medica
 
-- [1° Aeppello 2025](1app_2025/README.md)
+- [1° Appello 2025](1app_2025/README.md)
 - [2° Appello 2024](2app_2024/README.md)
 - [1° Appello 2024](1app_2024/README.md)
 - [1° Appello 2023 A](1app_2023_A/README.md)
