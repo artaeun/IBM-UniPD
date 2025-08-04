@@ -3,6 +3,7 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _biomeccanica_.
 
 ## Materiale vario
+- [Appunti di biomeccanica (credits Jun Hao Zhou)](</Dati/Studio/III_Anno/Biomeccanica/Materiale_vario/Appunti di biomeccanica (credits Jun Hao Zhou).pdf>)
 - [Formulario 1](/Dati/Studio/III_Anno/Biomeccanica/Materiale_vario/Formulario1.pdf)
 - [Formulario 2](/Dati/Studio/III_Anno/Biomeccanica/Materiale_vario/Formulario2.pdf)
 
