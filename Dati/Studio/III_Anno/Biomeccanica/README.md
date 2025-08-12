@@ -4,6 +4,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _biomecc
 
 ## Materiale vario
 - [Appunti di biomeccanica (credits Jun Hao Zhou)](</Dati/Studio/III_Anno/Biomeccanica/Materiale_vario/Appunti di biomeccanica (credits Jun Hao Zhou).pdf>)
+- Le videolezioni del prof. Pavan si possono trovare al seguente link: https://mega.nz/folder/B18BkASD#u3Knot-lvQTDoTn6ttvGJw
 - [Formulario 1](/Dati/Studio/III_Anno/Biomeccanica/Materiale_vario/Formulario1.pdf)
 - [Formulario 2](/Dati/Studio/III_Anno/Biomeccanica/Materiale_vario/Formulario2.pdf)
 
