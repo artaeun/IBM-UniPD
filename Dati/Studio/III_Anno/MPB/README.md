@@ -14,6 +14,6 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _meccani
 - [Anni accademici 2016-2017](/Dati/Studio/III_Anno/MPB/Temi_d'esame/Esami%202016-2017.pdf)
 - [Alcuni esami svolti](/Dati/Studio/III_Anno/MPB/Temi_d'esame/Alcuni%20temi%20svolti)
 
-## Videoleioni prof. Lot
+## Videolezioni prof. Lot
 Le videolezioni del prof. Lot possono essere reperite al seguente link: [registrazioni video](https://youtube.com/playlist?list=PL5JNcyGPaynl7_ByXNoqJGqE5i-lfy66S&si=asuaYgBq_7ZCFqAu)
 
