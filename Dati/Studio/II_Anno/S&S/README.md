@@ -13,5 +13,5 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _segnali
 - [Comandi di Matlab (credits Matteo Grigolon)](/Dati/Studio/II_Anno/S&S/Libri_e_dispense/Dispensa%20di%20Matlab%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/It0FXDKb)
 
-## Videoleioni prof. Erseghe
+## Videolezioni prof. Erseghe
 Le videolezioni del prof. Eserseghe possono essere reperite al seguente link: [registrazioni video](https://drive.google.com/drive/folders/1r8hCEMVF28S5iHYNOSL0z50OHtfRiQTK?usp=sharing)
