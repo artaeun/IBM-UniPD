@@ -14,7 +14,4 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _segnali
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/It0FXDKb)
 
 ## Videoleioni prof. Erseghe
-Le videolezioni del prof. Eserseghe si possono trovare nei Moodle dell'anno accademico [21/22](https://drive.google.com/drive/folders/1r8hCEMVF28S5iHYNOSL0z50OHtfRiQTK?usp=sharing) e [22/23](https://drive.google.com/drive/folders/1r8hCEMVF28S5iHYNOSL0z50OHtfRiQTK?usp=sharing). 
-> NB: per visualizzare i video è necessario fare l'accesso al relativo corso su Moodle.
-
-In caso i video venissero rimossi, possono essere reperiti al seguente link: [registrazioni video](https://drive.google.com/drive/folders/1r8hCEMVF28S5iHYNOSL0z50OHtfRiQTK?usp=sharing)
+Le videolezioni del prof. Eserseghe possono essere reperite al seguente link: [registrazioni video](https://drive.google.com/drive/folders/1r8hCEMVF28S5iHYNOSL0z50OHtfRiQTK?usp=sharing)
