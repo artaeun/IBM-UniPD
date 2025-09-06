@@ -1,5 +1,4 @@
 # Materiale per lo studio di Elementi di Informatica e Programmazione
-https://github.com/artaeun/IBM-UniPD/blob/master/Dati/Studio/II_Anno/EIP/File%20originali/README.md
 
 ## Materiale vario
 - [Mega-Riassunto del programma](/Dati/Studio/II_Anno/EIP/File%20originali/README.md) (non contiene materiale che viene coperto meglio dalle slide del MOODLE) - Quello che vi è contenuto serve solo da rinfresco o spunti per approfondire cose che non ricordate bene.
