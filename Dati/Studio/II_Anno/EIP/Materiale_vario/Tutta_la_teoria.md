@@ -64,7 +64,7 @@
     - [re.search()](#research)
     - [Greedy Matching](#greedy-matching)
     - [Non-Greedy Matching](#non-greedy-matching)
-- [5.1 Liste](#51-liste)
+- [7. Liste](#7-liste)
   - [_Liste_](#liste)
     - [Definizione](#definizione)
     - [Slicing](#slicing-1)
@@ -89,7 +89,7 @@
   - [_Tuple_](#tuple)
     - [Funzioni che si possono usare con le tuple: _count_, _index_.](#funzioni-che-si-possono-usare-con-le-tuple-count-index)
     - [Assegnazione](#assegnazione)
-- [5.2 Grafica](#52-grafica)
+- [8. Grafica](#8-grafica)
   - [Cosa usare per la grafica](#cosa-usare-per-la-grafica)
   - [ezgraphics](#ezgraphics)
     - [Come usarlo](#come-usarlo)
@@ -101,7 +101,7 @@
     - [Come usarlo](#come-usarlo-1)
     - [RGB, fill, outline, testo](#rgb-fill-outline-testo)
     - [Immagini](#immagini)
-- [5.3 Insiemi e dizionari](#53-insiemi-e-dizionari)
+- [8. Insiemi e dizionari](#8-insiemi-e-dizionari)
   - [*Insiemi*](#insiemi)
     - [Come crearli](#come-crearli)
     - [Lunghezza](#lunghezza)
@@ -1066,7 +1066,7 @@ There aremore details on the Regular Expressions slide. Look it up in case you n
 
 
 
-# 5.1 Liste
+# 7. Liste
 
 ## _Liste_
 
@@ -1495,7 +1495,7 @@ fred
 
 
 
-# 5.2 Grafica
+# 8. Grafica
 
 ## Cosa usare per la grafica
 
@@ -1678,7 +1678,7 @@ canvas.mainloop()
 
 
 
-# 5.3 Insiemi e dizionari
+# 9. Insiemi e dizionari
 
 ## *Insiemi*
 
@@ -3290,6 +3290,7 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # Metodi di istanza (da fare)
 # Pile e code(da fare)
 # Linked lists (da fare)
+
 
 
 
