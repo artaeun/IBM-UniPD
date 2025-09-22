@@ -30,7 +30,7 @@
   - [*Metodo Monte Carlo*](#metodo-monte-carlo)
   - [*IS / IS NOT*](#is--is-not)
     - [Uso delle funzioni:](#uso-delle-funzioni)
-- [4.1 Stringhe e File](#41-stringhe-e-file)
+- [4. Stringhe](#4-stringhe)
   - [*Stringhe*](#stringhe)
     - [Slicing](#slicing)
     - [Operatore logico IN](#operatore-logico-in)
@@ -44,7 +44,7 @@
   - [Codifica Unicode](#codifica-unicode)
   - [Caratteri speciali](#caratteri-speciali)
     - [***Uso più esteso dei caratteri speciali***](#uso-più-esteso-dei-caratteri-speciali)
-- [4.2 File](#42-file)
+- [5 File](#5-file)
   - [*Gestione file*](#gestione-file)
     - [Aprire un file in lettura](#aprire-un-file-in-lettura)
     - [Aprire un file in scrittura](#aprire-un-file-in-scrittura)
@@ -505,7 +505,7 @@ Non puoi usare _non==None_ o _!=None_ per usare questo valore speciale.
 
 
 
-# 4.1 Stringhe e File
+# 5. Stringhe
 
 ## *Stringhe*
 
@@ -736,7 +736,7 @@ print(“%–10s %10.2f” % (title2, 17.29))
 
 
 
-# 4.2 File
+# 5. File
 
 Un file di testo può essere pensato come una sequenza di righe
 
@@ -3293,6 +3293,7 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # Metodi di istanza (da fare)
 # Pile e code(da fare)
 # Linked lists (da fare)
+
 
 
 
