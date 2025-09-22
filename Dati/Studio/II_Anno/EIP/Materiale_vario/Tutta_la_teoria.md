@@ -31,18 +31,18 @@
   - [*IS / IS NOT*](#is--is-not)
     - [Uso delle funzioni:](#uso-delle-funzioni)
 - [4. Stringhe](#4-stringhe)
-    - [Slicing](#slicing)
-    - [Operatore logico IN](#operatore-logico-in)
-    - [Confronto tra stringhe](#confronto-tra-stringhe)
-    - [Metodi per le stringhe](#metodi-per-le-stringhe)
-    - [Funzione *.lower() e .upper()*](#funzione-lower-e-upper)
-    - [Funzione *.find()*](#funzione-find)
-    - [Funzione *.replace()*](#funzione-replace)
-    - [Funzioni *.lstrip()* / *.rstrip()* / *.strip()*](#funzioni-lstrip--rstrip--strip)
-    - [Funzioni *.startswith()*](#funzioni-startswith)
-  - [Codifica Unicode](#codifica-unicode)
-  - [Caratteri speciali](#caratteri-speciali)
-    - [***Uso più esteso dei caratteri speciali***](#uso-più-esteso-dei-caratteri-speciali)
+	- [Slicing](#slicing)
+	- [Operatore logico IN](#operatore-logico-in)
+	- [Confronto tra stringhe](#confronto-tra-stringhe)
+	- [Metodi per le stringhe](#metodi-per-le-stringhe)
+	- [Funzione *.lower() e .upper()*](#funzione-lower-e-upper)
+	- [Funzione *.find()*](#funzione-find)
+	- [Funzione *.replace()*](#funzione-replace)
+	- [Funzioni *.lstrip()* / *.rstrip()* / *.strip()*](#funzioni-lstrip--rstrip--strip)
+	- [Funzioni *.startswith()*](#funzioni-startswith)
+    - [Codifica Unicode](#codifica-unicode)
+    - [Caratteri speciali](#caratteri-speciali)
+      - [***Uso più esteso dei caratteri speciali***](#uso-più-esteso-dei-caratteri-speciali)
 - [5. File](#5-file)
   - [*Gestione file*](#gestione-file)
     - [Aprire un file in lettura](#aprire-un-file-in-lettura)
@@ -58,7 +58,7 @@
     - [Aprire file da "nome file" dato dall'utente](#aprire-file-da-nome-file-dato-dallutente)
       - [Gestire eccezioni relative al nome dei file](#gestire-eccezioni-relative-al-nome-dei-file)
     - [Leggere parole elaborando da file](#leggere-parole-elaborando-da-file)
-- [4.3 Espressioni regolari](#43-espressioni-regolari)
+- [6 Espressioni regolari](#6-espressioni-regolari)
   - [Cosa sono le espressioni regolari](#cosa-sono-le-espressioni-regolari)
     - [find()](#find)
     - [re.search()](#research)
@@ -950,7 +950,7 @@ ___
 
 
 
-# 4.3 Espressioni regolari
+# 6 Espressioni regolari
 
 ## Cosa sono le espressioni regolari
 In computing, a regular expression, also referred to as “regex” or “regexp”, provides a concise and flexible means for matching strings of text, such as particular characters, words, or patterns of characters.
@@ -3290,6 +3290,7 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # Metodi di istanza (da fare)
 # Pile e code(da fare)
 # Linked lists (da fare)
+
 
 
 
