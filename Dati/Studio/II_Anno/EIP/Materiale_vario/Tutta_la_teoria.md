@@ -58,7 +58,7 @@
     - [Aprire file da "nome file" dato dall'utente](#aprire-file-da-nome-file-dato-dallutente)
       - [Gestire eccezioni relative al nome dei file](#gestire-eccezioni-relative-al-nome-dei-file)
     - [Leggere parole elaborando da file](#leggere-parole-elaborando-da-file)
-- [6 Espressioni regolari](#6-espressioni-regolari)
+- [6. Espressioni regolari](#6-espressioni-regolari)
   - [Cosa sono le espressioni regolari](#cosa-sono-le-espressioni-regolari)
     - [find()](#find)
     - [re.search()](#research)
@@ -3290,6 +3290,7 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # Metodi di istanza (da fare)
 # Pile e code(da fare)
 # Linked lists (da fare)
+
 
 
 
