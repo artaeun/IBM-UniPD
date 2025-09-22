@@ -18,7 +18,7 @@
     - [Assegnazione condizionale 2](#assegnazione-condizionale-2)
     - [Correzione usando _try/except_:](#correzione-usando-tryexcept)
   - [*exit()*](#exit)
-- [3. Condizionali While](#3-condizionali-while)
+- [3. Condizionali](#3-condizionali-)
   - [*Ciclo WHILE*](#ciclo-while)
     - [Forma base](#forma-base)
   - [*Ciclo FOR*](#ciclo-for)
@@ -392,7 +392,7 @@ exit("Error, you did some stupid shit so i exited the program.")
 #termina l'esecuzione del programma con un messaggio.'
 ```
 
-# 3. Condizionali While
+# 3. Condizionali
 
 ## *Ciclo WHILE*
 
@@ -3293,4 +3293,5 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # Metodi di istanza (da fare)
 # Pile e code(da fare)
 # Linked lists (da fare)
+
 
