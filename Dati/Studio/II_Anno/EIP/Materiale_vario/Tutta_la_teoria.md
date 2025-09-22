@@ -44,7 +44,7 @@
   - [Codifica Unicode](#codifica-unicode)
   - [Caratteri speciali](#caratteri-speciali)
     - [***Uso più esteso dei caratteri speciali***](#uso-più-esteso-dei-caratteri-speciali)
-- [5 File](#5-file)
+- [5. File](#5-file)
   - [*Gestione file*](#gestione-file)
     - [Aprire un file in lettura](#aprire-un-file-in-lettura)
     - [Aprire un file in scrittura](#aprire-un-file-in-scrittura)
@@ -505,7 +505,7 @@ Non puoi usare _non==None_ o _!=None_ per usare questo valore speciale.
 
 
 
-# 5. Stringhe
+# 4. Stringhe
 
 ## *Stringhe*
 
@@ -3293,6 +3293,7 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # Metodi di istanza (da fare)
 # Pile e code(da fare)
 # Linked lists (da fare)
+
 
 
 
