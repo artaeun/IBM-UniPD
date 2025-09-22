@@ -31,7 +31,6 @@
   - [*IS / IS NOT*](#is--is-not)
     - [Uso delle funzioni:](#uso-delle-funzioni)
 - [4. Stringhe](#4-stringhe)
-  - [*Stringhe*](#stringhe)
     - [Slicing](#slicing)
     - [Operatore logico IN](#operatore-logico-in)
     - [Confronto tra stringhe](#confronto-tra-stringhe)
@@ -506,8 +505,6 @@ Non puoi usare _non==None_ o _!=None_ per usare questo valore speciale.
 
 
 # 4. Stringhe
-
-## *Stringhe*
 
 In Python 3 tutte le stringhe sono una sequenza di caratteri Unicode (non è necessario nemmeno specificare che è in Ascii Unicode).
 
@@ -3293,6 +3290,7 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # Metodi di istanza (da fare)
 # Pile e code(da fare)
 # Linked lists (da fare)
+
 
 
 
