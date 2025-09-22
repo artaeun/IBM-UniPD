@@ -116,7 +116,7 @@
       - [Unione di due insiemi](#unione-di-due-insiemi)
       - [Intersezione e differenza](#intersezione-e-differenza)
     - [Il programma spellcheck.py](#il-programma-spellcheckpy)
-  - [5.3 Dizionari](#53-dizionari)
+  - [*Dizionari*](#53-dizionari)
     - [*Dizionario*](#dizionario)
     - [_Come crearli_](#come-crearli-1)
     - [_Aggiungere elementi_](#aggiungere-elementi-1)
@@ -3293,3 +3293,4 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # Metodi di istanza (da fare)
 # Pile e code(da fare)
 # Linked lists (da fare)
+
