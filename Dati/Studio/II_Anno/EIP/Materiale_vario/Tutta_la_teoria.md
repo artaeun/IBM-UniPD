@@ -174,21 +174,21 @@
 - [14. Ereditarietà](#14-ereditarietà)
   - [*Cos'è*](#cosè)
   - [*Principio di sostituzione (substitution principle)*](#principio-di-sostituzione-substitution-principle)
-  - [1. *Sottoclassi ed ereditarietà*](#1-sottoclassi-ed-ereditarietà)
-  - [2. Superclasse ***object***](#2-superclasse-object)
-  - [3. Costruttori](#3-costruttori)
-  - [4. Sovrascrivere un metodo (override)](#4-sovrascrivere-un-metodo-override)
-  - [5. _Polimorfismo_](#5-polimorfismo)
+  - [14.1 *Sottoclassi ed ereditarietà*](#141-sottoclassi-ed-ereditarietà)
+  - [14.2 Superclasse ***object***](#142-superclasse-object)
+  - [14.3 Costruttori](#143-costruttori)
+  - [14.4 Sovrascrivere un metodo (override)](#144-sovrascrivere-un-metodo-override)
+  - [14.5 Polimorfismo_](#145-polimorfismo)
   - [_Classi e metodi astratti_](#classi-e-metodi-astratti)
 - [15. Algoritmi](#15-algoritmi)
   - [_Ricerca binaria/dicotomica/bisezione_](#ricerca-binariadicotomicabisezione)
     - [_Algoritmo iterativo_](#algoritmo-iterativo)
     - [_Algoritmo ricorsivo_](#algoritmo-ricorsivo)
-- [Sorting (da fare)](#sorting-da-fare)
-- [Strutture dati (da fare)](#strutture-dati-da-fare)
-- [Metodi di istanza (da fare)](#metodi-di-istanza-da-fare)
-- [Pile e code(da fare)](#pile-e-codeda-fare)
-- [Linked lists (da fare)](#linked-lists-da-fare)
+- [16. Sorting](#16-sorting)
+- [17. Strutture dati (da fare)](#17strutture-dati)
+- [18. Metodi di istanza (da fare)](#18-metodi-di-istanza)
+- [19. Pile e code(da fare)](#19-pile-e-code)
+- [20. Linked lists (da fare)](#20-linked-lists)
 
 
 # 1. Variabili e operazioni
@@ -3026,7 +3026,7 @@ Ergo, perché non dovresti usare "car" o "bike" invece che "vehicle"?
 ---
 
 
-## 1. *Sottoclassi ed ereditarietà*
+## 14.1 *Sottoclassi ed ereditarietà*
 
 ```python
 #ChoicheQuestion eredita da Question, 
@@ -3048,7 +3048,7 @@ class ChoiceQuestion(Question)
 E vale anche per l'utilizzo della variabile all'interno stesso della classe: usare i metodi creati ad-hoc per modificare/leggere la variabile.
 
 
-## 2. Superclasse ***object***
+## 14.2 Superclasse ***object***
 
 In Python, se una classe non deriva esplicitamente da un'altra, allora deriva *implicitamente* dalla superclasse universale **object**. **Object** è privo di proprietà, ed è il modello dell'entità più astratta immaginabile.
 
@@ -3066,7 +3066,7 @@ Quindi si ha, per esempio:
 '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_itemCount',
 '_totalPrice', 'addItem', 'clear', 'getCount', 'getTotal']
 ```
-## 3. Costruttori
+## 14.3 Costruttori
 
 * Il **costruttore** di una sottoclasse **può definire eplicitamente soltanto le variabili di esemplare proprie della sottoclasse**.
 * Anche le variabili esemplare di una sottoclasse **devono** essere definite chiamando il costruttore della superclasse.
@@ -3101,7 +3101,7 @@ class ChoiceQuestion(Question):
 
 
 
-## 4. Sovrascrivere un metodo (override)
+## 14.4 Sovrascrivere un metodo (override)
 
 Si modifica il comportamento di un metodo quando viene usato dalla sottoclasse.
 
@@ -3131,7 +3131,7 @@ Attenzione!
 
 ---
 
-## 5. _Polimorfismo_
+## 14.5 _Polimorfismo_
 Posso creare un metodo che accetta come parametro una oggetto per intero, e usare i metodi di quella oggetto all'interno del metodo.
 
 **Non si può fornire un oggetto di tipo superclasse laddove sia previsto un oggetto di tipo sottoclasse.**
@@ -3285,11 +3285,12 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
       return ricBinariaRicorsiva(lista,inizio+1,fine,valoreDaCercare)
 ```
 
-# Sorting (da fare)
-# Strutture dati (da fare)
-# Metodi di istanza (da fare)
-# Pile e code(da fare)
-# Linked lists (da fare)
+# 16. Sorting 
+# 17. Strutture dati
+# 18. Metodi di istanza (da fare)
+# 19. Pile e code(da fare)
+# 20. Linked lists (da fare)
+
 
 
 
