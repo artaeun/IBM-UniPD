@@ -18,7 +18,7 @@
     - [Assegnazione condizionale 2](#assegnazione-condizionale-2)
     - [Correzione usando _try/except_:](#correzione-usando-tryexcept)
   - [*exit()*](#exit)
-- [3. Condizionali](#3-condizionali-)
+- [3. Condizionali](#3-condizionali)
   - [*Ciclo WHILE*](#ciclo-while)
     - [Forma base](#forma-base)
   - [*Ciclo FOR*](#ciclo-for)
@@ -3293,5 +3293,6 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # Metodi di istanza (da fare)
 # Pile e code(da fare)
 # Linked lists (da fare)
+
 
 
