@@ -101,8 +101,8 @@
     - [Come usarlo](#come-usarlo-1)
     - [RGB, fill, outline, testo](#rgb-fill-outline-testo)
     - [Immagini](#immagini)
-- [8. Insiemi e dizionari](#8-insiemi-e-dizionari)
-  - [*Insiemi*](#insiemi)
+- [9. Insiemi e dizionari](#9-insiemi-e-dizionari)
+  - [9.1 *Insiemi*](#81-insiemi)
     - [Come crearli](#come-crearli)
     - [Lunghezza](#lunghezza)
     - [Aggiungere elementi](#aggiungere-elementi)
@@ -115,7 +115,7 @@
       - [Unione di due insiemi](#unione-di-due-insiemi)
       - [Intersezione e differenza](#intersezione-e-differenza)
     - [Il programma spellcheck.py](#il-programma-spellcheckpy)
-  - [*Dizionari*](#53-dizionari)
+  - [9.2 *Dizionari*](#82-dizionari)
     - [*Dizionario*](#dizionario)
     - [_Come crearli_](#come-crearli-1)
     - [_Aggiungere elementi_](#aggiungere-elementi-1)
@@ -131,7 +131,7 @@
     - [_Ordinare un dizionario rispetto a __key___](#ordinare-un-dizionario-rispetto-a-key)
     - [_Ordinare un dizionario rispetto a __value___](#ordinare-un-dizionario-rispetto-a-value)
     - [_Copiare i dizionari_](#copiare-i-dizionari)
-- [6.1 Funzioni](#61-funzioni)
+- [10. Funzioni](#10-funzioni)
   - [_Definizione e invocazione_](#definizione-e-invocazione)
   - [_Definire più parametri_](#definire-più-parametri)
   - [_Passaggio di parametri_](#passaggio-di-parametri)
@@ -149,7 +149,7 @@
   - [_Mappatura_](#mappatura)
   - [_Filtraggio_](#filtraggio)
   - [_Riduzione_](#riduzione)
-- [8.1 Classi](#81-classi)
+- [11. Classi](#11-classi)
   - [_Cosa sono le classi_](#cosa-sono-le-classi)
   - [_Metodi_](#metodi)
   - [_Come definire una classe e i suoi metodi_](#come-definire-una-classe-e-i-suoi-metodi)
@@ -163,15 +163,15 @@
   - [_Vita di un oggetto_](#vita-di-un-oggetto)
   - [_Aliasing e riferimento self_](#aliasing-e-riferimento-self)
   - [_Copiare un oggetto_](#copiare-un-oggetto)
-- [8.2 Debugging](#82-debugging)
+- [12. Debugging](#12-debugging)
   - [_Uso di Pdb_](#uso-di-pdb)
   - [_Commandi Pdb_](#commandi-pdb)
-- [9.1 Eccezioni](#91-eccezioni)
+- [13. Eccezioni](#13-eccezioni)
   - [_Cosa sono?_](#cosa-sono)
     - [Eccezioni specifiche e generiche](#eccezioni-specifiche-e-generiche)
   - [_finally_](#finally)
   - [_raise_](#raise)
-- [Ereditarietà](#ereditarietà)
+- [14. Ereditarietà](#14-ereditarietà)
   - [*Cos'è*](#cosè)
   - [*Principio di sostituzione (substitution principle)*](#principio-di-sostituzione-substitution-principle)
   - [1. *Sottoclassi ed ereditarietà*](#1-sottoclassi-ed-ereditarietà)
@@ -180,7 +180,7 @@
   - [4. Sovrascrivere un metodo (override)](#4-sovrascrivere-un-metodo-override)
   - [5. _Polimorfismo_](#5-polimorfismo)
   - [_Classi e metodi astratti_](#classi-e-metodi-astratti)
-- [Algoritmi](#algoritmi)
+- [15. Algoritmi](#15-algoritmi)
   - [_Ricerca binaria/dicotomica/bisezione_](#ricerca-binariadicotomicabisezione)
     - [_Algoritmo iterativo_](#algoritmo-iterativo)
     - [_Algoritmo ricorsivo_](#algoritmo-ricorsivo)
@@ -1680,7 +1680,7 @@ canvas.mainloop()
 
 # 9. Insiemi e dizionari
 
-## *Insiemi*
+## 9.1 *Insiemi*
 
 Un insieme è un contenitore che memorizza una raccolta di valori univoci, che, diversamente da una lista, ha insiemi memorizzati in modo disordinato. Quindi non ci sono indici a cui ci si può appoggiare per ricercare elementi.
 
@@ -1842,7 +1842,7 @@ main()
 ```
 
 
-## 5.3 Dizionari
+## 9.2 Dizionari
 
 
 ### *Dizionario*
@@ -2124,7 +2124,7 @@ Esempio del problema:
 
 
 
-# 6.1 Funzioni
+# 10. Funzioni
 
 
 ## _Definizione e invocazione_
@@ -2424,7 +2424,7 @@ Il modulo _functools_ include la funzione _reduce_ che chiede come argomento:
 
 
 
-# 8.1 Classi
+# 11. Classi
 
 ## _Cosa sono le classi_
 La programmazione orientata a oggetti permette di elaborare dati dividendo i problemi grandi in problemi più piccoli. Le classi sono come degli stampini, che permettno di creare più oggetti simili con metodi e attributi specifici. 
@@ -2856,7 +2856,7 @@ ___
 
 
 
-# 8.2 Debugging
+# 12. Debugging
 
 Il debugger di Python, chiamato _pdb_ ("Python DeBugger"), può essere usato in mancanza di IDE che forniscono la funzione di debugging. Il debuggin consiste nella correzione di programmi, direttamente in fase di programmazione o nella fase di testing/finale del programma stesso.
 
@@ -2924,7 +2924,7 @@ count = 5 #con molto sale, posso fare così per
 
 ----
 
-# 9.1 Eccezioni
+# 13. Eccezioni
 
 ## _Cosa sono?_
 
@@ -3012,7 +3012,7 @@ balance = balance – amount #se viene sollevata l'eccezione, questa riga non vi
 ---
 
 
-# Ereditarietà
+# 14. Ereditarietà
 
 ## *Cos'è*
 Assieme al *incapsulamento* e *polimorfismo* è alla base della programmazione orientata agli oggetti, e consente il ***riutilizzo del codice***.
@@ -3237,7 +3237,7 @@ Una classe che contiene almeno un metodo astratto si chiama **classe astratta** 
 
 ---
 
-# Algoritmi
+# 15. Algoritmi
 
 ## _Ricerca binaria/dicotomica/bisezione_
 
@@ -3290,6 +3290,7 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # Metodi di istanza (da fare)
 # Pile e code(da fare)
 # Linked lists (da fare)
+
 
 
 
