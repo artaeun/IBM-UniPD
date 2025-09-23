@@ -3285,11 +3285,11 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
       return ricBinariaRicorsiva(lista,inizio+1,fine,valoreDaCercare)
 ```
 
-# 16. Sorting 
+# 16. Analisi delle prestazioni e sorting
 
-## Ordinamento per selezione (Selection Sort)
+## Analisi delle prestazioni degli algoritmi
+Per valutare l’**efficienza temporale** di un algoritmo si misura il tempo necessario alla sua esecuzione su insiemi di dati di dimensione crescente. 
 
-## Analisi delle prestazioni
 
 ### Andamento asintotico delle prestazioni
 
@@ -3298,6 +3298,32 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 ### Notazione Omega
 
 ### Notazione Theta
+
+## Ordinamento per selezione (Selection Sort)
+
+L’**ordinamento per selezione** è un algoritmo semplice ma poco efficiente.
+L’idea di base è individuare, ad ogni passo, l’elemento più piccolo nella parte non ancora ordinata della lista e scambiarlo con l’elemento in prima posizione della parte da ordinare.
+
+```python
+def selectionSort(values):
+    for i in range(len(values) - 1):
+        minPos = minimumPosition(values, i)
+        # scambia i due elementi
+        temp = values[minPos]
+        values[minPos] = values[i]
+        values[i] = temp
+
+def minimumPosition(values, start):
+    minPos = start
+    minVal = values[minPos]
+    for i in range(start + 1, len(values)):
+        val = values[i]
+        if val < minVal:
+            minPos = i
+            minVal = val
+    return minPos
+
+```
 
 ## Ordinamento per inserimento (Insertion Sort)
 
@@ -3320,6 +3346,7 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
