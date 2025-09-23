@@ -144,7 +144,7 @@
   - [_Moduli_](#moduli)
   - [_Documentazione automatica della propria funzione_](#documentazione-automatica-della-propria-funzione)
   - [*Cos'è la ricorsione?*](#cosè-la-ricorsione)
-    - [_Esempio ricorsione: sequenza di Fibonacci_](#esempio-ricorsione-sequenza-di-fibonacci)
+    - [_Esempio ricorsione: Fibonacci_](#esempio-ricorsione-sequenza-di-fibonacci)
   - [_Itterativo o Ricorsivo?_](#itterativo-o-ricorsivo)
   - [_Mappatura_](#mappatura)
   - [_Filtraggio_](#filtraggio)
@@ -735,7 +735,7 @@ print(“%–10s %10.2f” % (title2, 17.29))
 
 # 5. File
 
-Un file di testo può essere pensato come una sequenza di righe
+Un file di testo può essere pensato come una sequenza di righe.
 
 ## *Gestione file*
 ### Aprire un file in lettura
@@ -3290,6 +3290,7 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
