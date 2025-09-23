@@ -3286,10 +3286,41 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 ```
 
 # 16. Sorting 
+
+## Ordinamento per selezione (Selection Sort)
+
+## Analisi delle prestazioni
+
+### Andamento asintotico delle prestazioni
+
+### Notazione O-Grande
+
+### Notazione Omega
+
+### Notazione Theta
+
+## Ordinamento per inserimento (Insertion Sort)
+
+## Ordinamento per fusione (Merge Sort)
+
+### Mege Sort iterativo
+
+## Confronto tra ordinamenti
+
+## Quick sort
+
+## Ricerca di un elemento
+
+### Ricerca lineare
+
+### Ricerca binaria
+
+
 # 17. Strutture dati
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
