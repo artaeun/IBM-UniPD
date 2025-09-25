@@ -3285,19 +3285,62 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
       return ricBinariaRicorsiva(lista,inizio+1,fine,valoreDaCercare)
 ```
 
+
 # 16. Analisi delle prestazioni e sorting
 
 ## Analisi delle prestazioni degli algoritmi
-Per valutare l’**efficienza temporale** di un algoritmo si misura il tempo necessario alla sua esecuzione su insiemi di dati di dimensione crescente. 
+Per valutare l’**efficienza temporale** di un algoritmo si misura il tempo necessario alla sua esecuzione su insiemi di dati di dimensione crescente. Il tempo di esecuzionedipende dal numero e dal tipo di interazioni in *linguaggio macchina* e va misurto all'interno del programma usando il metodo *time()* che a ogni invocazione restituisce un valore di tipo float. A noi interessa la differenza del tempo calcolato all'inizio e alla fine dell'esecuzione dell'algoritmo, altrimenti il valore verrebbe calcolato rispetto alla *mezzanotte del 1 gennaio 1970*. Il metodo si invoca come segue:
+```python
+from time import time
+```
 
+Per un'analisi teorica si **contano gli accessi in lettura/scrittura** a singoli elementi della lista (o le operazioni più onerose), ipotizzando che queste siano più lente. Si fanno **semplificazioni drastiche** ignorando tutto cià che non incide in modo significativo sul tempo, considerando solo operazioni elementari e trascurando input/output. Le prestazioni si calcolano **nel caso peggiore** (worst case) per avere una stima affidabile.
 
 ### Andamento asintotico delle prestazioni
+L'andamento asintotico misura come cresce il tempo di esecuzione al crescere della dimensione dell'input *n*. Per confrontare algoritmi diversi, interessa sapere come cresce la funzione, cioè quale andamento qualitativo ha: si usa l’andamento asintotico che permette di valutare le prestazioni temporali in modo indipendente da fattori hardware.
 
 ### Notazione O-Grande
+Esiste una formulazione matematica del concetto "quale andamento ha una funzione di *n*, per *n* che tende all'infinito?". 
+
+$f(n) \in O(g(n))$ se $\exists c>0$ e $k>0$ tali che $f(n)<cg(n) \forall n \geq k$.
+
+Al crescere di *n* prima o poi una funzione *g(n)* è sempre maggiore della funzione *f(n)* a meno di una costante moltiplicativa. $g(n)$ è detto anche **limite superiore asintotico** per $f(n)$. $f(n)$ è **O-grande** di $g(n)$. 
+
+> Si usa il segno $\in$ perché $O(g(n))$ è un simbolo che rappresenta l’insieme di tutte le funzioni $f(n)$ che rispondono alla definizione per una determinata funzione $g(n)$. Spesso si scrive, impropriamente, $f(n) = O(g(n))$.
+
+Si dimostra che una *funzione polinomiale* è O-grande del suo monomio di grado massimo, con coefficiente moltiplicativo arbitrario. Per semplicità, tale coefficiente viene assunto uguale a 1. 
+
+La definizione implica che $f(n)$ sia O-grande di qualunque funzione che cresce più veloce di $g(n)$. A noi interessa la funzione "più stringente".
+
+> Ad esempio, avendo $T(n) \in O(n^2)$, non è sbagliato dire che $T(n) \in O(n^3)$ perché $T(n) \in O(n^2) \subset O(n^3) \subset O(n^4) \subset \cdots$.
+
+Ecco una lista di espressioni in notazione O-grande:
+| Espressione O-grande | Nome         |
+|----------------------|--------------|
+| O(1)                 | Costante     |
+| O(log n)             | Logaritmica  |
+| O(n)                 | Lineare      |
+| O(n log n)           | Log-lineare  |
+| O(n²)                | Quadratica   |
+| O(n³)                | Cubica       |
+| O(2ⁿ)                | Esponenziale |
+| O(n!)                | Fattoriale   |
+
 
 ### Notazione Omega
+Una funzione $f(n) \in \Omega(g(n))$ se $\exists c>0$ e $k \geq 1$ tali che $f(n) \geq g(n) \forall n\geq k$.
+
+Prima o poi $f(n)$ cresce più velocemente di $g(n)$ e, quindi, $g(n)$ è un **limite inferiore** asintotico per $f(n)$. $f(n)$ è **Omega** di $g(n)$. 
+
+Si dimostra che una funzione polinomiale è $\Omega$ del suo monomio di grado massimo, con coefficinete moltiplicativo arbitrario.
+
 
 ### Notazione Theta
+Una funzione $f(n) \in \Theta(g(n))$ se $f(n) \in \Omega(g(n))$ e $f(n) \in O(g(n))$.
+
+Prima o poi $f(n)$ e $g(n)$ crescono alla stessa velocità.
+
+
 
 ## Ordinamento per selezione (Selection Sort)
 
@@ -3346,6 +3389,7 @@ def minimumPosition(values, start):
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
