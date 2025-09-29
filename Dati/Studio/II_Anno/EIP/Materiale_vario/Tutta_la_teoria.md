@@ -3504,8 +3504,7 @@ L'algoritmo Merge Sort ha sempre prestazioni $O(n log(n))$, ma richiede spazio a
 ## Ricerca di un elemento
 Data una lista di dati **non ordinati**, per fare una ricerca in essa ci sono due possibili soluzioni. 
 
-  -**Ricerca lineare**: esamina tutti i valori di una lista finche non trova una corrispondenza con quanto cercato oppure giunge alla fine.
-    - valori trovati in un numero di passi $O(n)$.
+  -**Ricerca lineare**: esamina tutti i valori di una lista finche non trova una corrispondenza con quanto cercato oppure giunge alla fine. I valori sono trovati in un numero di passi $O(n)$.
 ```python
 def linearSearch(values, target):
   for i in range(len(values)):
@@ -3514,8 +3513,7 @@ def linearSearch(values, target):
   return -1
 ```
 	
-  -**Ricerca binaria o per bisezione**: cerca un valore in una lista ordinata determinano se si trovanella prima o nella seconda metà della lista stessa, ripetendo la ricerca in una sola delle due metà. 
-    - È un algoritmo $O(log(n))$.
+  -**Ricerca binaria o per bisezione**: cerca un valore in una lista ordinata determinano se si trovanella prima o nella seconda metà della lista stessa, ripetendo la ricerca in una sola delle due metà. È un algoritmo $O(log(n))$.
 ```python
 def binarySearch(values, low, high, target):
 if low <= high:
@@ -3538,6 +3536,7 @@ Senza ordinare la lista, per effettuare la ricerca di un elemento occorre un tem
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
