@@ -351,7 +351,7 @@ variabile = 2 if x>0 else 3
 ```python
 actualFloor= floor-1 if floor > 3 else floor
 
-#che e' equivalente a:
+#che È equivalente a:
 if floor>13:
   actualFloor=floor-1
 elif floor=13:
@@ -385,7 +385,7 @@ from sys import exit
 
 exit()
 #fa terminare immediatamente il programma. 
-#E' definita nel modulo sys della libreria standard'
+#È definita nel modulo sys della libreria standard'
 
 exit("Error, you did some stupid shit so i exited the program.") 
 #termina l'esecuzione del programma con un messaggio.'
@@ -407,12 +407,12 @@ while True:
 	line=input()
 	if line[0]=='#'
 		continue #continua
-	if line=='done'
+	if line=='donÈ
 		break #rompe il ciclo while
 	print (line)
-print('Done')
+print('DonÈ)
 #questo codice stamperà mano a mano ogni riga scritta,
-#e si fermera' solo quando gli inviamo 'done'
+#e si fermera' solo quando gli inviamo 'donÈ
 ```
 ___
 ## *Ciclo FOR*
@@ -483,8 +483,8 @@ Metodo:
 1. simuli il lancio di una frecettetta all'interno di un quadrato circoscritto a un cerchio di raggio 1 e centro (0,0)
 2. basta generare valori casuali tra -1 e 1 per x e y
 2.1 se il punto generato è dentro al cerchio, allora il bersaglio è "colpito": questo se x^2 + y^2 <=1
-3. dato che i lanci sono casuali, ci aspettiamo che i hits/tries sia circa uguale al rapproto tra le aree del cerchio e del quadrato, cioe' pi/4
-4. la stima del nostro valore di pi e' uguale a: 4*hits/tries
+3. dato che i lanci sono casuali, ci aspettiamo che i hits/tries sia circa uguale al rapproto tra le aree del cerchio e del quadrato, cioÈ pi/4
+4. la stima del nostro valore di pi È uguale a: 4*hits/tries
 ___
 
 ## *IS / IS NOT*
@@ -591,9 +591,9 @@ str.upper()
 hello bob
 >>> print(greet)
 Hello Bob
->>> print('Hi There'.lower())
+>>> print('Hi TherÈ.lower())
 hi there
->>> print('Hi There'.upper())
+>>> print('Hi TherÈ.upper())
 HI THERE
 >>>
 ```
@@ -619,7 +619,7 @@ La funzione *replace()* funziona come “search and replace” in Word: trova e 
 
 ```python
 >>> greet = 'Hello Bob'
->>> nstr = greet.replace('Bob','Jane')
+>>> nstr = greet.replace('Bob','JanÈ)
 >>> print(nstr)
 Hello Jane
 >>> nstr = greet.replace('o','X')
@@ -650,7 +650,7 @@ Alle volte è utile rimuovere spazi bianchi all’inizio o alla fine di una stri
 
 ```python
 >>> line = 'Please have a nice day'
->>> line.startswith('Please')
+>>> line.startswith('PleasÈ)
 True
 >>> line.startswith('p')
 False
@@ -903,7 +903,7 @@ count = 0
 for line in fhand:
   if line.startswith('Subject:') :
     count = count + 1
-print('There were', count, 'subject lines in', fname)
+print('There werÈ, count, 'subject lines in', fname)
 ```
 
 #### Gestire eccezioni relative al nome dei file
@@ -919,7 +919,7 @@ count = 0
 for line in fhand:
   if line.startswith('Subject:') :
     count = count + 1
-print('There were', count, 'subject lines in', fname)
+print('There werÈ, count, 'subject lines in', fname)
 ```
 ### Leggere parole elaborando da file
 
@@ -1153,7 +1153,7 @@ support item assignment
 _len()_ restituisce la lunghezza di una lista così come restituisce per le stringhe il numero di caratteri:
 
 ```python
->>> x = [ 1, 2, 'joe', 99]
+>>> x = [ 1, 2, 'joÈ, 99]
 >>> print(len(x))
 4
 ```
@@ -1669,7 +1669,7 @@ canvas.create_image(80, 100, image = gif1, anchor = NW)
 canvas.create_image(250, 100, image = gif2, anchor = NW)
 #put some text
 canvas.create_text(80, 90, text='PC')
-canvas.create_text(250, 90, text='Me')
+canvas.create_text(250, 90, text='MÈ)
 
 canvas.mainloop()
 ```
@@ -1961,7 +1961,7 @@ get() restituisce un valore di default (impostato dall'utente) quando non viene 
 Esempio:
 ```python
 >>> macchine=dict()
->>> macchine['Porche']=2
+>>> macchine['PorchÈ]=2
 >>> macchine['Ferrari']=5
 >>> macchine.get('Ferrari',0)
 5
@@ -2097,25 +2097,25 @@ Come per le liste vale il fenomeno di aliasing. Cioè si ha un problema di memor
 
 __Possiamo copiare i dizionari in questa maniera__:
 ```python
->>> ddd = {'course': 182, 'age': 21}
+>>> ddd = {'coursÈ: 182, 'agÈ: 21}
 >>> aaa=dict(ddd)
->>> ddd['course'] = "EIP"
+>>> ddd['coursÈ] = "EIP"
 >>> ddd
-{'course': 'EIP', 'age': 21}
+{'coursÈ: 'EIP', 'agÈ: 21}
 >>> aaa
-{'course': 'math', 'age': 21}
+{'coursÈ: 'math', 'agÈ: 21}
 ```
 
 
 Esempio del problema:
 ```python
->>> ddd = {'course': 182, 'age': 21}
+>>> ddd = {'coursÈ: 182, 'agÈ: 21}
 >>> aaa = ddd
->>> ddd['course'] = "math"
+>>> ddd['coursÈ] = "math"
 >>> ddd
-{'course': 'math', 'age': 21}
+{'coursÈ: 'math', 'agÈ: 21}
 >>> aaa
-{'course': 'math', 'age': 21}
+{'coursÈ: 'math', 'agÈ: 21}
 ```
 
 
@@ -2142,7 +2142,7 @@ def nomeFunzione(parametro):
 -   Le funzioni possono non avere argomenti (come per esempio _random()_) e possono non restituire alcun valore (ad esempio _print("ciao")_)
 -   Le funzioni che vengono arrivano già "installate" in python si chiamano _primitive_.
 -   Possiamo definire un numero illiminato di funzioni per risolvere i problemi più disparati.
-- E' possibile (ma sconsigliabile) definire una funzione all'interno di un'altra funzione.
+- È possibile (ma sconsigliabile) definire una funzione all'interno di un'altra funzione.
 
 
 N.B.: Una funzione definita, ma che non viene chiamata, è una funzione che non verrà eseguita!
@@ -2283,7 +2283,7 @@ def cubeVolume(sideLength) :
 
 - Organizzare il codice del programma in una serie di chiamate a
 funzioni che catturano la logica più che i dettagli implementativi.
-- E' bene non ripetere istruzioni, ma memorizzare il lavoro fatto per riutilizzarlo, per evitare ridondanza che va a incidere negativamente sull'efficienza del codice.
+- È bene non ripetere istruzioni, ma memorizzare il lavoro fatto per riutilizzarlo, per evitare ridondanza che va a incidere negativamente sull'efficienza del codice.
 - Se qualcosa è troppo lungo e complesso lo posso suddividere in parti più piccole usando le funzioni.
 
 
@@ -2310,7 +2310,7 @@ Esempio di import ed uso:
 
 ## _Documentazione automatica della propria funzione_
 
-E' sempre indicato commentare le funzioni, il loro scopo, il significato dei parametri e del valore restituito, oltre a eventuali requisiti specifici. E' preferibile usare lo stile di documentazione usato da Java, anche perchè è riconosciuto da moltri strumenti di generazione automatica della documentazione, come Doxygen.
+È sempre indicato commentare le funzioni, il loro scopo, il significato dei parametri e del valore restituito, oltre a eventuali requisiti specifici. È preferibile usare lo stile di documentazione usato da Java, anche perchè è riconosciuto da moltri strumenti di generazione automatica della documentazione, come Doxygen.
 
 ```python
 ## Calcola il volume di un cubo.
@@ -2456,11 +2456,11 @@ Lilly = Dog() #istanzio l’oggetto Lilly di classe Dog
 Lilly.bark() # stampa “bau bau”
 ```
 
-E' facile indentificare i metodi disponibili per le variabili di Python (String, list, dict, ecc) usando "dir" nel IDLE:
+È facile indentificare i metodi disponibili per le variabili di Python (String, list, dict, ecc) usando "dir" nel IDLE:
 ```python
 >>>x="abc"
 >>>dir(x)
-['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalizÈ, 'casefold', 'center', 'count', 'encodÈ, 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintablÈ, 'isspacÈ, 'istitlÈ, 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replacÈ, 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcasÈ, 'titlÈ, 'translatÈ, 'upper', 'zfill']
 
 ```
 
@@ -2520,7 +2520,7 @@ Ogni oggetto contiene dei dati e dei metodi (funzioni specifiche per un certo ti
 
 
 **Tutte le variabili di esemplare di una classe dovrebbero essere private.** Per segnalarle come "private" in Python si ha la convenzone di dare alle variabili nomi che iniziano con un singolo carttere di sottolineatura. 
-*E' poi responsabilità degli utilizzatori della classe non violare tale riservatezza.*
+*È poi responsabilità degli utilizzatori della classe non violare tale riservatezza.*
 
 Esempio applicato al programma di prima:
 ```python
@@ -3043,7 +3043,7 @@ class ChoiceQuestion(Question)
 * Posso aggiungere metodi nuovi.
 
 
-**E' buona regola non usare direttamente le variabili private di una classe o sottoclasse, ma accedere sempre e solo attraverso i metodi.**
+**È buona regola non usare direttamente le variabili private di una classe o sottoclasse, ma accedere sempre e solo attraverso i metodi.**
 
 E vale anche per l'utilizzo della variabile all'interno stesso della classe: usare i metodi creati ad-hoc per modificare/leggere la variabile.
 
@@ -3064,7 +3064,7 @@ Quindi si ha, per esempio:
 ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__',
 '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__',
 '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_itemCount',
-'_totalPrice', 'addItem', 'clear', 'getCount', 'getTotal']
+'_totalPricÈ, 'addItem', 'clear', 'getCount', 'getTotal']
 ```
 ## 14.3 Costruttori
 
@@ -3287,7 +3287,6 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
 
 
 # 16. Analisi delle prestazioni e sorting
-
 ## Analisi delle prestazioni degli algoritmi
 Per valutare l’**efficienza temporale** di un algoritmo si misura il tempo necessario alla sua esecuzione su insiemi di dati di dimensione crescente. Il tempo di esecuzionedipende dal numero e dal tipo di interazioni in *linguaggio macchina* e va misurto all'interno del programma usando il metodo *time()* che a ogni invocazione restituisce un valore di tipo float. A noi interessa la differenza del tempo calcolato all'inizio e alla fine dell'esecuzione dell'algoritmo, altrimenti il valore verrebbe calcolato rispetto alla *mezzanotte del 1 gennaio 1970*. Il metodo si invoca come segue:
 ```python
@@ -3299,10 +3298,10 @@ Per un'analisi teorica si **contano gli accessi in lettura/scrittura** a singoli
 ### Andamento asintotico delle prestazioni
 L'andamento asintotico misura come cresce il tempo di esecuzione al crescere della dimensione dell'input *n*. Per confrontare algoritmi diversi, interessa sapere come cresce la funzione, cioè quale andamento qualitativo ha: si usa l’andamento asintotico che permette di valutare le prestazioni temporali in modo indipendente da fattori hardware.
 
-### Notazione O-Grande
-Esiste una formulazione matematica del concetto "quale andamento ha una funzione di *n*, per *n* che tende all'infinito?". 
+Esiste una formulazione matematica del concetto "quale andamento ha una funzione di *n*, per *n* che tende all'infinito?".
 
-$f(n) \in O(g(n))$ se $\exists c>0$ e $k>0$ tali che $f(n)<cg(n) \forall n \geq k$.
+### Notazione O-Grande 
+Una funione $f(n) \in O(g(n))$ se $\exists c>0$ e $k>0$ tali che $f(n)<cg(n) \forall n \geq k$.
 
 Al crescere di *n* prima o poi una funzione *g(n)* è sempre maggiore della funzione *f(n)* a meno di una costante moltiplicativa. $g(n)$ è detto anche **limite superiore asintotico** per $f(n)$. $f(n)$ è **O-grande** di $g(n)$. 
 
@@ -3338,7 +3337,11 @@ Si dimostra che una funzione polinomiale è $\Omega$ del suo monomio di grado ma
 ### Notazione Theta
 Una funzione $f(n) \in \Theta(g(n))$ se $f(n) \in \Omega(g(n))$ e $f(n) \in O(g(n))$.
 
-Prima o poi $f(n)$ e $g(n)$ crescono alla stessa velocità.
+Prima o poi $f(n)$ e $g(n)$ crescono alla stessa velocità. $f(n)$ è **Theta** di $g(n)$
+
+Si dimostra che una una funzione polinomiale è $\Omega$ del suo monomio di grado massimo, con coefficiente moltiplicativo arbitrario. 
+
+> La caratterizzazione mediante $\Theta$ è la più precisa e utile, ma è difficile da calcolare. Si usa la notazione O-grande fornendo la stima più precisa possibile di $g(n)$
 
 
 
@@ -3368,27 +3371,177 @@ def minimumPosition(values, start):
 
 ```
 
+### Prestazioni dell'algoritmo
+Facendo ipotesi semplificative e contando soltanto gli accessi a singole celle della lista, le prestazioni temporali asintotiche validate (cioè verificate sperimentalmente) sono:
+  - *Caso migliore*: **$O(n^2)$** (non è necessario fare scambi).
+  - *Caso peggiore*: **$O(n^2)$**.
+  - *Caso medio*: **$O(n^2)$** perchè lo è sia nel caso peggiore, che in quello migliore.
+
+L'algoritmo è anche **$\OMega(n^2)$** e **$\Theta(n^2)$**.
+
+
 ## Ordinamento per inserimento (Insertion Sort)
+L’algoritmo **Insertion Sort** è un algoritmo di ordinamento semplice ed efficiente per piccoli dataset o liste quasi ordinate. Funziona costruendo gradualmente una sottolista ordinata, inserendo un elemento alla volta nella sua posizione corretta all’interno della sottolista stessa. Ogni nuovo elemento viene spostato vero sinistra finché non si trova nella posizione corretta.
+
+```python
+def insertionSort(values):
+    for i in range(1, len(values)):
+        next = values[i]
+
+        # sposta tutti gli elementi più grandi verso l'alto
+        j = i
+		while j > 0 and values[j - 1] > next:
+			values[j] = values[j - 1]
+			j = j - 1
+
+		# inserisci il prossimo elemento
+		values[j] = next
+
+```
+
+### Prestazioni dell'algoritmo
+Le prestazioni temporali asintotiche validate sono:
+  - *Caso migliore*: **$O(n)$** (lista già ordinata).
+  - *Caso peggiore*: **$O(n^2)$** (lista ordinata in modo inverso).
+  - *Caso medio*: **$O(n^2)$** (si richiede lo spostamento di metà degli elementi a sinistra)
+
+L'algoritmo è anche **$\Omega(n)$**. Non esiste una caratterizzazione di tipo $\Theta$ per l'algoritmo nel suo caso generale.
+
 
 ## Ordinamento per fusione (Merge Sort)
+L'algoritmo  **Merge Sort** è un algoritmo di ordinamento basato sul paradigma "divide et impera". Divide la lista in due metà, ordina ricorsivamente ogni metà e poi fonde (*merge*) le due metà ordinate.
+
+> NB: la fusione è una fase dell'ordinamento per fusione.
+ 
+```python
+def mergeLists(first, second, values):
+    iFirst = 0  # Prossimo elemento da considerare nella prima lista
+    iSecond = 0  # Prossimo elemento da considerare nella seconda lista
+    j = 0  # Prossima posizione libera in values
+
+    # Finché né iFirst né iSecond superano la fine delle rispettive liste,
+    # sposta l'elemento più piccolo nella lista values
+    while iFirst < len(first) and iSecond < len(second):
+        f = first[iFirst]
+        s = second[iSecond]
+        if f < s:
+            values[j] = f
+            iFirst = iFirst + 1
+        else:
+            values[j] = s
+            iSecond = iSecond + 1
+        j = j + 1
+
+    # Copia eventuali elementi rimanenti della prima lista
+    while iFirst < len(first):
+        values[j] = first[iFirst]
+        iFirst = iFirst + 1
+        j = j + 1
+
+    # Copia eventuali elementi rimanenti della seconda lista
+    while iSecond < len(second):
+        values[j] = second[iSecond]
+        iSecond = iSecond + 1
+        j = j + 1
+
+```
+
+
+### Prestazioni dell'algoritmo
+Le prestazioni sono **$\Theta(n log(n))$**, cioè è migliore di ogni algoritmo quadratico. Di conseguenza, possiamo dire che l'ordinamento per fuzione è ancue un **$O(n log(n))$**.
 
 ### Mege Sort iterativo
+L'algoritmo Merge Sort per una lista si può realizzare in modo iterativo, con le stesse prestazioni. Ogni elemento è una lista di lunghezza $1$, ciascuna coppia di elementi consecutivi viene fusa in una lista ordinata di lunghezza $2$ e così via.
 
-## Confronto tra ordinamenti
+### Confronto di algoritmi
+Se le notazioni di O-grande delle prestazioni di due algoritmi diversi sono tra loro **diverse**, è possibile dire qual è l'algoritmo migliore. Se le prestazioni sono **uguali**, bisogna tenere in considerazione anche i fattori trascurati; in mancanza di ciò, i due algoritmi sono **equiuvalenti**. 
+
+Si dimostra che qualunque algoritmo di ordinamento che operi mediante confronti tra i valori da ordinare richiede, nel caso peggiore, un tempo che è $\Omega(n log(n))$.
+
+Il processo decisionale di un algoritmo di ordinamento che opera per confronti si può rappresentare tramite **albero di decisione**: ogni nodo contiene una domanda del tipo "*$a_i \leq a_j?$*", le foglie rappresentano una decisione. Si dimostra che tutti gli alberi di decisione che rappresentano un algoritmo di ordinamento che opera mediante confronti su una sequenza contente $n$ elementi distinti, hanno almeno $n!$.
+
 
 ## Quick sort
+L'algoritmo **Quick Sort** è un algoritmo di ordinamento basato sul paradigma "divide et impera". Sceglie un elemento come "pivot" e partiziona la lista in due parti: una con elementi minori del pivot e una con elementi maggiori. Ordina ricorsivamente le due parti senza aver bisogno di liste temporanee per ordinare. 
+
+Nella variante più semplice delll'algoritmo, si sceglie come pivot il primo elemento della porzione. 
+
+```python
+def quickSort(values, start, to):
+    if start >= to: return
+    p = partition(values, start, to)
+    quickSort(values, start, p)
+    quickSort(values, p + 1, to)
+
+# Partiziona una porzione di una lista
+def partition(values, start, to):
+    pivot = values[start]
+    i = start - 1
+    j = to + 1
+    while i < j:
+        i = i + 1
+        while values[i] < pivot:
+            i = i + 1
+        j = j - 1
+        while values[j] > pivot:
+            j = j - 1
+        if i < j:
+            temp = values[i]
+            values[i] = values[j]
+            values[j] = temp
+    return j
+
+```
+
+### Prestazioni dell'algoritmo
+La scelta del pivot influenza le prestazioni dell'algoritmo. Se il pivot è l'*elemento mediano* della lista, le prestazioni saranno **$\Theta(n log(n)$**; se invece il pivot è l'ultimo elemento di una sequenza già ordinata, le prestazioni saranno **$\Theta(n^2)$** nel caso peggiore.
+
+Il caso peggiore si verifica quando il pivo è sempre il più piccolo o il più grande elemento. La complessità diventa **$\Theta (n^2)$**.
+
+Il caso medio si ha se il pivot viene scelto in modo casuale. La complessità diventa **$O(n log(n))$**
+
+### Confronto con Merge Sort
+L'algoritmo Merge Sort ha sempre prestazioni $O(n log(n))$, ma richiede spazio aggiuntivo. Quick Sort è sempre più veloce di Merge Sort, ma può egenerare a $\Theta(n^2)$ nel caso peggiore.
+
 
 ## Ricerca di un elemento
+Data una lista di dati **non ordinati**, per fare una ricerca in essa ci sono due possibili soluzioni. 
 
-### Ricerca lineare
+  -**Ricerca lineare**: esamina tutti i valori di una lista finche non trova una corrispondenza con quanto cercato oppure giunge alla fine.
+    - valori trovati in un numero di passi $O(n)$.
+	```python
+	def linearSearch(values, target):
+	  for i in range(len(values)):
+	    if values[i] == target:
 
-### Ricerca binaria
+	  return -1
+	```
+	
+  -**Ricerca binaria o per bisezione**: cerca un valore in una lista ordinata determinano se si trovanella prima o nella seconda metà della lista stessa, ripetendo la ricerca in una sola delle due metà. 
+    - È un algoritmo $O(log(n))$.
+	```python
+	def binarySearch(values, low, high, target):
+    if low <= high:
+        mid = (low + high) // 2
+
+        if values[mid] == target:
+            return mid
+        elif values[mid] < target:
+            return binarySearch(values, mid + 1, high, target)
+        else:
+            return binarySearch(values, low, mid - 1, target)
+    else:
+        return -1
+	```
+
+Senza ordinare la lista, per effettuare la ricerca di un elemento occorre un tempo $O(n)$: si preferisce non ordinare la lista se bisogna fare una sola ricerca. Se invece bisogna fare molte ricerche, è moeglio ordinare e usare la ricerca bianaria. 
 
 
 # 17. Strutture dati
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
