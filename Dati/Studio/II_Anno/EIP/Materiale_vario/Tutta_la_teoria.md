@@ -3333,7 +3333,6 @@ Prima o poi $f(n)$ cresce più velocemente di $g(n)$ e, quindi, $g(n)$ è un **l
 
 Si dimostra che una funzione polinomiale è $\Omega$ del suo monomio di grado massimo, con coefficinete moltiplicativo arbitrario.
 
-
 ### Notazione Theta
 Una funzione $f(n) \in \Theta(g(n))$ se $f(n) \in \Omega(g(n))$ e $f(n) \in O(g(n))$.
 
@@ -3344,9 +3343,7 @@ Si dimostra che una una funzione polinomiale è $\Omega$ del suo monomio di grad
 > La caratterizzazione mediante $\Theta$ è la più precisa e utile, ma è difficile da calcolare. Si usa la notazione O-grande fornendo la stima più precisa possibile di $g(n)$
 
 
-
 ## Ordinamento per selezione (Selection Sort)
-
 L’**ordinamento per selezione** è un algoritmo semplice ma poco efficiente.
 L’idea di base è individuare, ad ogni passo, l’elemento più piccolo nella parte non ancora ordinata della lista e scambiarlo con l’elemento in prima posizione della parte da ordinare.
 
@@ -3377,11 +3374,11 @@ Facendo ipotesi semplificative e contando soltanto gli accessi a singole celle d
   - *Caso peggiore*: **$O(n^2)$**.
   - *Caso medio*: **$O(n^2)$** perchè lo è sia nel caso peggiore, che in quello migliore.
 
-L'algoritmo è anche **$\OMega(n^2)$** e **$\Theta(n^2)$**.
+L'algoritmo è anche **$\Omega(n^2)$** e **$\Theta(n^2)$**.
 
 
 ## Ordinamento per inserimento (Insertion Sort)
-L’algoritmo **Insertion Sort** è un algoritmo di ordinamento semplice ed efficiente per piccoli dataset o liste quasi ordinate. Funziona costruendo gradualmente una sottolista ordinata, inserendo un elemento alla volta nella sua posizione corretta all’interno della sottolista stessa. Ogni nuovo elemento viene spostato vero sinistra finché non si trova nella posizione corretta.
+L’algoritmo **Insertion Sort** è un algoritmo di ordinamento semplice ed efficiente per piccoli dataset o liste quasi ordinate. Funziona costruendo gradualmente una sottolista ordinata, inserendo un elemento alla volta nella sua posizione corretta all’interno della sottolista stessa. Ogni nuovo elemento viene spostato verso sinistra finché non si trova nella posizione corretta.
 
 ```python
 def insertionSort(values):
@@ -3403,7 +3400,7 @@ def insertionSort(values):
 Le prestazioni temporali asintotiche validate sono:
   - *Caso migliore*: **$O(n)$** (lista già ordinata).
   - *Caso peggiore*: **$O(n^2)$** (lista ordinata in modo inverso).
-  - *Caso medio*: **$O(n^2)$** (si richiede lo spostamento di metà degli elementi a sinistra)
+  - *Caso medio*: **$O(n^2)$** (si richiede lo spostamento di metà degli elementi a sinistra).
 
 L'algoritmo è anche **$\Omega(n)$**. Non esiste una caratterizzazione di tipo $\Theta$ per l'algoritmo nel suo caso generale.
 
@@ -3448,21 +3445,21 @@ def mergeLists(first, second, values):
 
 
 ### Prestazioni dell'algoritmo
-Le prestazioni sono **$\Theta(n log(n))$**, cioè è migliore di ogni algoritmo quadratico. Di conseguenza, possiamo dire che l'ordinamento per fuzione è ancue un **$O(n log(n))$**.
+Le prestazioni sono *$\Theta(n\cdot log(n))$*, cioè è migliore di ogni algoritmo quadratico. Di conseguenza, possiamo dire che l'ordinamento per fuzione è ancue un *$O(n\cdot log(n))$*.
 
 ### Mege Sort iterativo
-L'algoritmo Merge Sort per una lista si può realizzare in modo iterativo, con le stesse prestazioni. Ogni elemento è una lista di lunghezza $1$, ciascuna coppia di elementi consecutivi viene fusa in una lista ordinata di lunghezza $2$ e così via.
+L'algoritmo Merge Sort per una lista si può realizzare in modo iterativo, con le stesse prestazioni. Ogni elemento è una lista di lunghezza 1, ciascuna coppia di elementi consecutivi viene fusa in una lista ordinata di lunghezza 2 e così via.
 
 ### Confronto di algoritmi
-Se le notazioni di O-grande delle prestazioni di due algoritmi diversi sono tra loro **diverse**, è possibile dire qual è l'algoritmo migliore. Se le prestazioni sono **uguali**, bisogna tenere in considerazione anche i fattori trascurati; in mancanza di ciò, i due algoritmi sono **equiuvalenti**. 
+Se le notazioni di O-grande delle prestazioni di due algoritmi diversi sono tra loro *diverse*, è possibile dire qual è l'algoritmo migliore. Se le prestazioni sono *uguali*, bisogna tenere in considerazione anche i fattori trascurati; in mancanza di ciò, i due algoritmi sono **equivalenti**. 
 
-Si dimostra che qualunque algoritmo di ordinamento che operi mediante confronti tra i valori da ordinare richiede, nel caso peggiore, un tempo che è $\Omega(n log(n))$.
+Si dimostra che qualunque algoritmo di ordinamento che operi mediante confronti tra i valori da ordinare richiede, nel caso peggiore, un tempo che è $\Omega(n\cdot log(n))$.
 
-Il processo decisionale di un algoritmo di ordinamento che opera per confronti si può rappresentare tramite **albero di decisione**: ogni nodo contiene una domanda del tipo "*$a_i \leq a_j?$*", le foglie rappresentano una decisione. Si dimostra che tutti gli alberi di decisione che rappresentano un algoritmo di ordinamento che opera mediante confronti su una sequenza contente $n$ elementi distinti, hanno almeno $n!$.
+Il processo decisionale di un algoritmo di ordinamento che opera per confronti si può rappresentare tramite **albero di decisione**: ogni nodo contiene una domanda del tipo "$a_i \leq a_j?$", le foglie rappresentano una decisione. Si dimostra che tutti gli alberi di decisione che rappresentano un algoritmo di ordinamento che opera mediante confronti su una sequenza contente $n$ elementi distinti, hanno almeno $n!$ foglie.
 
 
 ## Quick sort
-L'algoritmo **Quick Sort** è un algoritmo di ordinamento basato sul paradigma "divide et impera". Sceglie un elemento come "pivot" e partiziona la lista in due parti: una con elementi minori del pivot e una con elementi maggiori. Ordina ricorsivamente le due parti senza aver bisogno di liste temporanee per ordinare. 
+L'algoritmo **Quick Sort** è un algoritmo di ordinamento basato sul paradigma "divide et impera". Sceglie un elemento come "pivot" e partiziona la lista in due parti: una con elementi minori e una con elementi maggiori del pivot. Ordina ricorsivamente le due parti senza aver bisogno di liste temporanee per ordinare. 
 
 Nella variante più semplice delll'algoritmo, si sceglie come pivot il primo elemento della porzione. 
 
@@ -3494,11 +3491,11 @@ def partition(values, start, to):
 ```
 
 ### Prestazioni dell'algoritmo
-La scelta del pivot influenza le prestazioni dell'algoritmo. Se il pivot è l'*elemento mediano* della lista, le prestazioni saranno **$\Theta(n log(n)$**; se invece il pivot è l'ultimo elemento di una sequenza già ordinata, le prestazioni saranno **$\Theta(n^2)$** nel caso peggiore.
+La scelta del pivot influenza le prestazioni dell'algoritmo. Se il pivot è l'*elemento mediano* della lista, le prestazioni saranno *$\Theta(n\cdot log(n)$*; se invece il pivot è l'ultimo elemento di una sequenza già ordinata, le prestazioni saranno *$\Theta(n^2)$* nel caso peggiore.
 
-Il caso peggiore si verifica quando il pivo è sempre il più piccolo o il più grande elemento. La complessità diventa **$\Theta (n^2)$**.
+Il caso peggiore si verifica quando il pivo è sempre il più piccolo o il più grande elemento. La complessità diventa *$\Theta (n^2)$*.
 
-Il caso medio si ha se il pivot viene scelto in modo casuale. La complessità diventa **$O(n log(n))$**
+Il caso medio si ha se il pivot viene scelto in modo casuale. La complessità diventa *$O(n\cdot log(n))$*.
 
 ### Confronto con Merge Sort
 L'algoritmo Merge Sort ha sempre prestazioni $O(n log(n))$, ma richiede spazio aggiuntivo. Quick Sort è sempre più veloce di Merge Sort, ma può egenerare a $\Theta(n^2)$ nel caso peggiore.
@@ -3509,38 +3506,39 @@ Data una lista di dati **non ordinati**, per fare una ricerca in essa ci sono du
 
   -**Ricerca lineare**: esamina tutti i valori di una lista finche non trova una corrispondenza con quanto cercato oppure giunge alla fine.
     - valori trovati in un numero di passi $O(n)$.
-	```python
-	def linearSearch(values, target):
-	  for i in range(len(values)):
-	    if values[i] == target:
+```python
+def linearSearch(values, target):
+  for i in range(len(values)):
+	if values[i] == target:
 
-	  return -1
-	```
+  return -1
+```
 	
   -**Ricerca binaria o per bisezione**: cerca un valore in una lista ordinata determinano se si trovanella prima o nella seconda metà della lista stessa, ripetendo la ricerca in una sola delle due metà. 
     - È un algoritmo $O(log(n))$.
-	```python
-	def binarySearch(values, low, high, target):
-    if low <= high:
-        mid = (low + high) // 2
+```python
+def binarySearch(values, low, high, target):
+if low <= high:
+	mid = (low + high) // 2
 
-        if values[mid] == target:
-            return mid
-        elif values[mid] < target:
-            return binarySearch(values, mid + 1, high, target)
-        else:
-            return binarySearch(values, low, mid - 1, target)
-    else:
-        return -1
-	```
+	if values[mid] == target:
+		return mid
+	elif values[mid] < target:
+		return binarySearch(values, mid + 1, high, target)
+	else:
+		return binarySearch(values, low, mid - 1, target)
+else:
+	return -1
+```
 
-Senza ordinare la lista, per effettuare la ricerca di un elemento occorre un tempo $O(n)$: si preferisce non ordinare la lista se bisogna fare una sola ricerca. Se invece bisogna fare molte ricerche, è moeglio ordinare e usare la ricerca bianaria. 
+Senza ordinare la lista, per effettuare la ricerca di un elemento occorre un tempo $O(n)$: si preferisce non ordinare la lista se bisogna fare una sola ricerca. Se invece bisogna fare molte ricerche, è meglio ordinare e usare la ricerca bianaria. 
 
 
 # 17. Strutture dati
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
