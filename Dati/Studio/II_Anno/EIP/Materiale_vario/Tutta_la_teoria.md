@@ -3445,7 +3445,7 @@ def mergeLists(first, second, values):
 
 
 ### Prestazioni dell'algoritmo
-Le prestazioni sono *$\Theta(nlog(n))$*, cioè è migliore di ogni algoritmo quadratico. Di conseguenza, possiamo dire che l'ordinamento per fuzione è ancue un *$O(nlog(n))$*.
+Le prestazioni sono $\Theta(n\cdot log(n))$, cioè è migliore di ogni algoritmo quadratico. Di conseguenza, possiamo dire che l'ordinamento per fuzione è ancue un $O(n\cdot log(n))$.
 
 ### Mege Sort iterativo
 L'algoritmo Merge Sort per una lista si può realizzare in modo iterativo, con le stesse prestazioni. Ogni elemento è una lista di lunghezza 1, ciascuna coppia di elementi consecutivi viene fusa in una lista ordinata di lunghezza 2 e così via.
@@ -3455,7 +3455,7 @@ Se le notazioni di O-grande delle prestazioni di due algoritmi diversi sono tra 
 
 Si dimostra che qualunque algoritmo di ordinamento che operi mediante confronti tra i valori da ordinare richiede, nel caso peggiore, un tempo che è $\Omega(n\cdot log(n))$.
 
-Il processo decisionale di un algoritmo di ordinamento che opera per confronti si può rappresentare tramite **albero di decisione**: ogni nodo contiene una domanda del tipo "$a_i \leq a_j?$", le foglie rappresentano una decisione. Si dimostra che tutti gli alberi di decisione che rappresentano un algoritmo di ordinamento che opera mediante confronti su una sequenza contente $n$ elementi distinti, hanno almeno $n!$ foglie.
+Il processo decisionale di un algoritmo di ordinamento che opera per confronti si può rappresentare tramite **albero di decisione**: ogni nodo contiene una domanda del tipo $"a_i \leq a_j?"$, le foglie rappresentano una decisione. Si dimostra che tutti gli alberi di decisione che rappresentano un algoritmo di ordinamento che opera mediante confronti su una sequenza contente $n$ elementi distinti, hanno almeno $n!$ foglie.
 
 
 ## Quick sort
@@ -3491,20 +3491,20 @@ def partition(values, start, to):
 ```
 
 ### Prestazioni dell'algoritmo
-La scelta del pivot influenza le prestazioni dell'algoritmo. Se il pivot è l'*elemento mediano* della lista, le prestazioni saranno *$\Theta(nlog(n)$*; se invece il pivot è l'ultimo elemento di una sequenza già ordinata, le prestazioni saranno *$\Theta(n^2)$* nel caso peggiore.
+La scelta del pivot influenza le prestazioni dell'algoritmo. Se il pivot è l'*elemento mediano* della lista, le prestazioni saranno $\Theta(n\cdot log(n)$; se invece il pivot è l'ultimo elemento di una sequenza già ordinata, le prestazioni saranno $\Theta(n^2)$ nel caso peggiore.
 
-Il caso peggiore si verifica quando il pivo è sempre il più piccolo o il più grande elemento. La complessità diventa *$\Theta (n^2)$*.
+Il caso peggiore si verifica quando il pivo è sempre il più piccolo o il più grande elemento. La complessità diventa $\Theta (n^2)$.
 
-Il caso medio si ha se il pivot viene scelto in modo casuale. La complessità diventa *$O(nlog(n))$*.
+Il caso medio si ha se il pivot viene scelto in modo casuale. La complessità diventa $O(n\cdot log(n))$.
 
 ### Confronto con Merge Sort
-L'algoritmo Merge Sort ha sempre prestazioni $O(n log(n))$, ma richiede spazio aggiuntivo. Quick Sort è sempre più veloce di Merge Sort, ma può egenerare a $\Theta(n^2)$ nel caso peggiore.
+L'algoritmo Merge Sort ha sempre prestazioni $O(n\cdot log(n))$, ma richiede spazio aggiuntivo. Quick Sort è sempre più veloce di Merge Sort, ma può egenerare a $\Theta(n^2)$ nel caso peggiore.
 
 
 ## Ricerca di un elemento
 Data una lista di dati **non ordinati**, per fare una ricerca in essa ci sono due possibili soluzioni. 
 
-  -**Ricerca lineare**: esamina tutti i valori di una lista finche non trova una corrispondenza con quanto cercato oppure giunge alla fine. I valori sono trovati in un numero di passi $O(n)$.
+  - **Ricerca lineare**: esamina tutti i valori di una lista finche non trova una corrispondenza con quanto cercato oppure giunge alla fine. I valori sono trovati in un numero di passi $O(n)$.
 ```python
 def linearSearch(values, target):
   for i in range(len(values)):
@@ -3513,7 +3513,7 @@ def linearSearch(values, target):
   return -1
 ```
 	
-  -**Ricerca binaria o per bisezione**: cerca un valore in una lista ordinata determinano se si trovanella prima o nella seconda metà della lista stessa, ripetendo la ricerca in una sola delle due metà. È un algoritmo $O(log(n))$.
+  - **Ricerca binaria o per bisezione**: cerca un valore in una lista ordinata determinano se si trovanella prima o nella seconda metà della lista stessa, ripetendo la ricerca in una sola delle due metà. È un algoritmo $O(log(n))$.
 ```python
 def binarySearch(values, low, high, target):
 if low <= high:
@@ -3536,6 +3536,7 @@ Senza ordinare la lista, per effettuare la ricerca di un elemento occorre un tem
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
