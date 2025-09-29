@@ -181,10 +181,26 @@
   - [14.5 Polimorfismo_](#145-polimorfismo)
   - [_Classi e metodi astratti_](#classi-e-metodi-astratti)
 - [15. Algoritmi](#15-algoritmi)
-  - [_Ricerca binaria/dicotomica/bisezione_](#ricerca-binariadicotomicabisezione)
+  - [_Ricerca binaria/dicotomica/bisezione](#ricerca-binariadicotomicabisezione)
     - [_Algoritmo iterativo_](#algoritmo-iterativo)
     - [_Algoritmo ricorsivo_](#algoritmo-ricorsivo)
-- [16. Sorting](#16-sorting)
+- [16. Analisi delle prestazioni e sorting](#16-analisi-delle-prestazioni-e-sorting)
+  - [Analisi delle prestazioni degli algoritmi](analisi-delle-prestazioni-degli-algoritmi)
+    - [Andamento asintotico delle prestazioni]()
+    - [Notazione O-grande]()
+    - [Notazione Omega]()
+    - [Notazione Theta]()
+  - [Ordinamento per selezione (Selection Sort]()
+    - [Prestazioni dell'algortimo]()
+  - [Ordinamento per inserimento (Insertion Sort]()
+    - [Prestazioni dell'algortimo]()
+  - [Ordinamento per fusione (Merge Sort)]()
+    - [Prestazioni dell'algoritmo]()
+    - [Merge Sort iterativo]()
+    - [Confronto di algoritmi]()
+  - [Quick sort](quick-sort)
+    - [Prestazioni dell'algoritmo]()
+  - [Ricerca di un elemento]()
 - [17. Strutture dati (da fare)](#17strutture-dati)
 - [18. Metodi di istanza (da fare)](#18-metodi-di-istanza)
 - [19. Pile e code(da fare)](#19-pile-e-code)
@@ -192,9 +208,6 @@
 
 
 # 1. Variabili e operazioni
-
-
-
 ## *Variabili*
 Nomi permessi delle variabili → nomi che iniziano con una lettera o un underscore. Caratteri succesivi devono essere cifre, lettere o underscores. È case sensitive
 
@@ -3285,6 +3298,7 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
       return ricBinariaRicorsiva(lista,inizio+1,fine,valoreDaCercare)
 ```
 
+---
 
 # 16. Analisi delle prestazioni e sorting
 ## Analisi delle prestazioni degli algoritmi
@@ -3300,7 +3314,7 @@ L'andamento asintotico misura come cresce il tempo di esecuzione al crescere del
 
 Esiste una formulazione matematica del concetto "quale andamento ha una funzione di *n*, per *n* che tende all'infinito?".
 
-### Notazione O-Grande 
+### Notazione O-grande 
 Una funione $f(n) \in O(g(n))$ se $\exists c>0$ e $k>0$ tali che $f(n)<cg(n) \forall n \geq k$.
 
 Al crescere di *n* prima o poi una funzione *g(n)* è sempre maggiore della funzione *f(n)* a meno di una costante moltiplicativa. $g(n)$ è detto anche **limite superiore asintotico** per $f(n)$. $f(n)$ è **O-grande** di $g(n)$. 
@@ -3536,6 +3550,7 @@ Senza ordinare la lista, per effettuare la ricerca di un elemento occorre un tem
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
