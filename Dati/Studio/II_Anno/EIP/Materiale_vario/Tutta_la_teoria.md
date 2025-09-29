@@ -3445,7 +3445,7 @@ def mergeLists(first, second, values):
 
 
 ### Prestazioni dell'algoritmo
-Le prestazioni sono *$\Theta(n\cdot log(n))$*, cioè è migliore di ogni algoritmo quadratico. Di conseguenza, possiamo dire che l'ordinamento per fuzione è ancue un *$O(n\cdot log(n))$*.
+Le prestazioni sono *$\Theta(n \cdot log(n))$*, cioè è migliore di ogni algoritmo quadratico. Di conseguenza, possiamo dire che l'ordinamento per fuzione è ancue un *$O(n \cdot log(n))$*.
 
 ### Mege Sort iterativo
 L'algoritmo Merge Sort per una lista si può realizzare in modo iterativo, con le stesse prestazioni. Ogni elemento è una lista di lunghezza 1, ciascuna coppia di elementi consecutivi viene fusa in una lista ordinata di lunghezza 2 e così via.
@@ -3491,11 +3491,11 @@ def partition(values, start, to):
 ```
 
 ### Prestazioni dell'algoritmo
-La scelta del pivot influenza le prestazioni dell'algoritmo. Se il pivot è l'*elemento mediano* della lista, le prestazioni saranno *$\Theta(n\cdot log(n)$*; se invece il pivot è l'ultimo elemento di una sequenza già ordinata, le prestazioni saranno *$\Theta(n^2)$* nel caso peggiore.
+La scelta del pivot influenza le prestazioni dell'algoritmo. Se il pivot è l'*elemento mediano* della lista, le prestazioni saranno *$\Theta(n \cdot log(n)$*; se invece il pivot è l'ultimo elemento di una sequenza già ordinata, le prestazioni saranno *$\Theta(n^2)$* nel caso peggiore.
 
 Il caso peggiore si verifica quando il pivo è sempre il più piccolo o il più grande elemento. La complessità diventa *$\Theta (n^2)$*.
 
-Il caso medio si ha se il pivot viene scelto in modo casuale. La complessità diventa *$O(n\cdot log(n))$*.
+Il caso medio si ha se il pivot viene scelto in modo casuale. La complessità diventa *$O(n \cdot log(n))$*.
 
 ### Confronto con Merge Sort
 L'algoritmo Merge Sort ha sempre prestazioni $O(n log(n))$, ma richiede spazio aggiuntivo. Quick Sort è sempre più veloce di Merge Sort, ma può egenerare a $\Theta(n^2)$ nel caso peggiore.
@@ -3536,6 +3536,7 @@ Senza ordinare la lista, per effettuare la ricerca di un elemento occorre un tem
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
