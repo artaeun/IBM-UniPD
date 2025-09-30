@@ -3587,17 +3587,27 @@ L'inerimento e la rimozione richiedono sempre un ridimensionamento di un'unità 
 ### Rimozione di un elemento
 L'eliminazione di un elemento da un array richiede due algoritmi diversi:
   - Se l'ordine **non è importante**, si copia l'ultimo elemento nella posizione dell'elemento da eliminare e ridimensionare l'array fisicamente o logicamente.
-    - Si richiedono due accessi e l'algoritmo viene eseguito in un *tempo costante* $\theta(1)$. Il numero di accessi non dipende dalla dimensione dell'array.
+    - Si richiedono due accessi e l'algoritmo viene eseguito in un *tempo costante* $\Theta(1)$. Il numero di accessi non dipende dalla dimensione dell'array.
     - In modalità "tutto pieno" il ridimensionamento costa $\Theta(1)$ se dobbiamo ridurre la dimensione logica e $O(n)$ se dobbiamo ridurre la dimensione fisica.
   - Se l'ordine **è importante**, tutti gli elementi di indice maggiore di quello dell'elemento da rimuovere vanno spostati nella posizione di indice immeidatamente inferiore.
-    - Si richiedono due accessi e l'algoritmo viene eseguito, in media, in un tempo $\theta(n)$.
-    - Nel caso peggiore l'algorimto rimane $\Theta(n)$.
+    - Si richiedono due accessi e l'algoritmo viene eseguito, in media, in un tempo $\Theta(n)$.
+    - Nel caso peggiore l'algoritmo rimane $\Theta(n)$.
     - Nel caso migliore, cioè quando l'elemento da rimuovere si trova in fondo a un array riempito solo in parte, le prestazioni sono $\Theta(1)$.
-### Inserimento un elemento
+
+### Inserimento di un elemento
+L'inserimento di un elemento da un array richiede due algoritmi diversi:
+  - Se l'ordine **non è importante**, si inserisce o'elemento in ultima posizione e ridimensionare l'array fisicamente o logicamente.
+    - Se c'è spazio si richiede un solo accesso in scrittura e l'algoritmo viene eseguito in un *tempo costante* $\Theta(1)$.
+    - In modalità "tutto pieno" l'inserimento costa $\Theta(n)$ perché è richiesto il ridimensionamento.
+  - Se l'ordine **è importante**, tutti gli elementi di indice maggiore di quello della posizione voluta vanno spostati nella posizione di indice immeidatamente superiore.
+    - Si richiedono due accessi e l'algoritmo viene eseguito, in media, in un tempo $\Theta(n)$.
+    - Nel caso peggiore l'algoritmo rimane $\Theta(n)$.
+    - Nel caso migliore, cioè quando l'elemento si inserisce in fondo a un array riempito solo in parte, le prestazioni sono $\Theta(1)$.
 
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
