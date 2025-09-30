@@ -181,7 +181,7 @@
   - [14.5 Polimorfismo_](#145-polimorfismo)
   - [_Classi e metodi astratti_](#classi-e-metodi-astratti)
 - [15. Algoritmi](#15-algoritmi)
-  - [_Ricerca binaria/dicotomica/bisezione](#ricerca-binariadicotomicabisezione)
+  - [Ricerca binaria/dicotomica/bisezione](#ricerca-binariadicotomicabisezione)
     - [_Algoritmo iterativo_](#algoritmo-iterativo)
     - [_Algoritmo ricorsivo_](#algoritmo-ricorsivo)
 - [16. Analisi delle prestazioni e sorting](#16-analisi-delle-prestazioni-e-sorting)
@@ -3551,6 +3551,7 @@ Senza ordinare la lista, per effettuare la ricerca di un elemento occorre un tem
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
