@@ -3548,9 +3548,47 @@ Senza ordinare la lista, per effettuare la ricerca di un elemento occorre un tem
 
 
 # 17. Strutture dati
+Una **struttura dati** è un modo organizzato di memorizzare e gestire i dati in memoria per consentire accesso ed elaborazione efficienti. In Python, le strutture sequenziali principali sono: *liste*, *tuple* e *stringhe*.
+
+Un **array** è una rappresentazione dei dati in cui un insieme è memorizzato uno dopo l'altro in porzioni contigue della memoria e di uguale dimensione. Conoscendo l'indirizzo di memoria nel quale inizia l'array (*start*) e la dimensione di ogni cella (*cellsize*), l'indirizzo di memoria di ogni elemento dell'array è calcolarto come:
+```
+start + cellsize*index
+```
+
+La stessa dimensione di ogni cella permette un accesso diretto in un tempo costante $O(1)$. 
+
+Dal momento che le stringhe sono memorizzate come sequenza ordinata di caratteri (character), una stringa può essere memorizzata in un array.
+
+## Referential array
+Nel caso di elementi memorizzati di dimensione diversa, come nel caso di liste e tuple, la memorizzazione avviene tramite **riferimenti** a *celle sparse*. Vengono memorizzate in celle consecutive gli indirizzi delle porzioni di memoria (non necessariamene consecutivi) in cui sono contenuti gli elementi della lista/tupla.
+
+### Puntualizzazione rispetto ad aliasing, shallow copy e deep copy
+  - Nell'*aliasing* tutte le modifiche effettuate su una lista agiscono anche sull'altra e viceversa.
+  - In una *shallow copy* tutte le modifiche effettuate in una delle due liste agiscono sugli indirizzi memorizzati nell'array, non sugli integer.
+  - Im una *deep copy* tutte le modifiche a una lista non hanno alcun effetto sull’altra, né sulla struttura né sui dati interni.
+
+### Array compatti
+Gli **arrray compatti** memorizzano anche i dati e non solo i riferimenti, come per le liste e le tuple. Una struttura che usa array di riferimenti occupa lo spazio per i riferimenti, più lo spazio per i dati. Per costruire array compatti si utilizza la *classe array* del *modulo array*. 
+```python
+from array import array
+primes = array('i', [2, 3, 5, 7, 9, 11, 13, 17, 19])
+```
+
+### Array dinamici
+Nel caso di stringhe e tuple (immutabili), la dimensione dei dati è immutabile; nel caso di liste (mutabii) la memoria deve essere collocata in maniera dinamica. Quando viene creata una lista, Python riserva spazio aggiuntivo per operzioni di append. Quando lo spazio finisce, viene allocata memoria per un nuovo array più grande, i riferimenti vengono trasferiti e il vecchio array abbandonato.
+
+Il ridimensionamento di un array  è un operazione del tipo $\Theta(n)$. 
+
+Il ridimensionamento per inserimento con costante moltiplicativa avviene in un tempo medio di tipo costante per la singola operazione, cioè $\Theta(1)$. Facendo un ridimensionamento con costante additiva, invece, il tempo medio è di tipo $\Theta(n)$. 
+
+## Inserimenti e rimozioni in un array
+### Rimozione di un elemento
+### Inserimento un elemento
+
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
