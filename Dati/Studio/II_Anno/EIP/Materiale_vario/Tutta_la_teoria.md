@@ -3611,9 +3611,37 @@ L'inserimento di un elemento da un array richiede due algoritmi diversi:
     - Nel caso peggiore l'algoritmo rimane $\Theta(n)$.
     - Nel caso migliore, cioè quando l'elemento si inserisce in fondo a un array riempito solo in parte, le prestazioni sono $\Theta(1)$.
 
-# 18. Metodi di istanza (da fare)
+
+# 18. Metodi di istanza e di classe
+I metodi visti per le classi (o ***metodi di istanza***) sono funzioni definite *dentro il corpo di una classe* e sono invocabili **solo su istanze** della classe in cui sono definiti o da cui sono ereditati. Il primo argomento è *`self`*: il riferimento *_all’istanza_** su cui il metodo è invocato.
+
+I ***metodi di classe***, invece, sono funzioni definite *dentro il corpo di una classe* e sono invocabili utilizzando **direttamente il nome della classe**, seguito dal punto e dal nome del metodo (con eventuali argomenti passati tra parentesi).
+
+```python
+class Point:
+
+    def __init__(self, x, y):
+        self._x = x
+        self._y = y
+
+    def x(self):
+        return self._x
+
+    def y(self):
+        return self._y
+
+    def xy(self):
+        return (self._x, self._y)
+
+    def delta(p1, p2):
+        return ((p1.x() - p2.x())**2 + (p1.y() - p2.y())**2)**(1/2)
+
+```
+
+
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
