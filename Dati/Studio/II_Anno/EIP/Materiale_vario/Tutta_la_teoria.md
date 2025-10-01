@@ -201,9 +201,11 @@
   - [Quick Sort](#quick-sort)
     - [Prestazioni dell’algoritmo](#prestazioni-quick-sort)
   - [Ricerca di un elemento](#ricerca-di-un-elemento)
-- [17. Strutture dati](#17-strutture-dati)  
-  - [Array compatti](#array-compatti)
-  - [Array dinamici](#array-dinamici)
+- [17. Strutture dati](#17-strutture-dati)
+  - [Referential array](#referential-array)
+    - [Puntualizzazione rispetto ad aliasing, shallow copy e deep copy](#puntualizzazione-rispetto-ad-aliasing-shallow-copy-e-deep-copy)
+    - [Array compatti](#array-compatti)
+    - [Array dinamici](#array-dinamici)
   - [Inserimenti e rimozioni in un array](#inserimenti-e-rimozioni-in-un-array)
   	- [Rimozione di un elemento](#rimozione-di-un-elemento)
 	- [Inserimento di un elemento](#inserimento-di-un-elemento)
@@ -3612,6 +3614,7 @@ L'inserimento di un elemento da un array richiede due algoritmi diversi:
 # 18. Metodi di istanza (da fare)
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
