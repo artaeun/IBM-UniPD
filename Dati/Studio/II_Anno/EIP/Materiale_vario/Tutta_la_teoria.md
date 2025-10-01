@@ -1,4 +1,4 @@
-# Indice<!-- omit in toc -->
+# Indice
 - [1. Variabili e operazioni](#1-variabili-e-operazioni)
   - [*Variabili*](#variabili)
     - [Assegnazione variabili](#assegnazione-variabili)
@@ -209,7 +209,6 @@
   - [Inserimenti e rimozioni in un array](#inserimenti-e-rimozioni-in-un-array)
   	- [Rimozione di un elemento](#rimozione-di-un-elemento)
 	- [Inserimento di un elemento](#inserimento-di-un-elemento)
-
 - [18. Metodi di istanza (da fare)](#18-metodi-di-istanza)
 - [19. Pile e code(da fare)](#19-pile-e-code)
 - [20. Linked lists (da fare)](#20-linked-lists)
@@ -3641,6 +3640,7 @@ class Point:
 
 # 19. Pile e code(da fare)
 # 20. Linked lists (da fare)
+
 
 
 
