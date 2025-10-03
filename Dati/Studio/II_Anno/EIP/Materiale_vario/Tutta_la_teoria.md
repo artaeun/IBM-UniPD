@@ -3680,36 +3680,85 @@ L'operazione di `push` in una pila ha come prestazioni:
 
 Le prestazioni di `pop` e `top` sono entrambe $\Theta(1)$.
 
+## Coda (queue)
+Una **coda** è una strutura dati in cui il primo oggetto che è stato inserito sarà il primo ad essere rimosso, secondo un comportamento di tipo **FIFO** (*First In First Out*). La coda può essere accorciata da un lato e allungata dall'altro: si parla di *dequeue* quando si estrae un elemento dalla coda e di *enqueue* quando si inserisce un elemento in coda. L'unico oggetto ispezionabile è il primo della coda. Non c'è modo di ispezionare l'intero contenuto della pila senza svuotarla ordinatamente (*accesso sequenziale distruttivo*). 
+
+I metodi caratteristici sono:
+	- `enqueue`: per inserire un dato alla fine della coda.
+	- `dequeue`: per eliminare il dato che si trova all'inizio della coda. Non vuole parametri perché non si può chiedere l'eliminazione di un dato specifico.
+	- `front` o `getFront`: per ispeionare il dato che si trova all'inizio della coda, senza estrarlo
+	- `is_empty`: per sapere se il contenitore è vuoto.
+	- `size` o `len` per conoscere in numero di oggetti contenuti.
+
+L'implementazione consiste in un array riempito in parte, del quale vengono usate entranbe le estremità. All'estremo con indice massimo si inseriscono nuovi elementi, con eventiuale ridimensionamento, quando necessario. All'estremo di indice zero si rimuovono/ispezionano gli elementi presenti. La rimozione rende il metodo $\Theta(n)$.
+
+### Code ad implementazione circolare
+L’implementazione di una coda richiede uno shift degli elementi dopo ogni dequeue, con costo $\Theta(n)$. La **coda circolare** è una struttura dati logiva ( fisicamente in memoria vi è un array) in cui esistono due indici, *head* e *tail*, che indicano il primo elemento e l'ultimo. Il vantaggio consiste nella modifica della variabile *tail* ad ogni inserimento e nella modifica dell'indice *head* ad ogni eliminazione. 
+
+L'implementazione consiste in un array riempito solo in parte, del quale vengono utilizzate entrambe le estremità. All'estremo con indice massimo (*tail*) si inseriscono nuovi elementi, con eventiuale ridimensionamento, quando necessario. All'estremo di indice zero (*head*) si rimuovono/ispezionano gli elementi presenti. La rimozione rende il metodo $\Theta(n)$.
+
+Le prestazioni ottenute sono corrispondenti a quelle di una pila:
+	- ispezione: $\Theta(1)$.
+	- Inserimento: $\Theta(1)$, in media.
+	- Rimozione: $\Theta(1)$.
+
+> NB: Il valore dell'indice *tail* potrà raggiungere ma non superare il valore ddll'indice *head*, analogamente *head* non potrà superare *tail*. Per garantire questo si lascia sempre una casella vuota e far indicare a tail la prima posione vuota, oppure utilizzare una variabile booleana per verificare se la coda contiene elementi. 
+
+Di seguito la realizzaziond di una coda circolare.
+```python
+import deep
+
+class ArrayQueue:    # FIFO queue implementation using a Python list as underlying storage
+    DEFAULT_CAPACITY = 10    # Moderate capacity for all new queues
+
+    def __init__(self):    # Create an empty queue
+        self._data = [None] * ArrayQueue.DEFAULT_CAPACITY
+        self._size = 0
+        self._head = 0
+
+    def __len__(self):     # Return the number of elements in the queue
+        return self._size
+
+    def is_empty(self):    # Return True if the queue is empty
+        return self._size == 0
+
+    def first(self):    # Return (but do not remove) the element at the head of the queue.
+        if self.is_empty():
+            raise IndexError('Queue is empty')
+        return self._data[self._head]
+
+    def dequeue(self):
+        if self.is_empty():
+            raise IndexError('Queue is empty')
+        answer = self._data[self._head]
+        self._data[self._head] = None    # Help garbage collection
+        self._head = (self._head + 1) % len(self._data)
+        self._size -= 1
+        if 0 < self._size < len(self._data) // 4:
+            self._resize(len(self._data) // 2)
+        return answer
+
+    def enqueue(self, e):    # Add an element to the back of queu
+        if self._size == len(self._data):
+            self._resize(2 * len(self._data))
+        tail = (self._head + self._size) % len(self._data)
+        self._data[tail] = e
+        self._size += 1
+
+    def _resize(self, cap):    # Resize to a new list of capacity >= len(self). we assume cap >= len(self)
+        old = deep.copy(self._data)    # Keep track of existing list
+        self._data = [None] * cap    # Allocate list with new capacity
+        walk = self._head
+        for k in range(self._size):    # Only consider existing elements
+            self._data[k] = old[walk]    # Intentionally shift indices
+            walk = (walk + 1) % len(old)    # Use old size as modulus
+        self._head = 0    # Head realigned
+
+```
+
+Tutte le operazioni, fatta eccezione di `_resize`, sono $O(1)$ perchè realizzate con un numero costante di operazioni.
+
 # 20. Linked lists (da fare)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
