@@ -3611,6 +3611,7 @@ L'inserimento di un elemento da un array richiede due algoritmi diversi:
     - Nel caso migliore, cioè quando l'elemento si inserisce in fondo a un array riempito solo in parte, le prestazioni sono $\Theta(1)$.
 
 
+
 # 18. Metodi di istanza e di classe
 I metodi visti per le classi (o ***metodi di istanza***) sono funzioni definite *dentro il corpo di una classe* e sono invocabili **solo su istanze** della classe in cui sono definiti o da cui sono ereditati. Il primo argomento è *`self`*: il riferimento *_all’istanza_** su cui il metodo è invocato.
 
@@ -3638,8 +3639,49 @@ class Point:
 ```
 
 
-# 19. Pile e code(da fare)
+
+# 19. Pile e code
+## Pila (stack)
+Una **pila** è una strutura dati in cui l'ultimo oggetto che è stato inserito è il primo ad essere rimosso, secondo un comportamento di tipo **LIFO** (*Last In First Out*). L'unico oggetto ispezionabile è quello che si trova in cima alla pila. Non c'è modo di ispezionare l'intero contenuto della pila senza svuotarla ordinatamente (*accesso sequenziale distruttivo*). 
+
+I metodi che caratterizzano la classe pila sono:
+```python
+class ArrayStack:
+    def __init__(self):
+        self._data = []
+
+    def __len__(self):
+        return len(self._data)
+
+    def is_empty(self):
+        return len(self._data) == 0
+
+    def push(self, e):
+        self._data.append(e)
+
+    def top(self):
+        if self.is_empty():
+            raise IndexError("Stack is empty")
+        return self._data[-1]
+
+    def pop(self):
+        if self.is_empty():
+            raise IndexError("Stack is empty")
+        return self._data.pop()
+```
+
+I medodi `pop` e `top` non possono essere invocati con una pila vuota. L'implementazione della lista è avvenuta tramite *adapter design pattern*, dove viene usata un'istanza privata di una classe già definita (*list*) e implementati i metodidella nuova lcasse usando i metodi della classe già esistente sull'istanza privata. 
+
+### Prestazioni
+L'operazione di `push` in una pila ha come prestazioni:
+	- caso migliore: $\Theta(1)$ (non serve un ridimensionamento)
+	- caso peggiore: $\Theta(n)$ (serve un ridimensionamento in cui l dimensione viene moltiplicato per un fattore costante indipendente dalla dimensione della pila)
+	- caso medio: $\Theta(1)$. Nonostante il caso peggiore sia $\Theta(n)$, il costo del ridimensionamento viene "ammortizzato" su molte operazioni di push. In pratica, il costo elevato del ridimensionamento avviene raramente, quindi il costo medio per operazione rimane costante.
+
+Le prestazioni di `pop` e `top` sono entrambe $\Theta(1)$.
+
 # 20. Linked lists (da fare)
+
 
 
 
