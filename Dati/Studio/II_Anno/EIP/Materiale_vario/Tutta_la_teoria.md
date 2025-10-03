@@ -3642,7 +3642,7 @@ class Point:
 
 # 19. Pile e code
 ## Pila (stack)
-Una **pila** è una strutura dati in cui l'ultimo oggetto che è stato inserito è il primo ad essere rimosso, secondo un comportamento di tipo **LIFO** (*Last In First Out*). L'unico oggetto ispezionabile è quello che si trova in cima alla pila. Non c'è modo di ispezionare l'intero contenuto della pila senza svuotarla ordinatamente (*accesso sequenziale distruttivo*). 
+Una **pila** è una struttura dati in cui l'ultimo oggetto che è stato inserito è il primo ad essere rimosso, secondo un comportamento di tipo **LIFO** (*Last In First Out*). L'unico oggetto ispezionabile è quello che si trova in cima alla pila. Non c'è modo di ispezionare l'intero contenuto della pila senza svuotarla ordinatamente (*accesso sequenziale distruttivo*). 
 
 I metodi che caratterizzano la classe pila sono:
 ```python
@@ -3670,30 +3670,30 @@ class ArrayStack:
         return self._data.pop()
 ```
 
-I medodi `pop` e `top` non possono essere invocati con una pila vuota. L'implementazione della lista è avvenuta tramite *adapter design pattern*, dove viene usata un'istanza privata di una classe già definita (*list*) e implementati i metodidella nuova lcasse usando i metodi della classe già esistente sull'istanza privata. 
+I metodi `pop` e `top` non possono essere invocati con una pila vuota. L'implementazione della lista è avvenuta tramite *adapter design pattern*, dove viene usata un'istanza privata di una classe già definita (*list*) e implementati i metodi della nuova classe usando i metodi della classe già esistente sull'istanza privata. 
 
 ### Prestazioni
 L'operazione di `push` in una pila ha come prestazioni:
 	- caso migliore: $\Theta(1)$ (non serve un ridimensionamento)
-	- caso peggiore: $\Theta(n)$ (serve un ridimensionamento in cui l dimensione viene moltiplicato per un fattore costante indipendente dalla dimensione della pila)
+	- caso peggiore: $\Theta(n)$ (serve un ridimensionamento in cui la dimensione viene moltiplicata per un fattore costante indipendente dalla dimensione della pila)
 	- caso medio: $\Theta(1)$. Nonostante il caso peggiore sia $\Theta(n)$, il costo del ridimensionamento viene "ammortizzato" su molte operazioni di push. In pratica, il costo elevato del ridimensionamento avviene raramente, quindi il costo medio per operazione rimane costante.
 
 Le prestazioni di `pop` e `top` sono entrambe $\Theta(1)$.
 
 ## Coda (queue)
-Una **coda** è una strutura dati in cui il primo oggetto che è stato inserito sarà il primo ad essere rimosso, secondo un comportamento di tipo **FIFO** (*First In First Out*). La coda può essere accorciata da un lato e allungata dall'altro: si parla di *dequeue* quando si estrae un elemento dalla coda e di *enqueue* quando si inserisce un elemento in coda. L'unico oggetto ispezionabile è il primo della coda. Non c'è modo di ispezionare l'intero contenuto della pila senza svuotarla ordinatamente (*accesso sequenziale distruttivo*). 
+Una **coda** è una struttura dati in cui il primo oggetto che è stato inserito sarà il primo ad essere rimosso, secondo un comportamento di tipo **FIFO** (*First In First Out*). La coda può essere accorciata da un lato e allungata dall'altro: si parla di *dequeue* quando si estrae un elemento dalla coda e di *enqueue* quando si inserisce un elemento in coda. L'unico oggetto ispezionabile è il primo della coda. Non c'è modo di ispezionare l'intero contenuto della pila senza svuotarla ordinatamente (*accesso sequenziale distruttivo*). 
 
 I metodi caratteristici sono:
   - `enqueue`: per inserire un dato alla fine della coda.
   - `dequeue`: per eliminare il dato che si trova all'inizio della coda. Non vuole parametri perché non si può chiedere l'eliminazione di un dato specifico.
-  - `front` o `getFront`: per ispeionare il dato che si trova all'inizio della coda, senza estrarlo
+  - `front` o `getFront`: per ispezionare il dato che si trova all'inizio della coda, senza estrarlo
   -  `is_empty`: per sapere se il contenitore è vuoto.
   -  `size` o `len` per conoscere in numero di oggetti contenuti.
 
-L'implementazione consiste in un array riempito in parte, del quale vengono usate entranbe le estremità. All'estremo con indice massimo si inseriscono nuovi elementi, con eventiuale ridimensionamento, quando necessario. All'estremo di indice zero si rimuovono/ispezionano gli elementi presenti. La rimozione rende il metodo $\Theta(n)$.
+L'implementazione consiste in un array riempito in parte, del quale vengono usate entrambe le estremità. All'estremo con indice massimo si inseriscono nuovi elementi, con eventuale ridimensionamento, quando necessario. All'estremo di indice zero si rimuovono/ispezionano gli elementi presenti. La rimozione rende il metodo $\Theta(n)$.
 
 ### Code ad implementazione circolare
-L’implementazione di una coda richiede uno shift degli elementi dopo ogni dequeue, con costo $\Theta(n)$. La **coda circolare** è una struttura dati logiva ( fisicamente in memoria vi è un array) in cui esistono due indici, *head* e *tail*, che indicano il primo elemento e l'ultimo. Il vantaggio consiste nella modifica della variabile *tail* ad ogni inserimento e nella modifica dell'indice *head* ad ogni eliminazione. 
+L’implementazione di una coda richiede uno shift degli elementi dopo ogni dequeue, con costo $\Theta(n)$. La **coda circolare** è una struttura dati logica ( fisicamente in memoria vi è un array) in cui esistono due indici, *head* e *tail*, che indicano il primo elemento e l'ultimo. Il vantaggio consiste nella modifica della variabile *tail* ad ogni inserimento e nella modifica dell'indice *head* ad ogni eliminazione. 
 
 L'implementazione consiste in un array riempito solo in parte, del quale vengono utilizzate entrambe le estremità. All'estremo con indice massimo (*tail*) si inseriscono nuovi elementi, con eventiuale ridimensionamento, quando necessario. All'estremo di indice zero (*head*) si rimuovono/ispezionano gli elementi presenti. La rimozione rende il metodo $\Theta(n)$.
 
@@ -3702,7 +3702,7 @@ Le prestazioni ottenute sono corrispondenti a quelle di una pila:
   - Inserimento: $\Theta(1)$, in media.
   - Rimozione: $\Theta(1)$.
 
-> NB: Il valore dell'indice *tail* potrà raggiungere ma non superare il valore ddll'indice *head*, analogamente *head* non potrà superare *tail*. Per garantire questo si lascia sempre una casella vuota e far indicare a tail la prima posione vuota, oppure utilizzare una variabile booleana per verificare se la coda contiene elementi. 
+> NB: Il valore dell'indice *tail* potrà raggiungere ma non superare il valore dell'indice *head*, analogamente *head* non potrà superare *tail*. Per garantire questo si lascia sempre una casella vuota e far indicare a tail la prima posizione vuota, oppure utilizzare una variabile booleana per verificare se la coda contiene elementi. 
 
 Di seguito la realizzazione di una coda circolare.
 ```python
@@ -3738,7 +3738,7 @@ class ArrayQueue:    # FIFO queue implementation using a Python list as underlyi
             self._resize(len(self._data) // 2)
         return answer
 
-    def enqueue(self, e):    # Add an element to the back of queu
+    def enqueue(self, e):    # Add an element to the back of queue
         if self._size == len(self._data):
             self._resize(2 * len(self._data))
         tail = (self._head + self._size) % len(self._data)
@@ -3759,6 +3759,7 @@ class ArrayQueue:    # FIFO queue implementation using a Python list as underlyi
 Tutte le operazioni, fatta eccezione di `_resize`, sono $O(1)$ perchè realizzate con un numero costante di operazioni.
 
 # 20. Linked lists (da fare)
+
 
 
 
