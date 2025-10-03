@@ -3684,11 +3684,11 @@ Le prestazioni di `pop` e `top` sono entrambe $\Theta(1)$.
 Una **coda** è una strutura dati in cui il primo oggetto che è stato inserito sarà il primo ad essere rimosso, secondo un comportamento di tipo **FIFO** (*First In First Out*). La coda può essere accorciata da un lato e allungata dall'altro: si parla di *dequeue* quando si estrae un elemento dalla coda e di *enqueue* quando si inserisce un elemento in coda. L'unico oggetto ispezionabile è il primo della coda. Non c'è modo di ispezionare l'intero contenuto della pila senza svuotarla ordinatamente (*accesso sequenziale distruttivo*). 
 
 I metodi caratteristici sono:
-	- `enqueue`: per inserire un dato alla fine della coda.
-	- `dequeue`: per eliminare il dato che si trova all'inizio della coda. Non vuole parametri perché non si può chiedere l'eliminazione di un dato specifico.
-	- `front` o `getFront`: per ispeionare il dato che si trova all'inizio della coda, senza estrarlo
-	- `is_empty`: per sapere se il contenitore è vuoto.
-	- `size` o `len` per conoscere in numero di oggetti contenuti.
+  - `enqueue`: per inserire un dato alla fine della coda.
+  - `dequeue`: per eliminare il dato che si trova all'inizio della coda. Non vuole parametri perché non si può chiedere l'eliminazione di un dato specifico.
+  - `front` o `getFront`: per ispeionare il dato che si trova all'inizio della coda, senza estrarlo
+  -  `is_empty`: per sapere se il contenitore è vuoto.
+  -  `size` o `len` per conoscere in numero di oggetti contenuti.
 
 L'implementazione consiste in un array riempito in parte, del quale vengono usate entranbe le estremità. All'estremo con indice massimo si inseriscono nuovi elementi, con eventiuale ridimensionamento, quando necessario. All'estremo di indice zero si rimuovono/ispezionano gli elementi presenti. La rimozione rende il metodo $\Theta(n)$.
 
@@ -3698,13 +3698,13 @@ L’implementazione di una coda richiede uno shift degli elementi dopo ogni dequ
 L'implementazione consiste in un array riempito solo in parte, del quale vengono utilizzate entrambe le estremità. All'estremo con indice massimo (*tail*) si inseriscono nuovi elementi, con eventiuale ridimensionamento, quando necessario. All'estremo di indice zero (*head*) si rimuovono/ispezionano gli elementi presenti. La rimozione rende il metodo $\Theta(n)$.
 
 Le prestazioni ottenute sono corrispondenti a quelle di una pila:
-	- ispezione: $\Theta(1)$.
-	- Inserimento: $\Theta(1)$, in media.
-	- Rimozione: $\Theta(1)$.
+  - Ispezione: $\Theta(1)$.
+  - Inserimento: $\Theta(1)$, in media.
+  - Rimozione: $\Theta(1)$.
 
 > NB: Il valore dell'indice *tail* potrà raggiungere ma non superare il valore ddll'indice *head*, analogamente *head* non potrà superare *tail*. Per garantire questo si lascia sempre una casella vuota e far indicare a tail la prima posione vuota, oppure utilizzare una variabile booleana per verificare se la coda contiene elementi. 
 
-Di seguito la realizzaziond di una coda circolare.
+Di seguito la realizzazione di una coda circolare.
 ```python
 import deep
 
@@ -3759,6 +3759,7 @@ class ArrayQueue:    # FIFO queue implementation using a Python list as underlyi
 Tutte le operazioni, fatta eccezione di `_resize`, sono $O(1)$ perchè realizzate con un numero costante di operazioni.
 
 # 20. Linked lists (da fare)
+
 
 
 
