@@ -3891,13 +3891,14 @@ class LinkedQueue:
 	return answer
 ```
 
-## coda dopppiamente concatenata
+## Coda dopppiamente concatenata
 Per avere *prestazioni simmetriche*, ogni nodo deve contenere un riferimento a un dato, un riferimento al nodo successivo della lista (*next*) e un riferimento al nodo precedentedella lista (*prev*). Tutto quello che abbiamo detto per la catena (semplice) può essere esteso alla catena doppia, inoltre il metodo `removeLast` diventa $O(1)$. 
 
 La coda doppia realizzata tramite catena doppia ha prestazioni ottimali. È uno spreco di spazio realizzare pile e code con catene doppie.
 
 ## Catena o Array?
 La scelta di utilizzare catene o array è indifferente ed equialente. In una catena le operazioni sono $O(1)$, mentre nell'array `enqueue` è **mediamente** $O(1)$ e occasionalmente è $\Theta(n)$. Le catene, inoltre non permettono di accedere agli elementi usando gli indici. 
+
 
 
 
