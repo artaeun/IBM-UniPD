@@ -209,9 +209,18 @@
   - [Inserimenti e rimozioni in un array](#inserimenti-e-rimozioni-in-un-array)
   	- [Rimozione di un elemento](#rimozione-di-un-elemento)
 	- [Inserimento di un elemento](#inserimento-di-un-elemento)
-- [18. Metodi di istanza (da fare)](#18-metodi-di-istanza)
-- [19. Pile e code(da fare)](#19-pile-e-code)
-- [20. Linked lists (da fare)](#20-linked-lists)
+- [18. Metodi di istanza e di classe](#18-metodi-di-istanza-e-di-classe)
+- [19. Pile e code](#19-pile-e-code)
+   - [Pila (stack)](#pila-stack)
+     - [Prestazioni](#prestazioni-pila)
+   - [Coda (queue)](#coda-queue)
+     - [Code ad implementazione circolare](#code-ad-implementazione-circolare)
+- [20. Linked lists](#20-linked-lists)
+   - [Metodi di classe](#metodi-di-classe-linked-lists)
+   - [Pila realizzata con una catena](#pila-realizzata-con-una-catena)
+   - [Coda realizzata con una catena](#coda-realizzata-con-una-catena)
+   - [Coda doppiamente concatenata](#coda-doppiamente-concatenata)
+   - [Catena o Array?](#catena-o-array)
 
 
 # 1. Variabili e operazioni
@@ -3758,9 +3767,137 @@ class ArrayQueue:    # FIFO queue implementation using a Python list as underlyi
 
 Tutte le operazioni, fatta eccezione di `_resize`, sono $O(1)$ perchè realizzate con un numero costante di operazioni.
 
-# 20. Linked lists (da fare)
+# 20. Linked lists
+Le **liste concatenate** (o *linked lists*) sono strutture dati lineari in cui gli elementi non sono memorizzati in posizioni contigue di memoria, ma ogni elemento (**nodo**) contiene un riferimento al successivo (e, eventualmente, al precedente). Sono un'alternativa agli array, offrendo flessibilità nella gestione dinamica della memoria.
 
+Ogni nodo può contenere un **dato**, cioè un valore memorizzato, oppure un **riferimento** al nodo successivo. Una lista concatenata è gestita da una classe che mantiene un riferimento al primo nodo (`head`), un rifrimento all'ultimo nodo (`tail`) e il numero di elementi (`size`).
 
+Per accedere in ssequenza a tutti i nodi della catena, si parte dal riferimento `head` e si seguono i riferimenti contenuti nel campo *next* di ciascun nodo: si parla di *link hopping*. La scasione termina quando si trova il valore *None* nel campo *next*.
+
+> NB: una lista concatenata è ad accesso sequeniale della memoria, mentre l'array è ad accesso casuale. Un nodo occupa più spazio di una cella di array perché contiene due riferimenti anziché uno.
+
+Una catena vuota contiene sono un nodo `header` che ha il valore *None*; in questo tipo dilista `head` e `tail` puntano entrambi a tale `header`. Non usare il nodo di intestazione implica che i riferimenti sono uguali a *None*.
+
+## Metodi di classe
+I metodi presenti in una catena sono:
+  - `addFirst`: inserire un dato all'inizio della catena.
+      - Operazione di tipo $O(1)$.
+      - Non c'è mai spazio inutilizzato.
+  - `addLast`: inserire un dato alla fine della catena.
+      - Operazione di tipo $O(1)$.
+  - `removeFirst`: eliminare il primo dato.
+      - Operazione di tipo $O(1)$.
+  - `removeLast`: eliminare l'ultimo dato.
+      - Operazione di tipo $\Theta(n)$.
+  - `getFirst`: esaminare il primo dato.
+  - `getLast`: esaminare l'ultimo dato.
+  - `is_empty`: verificare se la catena è vuota.
+  - `len`: conoscere il numero di dati contenuti nella catena.
+
+Con questi metodi non vengono mai restituiti né ricevuti riferimenti ai nodi, ma sempre ai dati contenuti nei nodi, per questo motivo la classe **Node** è una *classe interna*. La presenza del nodo `header`, seppur "spreca" un nodo, rende più semplici i metodi della catena stessa rendendo lo spreco trascurabile per valori elevati del numero di dati. 
+
+> Si faccia attenzione al fatto che le catene e gli array sono implementati in vari modi e sono strutture fisiche, mentre le pile e le code sono strutture dati astratte realizzate usando array o catene.
+
+## Pila ralizzata con una catena
+Entrambe le estremità di una catena hanno, prese singolarmente, il comportamento di una pila: si può realizzare una pila usando un'estremità, in particolare, è più efficiente usare l'iniio perché l operazioni sono $O(1)$.
+
+```python
+class LinkedStack:
+  """LIFO Stack implementation using a singly linked list for storage."""
+
+ #-------------------------- nested _Node class --------------------------
+  class _Node:
+    """Lightweight, nonpublic class for storing a singly linked node."""
+    def __init__(self, element, next):    # Initialize node's fields
+      self._element = element    # Reference to user's element
+      self._next = next    # Reference to next node
+
+ #------------------------------- stack methods -------------------------------
+  def __init__(self):
+	"""Create an empty stack."""
+	self._head = self._Node(None, None)    # Reference to the head node
+	self._size = 0    # Number of stack elements
+
+  def __len__(self):    # Return the number of elements in the stack.
+	return self._size
+
+  def is_empty(self):    # Return True if the stack is empty.
+	return self._size == 0
+
+  def push(self, e):    # Add element e to the top of the stack
+	self._head = self._Node(e, self._head)    # Create and link a new node
+	self._size += 1    # Number of stack elements
+
+  def top(self):    # Return (but do not remove) the element at the top of the stack.
+	if self.is_empty():
+	  raise IndexError('Stack is empty')
+	return self._head._element    # Top of stack is at head of list
+
+  def pop(self):    # Remove and return the element from the top of the stack (i.e., LIFO).
+	if self.is_empty():
+	  raise IndexError('Stack is empty')
+	answer = self._head._element
+	self._head = self._head._next    # Bypass the former top node
+	self._size -= 1
+	return answer
+
+```
+
+## Coda realizzata con una catena
+Per ottenere una coda è sufficiente inserire glielementi a un'estremità della catena e rimuoverli dall'altra. Si può decidere di inserire all'inizio e rimuovere alla fine o viceversa. Affinché le operazioni siano $O(1)$, si inserisce alla fine e si rimuove all'inizio. 
+
+```python
+class LinkedQueue:
+  """FIFO queue implementation using a singly linked list for storage."""
+ #-------------------------- nested _Node class --------------------------
+  class _Node:
+    """Lightweight, nonpublic class for storing a singly linked node."""
+	def __init__(self, element, next):    # Initialize node's fields
+	  self._element = element    # Reference to user's element
+	  self._next = next    # Reference to next node
+
+ #------------------------------- queue methods -------------------------------
+  def __init__(self):
+    """Create an empty queue"""
+	self._head = self._Node(None, None)    # Reference to the head node
+	self._tail = None
+	self._size = 0    # Number of stack elements
+
+  def __len__(self):    # Return the number of elements in the queue
+	return self._size
+
+  def is_empty(self):    # Return True if the queue is empty
+	return self._size == 0
+
+  def enqueue(self, e):    # Add an element to the back of queue
+	newest = self._Node(e, None)    # Node will be new tail node
+	if self.is_empty():
+	  self._head._next = newest    # Special case: previously empty
+	else:
+	  self._tail._next = newest
+	self._tail = newest    # Update reference to tail node
+	self._size += 1
+
+  def dequeue(self):    # Remove and return the first element of the queue (i.e., FIFO).
+	if self.is_empty(): raise IndexError('Queue is empty')
+	firstnode = self._head._next
+	answer = firstnode._element
+	self._head._next = firstnode._next
+	firstnode._next = None    # Help garbage collector
+	firstnode = None    # Help garbage collector
+	self._size -= 1
+	if self.is_empty():    # Special case as queue is empty
+	  self._tail = None    # Removed head had been the tail
+	return answer
+```
+
+## coda dopppiamente concatenata
+Per avere *prestazioni simmetriche*, ogni nodo deve contenere un riferimento a un dato, un riferimento al nodo successivo della lista (*next*) e un riferimento al nodo precedentedella lista (*prev*). Tutto quello che abbiamo detto per la catena (semplice) può essere esteso alla catena doppia, inoltre il metodo `removeLast` diventa $O(1)$. 
+
+La coda doppia realizzata tramite catena doppia ha prestazioni ottimali. È uno spreco di spazio realizzare pile e code con catene doppie.
+
+## Catena o Array?
+La scelta di utilizzare catene o array è indifferente ed equialente. In una catena le operazioni sono $O(1)$, mentre nell'array `enqueue` è **mediamente** $O(1)$ e occasionalmente è $\Theta(n)$. Le catene, inoltre non permettono di accedere agli elementi usando gli indici. 
 
 
 
