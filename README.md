@@ -6,7 +6,7 @@ Il progetto è uno strumento **student-driven**, pensato da e per studentə del 
 
 ## 🚀 Inizia da qui
 
-👉 La documentazione completa è disponibile nella [Wiki](https://github.com/artaeun/IBM-UniPD/wiki) per iniziare a navigare tra i materiali.  
+👉 **La documentazione completa è disponibile nella** [Wiki](https://github.com/artaeun/IBM-UniPD/wiki) per iniziare a navigare tra i materiali.  
 👉 Se sei matricola o cerchi una guida rapida, visita subito la sezione [**"Informazioni e Guide"**](https://github.com/artaeun/IBM-UniPD/wiki#informazioni-e-guide).
 
 ## 🗂 Cosa trovi nella Wiki
