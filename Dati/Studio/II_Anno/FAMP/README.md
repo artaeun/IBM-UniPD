@@ -8,6 +8,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 - [Server Discord con gli esercizi della peer review](https://discord.gg/epTDurhxGv)
 
 - **Quiz settimanali**
+  - [Quiz settimanali (credits Matilde Franceschi)](</Dati/Studio/II_Anno/FAMP/Materiale_vario/Quiz settimanali di FAMP (credits Matilde Franceschi).pdf>)
   - [Quiz 01 (credits Matteo Grigolon)](/Dati/Studio/II_Anno/FAMP/Materiale_vario/Quiz_settimanali/Quiz%2001%20(credits%20Matteo%20Grigolon).pdf)
   - [Quiz 02 (credits Matteo Grigolon)](/Dati/Studio/II_Anno/FAMP/Materiale_vario/Quiz_settimanali/Quiz%2002%20(credits%20Matteo%20Grigolon).pdf)
   - [Quiz 03 (credits Matteo Grigolon)](/Dati/Studio/II_Anno/FAMP/Materiale_vario/Quiz_settimanali/Quiz%2003%20(credits%20Matteo%20Grigolon).pdf)
