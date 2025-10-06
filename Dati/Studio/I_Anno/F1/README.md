@@ -29,6 +29,6 @@ Qui di seguito si possono trovare, ad ausilio per lo studio, i files pdf con tut
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/sptxwBYQ)
 
 ## Videolezioni prof. Naletto
-Le videolezioni del prof. Naletto si possono trovare nei Moodle dell'anno accademico [20/21](https://elearning.dei.unipd.it/course/view.php?id=7256). 
-> NB: per visualizzare i video è necessario fare l'accesso corso su Moodle.
+Le videolezioni del prof. Naletto possono essere reperite ai seguenti link: [registrazioni video 1](https://drive.google.com/drive/folders/1r8hCEMVF28S5iHYNOSL0z50OHtfRiQTK?usp=sharing) e [registrazioni video 2](https://drive.google.com/drive/folders/1-kWnM4ZJzi9_BkkT9IuIq4kZOMO4USoF?usp=sharing)
+
 
