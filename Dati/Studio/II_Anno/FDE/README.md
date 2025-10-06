@@ -4,6 +4,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 
 ## Materiale vario
 - [Riassunto completo del corso di Meneghesso (credits Matteo Grigolon)](/Dati/Studio/II_Anno/FDE/Materiale_vario/Riassunto%20completo%20FDE%20Meneghesso%20(credits%20Matteo%20Grigolon).pdf)
+- [Appunti del corso di Cester (credits Matilde Franceschi)](</Dati/Studio/II_Anno/FDE/Materiale_vario/Appunti di FDE - Cester (credits Matilde Franceschi).pdf>)
 - [Formulario prof. Meneghesso](/Dati/Studio/II_Anno/FDE/Materiale_vario/Formulario_gauss.pdf)
 - [Formulario prof. Cester](/Dati/Studio/II_Anno/FDE/Materiale_vario/Formulario_cester.pdf)
 - [Autovalutazione sui requisiti minimi per seguire il corso](/Dati/Studio/II_Anno/FDE/Materiale_vario/fde-autotest.pdf)
