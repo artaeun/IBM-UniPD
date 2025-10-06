@@ -27,4 +27,4 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 
 
 ## Videolezioni prof. Ferrante
-Le videolezioni del prof. Ferrante si possono trovare al seguente link: [registrazioni video]([https://drive.google.com/drive/folders/1GLcoaMWgCbmqEZUNV54SHUBjB7nE1FJl](https://youtube.com/playlist?list=PL5JNcyGPaynlSTRFBFyduOGO0vyQEWaFx&si=KDPnpG_Pm7oPQoud)
+Le videolezioni del prof. Ferrante si possono trovare al seguente link: [registrazioni video](https://youtube.com/playlist?list=PL5JNcyGPaynlSTRFBFyduOGO0vyQEWaFx&si=KDPnpG_Pm7oPQoud)
