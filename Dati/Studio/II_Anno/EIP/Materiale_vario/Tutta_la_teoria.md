@@ -1,4 +1,4 @@
-# Indice<!-- omit in toc -->
+# Indice
 - [1. Variabili e operazioni](#1-variabili-e-operazioni)
   - [*Variabili*](#variabili)
     - [Assegnazione variabili](#assegnazione-variabili)
@@ -18,7 +18,7 @@
     - [Assegnazione condizionale 2](#assegnazione-condizionale-2)
     - [Correzione usando _try/except_:](#correzione-usando-tryexcept)
   - [*exit()*](#exit)
-- [3. Condizionali While](#3-condizionali-while)
+- [3. Condizionali](#3-condizionali)
   - [*Ciclo WHILE*](#ciclo-while)
     - [Forma base](#forma-base)
   - [*Ciclo FOR*](#ciclo-for)
@@ -30,21 +30,20 @@
   - [*Metodo Monte Carlo*](#metodo-monte-carlo)
   - [*IS / IS NOT*](#is--is-not)
     - [Uso delle funzioni:](#uso-delle-funzioni)
-- [4.1 Stringhe e File](#41-stringhe-e-file)
-  - [*Stringhe*](#stringhe)
-    - [Slicing](#slicing)
-    - [Operatore logico IN](#operatore-logico-in)
-    - [Confronto tra stringhe](#confronto-tra-stringhe)
-    - [Metodi per le stringhe](#metodi-per-le-stringhe)
-    - [Funzione *.lower() e .upper()*](#funzione-lower-e-upper)
-    - [Funzione *.find()*](#funzione-find)
-    - [Funzione *.replace()*](#funzione-replace)
-    - [Funzioni *.lstrip()* / *.rstrip()* / *.strip()*](#funzioni-lstrip--rstrip--strip)
-    - [Funzioni *.startswith()*](#funzioni-startswith)
-  - [Codifica Unicode](#codifica-unicode)
-  - [Caratteri speciali](#caratteri-speciali)
-    - [***Uso più esteso dei caratteri speciali***](#uso-più-esteso-dei-caratteri-speciali)
-- [4.2 File](#42-file)
+- [4. Stringhe](#4-stringhe)
+	- [Slicing](#slicing)
+	- [Operatore logico IN](#operatore-logico-in)
+	- [Confronto tra stringhe](#confronto-tra-stringhe)
+	- [Metodi per le stringhe](#metodi-per-le-stringhe)
+	- [Funzione *.lower() e .upper()*](#funzione-lower-e-upper)
+	- [Funzione *.find()*](#funzione-find)
+	- [Funzione *.replace()*](#funzione-replace)
+	- [Funzioni *.lstrip()* / *.rstrip()* / *.strip()*](#funzioni-lstrip--rstrip--strip)
+	- [Funzioni *.startswith()*](#funzioni-startswith)
+    - [Codifica Unicode](#codifica-unicode)
+    - [Caratteri speciali](#caratteri-speciali)
+      - [***Uso più esteso dei caratteri speciali***](#uso-più-esteso-dei-caratteri-speciali)
+- [5. File](#5-file)
   - [*Gestione file*](#gestione-file)
     - [Aprire un file in lettura](#aprire-un-file-in-lettura)
     - [Aprire un file in scrittura](#aprire-un-file-in-scrittura)
@@ -59,13 +58,13 @@
     - [Aprire file da "nome file" dato dall'utente](#aprire-file-da-nome-file-dato-dallutente)
       - [Gestire eccezioni relative al nome dei file](#gestire-eccezioni-relative-al-nome-dei-file)
     - [Leggere parole elaborando da file](#leggere-parole-elaborando-da-file)
-- [4.3 Espressioni regolari](#43-espressioni-regolari)
+- [6. Espressioni regolari](#6-espressioni-regolari)
   - [Cosa sono le espressioni regolari](#cosa-sono-le-espressioni-regolari)
     - [find()](#find)
     - [re.search()](#research)
     - [Greedy Matching](#greedy-matching)
     - [Non-Greedy Matching](#non-greedy-matching)
-- [5.1 Liste](#51-liste)
+- [7. Liste](#7-liste)
   - [_Liste_](#liste)
     - [Definizione](#definizione)
     - [Slicing](#slicing-1)
@@ -90,7 +89,7 @@
   - [_Tuple_](#tuple)
     - [Funzioni che si possono usare con le tuple: _count_, _index_.](#funzioni-che-si-possono-usare-con-le-tuple-count-index)
     - [Assegnazione](#assegnazione)
-- [5.2 Grafica](#52-grafica)
+- [8. Grafica](#8-grafica)
   - [Cosa usare per la grafica](#cosa-usare-per-la-grafica)
   - [ezgraphics](#ezgraphics)
     - [Come usarlo](#come-usarlo)
@@ -102,8 +101,8 @@
     - [Come usarlo](#come-usarlo-1)
     - [RGB, fill, outline, testo](#rgb-fill-outline-testo)
     - [Immagini](#immagini)
-- [5.3 Insiemi e dizionari](#53-insiemi-e-dizionari)
-  - [*Insiemi*](#insiemi)
+- [9. Insiemi e dizionari](#9-insiemi-e-dizionari)
+  - [9.1 *Insiemi*](#81-insiemi)
     - [Come crearli](#come-crearli)
     - [Lunghezza](#lunghezza)
     - [Aggiungere elementi](#aggiungere-elementi)
@@ -116,7 +115,7 @@
       - [Unione di due insiemi](#unione-di-due-insiemi)
       - [Intersezione e differenza](#intersezione-e-differenza)
     - [Il programma spellcheck.py](#il-programma-spellcheckpy)
-  - [5.3 Dizionari](#53-dizionari)
+  - [9.2 *Dizionari*](#82-dizionari)
     - [*Dizionario*](#dizionario)
     - [_Come crearli_](#come-crearli-1)
     - [_Aggiungere elementi_](#aggiungere-elementi-1)
@@ -132,7 +131,7 @@
     - [_Ordinare un dizionario rispetto a __key___](#ordinare-un-dizionario-rispetto-a-key)
     - [_Ordinare un dizionario rispetto a __value___](#ordinare-un-dizionario-rispetto-a-value)
     - [_Copiare i dizionari_](#copiare-i-dizionari)
-- [6.1 Funzioni](#61-funzioni)
+- [10. Funzioni](#10-funzioni)
   - [_Definizione e invocazione_](#definizione-e-invocazione)
   - [_Definire più parametri_](#definire-più-parametri)
   - [_Passaggio di parametri_](#passaggio-di-parametri)
@@ -145,12 +144,12 @@
   - [_Moduli_](#moduli)
   - [_Documentazione automatica della propria funzione_](#documentazione-automatica-della-propria-funzione)
   - [*Cos'è la ricorsione?*](#cosè-la-ricorsione)
-    - [_Esempio ricorsione: sequenza di Fibonacci_](#esempio-ricorsione-sequenza-di-fibonacci)
+    - [_Esempio ricorsione: Fibonacci_](#esempio-ricorsione-sequenza-di-fibonacci)
   - [_Itterativo o Ricorsivo?_](#itterativo-o-ricorsivo)
   - [_Mappatura_](#mappatura)
   - [_Filtraggio_](#filtraggio)
   - [_Riduzione_](#riduzione)
-- [8.1 Classi](#81-classi)
+- [11. Classi](#11-classi)
   - [_Cosa sono le classi_](#cosa-sono-le-classi)
   - [_Metodi_](#metodi)
   - [_Come definire una classe e i suoi metodi_](#come-definire-una-classe-e-i-suoi-metodi)
@@ -164,40 +163,69 @@
   - [_Vita di un oggetto_](#vita-di-un-oggetto)
   - [_Aliasing e riferimento self_](#aliasing-e-riferimento-self)
   - [_Copiare un oggetto_](#copiare-un-oggetto)
-- [8.2 Debugging](#82-debugging)
+- [12. Debugging](#12-debugging)
   - [_Uso di Pdb_](#uso-di-pdb)
   - [_Commandi Pdb_](#commandi-pdb)
-- [9.1 Eccezioni](#91-eccezioni)
+- [13. Eccezioni](#13-eccezioni)
   - [_Cosa sono?_](#cosa-sono)
     - [Eccezioni specifiche e generiche](#eccezioni-specifiche-e-generiche)
   - [_finally_](#finally)
   - [_raise_](#raise)
-- [Ereditarietà](#ereditarietà)
+- [14. Ereditarietà](#14-ereditarietà)
   - [*Cos'è*](#cosè)
   - [*Principio di sostituzione (substitution principle)*](#principio-di-sostituzione-substitution-principle)
-  - [1. *Sottoclassi ed ereditarietà*](#1-sottoclassi-ed-ereditarietà)
-  - [2. Superclasse ***object***](#2-superclasse-object)
-  - [3. Costruttori](#3-costruttori)
-  - [4. Sovrascrivere un metodo (override)](#4-sovrascrivere-un-metodo-override)
-  - [5. _Polimorfismo_](#5-polimorfismo)
+  - [14.1 *Sottoclassi ed ereditarietà*](#141-sottoclassi-ed-ereditarietà)
+  - [14.2 Superclasse ***object***](#142-superclasse-object)
+  - [14.3 Costruttori](#143-costruttori)
+  - [14.4 Sovrascrivere un metodo (override)](#144-sovrascrivere-un-metodo-override)
+  - [14.5 Polimorfismo_](#145-polimorfismo)
   - [_Classi e metodi astratti_](#classi-e-metodi-astratti)
-- [Algoritmi](#algoritmi)
-  - [_Ricerca binaria/dicotomica/bisezione_](#ricerca-binariadicotomicabisezione)
+- [15. Algoritmi](#15-algoritmi)
+  - [Ricerca binaria/dicotomica/bisezione](#ricerca-binariadicotomicabisezione)
     - [_Algoritmo iterativo_](#algoritmo-iterativo)
     - [_Algoritmo ricorsivo_](#algoritmo-ricorsivo)
-- [Sorting (da fare)](#sorting-da-fare)
-- [Strutture dati (da fare)](#strutture-dati-da-fare)
-- [Metodi di istanza (da fare)](#metodi-di-istanza-da-fare)
-- [Pile e code(da fare)](#pile-e-codeda-fare)
-- [Linked lists (da fare)](#linked-lists-da-fare)
+- [16. Analisi delle prestazioni e sorting](#16-analisi-delle-prestazioni-e-sorting)
+  - [Analisi delle prestazioni degli algoritmi](#analisi-delle-prestazioni-degli-algoritmi)
+    - [Andamento asintotico delle prestazioni](#andamento-asintotico-delle-prestazioni)
+    - [Notazione O-grande](#notazione-o-grande)
+    - [Notazione Omega](#notazione-omega)
+    - [Notazione Theta](#notazione-theta)
+  - [Ordinamento per selezione (Selection Sort)](#ordinamento-per-selezione-selection-sort)
+    - [Prestazioni dell’algoritmo](#prestazioni-dell'-algoritmo)
+  - [Ordinamento per inserimento (Insertion Sort)](#ordinamento-per-inserimento-insertion-sort)
+    - [Prestazioni dell’algoritmo](#prestazioni-dell'-algoritmo)
+  - [Ordinamento per fusione (Merge Sort)](#ordinamento-per-fusione-merge-sort)
+    - [Prestazioni dell’algoritmo](#prestazioni-dell'-algoritmo)
+    - [Merge Sort iterativo](#merge-sort-iterativo)
+    - [Confronto di algoritmi](#confronto-di-algoritmi)
+  - [Quick Sort](#quick-sort)
+    - [Prestazioni dell’algoritmo](#prestazioni-quick-sort)
+  - [Ricerca di un elemento](#ricerca-di-un-elemento)
+- [17. Strutture dati](#17-strutture-dati)
+  - [Referential array](#referential-array)
+    - [Puntualizzazione su aliasing, shallow copy e deep copy](#puntualizzazione-su-aliasing-shallow-copy-e-deep-copy)
+    - [Array compatti](#array-compatti)
+    - [Array dinamici](#array-dinamici)
+  - [Inserimenti e rimozioni in un array](#inserimenti-e-rimozioni-in-un-array)
+  	- [Rimozione di un elemento](#rimozione-di-un-elemento)
+	- [Inserimento di un elemento](#inserimento-di-un-elemento)
+- [18. Metodi di istanza e di classe](#18-metodi-di-istanza-e-di-classe)
+- [19. Pile e code](#19-pile-e-code)
+   - [Pila (stack)](#pila-stack)
+     - [Prestazioni](#prestazioni-pila)
+   - [Coda (queue)](#coda-queue)
+     - [Code ad implementazione circolare](#code-ad-implementazione-circolare)
+- [20. Linked lists](#20-linked-lists)
+   - [Metodi di classe](#metodi-di-classe-linked-lists)
+   - [Pila realizzata con una catena](#pila-realizzata-con-una-catena)
+   - [Coda realizzata con una catena](#coda-realizzata-con-una-catena)
+   - [Coda doppiamente concatenata](#coda-doppiamente-concatenata)
+   - [Catena o Array?](#catena-o-array)
 
 
 # 1. Variabili e operazioni
-
-
-
 ## *Variabili*
-Nomi permessi delle variabili → nomi che iniziano con una lettera o un underscore. Caratteri succesivi devono essere cifre, lettere o underscores. È case sensitive
+Nomi permessi delle variabili → nomi che iniziano con una lettera o un underscore. Caratteri succesivi devono essere cifre, lettere o underscores. È case sensitive.
 
 ### Assegnazione variabili
 ```python
@@ -232,7 +260,7 @@ print(firstName[0])
 #ritorna "H"
 print(firstName[len(firstName)-1])
 #ritorna "y"
-print(firstName[0,3])
+print(firstName[0:3])
 #ritorna "Har"
 print(firstName[:3])
 #ritorna "Har"
@@ -277,16 +305,16 @@ Basta importarlo per usare le funzioni varie offerte.
 from math import * #o per ottimizzare si può fare
 from math import sqrt
 
-y=sqrt(x)     #radice quadrata
-y=trunc(x)    #tronca il valore in intero
-y=cos(x)      #coseno di x in radianti
-y=sin(x)      #sinx in rad
-y=tan(x)      #tan di x in rad
-y=exp(x)      #e^x
-y=degrees(x)  #x da rad in °
-y=radians(x)  #x da ° in rad
-y=log(x)      #log x in base e
-y=log(x,base) #log x in base indicata
+y = sqrt(x)     #radice quadrata
+y = trunc(x)    #tronca il valore a intero
+y = cos(x)      #coseno di x in radianti
+y = sin(x)      #sinx in rad
+y = tan(x)      #tan di x in rad
+y = exp(x)      #e^x
+y = degrees(x)  #x da rad in °
+y = radians(x)  #x da ° in rad
+y = log(x)      #log x in base e
+y = log(x,base) #log x in base indicata
 
 #in alternativa:
 import math
@@ -325,7 +353,7 @@ Python richiede come tabulazione 4 spazi. Più o di meno di 4 e darà errore.
 |!=|diverso|
 |==|uguale|
 
-L'operatore ***=*** viene usato solo per assegnare, non per confrontare.
+L'operatore `=` viene usato solo per assegnare, non per confrontare.
 
 ## *Operatori logici*
 
@@ -337,28 +365,28 @@ L'operatore ***=*** viene usato solo per assegnare, non per confrontare.
 ___
 ## *Condizionale IF*
 ```python
-if x<3:
+if x < 3:
   print("something")
-elif x=3:
+elif x == 3:
   #do something else
 else:
   #se nessuno dei n condizionali viene verificato, fai questa cosa
 ```
 ### Assegnazione condizionale
 ```python
-variabile = 2 if x>0 else 3
+variabile = 2 if x > 0 else 3
 ```
 ### Assegnazione condizionale 2
 ```python
 actualFloor= floor-1 if floor > 3 else floor
 
-#che e' equivalente a:
-if floor>13:
-  actualFloor=floor-1
-elif floor=13:
-	dp=3
+#che È equivalente a:
+if floor > 13:
+  actualFloor = floor - 1
+elif floor == 13:
+	dp = 3
 else:
-  actualFloor=floor
+  actualFloor = floor
 
 ___
 ## *Eccezioni - Try/Except*
@@ -386,13 +414,13 @@ from sys import exit
 
 exit()
 #fa terminare immediatamente il programma. 
-#E' definita nel modulo sys della libreria standard'
+#È definita nel modulo sys della libreria standard'
 
 exit("Error, you did some stupid shit so i exited the program.") 
 #termina l'esecuzione del programma con un messaggio.'
 ```
 
-# 3. Condizionali While
+# 3. Condizionali
 
 ## *Ciclo WHILE*
 
@@ -402,13 +430,13 @@ while booleanConditionTrue:
 	#do whatever
 ```
 
-Il ciclo finisce quando booleancondition diventa falsa. Altrimenti si finisce in un loop.
+Il ciclo finisce quando booleanCondition diventa falsa. Altrimenti si finisce in un loop.
 ```python
 while True:
-	line=input()
-	if line[0]=='#'
+	line = input()
+	if line[0] == '#':
 		continue #continua
-	if line=='done'
+	if line == 'done':
 		break #rompe il ciclo while
 	print (line)
 print('Done')
@@ -427,8 +455,8 @@ print('Blastoff!')
 ### Un'altra forma:
 ```python
 friends = ['Joseph', 'Glenn', 'Sally']
-for friends in friends:
-	print('Happy New Year', friends)#Happy New Year: Joseph, ecc.
+for friend in friends:
+	print('Happy New Year', friend) #Happy New Year: Joseph, ecc.
 print('Done!')
 ```
 ### La funzione _range()_:
@@ -462,9 +490,8 @@ Altro esempio con _range_ ma usando un valore incrementale:
 ```python
 for i in range(1,11,2):
 	#do whatever
-  
-#il terzo valore è l'incremento del range. Es:
-# 1+2,3+2, ecc.
+	#il terzo valore è l'incremento del range. Es:
+	# 1+2,3+2, ecc.
 ```
 ___
 
@@ -478,14 +505,14 @@ randint(a,b) #ritorna un nr. casuale int tra a e b
 
 ## *Metodo Monte Carlo*
 
-Trova soluzioni approssimate a problemi i cui risultati non possono essere precisi. Per esempio, per calcolare PiGreco.
+Trova soluzioni approssimate a problemi i cui risultati non possono essere precisi. Per esempio, per calcolare π (Pi greco).
 
 Metodo:
 1. simuli il lancio di una frecettetta all'interno di un quadrato circoscritto a un cerchio di raggio 1 e centro (0,0)
 2. basta generare valori casuali tra -1 e 1 per x e y
-2.1 se il punto generato è dentro al cerchio, allora il bersaglio è "colpito": questo se x^2 + y^2 <=1
-3. dato che i lanci sono casuali, ci aspettiamo che i hits/tries sia circa uguale al rapproto tra le aree del cerchio e del quadrato, cioe' pi/4
-4. la stima del nostro valore di pi e' uguale a: 4*hits/tries
+2.1 se il punto generato è dentro al cerchio, allora il bersaglio è "colpito": questo se `x^2 + y^2 <= 1`
+3. dato che i lanci sono casuali, ci aspettiamo che i hits/tries sia circa uguale al rapproto tra le aree del cerchio e del quadrato, cioè pi/4
+4. la stima del nostro valore di pi è uguale a: 4*hits/tries
 ___
 
 ## *IS / IS NOT*
@@ -505,15 +532,13 @@ Non puoi usare _non==None_ o _!=None_ per usare questo valore speciale.
 
 
 
-# 4.1 Stringhe e File
-
-## *Stringhe*
+# 4. Stringhe
 
 In Python 3 tutte le stringhe sono una sequenza di caratteri Unicode (non è necessario nemmeno specificare che è in Ascii Unicode).
 
 ### Slicing
 
-Il tagliare di una porzione di stringa:
+Il taglio (*o slicing*) di una porzione di stringa:
 
 ```python
 >>> s = 'Monty Python'
@@ -551,8 +576,8 @@ Gli operatori relazionali confrontano le stringhe secondo l’ordinamento
 lessicografico. In Python:
 
 - tutte le lettere maiuscole precedono tutte le lettere minuscole (ad esempio,  
-    “Z” precede “a”);
-- il carattere “spazio” precede tutti i caratteri visualizzabili;
+    "Z" precede "a");
+- il carattere "spazio" precede tutti i caratteri visualizzabili;
 - i numeri precedono le lettere;
 
 ```python
@@ -618,7 +643,7 @@ In genere, prima di usare *find()* si fa una conversione in minuscolo o maiuscol
 
 ### Funzione *.replace()*
 
-La funzione *replace()* funziona come “search and replace” in Word: trova e sostiuisce tutte le occorrenze.
+La funzione *replace()* funziona come "search and replace" in Word: trova e sostiuisce tutte le occorrenze.
 
 ```python
 >>> greet = 'Hello Bob'
@@ -664,9 +689,9 @@ False
 Un carattere viene memorizzato all’interno dei calcolatori come se fosse un numero intero e lo specifico valore usato per ciascun carattere dipende da un insieme standard di codici (ASCII).
 
 ```python
-print(“The letter H has a code of”, ord(“H”))
+print("The letter H has a code of", ord("H"))
 # The letter H has a code of 72
-print(“Code 97 represents the character”, chr(97))
+print("Code 97 represents the character", chr(97))
 # Code 97 represents the character a
 ```
 
@@ -683,7 +708,7 @@ print("C:\\Temp\\File.txt")
 - *NewLine* \- è una sequenza di escape che stampa il carattere *newline*.
 
 ```python
-print(“*\n**\n***”)
+print("*\n**\n***")
 # Stampa:
 # *
 # **
@@ -694,13 +719,13 @@ print(“*\n**\n***”)
 
 ```python
 >>>price = 1.22354
->>>print(“%.2f” % price)#due cifre dopo il punto decimale
+>>>print("%.2f" % price)#due cifre dopo il punto decimale
 1.22
->>>print(“%10.3f” % price)#il 10 indica l'ampiezza di campo
+>>>print("%10.3f" % price)#il 10 indica l'ampiezza di campo
 1.224
 ```
 
-L'ampiezza di campo non è solo specifica ai numeri dopo la virgola ma anche quelli prima. L'impostazone “%2.2f” per esempio, per il numero *340.22523* sarà quindi *40.22*.
+L'ampiezza di campo non è solo specifica ai numeri dopo la virgola ma anche quelli prima. L'impostazone "%2.2f" per esempio, per il numero *340.22523* sarà quindi *40.22*.
 
 La lettera *f* è per i numeri a virgola mobile. Le impostazioni sono le seguenti:
 
@@ -717,7 +742,7 @@ Con un’unica stringa avente indicatori di formato si può imporre il formato d
 ```python
 total = 17.29214
 quantity = 24
-print(“Quantity: %d Total: %10.2f” % (quantity, total))
+print("Quantity: %d Total: %10.2f" % (quantity, total))
 #Stampa:
 #Quantity: 24 Totale:     17.29
 ```
@@ -728,24 +753,24 @@ Quando viene specificata l’ampiezza di un campo, i valori vengono allineati a 
 Per specificare un allineamento a sinistra, basta aggiungere un segno meno prima dell’ampiezza del campo relativo alle stringhe:
 
 ```python
-print(“%–10s %10d” % (title1, 24))
+print("%–10s %10d" % (title1, 24))
 # Quantity: 24
-print(“%–10s %10.2f” % (title2, 17.29))
+print("%–10s %10.2f" % (title2, 17.29))
 # Price: 17.29
 ```
 
 
 
-# 4.2 File
+# 5. File
 
-Un file di testo può essere pensato come una sequenza di righe
+Un file di testo può essere pensato come una sequenza di righe.
 
 ## *Gestione file*
 ### Aprire un file in lettura
 ```python
-handle = open(“input.txt”, “r”)
+handle = open("input.txt", "r")
 ```
-* L'enunciato apre il file per la lettura (come indicato dall’argomento “r”, che sta per read, cioè “leggere”) e restituisce un oggetto di tipo file (file object) che è stato associato al file input.txt.
+* L'enunciato apre il file per la lettura (come indicato dall’argomento "r", che sta per read, cioè "leggere") e restituisce un oggetto di tipo file (file object) che è stato associato al file input.txt.
 
 * Quando un file viene aperto, un apposito contrassegno o cursore (marker) viene posizionato all’inizio del file stesso in corrispondenza alla prima riga.
 
@@ -753,16 +778,16 @@ handle = open(“input.txt”, “r”)
 
 ### Aprire un file in scrittura
 ```python
-file_modifica = open(“output.txt”, “w”)
+file_modifica = open("output.txt", "w")
 ```
-Il secondo argomento deve essere la stringa “w” (che sta per write, cioè “scrivere”).
+Il secondo argomento deve essere la stringa "w" (che sta per write, cioè "scrivere").
 Se il file output.txt non esiste, viene creato vuoto. Se invece esiste già, viene svuotato completamente prima che vi vengano scritti i nuovi dati. Questo può sovrascrivere completamente file, quindi fare particolare attenzione
 
 ### Scrivere su file
 
 ```python
-file_modifica = open(“output.txt”, “w”)
-file_modifica.write(“Hello, World!\n”)
+file_modifica = open("output.txt", "w")
+file_modifica.write("Hello, World!\n")
 ```
 
 * Quando si scrive testo in un file, bisogna scrivere esplicitamente il carattere \n per iniziare una nuova riga.
@@ -778,12 +803,12 @@ In alternativa, si può scrivere testo in un file usando la funzione print. Bast
 
 ```python
 file_modifica = open(‘output.txt’, ‘w’)
-print(“Hello, World!”, file= file_modifica)
+print("Hello, World!", file= file_modifica)
 
 #Se non si vuole andare a capo dopo il testo che viene scritto, 
 #si usa l’argomento end:
 
-print(“Hello, World!”, end=“”, file= file_modifica)
+print("Hello, World!", end="", file= file_modifica)
 ```
 
 ### Chiudere un file
@@ -811,10 +836,10 @@ From stephen.marquar
 #allora il metodo read restituisce una stringa
 #contenente il successivo carattere disponibile nel file,
 #oppure, se è stata raggiunta la fine del file,
-#restituisce una stringa vuota, “”.
+#restituisce una stringa vuota, "".
 
 #Notare che, se è presente, viene letto anche il
-#carattere “\n”.
+#carattere "\n".
 ```
 
 ### Leggere il file riga per riga
@@ -825,7 +850,7 @@ line = handle.readline()
 ```
 
 * Quando un file viene aperto, un apposito contrassegno o cursore (marker) viene posizionato all’inizio del file stesso.
-* Il metodo readline legge caratteri di testo a partire dalla posizione del cursore e continua fino a quando non incontra un carattere di “nuova riga” (newline \n) e restituisce il testo che ha letto, compreso il carattere di “\n”, sotto forma di unica stringa. Infine posiziona il cursore a capo.
+* Il metodo readline legge caratteri di testo a partire dalla posizione del cursore e continua fino a quando non incontra un carattere di "nuova riga" (newline \n) e restituisce il testo che ha letto, compreso il carattere di "\n", sotto forma di unica stringa. Infine posiziona il cursore a capo.
 ```python
 #File input.txt:
 #Questa è una prova
@@ -939,12 +964,12 @@ Quando elaboro file di testo, I metodi per stringhe e per liste sono molto utili
 >>> print(thing)
 ['first;second;third']
 >>> print(len(thing))
-1
+# Output: 1
 >>> thing = line.split(';')
 >>> print(thing)
 ['first', 'second', 'third']
 >>> print(len(thing))
-3
+# Output: 3
 >>>
 ```
 
@@ -953,10 +978,10 @@ ___
 
 
 
-# 4.3 Espressioni regolari
+# 6. Espressioni regolari
 
 ## Cosa sono le espressioni regolari
-In computing, a regular expression, also referred to as “regex” or “regexp”, provides a concise and flexible means for matching strings of text, such as particular characters, words, or patterns of characters.
+In computing, a regular expression, also referred to as "regex" or "regexp", provides a concise and flexible means for matching strings of text, such as particular characters, words, or patterns of characters.
 
 A regular expression is written in a formal language that can be interpreted by a regular expression processor.
 | character | how it works |
@@ -981,7 +1006,7 @@ A regular expression is written in a formal language that can be interpreted by 
 Uso generale:
 ```python
 import re
-re.search() #returns match object
+re.search(pattern, string) #returns match object
 re.findall() #extracts portions of a string that matches regular expression
 ```
 ### find() 
@@ -999,12 +1024,12 @@ import re
 hand = open('mbox-short.txt')
 for line in hand:
   line = line.rstrip()
-  y= re.search('From:', line) :
+  y = re.search('From:', line)
   if y is not None:
     print(line)
 ```
 * The dot character matches any character
-* If you add the asterisk character, the character is “any number of times”
+* If you add the asterisk character, the character is "any number of times"
 * ^ => math the start of the line
 
 WildCard Characters ex: _^X.*:_ => match any character zero or more times
@@ -1027,7 +1052,7 @@ Quando usiamo ***re.findall()***, otteniamo una lista di zero o più sottostring
 >>> y = re.findall('[0-9]+',x)
 >>> print(y)
 ['2', '19', '42']
->>> y = re.findall('[AEIOU]+',x)
+>>> y = re.findall('[AEIOUaeiou]+', x)
 >>> print(y)
 []
 ```
@@ -1069,7 +1094,7 @@ There aremore details on the Regular Expressions slide. Look it up in case you n
 
 
 
-# 5.1 Liste
+# 7. Liste
 
 ## _Liste_
 
@@ -1213,9 +1238,9 @@ True
 True
 ```
 
-### Copiare una lista con .list()
+### Copiare una lista con list()
 
-Per copiare una lista quindi, bisogna agire diversamente dal semplice assegnare x=y. Si usa _.list()_.
+Per copiare una lista quindi, bisogna agire diversamente dal semplice assegnare `x = y`. Si usa _.list()_.
 
 ```python
 >>> values = [10, 9, 7, 4, 5]
@@ -1249,7 +1274,7 @@ False
 [[3, 2, 1], 4, 5]
 #perciò bisogna fare attenzione
 #particolare ai RIFERIMENTI INTERNI
->>> a[2]=0
+>>> a[2] = 0
 >>> a
 [3, 2, 0]
 >>> b
@@ -1358,8 +1383,8 @@ n = friends.index("Emily") # Sets n to 1
 Per evitare errori durante l'esecuzione, è fondamentale assicurarsi prima della ricerca dell'indice assicurarsi che l'elemento è presente nella lista.
 
 ```python
-if “Cindy” in friends :
-  n = friends.index(“Cindy”)
+if "Cindy" in friends :
+  n = friends.index("Cindy")
 else :
   n = –1
 ```
@@ -1377,14 +1402,14 @@ Non solo rimuove l'elemento dalla lista, ma shifta l'indice di tutti gli element
 
 Non solo viene eliminato, ma viene anche restituito. Questo ci permette di utilizzarlo/salvarlo durante l'eliminazione:
 ```python
->>> print(“The removed item is”, friends.pop(1))
+>>> print("The removed item is", friends.pop(1))
 The removed item is Cindy
 ```
 
 *Un altro modo per eliminare elementi da una lista è utilizzare il metodo _remove_, il quale elimina un elemento dalla lista sulla base del suo valore piuttosto che della sua posizione.
 
 ```python
-element = “Cari”
+element = "Cari"
 if element in friends :
   friends.remove(element)
 ```
@@ -1498,7 +1523,7 @@ fred
 
 
 
-# 5.2 Grafica
+# 8. Grafica
 
 ## Cosa usare per la grafica
 
@@ -1528,7 +1553,7 @@ Quando si crea un oggetto di tipo GraphicsWindow viene automaticamente creato an
 
 ```python
 >>> canvas = win.canvas()
->>> canvas = canvas.drawRect(x=5,y=10, width=20, height=30)
+>>> canvas = canvas.drawRect(x=5, y=10, width=20, height=30)
 ```
 
 ```python
@@ -1566,7 +1591,7 @@ canvas.setOutline(red, green, blue)
 canvas.setOutline(colorname)#valore stringa, tra le seguenti
 ```
 
->_“black” “magenta” “maroon” “pink” “blue” “yellow” “dark blue” “orange” “red” “white” “dark red” “sea green” “green” “gray” “dark green” “light gray” “cyan” “gold” “dark cyan” “tan”_
+>_"black" "magenta" "maroon" "pink" "blue" "yellow" "dark blue" "orange" "red" "white" "dark red" "sea green" "green" "gray" "dark green" "light gray" "cyan" "gold" "dark cyan" "tan"_
 
 ### Colore riempimento
 
@@ -1643,10 +1668,10 @@ Tkinter lavora con l'esadecimale invece che con valori decimali fino a 255.
 
 import tkinter
 
-pannello = tkinter.Canvas(width = 600, height = 700, bg = ‘#00ffff’ )
+pannello = tkinter.Canvas(width=600, height=700, bg='#00ffff')
 pannello.pack()
 
-pannello.create_line(30, 30, 100, 300,fill=“#fff") #x1=30, y1=30, x2=100, y2=300
+pannello.create_line(30, 30, 100, 300,fill="#fff") #x1=30, y1=30, x2=100, y2=300
 pannello.create_rectangle(5, 10, 205, 60, fill="red", outline="green", width=10)
 #x1=5, y1=10 (angolo superiore sinistro), x2=205, y2=60
 pannello.create_oval(300, 300, 350, 380) #x1=300, y1=300, x2=350, y2=380
@@ -1681,9 +1706,9 @@ canvas.mainloop()
 
 
 
-# 5.3 Insiemi e dizionari
+# 9. Insiemi e dizionari
 
-## *Insiemi*
+## 9.1 *Insiemi*
 
 Un insieme è un contenitore che memorizza una raccolta di valori univoci, che, diversamente da una lista, ha insiemi memorizzati in modo disordinato. Quindi non ci sono indici a cui ci si può appoggiare per ricercare elementi.
 
@@ -1692,7 +1717,7 @@ Ma dato che gli insiemi non devono preservare alcun criterio di ordinamento le o
 ### Come crearli
 
 ```python
-cast = { “Luigi”, “Gumbys”, “Spiny” }
+cast = {"Luigi", "Gumbys", "Spiny"}
 ```
 
 con *set* si può convertire una sequenza in un insieme:
@@ -1735,8 +1760,8 @@ numberOfCharacters = len(cast)
 ### Aggiungere elementi
 
 ```python
-cast = set([“Luigi”, “Gumbys”, “Spiny”])
-cast.add(“Arthur”)
+cast = set(["Luigi", "Gumbys", "Spiny"])
+cast.add("Arthur")
 ```
 
 > un insieme non può contenere elementi duplicati: se  
@@ -1747,18 +1772,18 @@ cast.add(“Arthur”)
 #### .discard()
 
 ```python
-cast = set([“Luigi”, “Gumbys”, “Spiny”])
-cast.add(“Arthur”)
-cast.discard(“Arthur”)# elimina un elemento se questo esiste all’interno dell’insieme
+cast = set(["Luigi", "Gumbys", "Spiny"])
+cast.add("Arthur")
+cast.discard("Arthur")# elimina un elemento se questo esiste all’interno dell’insieme
 
 #ma non ha alcun effetto se l’elemento dato non è un membro dell’insieme:
-cast.discard(“The Colonel”) # Nessun effetto
+cast.discard("The Colonel") # Nessun effetto
 ```
 
 #### .remove()
 
 ```python
-cast.remove(“The Colonel”) # Solleva un’eccezione
+cast.remove("The Colonel") # Solleva un’eccezione
 ```
 
 #### .clear()
@@ -1774,9 +1799,9 @@ Un insieme è un sottoinsieme di un altro insieme se e solo se tutti gli element
 Il metodo .issubset() restituisce True o False per segnalare se un insieme è un sottoinsieme di un altro:
 
 ```python
->>> canadian = { “Red”, “White” }
->>> british = { “Red”, “Blue”, “White” }
->>> italian = { “Red”, “White”, “Green” }
+>>> canadian = { "Red", "White" }
+>>> british = { "Red", "Blue", "White" }
+>>> italian = { "Red", "White", "Green" }
 >>>canadian.issubset(british) :
 True
 ```
@@ -1790,7 +1815,7 @@ Si può anche verifi care se due insiemi sono uguali o diversi, usando gli opera
 L’unione di due insiemi contiene tutti gli elementi che provengono dai due insiemi, dopo avere eliminato i duplicati. In python si usa il metodo *.union()*, il quale restituisce un nuovo insieme senza modificare nessuno dei due insiemi.
 
 ```python
-inEither = british.union(italian) # L’insieme { “Blue”, “Green”, “White”, “Red” }
+inEither = british.union(italian) # L’insieme { "Blue", "Green", "White", "Red" }
 ```
 
 #### Intersezione e differenza
@@ -1798,14 +1823,14 @@ inEither = british.union(italian) # L’insieme { “Blue”, “Green”, “Wh
 In Python, il metodo .intersection() genera l’intersezione di due insiemi.
 
 ```python
-inBoth = british.intersection(italian) # L’insieme { “White”, “Red” }
+inBoth = british.intersection(italian) # L’insieme { "White", "Red" }
 
 ```
 
 In Python, il metodo .difference() genera la differenza di due insiemi.
 
 ```python
-print(italian.difference(british)) # Visualizza { “Green” }
+print(italian.difference(british)) # Visualizza { "Green" }
 ```
 
 Quando si genera l’unione o l’intersezione di due insiemi, l’ordine in cui li si usa è ininfluente.
@@ -1821,19 +1846,19 @@ Quando si genera l’unione o l’intersezione di due insiemi, l’ordine in cui
 from re import split
 def main() :
   # Legge il vocabolario e il documento.
-  correctlySpelledWords = readWords(“words”)
-  documentWords = readWords(“alice30.txt”)
+  correctlySpelledWords = readWords("words")
+  documentWords = readWords("alice30.txt")
   #Visualizza tutte le parole del documento che non sono nel vocabolario.
   misspellings = documentWords.difference(correctlySpelledWords)
   for word in sorted(misspellings) :
     print(word)
 def readWords(filename) :
   wordSet = set()
-  inputFile = open(filename, “r”)
+  inputFile = open(filename, "r")
   for line in inputFile :
     line = line.strip()
     # Qualsiasi carattere diverso da a–z o A–Z delimita una parola.
-    parts = split(“[^a–zA–Z]+”, line)
+    parts = split("[^a–zA–Z]+", line)
     for word in parts :
       if len(word) > 0 :
         wordSet.add(word.lower())
@@ -1845,7 +1870,7 @@ main()
 ```
 
 
-## 5.3 Dizionari
+## 9.2 Dizionari
 
 
 ### *Dizionario*
@@ -1870,9 +1895,9 @@ borsa = {}
 Basta definire la chiave e assegnarli un valore:
 ```python
 borsa['soldi'] = 3 #in borsa, soldi=3
-borsa['fazzoletti'] = 1 
+borsa['fazzoletti'] = 75 
 print(borsa)
-{'soldi':3, 'fazzoletti':75}
+# Output: {'soldi': 3, 'fazzoletti': 75}
 ```
 Aggiungere una chiave che esiste già solleva un'eccezione. Controllare prima che la chiave esiste già (vedere _in_ più giù).
 
@@ -1881,7 +1906,7 @@ Aggiungere una chiave che esiste già solleva un'eccezione. Controllare prima ch
 ### _Usare i valori di un elemento_
 
 ```python
-borsa['soldi'] = borsa['soldi']+ 3 #aggiungo 3 al valore
+borsa['soldi'] = borsa['soldi'] + 3    #aggiungo 3 al valore
 print(borsa)
 {'soldi':6, 'fazzoletti':75}
 ```
@@ -1894,7 +1919,7 @@ borsa.pop("Soldi")
 ```
 Pop restituisce il valore memorizzato però, e questo può essere usato in un'altra variabile durante l'eliminazione stessa.
 ```python
->>> soldiInBorsa = borsa.pop("Soldi")
+>>> soldiInBorsa = borsa.pop("soldi")
 >>> soldiInBorsa
 6
 ```
@@ -1903,7 +1928,7 @@ Pop restituisce il valore memorizzato però, e questo può essere usato in un'al
 Un semplice ciclo for ci permette di usare tutto il contenuto del dizionario:
 
 ```python
-contatti = {‘Anna': 475231244, ‘Marco': 3332175423, 'Giovanni': 045781032}
+contatti = {'Anna': 475231244, 'Marco': 3332175423, 'Giovanni': 045781032}
 for key in contatti: #key prenderà come valore ogni singola chiave(il nome dei contatti)
 	print(key)#qui viene stampata la chiave
 	print(contatti[key])#mentre qui viene richiamato il valore della chiave (il nr. di tel.)
@@ -1964,8 +1989,8 @@ get() restituisce un valore di default (impostato dall'utente) quando non viene 
 Esempio:
 ```python
 >>> macchine=dict()
->>> macchine['Porche']=2
->>> macchine['Ferrari']=5
+>>> macchine['Porche'] = 2
+>>> macchine['Ferrari'] = 5
 >>> macchine.get('Ferrari',0)
 5
 >>> macchine.get('Ford',0)
@@ -1998,8 +2023,8 @@ viene restituito:
 Esempio:
 
 ```python
-jjj = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
-for (aaa,bbb) in jjj.items() :
+jjj = {'chuck': 1, 'fred': 42, 'jan': 100}
+for (aaa,bbb) in jjj.items():
 	print(aaa, bbb)
 ```
 risultato
@@ -2127,7 +2152,7 @@ Esempio del problema:
 
 
 
-# 6.1 Funzioni
+# 10. Funzioni
 
 
 ## _Definizione e invocazione_
@@ -2145,7 +2170,7 @@ def nomeFunzione(parametro):
 -   Le funzioni possono non avere argomenti (come per esempio _random()_) e possono non restituire alcun valore (ad esempio _print("ciao")_)
 -   Le funzioni che vengono arrivano già "installate" in python si chiamano _primitive_.
 -   Possiamo definire un numero illiminato di funzioni per risolvere i problemi più disparati.
-- E' possibile (ma sconsigliabile) definire una funzione all'interno di un'altra funzione.
+- È possibile (ma sconsigliabile) definire una funzione all'interno di un'altra funzione.
 
 
 N.B.: Una funzione definita, ma che non viene chiamata, è una funzione che non verrà eseguita!
@@ -2195,7 +2220,7 @@ def circonferenza(raggio): #'raggio':variabile parametro
 	
 r=4
 risultato=circonferenza(r)#'r':parametri effettivi
-print(“La circonferenza è:”,risultato)
+print("La circonferenza è:",risultato)
 ```
 
 - __I parametri e variabili delle funzioni nascono quando nasce la funzione (non quando viene definita) e muoiono alla fine della sua esecuzione.__
@@ -2210,7 +2235,7 @@ Meglio evitare il return quando una funzione modifica una lista passata come arg
 def multiply(values, factor) :
 	for i in range(len(values)) :
 		values[i] = values[i] * factor
-	return value
+	return values
 ```
 Questa non è sbagliata, ma mi può portare facilmente a fare errori.
 
@@ -2286,7 +2311,7 @@ def cubeVolume(sideLength) :
 
 - Organizzare il codice del programma in una serie di chiamate a
 funzioni che catturano la logica più che i dettagli implementativi.
-- E' bene non ripetere istruzioni, ma memorizzare il lavoro fatto per riutilizzarlo, per evitare ridondanza che va a incidere negativamente sull'efficienza del codice.
+- È bene non ripetere istruzioni, ma memorizzare il lavoro fatto per riutilizzarlo, per evitare ridondanza che va a incidere negativamente sull'efficienza del codice.
 - Se qualcosa è troppo lungo e complesso lo posso suddividere in parti più piccole usando le funzioni.
 
 
@@ -2313,7 +2338,7 @@ Esempio di import ed uso:
 
 ## _Documentazione automatica della propria funzione_
 
-E' sempre indicato commentare le funzioni, il loro scopo, il significato dei parametri e del valore restituito, oltre a eventuali requisiti specifici. E' preferibile usare lo stile di documentazione usato da Java, anche perchè è riconosciuto da moltri strumenti di generazione automatica della documentazione, come Doxygen.
+È sempre indicato commentare le funzioni, il loro scopo, il significato dei parametri e del valore restituito, oltre a eventuali requisiti specifici. È preferibile usare lo stile di documentazione usato da Java, anche perchè è riconosciuto da moltri strumenti di generazione automatica della documentazione, come Doxygen.
 
 ```python
 ## Calcola il volume di un cubo.
@@ -2359,12 +2384,12 @@ Quindi la serie di Fibonacci ha una definizione ricorsiva:
 
 In Python:
 ```python
-def Fib(n):
-	if n<3:# caso base
-		value=1
-	else:
-		vale=Fib(n-1)+Fib(n-2)
-	return(value)
+def fib(n):
+    if n < 3:  # caso base
+        value = 1
+    else:
+        value = fib(n-1) + fib(n-2)
+    return value
 ```
 
 ---
@@ -2427,7 +2452,7 @@ Il modulo _functools_ include la funzione _reduce_ che chiede come argomento:
 
 
 
-# 8.1 Classi
+# 11. Classi
 
 ## _Cosa sono le classi_
 La programmazione orientata a oggetti permette di elaborare dati dividendo i problemi grandi in problemi più piccoli. Le classi sono come degli stampini, che permettno di creare più oggetti simili con metodi e attributi specifici. 
@@ -2456,10 +2481,10 @@ I metodi, a differenza delle funzioni, hanno bisogno di essere chiamati su uno s
 
 ```python
 Lilly = Dog() #istanzio l’oggetto Lilly di classe Dog
-Lilly.bark() # stampa “bau bau”
+Lilly.bark() # stampa "bau bau"
 ```
 
-E' facile indentificare i metodi disponibili per le variabili di Python (String, list, dict, ecc) usando "dir" nel IDLE:
+È facile indentificare i metodi disponibili per le variabili di Python (String, list, dict, ecc) usando "dir" nel IDLE:
 ```python
 >>>x="abc"
 >>>dir(x)
@@ -2484,8 +2509,8 @@ __Quindi si può dire per esempio che il metodo _upper()_ è un metodo della cla
 class Counter :
   n = 0
   ## Il metodo click() incrementa il contatore n
-  def click(self) : #notate l’indentazione. Sono dentro la definizione della classe
-    self.n = self.n + 1 #Attraverso self accedo agli attributi della classe
+  def click(self) :    # Nota l’indentazione. Sono dentro la definizione della classe
+    self.n = self.n + 1    # Attraverso self accedo agli attributi della classe
 
 ```
 
@@ -2504,26 +2529,26 @@ _L’incapsulamento prevede di fornire l’interfaccia pubblica di una classe, m
 Es:
 ```python
 ## Modello di un contapersone
-class Counter : 	#publ
+class Counter: 	#publ
   n = 0			#priv
   
   ## il metodo click() incrementa il contatore n
-  def click(self) :     #publ
+  def click(self):     #publ
     self.n = self.n + 1 #priv
     
   ## il metodo getValue() restituisce il valore del contatore
-  def getValue(self) :  #publ
+  def getValue(self):  #publ
     return self.n	#priv
     
   ## il metodo reset() azzera il conteggio di questo contapersone.
-  def reset(self) : 	#publ
+  def reset(self): 	#publ
     self.n = 0		#priv
 ```
 Ogni oggetto contiene dei dati e dei metodi (funzioni specifiche per un certo tipo di oggetto) ma per usarlo ci basta conoscere i nomi e i parametri dei metodi, non come sono implementati.
 
 
 **Tutte le variabili di esemplare di una classe dovrebbero essere private.** Per segnalarle come "private" in Python si ha la convenzone di dare alle variabili nomi che iniziano con un singolo carttere di sottolineatura. 
-*E' poi responsabilità degli utilizzatori della classe non violare tale riservatezza.*
+*È poi responsabilità degli utilizzatori della classe non violare tale riservatezza.*
 
 Esempio applicato al programma di prima:
 ```python
@@ -2717,9 +2742,9 @@ register1.addItem(1.95)
 register1.addItem(0.95)
 register1.addItem(2.50)
 print(register1.getCount())
-print(“Expected: 3”)
-print(“%.2f” % register1.getTotal())
-print(“Expected: 5.40”)
+print("Expected: 3")
+print("%.2f" % register1.getTotal())
+print("Expected: 5.40")
 ```
 *Risultato:*
 ```python
@@ -2859,7 +2884,7 @@ ___
 
 
 
-# 8.2 Debugging
+# 12. Debugging
 
 Il debugger di Python, chiamato _pdb_ ("Python DeBugger"), può essere usato in mancanza di IDE che forniscono la funzione di debugging. Il debuggin consiste nella correzione di programmi, direttamente in fase di programmazione o nella fase di testing/finale del programma stesso.
 
@@ -2895,7 +2920,7 @@ removeFromSortedList([1,2,1,3,4,2,1,3])
 
 Per leggere il valore delle variabili locali:
 ```python
-nomevariabile
+nomeVariabile
 #in alternativa:
 nomeVariabile p #"p" sta per "print"
 ```
@@ -2927,7 +2952,7 @@ count = 5 #con molto sale, posso fare così per
 
 ----
 
-# 9.1 Eccezioni
+# 13. Eccezioni
 
 ## _Cosa sono?_
 
@@ -2948,31 +2973,31 @@ Mentre il blocco try contiene enunciati che possono provocare le eccezioni dei t
 
 ```python
 try :
-  filename = input(“Enter filename: “)
-  infile = open(filename, “r”)
+  filename = input("Enter filename: ")
+  infile = open(filename, "r")
   line = infile.readline()
   value = int(line)
 except IOError : #gestisce l'eccezione IOError.
-  print(“Error: file not found.”)
+  print("Error: file not found.")
 except ValueError as ecc : #gestisce l'eccezione ValueError.
-  print(“Error:”, str(ecc))
+  print("Error:", str(ecc))
 ```
 ### Eccezioni specifiche e generiche
 
 Se almeno una di queste eccezioni viene sollevata, la parte non ancora eseguita del blocco try viene ignorata. Verrà sempre e solo eseguito il la clausa except definita specificatamente per il tipo di eccezione sollevato. Per questo conviene aggiungere un'eccezione più generica per i casi diversi da quelli specificati:
 ```python
 try :
-  filename = input(“Enter filename: “)
-  infile = open(filename, “r”)
+  filename = input("Enter filename: ")
+  infile = open(filename, "r")
   line = infile.readline()
   value = int(line)
 except IOError : #gestisce l'eccezione IOError.
-  print(“Error: file not found.”)
+  print("Error: file not found.")
 except ValueError as ecc : #gestisce l'eccezione ValueError e salvo l'oggetto nella vaiabile ecc.
-  print(“Error:”, str(ecc)) #notare che "str" è un metodo speciale della classe ValueError.
+  print("Error:", str(ecc)) #notare che "str" è un metodo speciale della classe ValueError.
   
 except Exception as ecc2 : #gestisco un'eccezione generica
-print(“Error:”, str(ecc2))
+print("Error:", str(ecc2))
 ```
 ```
 Le eccezioni più generiche vanno sempre elencate DOPO quelle specifiche.
@@ -2982,18 +3007,18 @@ Le eccezioni più generiche vanno sempre elencate DOPO quelle specifiche.
 Indipendentemente dal sollevamento di un'eccezione oppure no, è importante a volte eseguire comunque delle eccezioni, come per esempio la chiusura di un file. Per questo serve la clausola _finally_:
 ```python
 try :
-  outfile = open(filename, “w”)
+  outfile = open(filename, "w")
   try :
     writeData(outfile)
   finally :# viene eseguita comunque indipendentemente da quel che succede nel blocco try
     outfile.close()
 except IOError : #gestisce l'eccezione che si può sollevare nel chiudere un file mai aperto.
-print(“Error: file not found.”)
+print("Error: file not found.")
 ```
 
 Siccome è piuttosto frequente usare un enunciato try/finally per aprire e chiudee un file, Python mette a disposizione un'abbreviazione specifica:
 ```python
-with open(filename, “w”) as outfile :
+with open(filename, "w") as outfile :
 writeData(outfile)
 ```
 L’enunciato _with_ apre il file di cui è dato il nome, assegna alla variabile outfile l’oggetto che lo rappresenta (un oggetto di tipo file) e lo chiude in automatico quando viene raggiunta la fine dell’enunciato, oppure se viene sollevata un’eccezione.
@@ -3004,7 +3029,7 @@ L’enunciato _with_ apre il file di cui è dato il nome, assegna alla variabile
 Fa sollevare un oggetto di tipo "RuntimeError" scritto dall'uttente.
 ```python
 if amount > balance :
-  raise ValueError(“Amount exceeds balance”) #costruito nuovo ogg. di tipo eccezione
+  raise ValueError("Amount exceeds balance") #costruito nuovo ogg. di tipo eccezione
 balance = balance – amount #se viene sollevata l'eccezione, questa riga non viene eseguita
 ```
 
@@ -3015,7 +3040,7 @@ balance = balance – amount #se viene sollevata l'eccezione, questa riga non vi
 ---
 
 
-# Ereditarietà
+# 14. Ereditarietà
 
 ## *Cos'è*
 Assieme al *incapsulamento* e *polimorfismo* è alla base della programmazione orientata agli oggetti, e consente il ***riutilizzo del codice***.
@@ -3029,14 +3054,14 @@ Ergo, perché non dovresti usare "car" o "bike" invece che "vehicle"?
 ---
 
 
-## 1. *Sottoclassi ed ereditarietà*
+## 14.1 *Sottoclassi ed ereditarietà*
 
 ```python
 #ChoicheQuestion eredita da Question, 
 #dunque ne estende le funzionalità ed
 #eredità le caratteristiche.
 
-class ChoiceQuestion(Question)
+class ChoiceQuestion(Question):
 
 ```
 * Una sottoclassa eredità **tutte le variabili di esemplare**.
@@ -3046,12 +3071,12 @@ class ChoiceQuestion(Question)
 * Posso aggiungere metodi nuovi.
 
 
-**E' buona regola non usare direttamente le variabili private di una classe o sottoclasse, ma accedere sempre e solo attraverso i metodi.**
+**È buona regola non usare direttamente le variabili private di una classe o sottoclasse, ma accedere sempre e solo attraverso i metodi.**
 
 E vale anche per l'utilizzo della variabile all'interno stesso della classe: usare i metodi creati ad-hoc per modificare/leggere la variabile.
 
 
-## 2. Superclasse ***object***
+## 14.2 Superclasse ***object***
 
 In Python, se una classe non deriva esplicitamente da un'altra, allora deriva *implicitamente* dalla superclasse universale **object**. **Object** è privo di proprietà, ed è il modello dell'entità più astratta immaginabile.
 
@@ -3069,7 +3094,7 @@ Quindi si ha, per esempio:
 '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_itemCount',
 '_totalPrice', 'addItem', 'clear', 'getCount', 'getTotal']
 ```
-## 3. Costruttori
+## 14.3 Costruttori
 
 * Il **costruttore** di una sottoclasse **può definire eplicitamente soltanto le variabili di esemplare proprie della sottoclasse**.
 * Anche le variabili esemplare di una sottoclasse **devono** essere definite chiamando il costruttore della superclasse.
@@ -3097,14 +3122,14 @@ class Question:
 		self._text = testoDomanda
 		self._answer=""
 class ChoiceQuestion(Question):
-	def __init__(self,questionText):
+	def __init__(self, questionText):
 		super().__init__(questionText)
 		self._choices=[]
 ```
 
 
 
-## 4. Sovrascrivere un metodo (override)
+## 14.4 Sovrascrivere un metodo (override)
 
 Si modifica il comportamento di un metodo quando viene usato dalla sottoclasse.
 
@@ -3134,7 +3159,7 @@ Attenzione!
 
 ---
 
-## 5. _Polimorfismo_
+## 14.5 _Polimorfismo_
 Posso creare un metodo che accetta come parametro una oggetto per intero, e usare i metodi di quella oggetto all'interno del metodo.
 
 **Non si può fornire un oggetto di tipo superclasse laddove sia previsto un oggetto di tipo sottoclasse.**
@@ -3142,8 +3167,8 @@ Posso creare un metodo che accetta come parametro una oggetto per intero, e usar
 
 Questo va bene:
 ```python
-text = “In which year was Python first released?”
-answers = [“1991”, “1995”, “1998”, “2000”]
+text = "In which year was Python first released?"
+answers = ["1991", "1995", "1998", "2000"]
 correct = 1
 first = ChoiceQuestion()
 first.setText(text)
@@ -3165,13 +3190,13 @@ L’invocazione di un metodo viene sempre determinata al momento dell’esecuzio
 ```python
 def presentQuestion(q) :
 	q.display()
-	response = input(“Your answer: “)
+	response = input("Your answer: ")
 	print(q.checkAnswer(response))
 ```
 
 La ricerca dinamica del metodo da eseguire ci consente di manipolare in modo omogeneo
 oggetti che sono esemplari di classi diverse: questa caratteristica si chiama **polimorfismo**
-(polymorphism, dal greco “multiforme”). Chiediamo a più oggetti di assolvere a un determinato
+(polymorphism, dal greco "multiforme"). Chiediamo a più oggetti di assolvere a un determinato
 compito e ciascuno lo fa a modo suo.
 
 
@@ -3240,7 +3265,7 @@ Una classe che contiene almeno un metodo astratto si chiama **classe astratta** 
 
 ---
 
-# Algoritmi
+# 15. Algoritmi
 
 ## _Ricerca binaria/dicotomica/bisezione_
 
@@ -3288,8 +3313,594 @@ def ricBinariaRicorsiva(lista, inizio, fine, valoreDaCercare):
       return ricBinariaRicorsiva(lista,inizio+1,fine,valoreDaCercare)
 ```
 
-# Sorting (da fare)
-# Strutture dati (da fare)
-# Metodi di istanza (da fare)
-# Pile e code(da fare)
-# Linked lists (da fare)
+---
+
+# 16. Analisi delle prestazioni e sorting
+## Analisi delle prestazioni degli algoritmi
+Per valutare l’**efficienza temporale** di un algoritmo si misura il tempo necessario alla sua esecuzione su insiemi di dati di dimensione crescente. Il tempo di esecuzionedipende dal numero e dal tipo di interazioni in *linguaggio macchina* e va misurto all'interno del programma usando il metodo *time()* che a ogni invocazione restituisce un valore di tipo float. A noi interessa la differenza del tempo calcolato all'inizio e alla fine dell'esecuzione dell'algoritmo, altrimenti il valore verrebbe calcolato rispetto alla *mezzanotte del 1 gennaio 1970*. Il metodo si invoca come segue:
+```python
+from time import time
+```
+
+Per un'analisi teorica si **contano gli accessi in lettura/scrittura** a singoli elementi della lista (o le operazioni più onerose), ipotizzando che queste siano più lente. Si fanno **semplificazioni drastiche** ignorando tutto cià che non incide in modo significativo sul tempo, considerando solo operazioni elementari e trascurando input/output. Le prestazioni si calcolano **nel caso peggiore** (worst case) per avere una stima affidabile.
+
+### Andamento asintotico delle prestazioni
+L'andamento asintotico misura come cresce il tempo di esecuzione al crescere della dimensione dell'input *n*. Per confrontare algoritmi diversi, interessa sapere come cresce la funzione, cioè quale andamento qualitativo ha: si usa l’andamento asintotico che permette di valutare le prestazioni temporali in modo indipendente da fattori hardware.
+
+Esiste una formulazione matematica del concetto "quale andamento ha una funzione di *n*, per *n* che tende all'infinito?".
+
+### Notazione O-grande 
+Una funione $f(n) \in O(g(n))$ se $\exists c>0$ e $k>0$ tali che $f(n)<cg(n) \forall n \geq k$.
+
+Al crescere di *n* prima o poi una funzione *g(n)* è sempre maggiore della funzione *f(n)* a meno di una costante moltiplicativa. $g(n)$ è detto anche **limite superiore asintotico** per $f(n)$. $f(n)$ è **O-grande** di $g(n)$. 
+
+> Si usa il segno $\in$ perché $O(g(n))$ è un simbolo che rappresenta l’insieme di tutte le funzioni $f(n)$ che rispondono alla definizione per una determinata funzione $g(n)$. Spesso si scrive, impropriamente, $f(n) = O(g(n))$.
+
+Si dimostra che una *funzione polinomiale* è O-grande del suo monomio di grado massimo, con coefficiente moltiplicativo arbitrario. Per semplicità, tale coefficiente viene assunto uguale a 1. 
+
+La definizione implica che $f(n)$ sia O-grande di qualunque funzione che cresce più veloce di $g(n)$. A noi interessa la funzione "più stringente".
+
+> Ad esempio, avendo $T(n) \in O(n^2)$, non è sbagliato dire che $T(n) \in O(n^3)$ perché $T(n) \in O(n^2) \subset O(n^3) \subset O(n^4) \subset \cdots$.
+
+Ecco una lista di espressioni in notazione O-grande:
+| Espressione O-grande | Nome         |
+|----------------------|--------------|
+| $O(1)$               | Costante     |
+| $O(log n)$           | Logaritmica  |
+| $O(n)$               | Lineare      |
+| $O(n log n)$         | Log-lineare  |
+| $O(n^2)$             | Quadratica   |
+| $O(n^3)$             | Cubica       |
+| $O(2^n)$             | Esponenziale |
+| $O(n!)$              | Fattoriale   |
+
+
+### Notazione Omega
+Una funzione $f(n) \in \Omega(g(n))$ se $\exists c>0$ e $k \geq 1$ tali che $f(n) \geq g(n) \forall n\geq k$.
+
+Prima o poi $f(n)$ cresce più velocemente di $g(n)$ e, quindi, $g(n)$ è un **limite inferiore** asintotico per $f(n)$. $f(n)$ è **Omega** di $g(n)$. 
+
+Si dimostra che una funzione polinomiale è $\Omega$ del suo monomio di grado massimo, con coefficinete moltiplicativo arbitrario.
+
+### Notazione Theta
+Una funzione $f(n) \in \Theta(g(n))$ se $f(n) \in \Omega(g(n))$ e $f(n) \in O(g(n))$.
+
+Prima o poi $f(n)$ e $g(n)$ crescono alla stessa velocità. $f(n)$ è **Theta** di $g(n)$
+
+Si dimostra che una una funzione polinomiale è $\Omega$ del suo monomio di grado massimo, con coefficiente moltiplicativo arbitrario. 
+
+> La caratterizzazione mediante $\Theta$ è la più precisa e utile, ma è difficile da calcolare. Si usa la notazione O-grande fornendo la stima più precisa possibile di $g(n)$
+
+
+## Ordinamento per selezione (Selection Sort)
+L’**ordinamento per selezione** è un algoritmo semplice ma poco efficiente.
+L’idea di base è individuare, ad ogni passo, l’elemento più piccolo nella parte non ancora ordinata della lista e scambiarlo con l’elemento in prima posizione della parte da ordinare.
+
+```python
+def selectionSort(values):
+    for i in range(len(values) - 1):
+        minPos = minimumPosition(values, i)
+        # scambia i due elementi
+        temp = values[minPos]
+        values[minPos] = values[i]
+        values[i] = temp
+
+def minimumPosition(values, start):
+    minPos = start
+    minVal = values[minPos]
+    for i in range(start + 1, len(values)):
+        val = values[i]
+        if val < minVal:
+            minPos = i
+            minVal = val
+    return minPos
+
+```
+
+### Prestazioni dell'algoritmo
+Facendo ipotesi semplificative e contando soltanto gli accessi a singole celle della lista, le prestazioni temporali asintotiche validate (cioè verificate sperimentalmente) sono:
+  - *Caso migliore*: **$O(n^2)$** (non è necessario fare scambi).
+  - *Caso peggiore*: **$O(n^2)$**.
+  - *Caso medio*: **$O(n^2)$** perchè lo è sia nel caso peggiore, che in quello migliore.
+
+L'algoritmo è anche **$\Omega(n^2)$** e **$\Theta(n^2)$**.
+
+
+## Ordinamento per inserimento (Insertion Sort)
+L’algoritmo **Insertion Sort** è un algoritmo di ordinamento semplice ed efficiente per piccoli dataset o liste quasi ordinate. Funziona costruendo gradualmente una sottolista ordinata, inserendo un elemento alla volta nella sua posizione corretta all’interno della sottolista stessa. Ogni nuovo elemento viene spostato verso sinistra finché non si trova nella posizione corretta.
+
+```python
+def insertionSort(values):
+    for i in range(1, len(values)):
+        next = values[i]
+
+        # sposta tutti gli elementi più grandi verso l'alto
+        j = i
+		while j > 0 and values[j - 1] > next:
+			values[j] = values[j - 1]
+			j = j - 1
+
+		# inserisci il prossimo elemento
+		values[j] = next
+
+```
+
+### Prestazioni dell'algoritmo
+Le prestazioni temporali asintotiche validate sono:
+  - *Caso migliore*: **$O(n)$** (lista già ordinata).
+  - *Caso peggiore*: **$O(n^2)$** (lista ordinata in modo inverso).
+  - *Caso medio*: **$O(n^2)$** (si richiede lo spostamento di metà degli elementi a sinistra).
+
+L'algoritmo è anche **$\Omega(n)$**. Non esiste una caratterizzazione di tipo $\Theta$ per l'algoritmo nel suo caso generale.
+
+
+## Ordinamento per fusione (Merge Sort)
+L'algoritmo  **Merge Sort** è un algoritmo di ordinamento basato sul paradigma "divide et impera". Divide la lista in due metà, ordina ricorsivamente ogni metà e poi fonde (*merge*) le due metà ordinate.
+
+> NB: la fusione è una fase dell'ordinamento per fusione.
+ 
+```python
+def mergeLists(first, second, values):
+    iFirst = 0  # Prossimo elemento da considerare nella prima lista
+    iSecond = 0  # Prossimo elemento da considerare nella seconda lista
+    j = 0  # Prossima posizione libera in values
+
+    # Finché né iFirst né iSecond superano la fine delle rispettive liste,
+    # sposta l'elemento più piccolo nella lista values
+    while iFirst < len(first) and iSecond < len(second):
+        f = first[iFirst]
+        s = second[iSecond]
+        if f < s:
+            values[j] = f
+            iFirst = iFirst + 1
+        else:
+            values[j] = s
+            iSecond = iSecond + 1
+        j = j + 1
+
+    # Copia eventuali elementi rimanenti della prima lista
+    while iFirst < len(first):
+        values[j] = first[iFirst]
+        iFirst = iFirst + 1
+        j = j + 1
+
+    # Copia eventuali elementi rimanenti della seconda lista
+    while iSecond < len(second):
+        values[j] = second[iSecond]
+        iSecond = iSecond + 1
+        j = j + 1
+
+```
+
+
+### Prestazioni dell'algoritmo
+Le prestazioni sono $\Theta(n\cdot log(n))$, cioè è migliore di ogni algoritmo quadratico. Di conseguenza, possiamo dire che l'ordinamento per fuzione è ancue un $O(n\cdot log(n))$.
+
+### Mege Sort iterativo
+L'algoritmo Merge Sort per una lista si può realizzare in modo iterativo, con le stesse prestazioni. Ogni elemento è una lista di lunghezza 1, ciascuna coppia di elementi consecutivi viene fusa in una lista ordinata di lunghezza 2 e così via.
+
+### Confronto di algoritmi
+Se le notazioni di O-grande delle prestazioni di due algoritmi diversi sono tra loro *diverse*, è possibile dire qual è l'algoritmo migliore. Se le prestazioni sono *uguali*, bisogna tenere in considerazione anche i fattori trascurati; in mancanza di ciò, i due algoritmi sono **equivalenti**. 
+
+Si dimostra che qualunque algoritmo di ordinamento che operi mediante confronti tra i valori da ordinare richiede, nel caso peggiore, un tempo che è $\Omega(n\cdot log(n))$.
+
+Il processo decisionale di un algoritmo di ordinamento che opera per confronti si può rappresentare tramite **albero di decisione**: ogni nodo contiene una domanda del tipo $"a_i \leq a_j?"$, le foglie rappresentano una decisione. Si dimostra che tutti gli alberi di decisione che rappresentano un algoritmo di ordinamento che opera mediante confronti su una sequenza contente $n$ elementi distinti, hanno almeno $n!$ foglie.
+
+
+## Quick sort
+L'algoritmo **Quick Sort** è un algoritmo di ordinamento basato sul paradigma "divide et impera". Sceglie un elemento come "pivot" e partiziona la lista in due parti: una con elementi minori e una con elementi maggiori del pivot. Ordina ricorsivamente le due parti senza aver bisogno di liste temporanee per ordinare. 
+
+Nella variante più semplice delll'algoritmo, si sceglie come pivot il primo elemento della porzione. 
+
+```python
+def quickSort(values, start, to):
+    if start >= to: return
+    p = partition(values, start, to)
+    quickSort(values, start, p)
+    quickSort(values, p + 1, to)
+
+# Partiziona una porzione di una lista
+def partition(values, start, to):
+    pivot = values[start]
+    i = start - 1
+    j = to + 1
+    while i < j:
+        i = i + 1
+        while values[i] < pivot:
+            i = i + 1
+        j = j - 1
+        while values[j] > pivot:
+            j = j - 1
+        if i < j:
+            temp = values[i]
+            values[i] = values[j]
+            values[j] = temp
+    return j
+
+```
+
+### Prestazioni dell'algoritmo
+La scelta del pivot influenza le prestazioni dell'algoritmo. Se il pivot è l'*elemento mediano* della lista, le prestazioni saranno $\Theta(n\cdot log(n)$; se invece il pivot è l'ultimo elemento di una sequenza già ordinata, le prestazioni saranno $\Theta(n^2)$ nel caso peggiore.
+
+Il caso peggiore si verifica quando il pivo è sempre il più piccolo o il più grande elemento. La complessità diventa $\Theta (n^2)$.
+
+Il caso medio si ha se il pivot viene scelto in modo casuale. La complessità diventa $O(n\cdot log(n))$.
+
+### Confronto con Merge Sort
+L'algoritmo Merge Sort ha sempre prestazioni $O(n\cdot log(n))$, ma richiede spazio aggiuntivo. Quick Sort è sempre più veloce di Merge Sort, ma può egenerare a $\Theta(n^2)$ nel caso peggiore.
+
+
+## Ricerca di un elemento
+Data una lista di dati **non ordinati**, per fare una ricerca in essa ci sono due possibili soluzioni. 
+
+  - **Ricerca lineare**: esamina tutti i valori di una lista finche non trova una corrispondenza con quanto cercato oppure giunge alla fine. I valori sono trovati in un numero di passi $O(n)$.
+```python
+def linearSearch(values, target):
+  for i in range(len(values)):
+	if values[i] == target:
+
+  return -1
+```
+	
+  - **Ricerca binaria o per bisezione**: cerca un valore in una lista ordinata determinano se si trovanella prima o nella seconda metà della lista stessa, ripetendo la ricerca in una sola delle due metà. È un algoritmo $O(log(n))$.
+```python
+def binarySearch(values, low, high, target):
+if low <= high:
+	mid = (low + high) // 2
+
+	if values[mid] == target:
+		return mid
+	elif values[mid] < target:
+		return binarySearch(values, mid + 1, high, target)
+	else:
+		return binarySearch(values, low, mid - 1, target)
+else:
+	return -1
+```
+
+Senza ordinare la lista, per effettuare la ricerca di un elemento occorre un tempo $O(n)$: si preferisce non ordinare la lista se bisogna fare una sola ricerca. Se invece bisogna fare molte ricerche, è meglio ordinare e usare la ricerca bianaria. 
+
+
+# 17. Strutture dati
+Una **struttura dati** è un modo organizzato di memorizzare e gestire i dati in memoria per consentire accesso ed elaborazione efficienti. In Python, le strutture sequenziali principali sono: *liste*, *tuple* e *stringhe*.
+
+Un **array** è una rappresentazione dei dati in cui un insieme è memorizzato uno dopo l'altro in porzioni contigue della memoria e di uguale dimensione. Conoscendo l'indirizzo di memoria nel quale inizia l'array (*start*) e la dimensione di ogni cella (*cellsize*), l'indirizzo di memoria di ogni elemento dell'array è calcolato come:
+```
+start + cellsize*index
+```
+
+La stessa dimensione di ogni cella permette un accesso diretto in un tempo costante $O(1)$. 
+
+Dal momento che le stringhe sono memorizzate come sequenza ordinata di caratteri (character), una stringa può essere memorizzata in un array.
+
+## Referential array
+Nel caso di elementi memorizzati di dimensione diversa, come nel caso di liste e tuple, la memorizzazione avviene tramite **riferimenti** a *celle sparse*. Vengono memorizzate in celle consecutive gli indirizzi delle porzioni di memoria (non necessariamente consecutivi) in cui sono contenuti gli elementi della lista/tupla.
+
+### Puntualizzazione su aliasing, shallow copy e deep copy
+  - Nell'*aliasing* tutte le modifiche effettuate su una lista agiscono anche sull'altra e viceversa.
+  - In una *shallow copy* tutte le modifiche effettuate in una delle due liste agiscono sugli indirizzi memorizzati nell'array, non sugli integer.
+  - In una *deep copy* tutte le modifiche a una lista non hanno alcun effetto sull’altra, né sulla struttura né sui dati interni.
+
+### Array compatti
+Gli **array compatti** memorizzano anche i dati e non solo i riferimenti, come per le liste e le tuple. Una struttura che usa array di riferimenti occupa lo spazio per i riferimenti, più lo spazio per i dati. Per costruire array compatti si utilizza la *classe array* del *modulo array*. 
+```python
+from array import array
+primes = array('i', [2, 3, 5, 7, 9, 11, 13, 17, 19])
+```
+
+### Array dinamici
+Nel caso di stringhe e tuple (immutabili), la dimensione dei dati è immutabile; nel caso di liste (mutabili) la memoria deve essere collocata in maniera dinamica. Quando viene creata una lista, Python riserva spazio aggiuntivo per operazioni di append. Quando lo spazio finisce, viene allocata memoria per un nuovo array più grande, i riferimenti vengono trasferiti e il vecchio array abbandonato.
+
+Il ridimensionamento di un array  è un operazione del tipo $\Theta(n)$. 
+
+Il ridimensionamento per inserimento con costante moltiplicativa avviene in un tempo medio di tipo costante per la singola operazione, cioè $\Theta(1)$. Facendo un ridimensionamento con costante additiva, invece, il tempo medio è di tipo $\Theta(n)$. 
+
+## Inserimenti e rimozioni in un array
+L'inserimento e la rimozione richiedono sempre un ridimensionamento di un'unità nel caso di array "tutto pieno", altrimenti provocano una modifica della dimensione logica se l'array è "riempito solo in parte".
+
+### Rimozione di un elemento
+L'eliminazione di un elemento da un array richiede due algoritmi diversi:
+  - Se l'ordine **non è importante**, si copia l'ultimo elemento nella posizione dell'elemento da eliminare e ridimensionare l'array fisicamente o logicamente.
+    - Si richiedono due accessi e l'algoritmo viene eseguito in un *tempo costante* $\Theta(1)$. Il numero di accessi non dipende dalla dimensione dell'array.
+    - In modalità "tutto pieno" il ridimensionamento costa $\Theta(1)$ se dobbiamo ridurre la dimensione logica e $O(n)$ se dobbiamo ridurre la dimensione fisica.
+  - Se l'ordine **è importante**, tutti gli elementi di indice maggiore di quello dell'elemento da rimuovere vanno spostati nella posizione di indice immediatamente inferiore.
+    - Si richiedono due accessi e l'algoritmo viene eseguito, in media, in un tempo $\Theta(n)$.
+    - Nel caso peggiore l'algoritmo rimane $\Theta(n)$.
+    - Nel caso migliore, cioè quando l'elemento da rimuovere si trova in fondo a un array riempito solo in parte, le prestazioni sono $\Theta(1)$.
+
+### Inserimento di un elemento
+L'inserimento di un elemento da un array richiede due algoritmi diversi:
+  - Se l'ordine **non è importante**, si inserisce l'elemento in ultima posizione e ridimensionare l'array fisicamente o logicamente.
+    - Se c'è spazio si richiede un solo accesso in scrittura e l'algoritmo viene eseguito in un *tempo costante* $\Theta(1)$.
+    - In modalità "tutto pieno" l'inserimento costa $\Theta(n)$ perché è richiesto il ridimensionamento.
+  - Se l'ordine **è importante**, tutti gli elementi di indice maggiore di quello della posizione voluta vanno spostati nella posizione di indice immediatamente superiore.
+    - Si richiedono due accessi e l'algoritmo viene eseguito, in media, in un tempo $\Theta(n)$.
+    - Nel caso peggiore l'algoritmo rimane $\Theta(n)$.
+    - Nel caso migliore, cioè quando l'elemento si inserisce in fondo a un array riempito solo in parte, le prestazioni sono $\Theta(1)$.
+
+
+
+# 18. Metodi di istanza e di classe
+I metodi visti per le classi (o ***metodi di istanza***) sono funzioni definite *dentro il corpo di una classe* e sono invocabili **solo su istanze** della classe in cui sono definiti o da cui sono ereditati. Il primo argomento è *`self`*: *il riferimento all’istanza* su cui il metodo è invocato.
+
+I ***metodi di classe***, invece, sono funzioni definite *dentro il corpo di una classe* e sono invocabili utilizzando **direttamente il nome della classe**, seguito dal punto e dal nome del metodo (con eventuali argomenti passati tra parentesi).
+
+```python
+class Point:
+
+    def __init__(self, x, y):
+        self._x = x
+        self._y = y
+
+    def x(self):
+        return self._x
+
+    def y(self):
+        return self._y
+
+    def xy(self):
+        return (self._x, self._y)
+
+    def delta(p1, p2):
+        return ((p1.x() - p2.x())**2 + (p1.y() - p2.y())**2)**(1/2)
+
+```
+
+
+
+# 19. Pile e code
+## Pila (stack)
+Una **pila** è una struttura dati in cui l'ultimo oggetto che è stato inserito è il primo ad essere rimosso, secondo un comportamento di tipo **LIFO** (*Last In First Out*). L'unico oggetto ispezionabile è quello che si trova in cima alla pila. Non c'è modo di ispezionare l'intero contenuto della pila senza svuotarla ordinatamente (*accesso sequenziale distruttivo*). 
+
+I metodi che caratterizzano la classe pila sono:
+```python
+class ArrayStack:
+    def __init__(self):
+        self._data = []
+
+    def __len__(self):
+	  return len(self._data)
+
+    def is_empty(self):
+        return len(self._data) == 0
+
+    def push(self, e):
+        self._data.append(e)
+
+    def top(self):
+        if self.is_empty():
+            raise IndexError("Stack is empty")
+        return self._data[-1]
+
+    def pop(self):
+        if self.is_empty():
+            raise IndexError("Stack is empty")
+        return self._data.pop()
+```
+
+I metodi `pop` e `top` non possono essere invocati con una pila vuota. L'implementazione della lista è avvenuta tramite *adapter design pattern*, dove viene usata un'istanza privata di una classe già definita (*list*) e implementati i metodi della nuova classe usando i metodi della classe già esistente sull'istanza privata. 
+
+### Prestazioni
+L'operazione di `push` in una pila ha come prestazioni:
+	- caso migliore: $\Theta(1)$ (non serve un ridimensionamento)
+	- caso peggiore: $\Theta(n)$ (serve un ridimensionamento in cui la dimensione viene moltiplicata per un fattore costante indipendente dalla dimensione della pila)
+	- caso medio: $\Theta(1)$. Nonostante il caso peggiore sia $\Theta(n)$, il costo del ridimensionamento viene "ammortizzato" su molte operazioni di push. In pratica, il costo elevato del ridimensionamento avviene raramente, quindi il costo medio per operazione rimane costante.
+
+Le prestazioni di `pop` e `top` sono entrambe $\Theta(1)$.
+
+## Coda (queue)
+Una **coda** è una struttura dati in cui il primo oggetto che è stato inserito sarà il primo ad essere rimosso, secondo un comportamento di tipo **FIFO** (*First In First Out*). La coda può essere accorciata da un lato e allungata dall'altro: si parla di *dequeue* quando si estrae un elemento dalla coda e di *enqueue* quando si inserisce un elemento in coda. L'unico oggetto ispezionabile è il primo della coda. Non c'è modo di ispezionare l'intero contenuto della pila senza svuotarla ordinatamente (*accesso sequenziale distruttivo*). 
+
+I metodi caratteristici sono:
+  - `enqueue`: per inserire un dato alla fine della coda.
+  - `dequeue`: per eliminare il dato che si trova all'inizio della coda. Non vuole parametri perché non si può chiedere l'eliminazione di un dato specifico.
+  - `front` o `getFront`: per ispezionare il dato che si trova all'inizio della coda, senza estrarlo
+  -  `is_empty`: per sapere se il contenitore è vuoto.
+  -  `size` o `len` per conoscere il numero di oggetti contenuti.
+
+L'implementazione consiste in un array riempito in parte, del quale vengono usate entrambe le estremità. All'estremo con indice massimo si inseriscono nuovi elementi, con eventuale ridimensionamento, quando necessario. All'estremo di indice zero si rimuovono/ispezionano gli elementi presenti. La rimozione rende il metodo $\Theta(n)$.
+
+### Code ad implementazione circolare
+L’implementazione di una coda richiede uno shift degli elementi dopo ogni dequeue, con costo $\Theta(n)$. La **coda circolare** è una struttura dati logica ( fisicamente in memoria vi è un array) in cui esistono due indici, *head* e *tail*, che indicano il primo elemento e l'ultimo. Il vantaggio consiste nella modifica della variabile *tail* ad ogni inserimento e nella modifica dell'indice *head* ad ogni eliminazione. 
+
+L'implementazione consiste in un array riempito solo in parte, del quale vengono utilizzate entrambe le estremità. All'estremo con indice massimo (*tail*) si inseriscono nuovi elementi, con eventuale ridimensionamento, quando necessario. All'estremo di indice zero (*head*) si rimuovono/ispezionano gli elementi presenti. La rimozione rende il metodo $\Theta(n)$.
+
+Le prestazioni ottenute sono corrispondenti a quelle di una pila:
+  - Ispezione: $\Theta(1)$.
+  - Inserimento: $\Theta(1)$, in media.
+  - Rimozione: $\Theta(1)$.
+
+> NB: Il valore dell'indice *tail* potrà raggiungere ma non superare il valore dell'indice *head*, analogamente *head* non potrà superare *tail*. Per garantire questo si lascia sempre una casella vuota e far indicare a tail la prima posizione vuota, oppure utilizzare una variabile booleana per verificare se la coda contiene elementi. 
+
+Di seguito la realizzazione di una coda circolare.
+```python
+import deep
+
+class ArrayQueue:    # FIFO queue implementation using a Python list as underlying storage
+    DEFAULT_CAPACITY = 10    # Moderate capacity for all new queues
+
+    def __init__(self):    # Create an empty queue
+        self._data = [None] * ArrayQueue.DEFAULT_CAPACITY
+        self._size = 0
+        self._head = 0
+
+    def __len__(self):     # Return the number of elements in the queue
+        return self._size
+
+    def is_empty(self):    # Return True if the queue is empty
+        return self._size == 0
+
+    def first(self):    # Return (but do not remove) the element at the head of the queue.
+        if self.is_empty():
+            raise IndexError('Queue is empty')
+        return self._data[self._head]
+
+    def dequeue(self):
+        if self.is_empty():
+            raise IndexError('Queue is empty')
+        answer = self._data[self._head]
+        self._data[self._head] = None    # Help garbage collection
+        self._head = (self._head + 1) % len(self._data)
+        self._size -= 1
+        if 0 < self._size < len(self._data) // 4:
+            self._resize(len(self._data) // 2)
+        return answer
+
+    def enqueue(self, e):    # Add an element to the back of queue
+        if self._size == len(self._data):
+            self._resize(2 * len(self._data))
+        tail = (self._head + self._size) % len(self._data)
+        self._data[tail] = e
+        self._size += 1
+
+    def _resize(self, cap):    # Resize to a new list of capacity >= len(self). we assume cap >= len(self)
+        old = deep.copy(self._data)    # Keep track of existing list
+        self._data = [None] * cap    # Allocate list with new capacity
+        walk = self._head
+        for k in range(self._size):    # Only consider existing elements
+            self._data[k] = old[walk]    # Intentionally shift indices
+            walk = (walk + 1) % len(old)    # Use old size as modulus
+        self._head = 0    # Head realigned
+
+```
+
+Tutte le operazioni, fatta eccezione di `_resize`, sono $O(1)$ perchè realizzate con un numero costante di operazioni.
+
+# 20. Linked lists
+Le **liste concatenate** (o *linked lists*) sono strutture dati lineari in cui gli elementi non sono memorizzati in posizioni contigue di memoria, ma ogni elemento (**nodo**) contiene un riferimento al successivo (e, eventualmente, al precedente). Sono un'alternativa agli array, offrendo flessibilità nella gestione dinamica della memoria.
+
+Ogni nodo può contenere un **dato**, cioè un valore memorizzato, oppure un **riferimento** al nodo successivo. Una lista concatenata è gestita da una classe che mantiene un riferimento al primo nodo (`head`), un riferimento all'ultimo nodo (`tail`) e il numero di elementi (`size`).
+
+Per accedere in sequenza a tutti i nodi della catena, si parte dal riferimento `head` e si seguono i riferimenti contenuti nel campo *next* di ciascun nodo: si parla di *link hopping*. La scasione termina quando si trova il valore *None* nel campo *next*.
+
+> NB: una lista concatenata è ad accesso sequenziale della memoria, mentre l'array è ad accesso casuale. Un nodo occupa più spazio di una cella di array perché contiene due riferimenti anziché uno.
+
+Una catena vuota contiene solo un nodo `header` che ha il valore *None*; in questo tipo di lista `head` e `tail` puntano entrambi a tale `header`. Non usare il nodo di intestazione implica che i riferimenti sono uguali a *None*.
+
+## Metodi di classe
+I metodi presenti in una catena sono:
+  - `addFirst`: inserire un dato all'inizio della catena.
+      - Operazione di tipo $O(1)$.
+      - Non c'è mai spazio inutilizzato.
+  - `addLast`: inserire un dato alla fine della catena.
+      - Operazione di tipo $O(1)$.
+  - `removeFirst`: eliminare il primo dato.
+      - Operazione di tipo $O(1)$.
+  - `removeLast`: eliminare l'ultimo dato.
+      - Operazione di tipo $\Theta(n)$.
+  - `getFirst`: esaminare il primo dato.
+  - `getLast`: esaminare l'ultimo dato.
+  - `is_empty`: verificare se la catena è vuota.
+  - `len`: conoscere il numero di dati contenuti nella catena.
+
+Con questi metodi non vengono mai restituiti né ricevuti riferimenti ai nodi, ma sempre ai dati contenuti nei nodi, per questo motivo la classe **Node** è una *classe interna*. La presenza del nodo `header`, seppur "spreca" un nodo, rende più semplici i metodi della catena stessa rendendo lo spreco trascurabile per valori elevati del numero di dati. 
+
+> Si faccia attenzione al fatto che le catene e gli array sono implementati in vari modi e sono strutture fisiche, mentre le pile e le code sono strutture dati astratte realizzate usando array o catene.
+
+## Pila realizzata con una catena
+Entrambe le estremità di una catena hanno, prese singolarmente, il comportamento di una pila: si può realizzare una pila usando un'estremità, in particolare, è più efficiente usare l'inizio perché le operazioni sono $O(1)$.
+
+```python
+class LinkedStack:
+  """LIFO Stack implementation using a singly linked list for storage."""
+
+ #-------------------------- nested _Node class --------------------------
+  class _Node:
+    """Lightweight, nonpublic class for storing a singly linked node."""
+    def __init__(self, element, next):    # Initialize node's fields
+      self._element = element    # Reference to user's element
+      self._next = next    # Reference to next node
+
+ #------------------------------- stack methods -------------------------------
+  def __init__(self):
+	"""Create an empty stack."""
+	self._head = self._Node(None, None)    # Reference to the head node
+	self._size = 0    # Number of stack elements
+
+  def __len__(self):    # Return the number of elements in the stack.
+	return self._size
+
+  def is_empty(self):    # Return True if the stack is empty.
+	return self._size == 0
+
+  def push(self, e):    # Add element e to the top of the stack
+	self._head = self._Node(e, self._head)    # Create and link a new node
+	self._size += 1    # Number of stack elements
+
+  def top(self):    # Return (but do not remove) the element at the top of the stack.
+	if self.is_empty():
+	  raise IndexError('Stack is empty')
+	return self._head._element    # Top of stack is at head of list
+
+  def pop(self):    # Remove and return the element from the top of the stack (i.e., LIFO).
+	if self.is_empty():
+	  raise IndexError('Stack is empty')
+	answer = self._head._element
+	self._head = self._head._next    # Bypass the former top node
+	self._size -= 1
+	return answer
+
+```
+
+## Coda realizzata con una catena
+Per ottenere una coda è sufficiente inserire gli elementi a un'estremità della catena e rimuoverli dall'altra. Si può decidere di inserire all'inizio e rimuovere alla fine o viceversa. Affinché le operazioni siano $O(1)$, si inserisce alla fine e si rimuove all'inizio. 
+
+```python
+class LinkedQueue:
+  """FIFO queue implementation using a singly linked list for storage."""
+ #-------------------------- nested _Node class --------------------------
+  class _Node:
+    """Lightweight, nonpublic class for storing a singly linked node."""
+	def __init__(self, element, next):    # Initialize node's fields
+	  self._element = element    # Reference to user's element
+	  self._next = next    # Reference to next node
+
+ #------------------------------- queue methods -------------------------------
+  def __init__(self):
+    """Create an empty queue"""
+	self._head = self._Node(None, None)    # Reference to the head node
+	self._tail = None
+	self._size = 0    # Number of stack elements
+
+  def __len__(self):    # Return the number of elements in the queue
+	return self._size
+
+  def is_empty(self):    # Return True if the queue is empty
+	return self._size == 0
+
+  def enqueue(self, e):    # Add an element to the back of queue
+	newest = self._Node(e, None)    # Node will be new tail node
+	if self.is_empty():
+	  self._head._next = newest    # Special case: previously empty
+	else:
+	  self._tail._next = newest
+	self._tail = newest    # Update reference to tail node
+	self._size += 1
+
+  def dequeue(self):    # Remove and return the first element of the queue (i.e., FIFO).
+	if self.is_empty(): raise IndexError('Queue is empty')
+	firstnode = self._head._next
+	answer = firstnode._element
+	self._head._next = firstnode._next
+	firstnode._next = None    # Help garbage collector
+	firstnode = None    # Help garbage collector
+	self._size -= 1
+	if self.is_empty():    # Special case as queue is empty
+	  self._tail = None    # Removed head had been the tail
+	return answer
+```
+
+## Coda doppiamente concatenata
+Per avere *prestazioni simmetriche*, ogni nodo deve contenere un riferimento a un dato, un riferimento al nodo successivo della lista (*next*) e un riferimento al nodo precedente della lista (*prev*). Tutto quello che abbiamo detto per la catena (semplice) può essere esteso alla catena doppia, inoltre il metodo `removeLast` diventa $O(1)$. 
+
+La coda doppia realizzata tramite catena doppia ha prestazioni ottimali. È uno spreco di spazio realizzare pile e code con catene doppie.
+
+## Catena o Array?
+La scelta di utilizzare catene o array è indifferente ed equivalente. In una catena le operazioni sono $O(1)$, mentre nell'array `enqueue` è **mediamente** $O(1)$ e occasionalmente è $\Theta(n)$. Le catene, inoltre non permettono di accedere agli elementi usando gli indici. 
+
+
+
+
+
+
+
