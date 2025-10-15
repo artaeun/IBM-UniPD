@@ -1,5 +1,7 @@
 # **<p align="center">Guida per il 3° anno</p>**<!-- omit in toc -->
 
+**Nota bene: al momento della creazione di questa guida, Meccanica dei Materiali aveva 9 CFU invece che 6. Nonostante questa informazione sia stata corretta, alcuni degli esempi potrebbero risultare tutt'ora incorretti.**
+
 ## *Indice*:<!-- omit in toc -->
 - [Curriculum:](#curriculum)
 	- [**Come faccio a sapere che classe e curriculum sono?**](#come-faccio-a-sapere-che-classe-e-curriculum-sono)
