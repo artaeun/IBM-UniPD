@@ -1,5 +1,7 @@
 # **<p align="center">Guida per il 3° anno</p>**<!-- omit in toc -->
 
+**Nota bene: al momento della creazione di questa guida, Meccanica dei Materiali aveva 9 CFU invece che 6. Nonostante questa informazione sia stata corretta, alcuni degli esempi potrebbero risultare tutt'ora incorretti.**
+
 ## *Indice*:<!-- omit in toc -->
 - [Curriculum:](#curriculum)
 	- [**Come faccio a sapere che classe e curriculum sono?**](#come-faccio-a-sapere-che-classe-e-curriculum-sono)
@@ -207,7 +209,7 @@ Tutti quelli della lista seguente, escludendo quelli che sono vincolati e che qu
 ***Semestre 2***  
 - Informatica Medica (9 CFU)
 - Human Movement Bioengineering (6 CFU)
-- Meccanica dei Materiali (9 CFU)
+- Meccanica dei Materiali (6 CFU)
 - Bioelettromagnetismo (6 CFU)
 
 > ***Nota bene***
@@ -316,7 +318,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
   - Informatica Medica (9 CFU)
 - *Liberi*:
 	- Human Movement Bioengineering (6 CFU)
-	- Meccanica dei Materiali (9 CFU)
+	- Meccanica dei Materiali (6 CFU)
 	- Bioelettromagnetismo (6 CFU)
   	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
 
@@ -348,7 +350,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
   - Tecnologia e strumentazione biomedica (9 CFU)
 
 - *Vincolati*:
-	- Meccanica dei Materiali (9 CFU)
+	- Meccanica dei Materiali (6 CFU)
   
 - *Liberi*:
 	- Informatica Medica (9 CFU)
@@ -390,7 +392,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
 - *Liberi*:
 	- Informatica Medica (9 CFU)
 
-	- Meccanica dei Materiali (9 CFU)
+	- Meccanica dei Materiali (6 CFU)
 	- Bioelettromagnetismo (6 CFU)
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
 
@@ -429,7 +431,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
   
 - *Liberi*:
 	- Human Movement Bioengineering (6 CFU)
-	- Meccanica dei Materiali (9 CFU)
+	- Meccanica dei Materiali (6 CFU)
 	- Bioelettromagnetismo (6 CFU)
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
 
@@ -464,7 +466,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
   - Tecnologia e strumentazione biomedica (9 CFU)
 
 - *Vincolati*:
-	- Meccanica dei Materiali (9 CFU)
+	- Meccanica dei Materiali (6 CFU)
   
 - *Liberi*:
 	- Informatica Medica (9 CFU)
@@ -508,7 +510,7 @@ In caso di dubbi rivedere le [indicazioni generale](#indicazioni-generali).
 - *Liberi*:
 	- Informatica Medica (9 CFU)
 	- Human Movement Bioengineering (6 CFU)
-	- Meccanica dei Materiali (9 CFU)
+	- Meccanica dei Materiali (6 CFU)
 	- Bioelettromagnetismo (6 CFU)
 	- altri non appartenenti a IBM (vedere [qui](#posso-dare-altri-esami-che-non-siano-della-facoltà-di-ingegneria-biomedica-come-si-fa))
   
