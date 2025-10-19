@@ -29,6 +29,6 @@ Qui di seguito si possono trovare, ad ausilio per lo studio, i files pdf con tut
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/sptxwBYQ)
 
 ## Videolezioni prof. Naletto
-Le videolezioni del prof. Naletto possono essere reperite al seguente link: [registrazioni video](https://youtube.com/playlist?list=PL5JNcyGPaynkSMk-X5UYq5lU5b1dhyOWM&si=qopW9vZpZTXl2kSO))
+Le videolezioni del prof. Naletto possono essere reperite al seguente link: [registrazioni video](https://youtube.com/playlist?list=PL5JNcyGPaynkSMk-X5UYq5lU5b1dhyOWM&si=qopW9vZpZTXl2kSO)
 
 
