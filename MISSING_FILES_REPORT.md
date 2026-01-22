@@ -111,7 +111,7 @@ This report documents all broken internal links in markdown files that reference
     - Referenced in: `Dati/Studio/II_Anno/FDE/README.md` (line 20)
   - `ES08 Multistazio_e_Differenziale-Soluzione.pdf`
     - Referenced in: `Dati/Studio/II_Anno/FDE/README.md` (line 21)
-  - `Esercizi di preparazone all'esame` (folder)
+  - `Esercizi di preparazione all'esame` (folder)
     - Referenced in: `Dati/Studio/II_Anno/FDE/README.md` (line 26)
 
 #### S&S (Segnali e Sistemi)

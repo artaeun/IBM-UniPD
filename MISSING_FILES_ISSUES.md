@@ -162,7 +162,7 @@ The following files/folders are referenced in `Dati/Studio/II_Anno/FDE/README.md
 **In folder** `Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi`:
 - `ES06 Stadi_elementari-Soluzione.pdf`
 - `ES08 Multistazio_e_Differenziale-Soluzione.pdf`
-- `Esercizi di preparazone all'esame` folder
+- `Esercizi di preparazione all'esame` folder
 
 **Action needed:** Contact Matilde Franceschi and Matteo Grigolon or locate the files to add to the repository.
 
