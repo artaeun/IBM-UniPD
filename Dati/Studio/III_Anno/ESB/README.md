@@ -6,7 +6,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _elabora
 - [Appunti di Elaborazione di Segnali Biomedici (credits Davide Bosco)](</Dati/Studio/III_Anno/ESB/Materiale_vario/Appunti ESB (credits Davide Bosco).pdf>)
 - [PDF seminari](/Dati/Studio/III_Anno/ESB/Materiale_vario/Seminari)
 - [Articoli](/Dati/Studio/III_Anno/ESB/Materiale_vario/Articoli)
-- [Laboratorio completo](</Dati/Studio/III_Anno/ESB/Materiale_vario/Laboratorio/Laboratorio ESB_completo.pdf>)
+- [Laboratorio completo](/Dati/Studio/III_Anno/ESB/Materiale_vario/Laboratorio/Laboratorio%20ESB_completo.pdf)
 - [Laboratorio 01](/Dati/Studio/III_Anno/ESB/Materiale_vario/Laboratorio/Lab02)
 - [Laboratorio 02](/Dati/Studio/III_Anno/ESB/Materiale_vario/Laboratorio/Lab02)
 - [Laboratorio 03](/Dati/Studio/III_Anno/ESB/Materiale_vario/Laboratorio/Lab03)

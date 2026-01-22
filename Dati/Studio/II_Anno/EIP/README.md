@@ -29,11 +29,11 @@
 - [Autovalutazione online secondo parziale](parziale_EIP.md) - domande e risposte del Test pre-secondo parziale, pubblicato sul moodle. 
 
 ## _Dal Passo_
-- [Questionario online di Auto-Valutazione nr. 1](/Dati/Studio/II_anno/EIP/Questionari/Questionario_Auto-Valutazione1.png)
-- [Questionario online di Auto-Valutazione nr. 2](/Dati/Studio/II_anno/EIP/Questionari/Questionario_Auto-Valutazione2.png)
-- [Questionario online di Auto-Valutazione nr. 3](/Dati/Studio/II_anno/EIP/Questionari/Questionario_Auto-Valutazione3.png)
-- [Questionario online di Auto-Valutazione nr. 4](/Dati/Studio/II_anno/EIP/Questionari/Questionario_Auto-Valutazione4.png)
-- [Questionario online di Auto-Valutazione nr. 5](/Dati/Studio/II_anno/EIP/Questionari/Questionario_Auto-Valutazione5.png)
+- [Questionario online di Auto-Valutazione nr. 1](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Questionari/Questionario_Auto-Valutazione1.png)
+- [Questionario online di Auto-Valutazione nr. 2](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Questionari/Questionario_Auto-Valutazione2.png)
+- [Questionario online di Auto-Valutazione nr. 3](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Questionari/Questionario_Auto-Valutazione3.png)
+- [Questionario online di Auto-Valutazione nr. 4](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Questionari/Questionario_Auto-Valutazione4.png)
+- [Questionario online di Auto-Valutazione nr. 5](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Questionari/Questionario_Auto-Valutazione5.png)
 
 ## Libri e dispense
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/sptxwBYQ)

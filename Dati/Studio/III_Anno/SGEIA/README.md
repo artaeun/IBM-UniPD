@@ -5,4 +5,4 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _saperi 
 - [Quiz con risposte](/Dati/Studio/III_Anno/SGEIA/Materiale_vario/Quiz_di_SGEIA.pdf)
 
 ## Temi d'esame
-- [Appello Giugno 2024](</Dati/Studio/III_Anno/SGEIA/Temi d'esame/Esame SGEIA 26_06_2024.pdf>)
+- [Appello Giugno 2024](/Dati/Studio/III_Anno/SGEIA/Temi%20d'esame/Esame%20SGEIA%2026_06_2024.pdf)

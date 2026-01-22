@@ -4,8 +4,8 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _tecnolo
 
 ## Materiale vario
 - [Appunti di TSB (credits (Luca di Mauro)](</Dati/Studio/III_Anno/TSB/Materiale_vario/Appunti di TSB (credits Luca di Mauro).pdf>)
-- [Formulario ed esercizi - Biosegnali](</Dati/Studio/III_Anno/TSB/Materiale_vario/Formulario ed esercizi TSB-Biosegnali.pdf>)
-- [Formulario ed esercizi - Bioimmagini](</Dati/Studio/III_Anno/TSB/Materiale_vario/Formulario ed esercizi TSB-Bioimmagini.pdf>)
+- [Formulario ed esercizi - Biosegnali](/Dati/Studio/III_Anno/TSB/Materiale_vario/Formulario%20ed%20esercizi%20TSB-Biosegnali.pdf)
+- [Formulario ed esercizi - Bioimmagini](/Dati/Studio/III_Anno/TSB/Materiale_vario/Formulario%20ed%20esercizi%20TSB-Bioimmagini.pdf)
 - [Esercizi vari](/Dati/Studio/III_Anno/TSB/Materiale_vario/Esercizi%20TSB.pdf)
 - [Esercizi vari suddivisi in capitoli](/Dati/Studio/III_Anno/TSB/Materiale_vario/Esercizi%20TSB%20capitoli.pdf)
 - [Database domande di teoria (senza soluzione)](/Dati/Studio/III_Anno/TSB/Materiale_vario/Database_TSB.pdf)

@@ -6,7 +6,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _analisi
 - [Riassunto di Analisi 1 (credits Matteo Cuzzolin)](Dati/Studio/I_Anno/AM1/Materiale_vario/Riassunto%20di%20Analisi%201%20(credits%20Matteo%20Cuzzolin).pdf)
 - [Esercizi dei tutorati](/Dati/Studio/I_Anno/AM1/Materiale_vario/Tutorato)
 - [Vademecum di goniometria](/Dati/Studio/I_Anno/AM1/Materiale_vario/Vademecum_goniometria.pdf)
-- [Sviluppi di Taylor](/Dati/Studio/I_Anno/AM1/Materiale_vario/Sviluppi%20di%20Taylor)
+- [Sviluppi di Taylor](/Dati/Studio/I_Anno/AM1/Materiale_vario/Sviluppi%20di%20Taylor.pdf)
 - [Derivata di una funzione integrale](/Dati/Studio/I_Anno/AM1/Materiale_vario/complementi%20-%20derivata%20di%20una%20funzione%20integrale.pdf)
 
 ## Libri e dispense
