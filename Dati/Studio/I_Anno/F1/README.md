@@ -6,7 +6,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fisica 
 - [Appunti delle lezioni (credits Mattia Campagnolo)](</Dati/Studio/I_Anno/F1/Materiale_vario/Appunti di Fisica 1 (credits Mattia Campagnolo).pdf>)
 - [Domande di autovalutazione (senza soluzione)](/Dati/Studio/I_Anno/F1/Materiale_vario/Quiz_Fisica1.pdf)
 - [Domande di autovalutazione (con soluzione)](/Dati/Studio/I_Anno/F1/Materiale_vario/Quiz_Fisica1.pdf)
-- [Esercizi vari](/Dati/Studio/I_Anno/F1/Materiale_vario/ESercizi)
+- [Esercizi vari](/Dati/Studio/I_Anno/F1/Materiale_vario/Esercizi)
 - [Tutorato](/Dati/Studio/I_Anno/F1/Materiale_vario/Tutorato)
 - Note delle lezioni del prof. Naletto:
   > Nell'anno accademico 2019/20 le lezioni del corso si sono svolte online descrivendo in video gli argomenti e scrivendo su tablet (al posto di usare la lavagna).
