@@ -8,8 +8,8 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
 - [Alfabeto greco](/Dati/Studio/III_Anno/BEM/Materiale_vario/alfabeto_greco.pdf)
 - [Operatori vettoriali](/Dati/Studio/III_Anno/BEM/Materiale_vario/vector_operators.pdf)
 - [Identità vettoriali](/Dati/Studio/III_Anno/BEM/Materiale_vario/vector_identities.pdf)
-- [Articoli e rapporti](/Dati/Studio/III_Anno/BEM/Materiale_vario/Articoli%20e%20rapporti)
-- [PDF lezioni](/Dati/Studio/III_Anno/BEM/Materiale_vario/PDF%20lezioni)
+- [Articoli e rapporti](/Dati/Studio/III_Anno/BEM/Materiale_vario/Articoli_e_rapporti)
+- [PDF lezioni](/Dati/Studio/III_Anno/BEM/Materiale_vario/PDF_lezioni)
 
 ## Libri e dispense
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/kgtlTLBb)
