@@ -3,7 +3,7 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _tecnologia e strumentazione biomedica_.
 
 ## Materiale vario
-- [Appunti di TSB (credits (Luca di Mauro)](/Dati/Studio/III_Anno/TSB/Materiale_vario/Appunti di TSB (credits Luca di Mauro).pdf)
+- [Appunti di TSB (credits Luca di Mauro)](/Dati/Studio/III_Anno/TSB/Materiale_vario/Appunti di TSB (credits Luca di Mauro).pdf)
 - [Formulario ed esercizi - Biosegnali](/Dati/Studio/III_Anno/TSB/Materiale_vario/Formulario ed esercizi TSB-Biosegnali.pdf)
 - [Formulario ed esercizi - Bioimmagini](/Dati/Studio/III_Anno/TSB/Materiale_vario/Formulario ed esercizi TSB-Bioimmagini.pdf)
 - [Esercizi vari](/Dati/Studio/III_Anno/TSB/Materiale_vario/Esercizi TSB.pdf)
