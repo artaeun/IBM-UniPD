@@ -15,7 +15,6 @@
 - [Flashcards per il ripasso](/Dati/Studio/II_Anno/EIP/Materiale_vario/eip-flashcards.pdf)
 - A [questo link](https://inventwithpython.com/bigbookpython/) trovate 81 progetti (con soluzioni) da svolgere in Python, con diversi livelli di difficoltà.
 - [Esercizi guidati](/Dati/Studio/II_Anno/EIP/Materiale_vario/Esercizi_guidati)
-- [Esercizi guidati](/Dati/Studio/II_Anno/EIP/Materiale_vario/Esercizi_guidati)
 - Materiale dei laboratori
   - [Prof. Di Camillo](/Dati/Studio/II_Anno/EIP/Materiale_vario/Laboratorio/Di%20Camillo)
   - [Prof. Ceccarello](/Dati/Studio/II_Anno/EIP/Materiale_vario/Laboratorio/Ceccarello)
