@@ -3,11 +3,11 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _analisi matematica 1_.
 
 ## Materiale vario
-- [Riassunto di Analisi 1 (credits Matteo Cuzzolin)](Dati/Studio/I_Anno/AM1/Materiale_vario/Riassunto%20di%20Analisi%201%20(credits%20Matteo%20Cuzzolin).pdf)
+- [Riassunto di Analisi 1 (credits Matteo Cuzzolin)](/Dati/Studio/I_Anno/AM1/Materiale_vario/Riassunto di Analisi 1 (credits Matteo Cuzzolin).pdf)
 - [Esercizi dei tutorati](/Dati/Studio/I_Anno/AM1/Materiale_vario/Tutorato)
 - [Vademecum di goniometria](/Dati/Studio/I_Anno/AM1/Materiale_vario/Vademecum_goniometria.pdf)
-- [Sviluppi di Taylor](/Dati/Studio/I_Anno/AM1/Materiale_vario/Sviluppi%20di%20Taylor.pdf)
-- [Derivata di una funzione integrale](/Dati/Studio/I_Anno/AM1/Materiale_vario/complementi%20-%20derivata%20di%20una%20funzione%20integrale.pdf)
+- [Sviluppi di Taylor](/Dati/Studio/I_Anno/AM1/Materiale_vario/Sviluppi di Taylor.pdf)
+- [Derivata di una funzione integrale](/Dati/Studio/I_Anno/AM1/Materiale_vario/complementi - derivata di una funzione integrale.pdf)
 
 ## Libri e dispense
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/1glnUThL)

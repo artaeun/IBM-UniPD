@@ -3,7 +3,7 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _biomeccanica_.
 
 ## Materiale vario
-- [Appunti di biomeccanica (credits Jun Hao Zhou)](</Dati/Studio/III_Anno/Biomeccanica/Materiale_vario/Appunti di biomeccanica (credits Jun Hao Zhou).pdf>)
+- [Appunti di biomeccanica (credits Jun Hao Zhou)](/Dati/Studio/III_Anno/Biomeccanica/Materiale_vario/Appunti di biomeccanica (credits Jun Hao Zhou).pdf)
 - [Formulario 1](/Dati/Studio/III_Anno/Biomeccanica/Materiale_vario/Formulario1.pdf)
 - [Formulario 2](/Dati/Studio/III_Anno/Biomeccanica/Materiale_vario/Formulario2.pdf)
 
@@ -11,7 +11,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _biomecc
 - **Pavan**
   - [Esercizi tratti dalle prove d'esame 1](/Dati/Studio/III_Anno/Biomeccanica/Temi_d'esame/Pavan/IBM-Biomeccanica_Prove-esame1.pdf)
   - [Esercizi tratti dalle prove d'esame 2](/Dati/Studio/III_Anno/Biomeccanica/Temi_d'esame/Pavan/IBM-Biomeccanica_Prove-esame2.pdf)
-  - [Soluzione di alcuni esercizi tratti dalle prove d'esame e non svolti aula](/Dati/Studio/III_Anno/Biomeccanica/Temi_d'esame/Pavan/Esercizi%20temi%20esame%20non%20svolti%20in%20aula.pdf)
+  - [Soluzione di alcuni esercizi tratti dalle prove d'esame e non svolti aula](/Dati/Studio/III_Anno/Biomeccanica/Temi_d'esame/Pavan/Esercizi temi esame non svolti in aula.pdf)
 - **Berardo**
   - [Facsimile prova d'esame](/Dati/Studio/III_Anno/Biomeccanica/Temi_d'esame/Berardo/Facsimile)
   - [Anno accademico 2022/2023](/Dati/Studio/III_Anno/Biomeccanica/Temi_d'esame/Berardo/AA_22-23)

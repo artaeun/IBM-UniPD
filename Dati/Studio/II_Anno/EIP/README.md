@@ -6,7 +6,7 @@
 ## Materiale vario
 - [Mega-Riassunto del programma](/Dati/Studio/II_Anno/EIP/Materiale_vario/Mega_riassunto_EIP.md) (non contiene materiale che viene coperto meglio dalle slide del MOODLE) - Quello che vi è contenuto serve solo da rinfresco o spunti per approfondire cose che non ricordate bene.
 - [Commandi Python e Teoria EIP](/Dati/Studio/II_Anno/EIP/Materiale_vario/Tutta_la_teoria.md) - Vale quanto per il mega-riassunto
-- [Altra iterazione di questi appunti](/Dati/Studio/II_Anno/EIP/File%20originali/README.md) - Un po' più spezzettata e forse contiene gli stessi argomenti. Ma probabilmente utile
+- [Altra iterazione di questi appunti](/Dati/Studio/II_Anno/EIP/File originali/README.md) - Un po' più spezzettata e forse contiene gli stessi argomenti. Ma probabilmente utile
 
 ---
 
@@ -15,9 +15,9 @@
 - [Flashcards per il ripasso](/Dati/Studio/II_Anno/EIP/Materiale_vario/eip-flashcards.pdf)
 - A [questo link](https://inventwithpython.com/bigbookpython/) trovate 81 progetti (con soluzioni) da svolgere in Python, con diversi livelli di difficoltà.
 - [Esercizi guidati](/Dati/Studio/II_Anno/EIP/Materiale_vario/Esercizi_guidati)
-- [Esercizi di programmazione e relativa soluzione](/Dati/Studio/II_Anno/EIP/Materiale_vario/Esercizi%20di%20programmazione)
+- [Esercizi di programmazione e relativa soluzione](/Dati/Studio/II_Anno/EIP/Materiale_vario/Esercizi di programmazione)
 - Materiale dei laboratori
-  - [Prof. Di Camillo](Dati/Studio/II_Anno/EIP/Materiale_vario/Laboratorio/Di%20Camillo)
+  - [Prof. Di Camillo](Dati/Studio/II_Anno/EIP/Materiale_vario/Laboratorio/Di Camillo)
   - [Prof. Ceccarello](Dati/Studio/II_Anno/EIP/Materiale_vario/Laboratorio/Ceccarello)
 - [PDF delle lezioni del prof. Dal Passo](/Dati/Studio/II_Anno/EIP/Libri_e_dispense/eip_dalpasso.pdf)
 

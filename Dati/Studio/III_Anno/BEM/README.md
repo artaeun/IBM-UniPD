@@ -3,7 +3,7 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _bioelettromagnetismo_.
 
 ## Materiale vario
-- [Appunti di Bioelettromagnetismo (credits Davide Bosco)](</Dati/Studio/III_Anno/BEM/Materiale_vario/Appunti BEM (credits Davide Bosco).pdf>)
+- [Appunti di Bioelettromagnetismo (credits Davide Bosco)](/Dati/Studio/III_Anno/BEM/Materiale_vario/Appunti BEM (credits Davide Bosco).pdf)
 - [Definizioni](/Dati/Studio/III_Anno/BEM/Materiale_vario/definitions.pdf)
 - [Alfabeto greco](/Dati/Studio/III_Anno/BEM/Materiale_vario/alfabeto_greco.pdf)
 - [Operatori vettoriali](/Dati/Studio/III_Anno/BEM/Materiale_vario/vector_operators.pdf)
@@ -17,8 +17,8 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _bioelet
 ## Temi d'esame e domande di teoria
 - [Esempio di prova scritta #1](/Dati/Studio/III_Anno/BEM/Temi_d'esame/esempio-prova-scritta-completa.pdf)
 - [Esempio di prova scritta #2](/Dati/Studio/III_Anno/BEM/Temi_d'esame/esempio-prova-scritta-completa_bis.pdf)
-- [Appello d'esame 1](/Dati/Studio/III_Anno/BEM/Temi_d'esame/BEM%20-%20prova%20scritta%201.pdf)
-- [Appello d'esame 2](/Dati/Studio/III_Anno/BEM/Temi_d'esame/BEM%20-%20Prova%20scritta%202.pdf)
+- [Appello d'esame 1](/Dati/Studio/III_Anno/BEM/Temi_d'esame/BEM - prova scritta 1.pdf)
+- [Appello d'esame 2](/Dati/Studio/III_Anno/BEM/Temi_d'esame/BEM - Prova scritta 2.pdf)
 - Domande di teoria raccolte dai precedenti appelli:
 
   ```

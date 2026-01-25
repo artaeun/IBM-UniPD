@@ -3,10 +3,10 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _ingengeria dei sistemi biologici_.
 
 ## Materiale vario
-- [Domande per la parte di teoria e relativa risposta](/Dati/Studio/II_Anno/ISB/Materiale_vario/Domande%20di%20teoria%20Ingegneria%20dei%20sistemi%20biologici.pdf)
+- [Domande per la parte di teoria e relativa risposta](/Dati/Studio/II_Anno/ISB/Materiale_vario/Domande di teoria Ingegneria dei sistemi biologici.pdf)
 - [Formulario](/Dati/Studio/II_Anno/ISB/Materiale_vario/Formulario_ISB.pdf)
-- [Esercitazioni e simulazioni](/Dati/Studio/II_Anno/ISB/Materiale_vario/Esercitazioni%20e%20simulazioni%20ISB.pdf)
-- [Soluzioni simulazioni](/Dati/Studio/II_Anno/ISB/Materiale_vario/Soluzione%20esercitazioni%20ISB.pdf)
+- [Esercitazioni e simulazioni](/Dati/Studio/II_Anno/ISB/Materiale_vario/Esercitazioni e simulazioni ISB.pdf)
+- [Soluzioni simulazioni](/Dati/Studio/II_Anno/ISB/Materiale_vario/Soluzione esercitazioni ISB.pdf)
 - SOFTWARE - [SMath Studio](https://smath.com/en-US/): programma che permette di fare conti con unità di misura e conversioni, utile per la parte di esercizi dell'esame.
 
 ## Libri

@@ -3,15 +3,15 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _segnali e sistemi_.
 
 ## Materiale vario
-- [Appunti di segnali e sistemi (credits Matilde Franceschi)](</Dati/Studio/II_Anno/S&S/Materiale_vario/Appunti di segnali e sistemi (credits Matilde Franceschi).pdf>)
-- [Formulario di segnali e sistemi (credits Matteo Grigolon)](/Dati/Studio/II_Anno/S&S/Materiale_vario/Formulario%20completo%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
+- [Appunti di segnali e sistemi (credits Matilde Franceschi)](/Dati/Studio/II_Anno/S&S/Materiale_vario/Appunti di segnali e sistemi (credits Matilde Franceschi).pdf)
+- [Formulario di segnali e sistemi (credits Matteo Grigolon)](/Dati/Studio/II_Anno/S&S/Materiale_vario/Formulario completo segnali e sistemi (credits Matteo Grigolon).pdf)
 - [Esercizi prof. Erseghe](/Dati/Studio/II_Anno/S&S/Materiale_vario/Esercizi_Erseghe)
 
 ## Temi d'esame
 - [Prove Matlab degli anni passati](/Dati/Studio/II_Anno/S&S/Temi_d'esame/Prove_Matlab)
 
 ## Libri e dispense
-- [Comandi di Matlab (credits Matteo Grigolon)](/Dati/Studio/II_Anno/S&S/Libri_e_dispense/Dispensa%20di%20Matlab%20segnali%20e%20sistemi%20(credits%20Matteo%20Grigolon).pdf)
+- [Comandi di Matlab (credits Matteo Grigolon)](/Dati/Studio/II_Anno/S&S/Libri_e_dispense/Dispensa di Matlab segnali e sistemi (credits Matteo Grigolon).pdf)
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/It0FXDKb)
 
 ## Videolezioni prof. Erseghe
