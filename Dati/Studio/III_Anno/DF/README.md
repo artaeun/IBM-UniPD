@@ -10,7 +10,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _dinamic
 
 ## Temi d'esame
 - [Anno Accademico 2021/2022](/Dati/Studio/III_Anno/DF/Temi_d'esame/AA_21-22)
-- [Anno Accademico 2020/2021](/Dati/Studio/III_Anno/DF/Temi_d'esame/AA_21-21)
+- [Anno Accademico 2020/2021](/Dati/Studio/III_Anno/DF/Temi_d'esame/AA_21-22)
 - [Temi d'esame vari](/Dati/Studio/III_Anno/DF/Temi_d'esame/DF_esami.pdf)
 - [Esami con soluzione e risultati](/Dati/Studio/III_Anno/DF/Temi_d'esame/Esami_con_soluzione_e_risultati.pdf)
 
