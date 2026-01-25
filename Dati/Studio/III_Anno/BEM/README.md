@@ -3,7 +3,7 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _bioelettromagnetismo_.
 
 ## Materiale vario
-- [Appunti di Bioelettromagnetismo (credits Davide Bosco)](</Dati/Studio/III_Anno/BEM/Materiale_vario/Appunti BEM (credits Davide Bosco).pdf>)
+- [Appunti di Bioelettromagnetismo (credits Davide Bosco)](/Dati/Studio/III_Anno/BEM/Materiale_vario/Appunti%20BEM%20%28credits%20Davide%20Bosco%29.pdf)
 - [Definizioni](/Dati/Studio/III_Anno/BEM/Materiale_vario/definitions.pdf)
 - [Alfabeto greco](/Dati/Studio/III_Anno/BEM/Materiale_vario/alfabeto_greco.pdf)
 - [Operatori vettoriali](/Dati/Studio/III_Anno/BEM/Materiale_vario/vector_operators.pdf)
