@@ -4,7 +4,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fisica 
 
 ## Materiale vario
 - [Formulario (credits Matteo Grigolon)](/Dati/Studio/II_Anno/F2/Materiale_vario/Formulario di Fisica 2 (credits Matteo Grigolon).pdf)
-- [Riassunto elettrostatica (credits Matteo Grigolon)](/Dati/Studio/II_Anno/F2/Materiale_vario/Fisica 2 - riassunto (elettrostatica)%20(credits%20Matteo%20Grigolon).pdf)
+- [Riassunto elettrostatica (credits Matteo Grigolon)](/Dati/Studio/II_Anno/F2/Materiale_vario/Fisica 2 - riassunto (elettrostatica) (credits Matteo Grigolon).pdf)
 - [Tutorato](/Dati/Studio/II_Anno/F2/Materiale_vario/Tutorato)
 - [Esercizi](/Dati/Studio/II_Anno/F2/Materiale_vario/Esercizi)
 - [File con ripasso di teoria ed esercizi in stile Villoresi con soluzioni](/Dati/Studio/II_Anno/F2/Materiale_vario/Esercizi/Schede_esercizi_e_test_di_fisica_2.pdf)
