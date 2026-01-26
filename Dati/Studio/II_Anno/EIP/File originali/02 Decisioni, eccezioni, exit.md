@@ -3,7 +3,7 @@
 # 2. Decisioni, eccezioni, exit
 
 #### Tabulazioni
-Python richiede come tabulazione 4 spazi. Più o di meno e da errore.
+Python richiede come tabulazione 4 spazi. Più o meno dà errore.
 
 
 ## *Operatori relazionali*
@@ -27,28 +27,28 @@ L'operatore = viene usato solo per assegnare, non per confrontare.
 ___
 ## *Condizionale IF*
 ```python
-if x<3:
-  print("something")
-elif x=3:
-  #do something else
+if x < 3:
+    print("something")
+elif x == 3:
+    # do something else
+    pass
 else:
-  #se nessuno dei n condizionali viene verificato, fai questa cosa
+    # se nessuno dei condizionali viene verificato, fai questa cosa
+    pass
 ```
 #### Assegnazione condizionale
 ```python
-variabile = 2 if x>0 else 3
+variabile = 2 if x > 0 else 3
 ```
 #### Assegnazione condizionale 2
 ```python
-actualFloor= floor-1 if floor > 3 else floor
+actualFloor = floor - 1 if floor > 13 else floor
 
-#che e' equivalente a:
-if floor>13:
-  actualFloor=floor-1
-elif floor=13:
-	dp=3
+# che è equivalente a:
+if floor > 13:
+    actualFloor = floor - 1
 else:
-  actualFloor=floor
+    actualFloor = floor
 ```
   
 ## *Eccezioni - Try/Except*
@@ -61,29 +61,10 @@ istr=int(astr)
 #### Correzione usando _try/except_:
 
 ```python
-try: #prova a fare questo
-	istr=int(astr)
-except: #se ti da eccezione, errori, ecc, esegui questo
-	istr=-1
-```
-Cerca sempre di minimizzare il codice all'interno del try per ottimizzare il codice.
-
-
-___
-## *Eccezioni - Try/Except*
-
-#### Codice che da eccezione:
-```python
-astr="Una stringa qualsiasi"
-istr=int(astr)
-```
-#### Correzione usando _try/except_:
-
-```python
-try: #prova a fare questo
-	istr=int(astr)
-except: #se ti da eccezione, errori, ecc, esegui questo
-	istr=-1
+try:  # prova a fare questo
+    istr = int(astr)
+except:  # se dà eccezione, errori, ecc, esegui questo
+    istr = -1
 ```
 Cerca sempre di minimizzare il codice all'interno del try per ottimizzare il codice.
 
@@ -94,9 +75,9 @@ ___
 from sys import exit
 
 exit()
-#fa terminare immediatamente il programma. 
-#E' definita nel modulo sys della libreria standard'
+# fa terminare immediatamente il programma. 
+# È definita nel modulo sys della libreria standard
 
 exit("Error, you did some stupid shit so i exited the program.") 
-#termina l'esecuzione del programma con un messaggio.'
+# termina l'esecuzione del programma con un messaggio
 ```
