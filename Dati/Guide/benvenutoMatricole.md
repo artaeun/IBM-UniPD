@@ -9,7 +9,7 @@ Non ti mentirò: non è un percorso facile quello che hai scelto e per affrontar
 
 - 🎓 [Il Vademecum di UniPd](https://www.spgi.unipd.it/corsi/guida-rapida-gli-studenti) - fa da guida rapida per UniPd
 
-- 📕 [La “Contro Guida” del UDU](http://tiny.cc/ControGuidaUDU) - offre molti spunti e informazioni su Padova e UniPd in generale, incluso riduzione tasse, borse di studio, residenze, quali sono le aule studio, ecc.
+- 📕 [La “Contro Guida” del UDU](http://controguida.udupadova.it/) - offre molti spunti e informazioni su Padova e UniPd in generale, incluso riduzione tasse, borse di studio, residenze, quali sono le aule studio, ecc.
 
 
 ## Consigli in generale
