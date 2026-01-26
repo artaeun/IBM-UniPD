@@ -17,13 +17,13 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _fondame
 - [Soluzione esercizi diodi](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/ES03%20Diodi-Soluzione.pdf)
 - [Soluzione esercizi polarizzazione del MOSFET](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/ES04%20MOSFET-Soluzione.pdf)
 - [Soluzione esercizi modelli ai piccoli segnali](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/ES05%20Modelli_ai_piccoli_segnali-Soluzione.pdf)
-- [Soluzione esercizi stadi elementari di amplificatori](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/ES06%20Stadi_elementari-Soluzione-pdf)
-- [Soluzione esercizi amplificatore differenziale e multistadio](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/ES08%20Multistazio_e_Differenziale-Soluzione.pdf)
+- [Soluzione esercizi stadi elementari di amplificatori](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/ES06%20Stadi_elementari-Soluzione.pdf)
+- [Soluzione esercizi amplificatore differenziale e multistadio](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/ES07%20Multistadio_e_Differenziale-Soluzione.pdf)
 - [Soluzione esercizi amplificatore operazionale ideale](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/ES08%20Operazionali_ideali-Soluzione.pdf)
 - [Soluzione esercizi amplificatore operazionae reale](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/ES09%20Operazionali_reali-Soluzione.pdf)
 - [Soluzione esercizi filtri](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/ES10%20Filtri-Soluzione.pdf)
 - [Esercizi svolti a lezione](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/Esercizi%20svolti%20a%20lezione.pdf)
-- [Esercizi di preparazione all'esame](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/Esercizi%20di%20preparazone%20all'esame)
+- [Esercizi di preparazione all'esame](/Dati/Studio/II_Anno/FDE/Materiale_vario/Esercizi/Esercizi%20di%20preparazione%20all'esame)
 
 ## Temi d'esame, quiz e simulazioni
 - [Simulazioni](/Dati/Studio/II_Anno/FDE/Temi_d'esame/Simulazioni)

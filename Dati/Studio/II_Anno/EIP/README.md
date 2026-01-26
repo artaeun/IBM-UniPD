@@ -15,10 +15,9 @@
 - [Flashcards per il ripasso](/Dati/Studio/II_Anno/EIP/Materiale_vario/eip-flashcards.pdf)
 - A [questo link](https://inventwithpython.com/bigbookpython/) trovate 81 progetti (con soluzioni) da svolgere in Python, con diversi livelli di difficoltà.
 - [Esercizi guidati](/Dati/Studio/II_Anno/EIP/Materiale_vario/Esercizi_guidati)
-- [Esercizi di programmazione e relativa soluzione](/Dati/Studio/II_Anno/EIP/Materiale_vario/Esercizi%20di%20programmazione)
 - Materiale dei laboratori
-  - [Prof. Di Camillo](Dati/Studio/II_Anno/EIP/Materiale_vario/Laboratorio/Di%20Camillo)
-  - [Prof. Ceccarello](Dati/Studio/II_Anno/EIP/Materiale_vario/Laboratorio/Ceccarello)
+  - [Prof. Di Camillo](/Dati/Studio/II_Anno/EIP/Materiale_vario/Laboratorio/Di%20Camillo)
+  - [Prof. Ceccarello](/Dati/Studio/II_Anno/EIP/Materiale_vario/Laboratorio/Ceccarello)
 - [PDF delle lezioni del prof. Dal Passo](/Dati/Studio/II_Anno/EIP/Libri_e_dispense/eip_dalpasso.pdf)
 
 ## Temi d'esame
@@ -26,7 +25,7 @@
 - [Prove parziali degli anni passati](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Parziali)
 - [Questionari](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Questionari)
 ## _Di Camillo_
-- [Autovalutazione online secondo parziale](parziale_EIP.md) - domande e risposte del Test pre-secondo parziale, pubblicato sul moodle. 
+- [Prove parziali](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Parziali) - domande e risposte del Test pre-secondo parziale, pubblicato sul moodle. 
 
 ## _Dal Passo_
 - [Questionario online di Auto-Valutazione nr. 1](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Questionari/Questionario_Auto-Valutazione1.png)
