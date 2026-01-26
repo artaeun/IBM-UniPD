@@ -24,4 +24,4 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _informa
 
 ## Temi d'esame
 - [Crocette varie](/Dati/Studio/III_Anno/InfoMed/Materiale_vario/InfoMed_crocetteVarie.pdf)
-- [Appelli d'esame degli anni passati](/Dati/Studio/III_Anno/InfoMed/Temi_d'esame/README.md)
+- [Appelli d'esame degli anni passati](/Dati/Studio/III_Anno/InfoMed/Temi_d'esame/README.MD)
