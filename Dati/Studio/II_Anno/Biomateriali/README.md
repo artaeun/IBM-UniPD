@@ -4,7 +4,7 @@
 Qui potete trovare il materiale utile alla preparazione per il corso di _biomateriali_.
 
 ## Materiale vario
-- [Appunti di biomateriali (credits Matilde Franceschi)](</Dati/Studio/II_Anno/Biomateriali/Materiale_vario/Appunti di biomateriali (credits Matilde Franceschi).pdf>)
+- [Appunti di biomateriali (credits Matilde Franceschi).pdf](/Dati/Studio/II_Anno/Biomateriali/Materiale_vario/Appunti%20di%20biomateriali%20(credits%20Matilde%20Franceschi).pdf)
 - [PDF lezioni](/Dati/Studio/II_Anno/Biomateriali/Materiale_vario/PDF_lezioni)
 - [Articoli](/Dati/Studio/II_Anno/Biomateriali/Materiale_vario/Articoli)
 

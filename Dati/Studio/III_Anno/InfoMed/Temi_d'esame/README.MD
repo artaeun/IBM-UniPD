@@ -2,11 +2,11 @@
 
 - [1° Appello 2025](1app_2025/README.md)
 - [Preappello 2025](/Dati/Studio/III_Anno/InfoMed/Temi_d'esame/PreAppello2025.pdf)
-- [2° Appello 2024](2app_2024/README.md)
-- [1° Appello 2024](1app_2024/README.md)
-- [1° Appello 2023 A](1app_2023_A/README.md)
-- [1° Appello 2023 B](1app_2023_B/README.md)
-- [Altro Appello](Altro_appello/README.md)
+- [2° Appello 2024](2app_2024)
+- [1° Appello 2024](1app_2024)
+- [1° Appello 2023 A](1app_2023_A)
+- [1° Appello 2023 B](1app_2023_B)
+- [Altro Appello](Altro_appello)
 
 
 
