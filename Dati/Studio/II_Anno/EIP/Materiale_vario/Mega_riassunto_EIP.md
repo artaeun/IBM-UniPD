@@ -6,7 +6,7 @@
             - float (a virgola mobile)
             - string (stringa di testo)
         - cast:  
-            es: float(x) #converte x in un float, variabile a virgola mobile
+            es: float(x)  # converte x in un float, variabile a virgola mobile
     - numeri e stringhe
         - numeri:
             operazioni: + - * / 
@@ -14,7 +14,7 @@
                         // - divisione con risultato intero
                         %  - solo resto divisione intera
         - stringhe:
-            - firstName[0,3] = tutto tra il primo carattere e il 4o (escluso)
+            - firstName[0:3] = tutto tra il primo carattere e il 4o (escluso)
             - firstName[:3] = tutto fino al 4o escluso
             - "n" in variabileStringa = da True o False in base al fatto che abbia trovato o meno la sottostringa relativa.
             - x > y = confronto lessicografico, da boolean. 
@@ -26,7 +26,7 @@
                 - ```>>> len(stringa)```  = nr caratteri in stringa
                 - ```>>> .upper() / .lower()``` = tutti i caratteri della stringa maiuscoli / minuscoli
                 - ```>>> .isupper() / .islower()``` = ritorna True o False se la stringa è maiuscola / minuscolo
-                - ```>>> .find(sottostringaDaCercare)``` = cerca nella stringa la sottostringa, restituisce l'indice corrispondente, altrimenti restituisce -1. E' case sensitive
+                - ```>>> .find(sottostringaDaCercare)``` = cerca nella stringa la sottostringa, restituisce l'indice corrispondente, altrimenti restituisce -1. È case sensitive
                 - ```>>> .replace(sottStrinDaSostituire, sottStrinConCuiSostituire)```= cerca stringa & sostituisce
                 - ```>>> .lstrip() / .rstrip() / .strip()``` = rimuove spazi a sx/dx/sia a sx che dx
                 - ```>>> .startswith(sottostringa)``` = restituisceBoolean se la stringa da analizzare inizia con la sottostringa
@@ -54,38 +54,38 @@
 
         - espressioni regolari (regex):
             ```python
-            ^	#Matches the beginning of a line
-            $	#Matches the end of the line
-            .	#Matches any character
-            \s	#Matches whitespace
-            \S	#Matches any non-whitespace character
-            \d	#Matches digit
-            \D	#Matches any non-digit character
-            *	#Repeats a character zero or more times
-            *?	#Repeats a character zero or more times (non-greedy)
-            +	#Repeats a character one or more times
-            +?	#Repeats a character one or more times (non-greedy)
-            [aeiou]	#Matches a single character in the listed set
-            [^XYZ]  #Matches a single character not in the listed set
-            [a-z0-9]#The set of characters can include a range
-            (	    #Indicates where string extraction is to start
+            ^         # Corrisponde all'inizio di una riga
+            $         # Corrisponde alla fine di una riga
+            .         # Corrisponde a qualsiasi carattere
+            \s        # Corrisponde a spazi bianchi
+            \S        # Corrisponde a qualsiasi carattere non spazio
+            \d        # Corrisponde a una cifra
+            \D        # Corrisponde a qualsiasi carattere non cifra
+            *         # Ripete un carattere zero o più volte
+            *?        # Ripete un carattere zero o più volte (non greedy)
+            +         # Ripete un carattere una o più volte
+            +?        # Ripete un carattere una o più volte (non greedy)
+            [aeiou]   # Corrisponde a un singolo carattere nell'insieme specificato
+            [^XYZ]    # Corrisponde a un singolo carattere non nell'insieme specificato
+            [a-z0-9]  # L'insieme di caratteri può includere un range
+            (         # Indica dove inizia l'estrazione della stringa
             ```
             
             ```python
-            #per importare e fare una ricerca in una stringa
+            # per importare e fare una ricerca in una stringa
             >>> import re
-            >>> re.search(sottostringaDaCercare,stringaInCuiCercare)#sottostringaDaCercare corrisponde a espressione in re
-            >>> re.findall(sottostringaDaCercare,stringaInCuiCercare)
-            #########ESEMPIO#########
+            >>> re.search(sottostringaDaCercare, stringaInCuiCercare)  # sottostringaDaCercare corrisponde a espressione in re
+            >>> re.findall(sottostringaDaCercare, stringaInCuiCercare)
+            ######### ESEMPIO #########
             >>> stringa = "Peter Pan"
 
-            >>> print(re.findall("[aeiou]",stringa))
+            >>> print(re.findall("[aeiou]", stringa))
             ['e', 'e', 'a']
 
-            >>> print(re.findall("[\S]",stringa))
+            >>> print(re.findall("[\S]", stringa))
             ['P', 'e', 't', 'e', 'r', 'P', 'a', 'n']
 
-            >>> print(re.findall("[^XYZ]",stringa))
+            >>> print(re.findall("[^XYZ]", stringa))
             ['P', 'e', 't', 'e', 'r', ' ', 'P', 'a', 'n']
             ```
 
@@ -109,107 +109,107 @@
         - condizionali:
   
             ```python
-            >>> if(this):
-                #do this
-            else if(this):
-                #do this
+            >>> if (this):
+                # do this
+            elif (this):
+                # do this
             else:
-                #do this
+                # do this
             ```
 
             ```python
-            >>> while(condizione):
-                #do this
+            >>> while (condizione):
+                # do this
                 if (something):
-                    break #interrompi completamente la iterazione
+                    break  # interrompi completamente la iterazione
                 if (somethingElse):
-                    continue #interrompi questa iterazione e riprendi dalla prossima
+                    continue  # interrompi questa iterazione e riprendi dalla prossima
             ```
 
             ```python
-            >>> for i in range(x,y):
-                #do stuff
+            >>> for i in range(x, y):
+                # do stuff
             ```
 
     - funzioni
         ```python
-        >>> exit()- esce da software - from sys import exit
-        >>> is/is not - confrontare una variabile con "None". Se non ha mai ricevuto un valore è "None".
-        >>> range(a,b) - usato per i for
+        >>> exit()  # esce da software - from sys import exit
+        >>> is/is not  # confrontare una variabile con "None". Se non ha mai ricevuto un valore è "None".
+        >>> range(a, b)  # usato per i for
         ```
     - eccezioni
         ```python
-        >>> try: #prova a fare questo
-        >>>     istr=int(astr) #esempio conversione in int
-        >>> except: #se ti da eccezione, errori, ecc, esegui questo
-        >>>     istr=-1 #se "astr" è stringa, il valore impostato è -1
+        >>> try:  # prova a fare questo
+        >>>     istr = int(astr)  # esempio conversione in int
+        >>> except:  # se ti da eccezione, errori, ecc, esegui questo
+        >>>     istr = -1  # se "astr" è stringa, il valore impostato è -1
         ```
 
     - operazioni di ingresso e uscita da file di testo
         - aprire file in lettura:
             ```python
-            >>>file = open("input.txt","r")
+            >>> file = open("input.txt", "r")
             ```
         - aprire in scrittura:    
             ```python
-            >>>file = open("input.txt","w")
+            >>> file = open("input.txt", "w")
             ```
         - scrivere nel file:  
             ```python
-            >>>file.write("Stringa")
+            >>> file.write("Stringa")
             ```
         - terminare elaborazione:  
             ```python
-            >>>file.close()
+            >>> file.close()
             ```
         - tutto un file in una stringa:
             ```python
-            >>> stringaFile=file.read()
+            >>> stringaFile = file.read()
             >>> print(len(inp))
             ```
         - una riga alla volta in stringa:
             ```python
-            >>>line=file.readline()
+            >>> line = file.readline()
             ```
         - leggere parole:
             ```python
-            >>> etc = line.split() # crea una lista #```
-            >>> etc = line.split(";") # ; come separatore #
+            >>> etc = line.split()  # crea una lista
+            >>> etc = line.split(";")  # ; come separatore
             ```
-        - prendere nomefile come argomento in riga di commando:
+        - prendere nomefile come argomento in riga di comando:
             ```python
             >>> from sys import argv
-                file = open(argv[1],"w")
+                file = open(argv[1], "w")
             ```
             ```python
-            >>> script.py nomefile.txt #da console#
+            >>> script.py nomefile.txt  # da console
                 # argv sempre lista con path del SourceCode in pos 0  
             ```
 
     - liste
         ```python
-        >>> lista[indiceElemento] #ritorna la lista
-        >>> lista[1:3] #sottolista con 2 elementi
-        >>> len(lista) #elementi in lista
-        >>> lista1==lista2 #confronto dei valori di due liste
-        >>> lista1 is lista2 #verifica se lista1 è un riferimento di lista2
-        >>> lista2=list(lista1) #copia intera (e non riferimento) di una lista
-        >>> lista1+lista2 #crea una terza lista che contiene gli elementi di tutte e due le liste
+        >>> lista[indiceElemento]  # ritorna l'elemento
+        >>> lista[1:3]  # sottolista con 2 elementi
+        >>> len(lista)  # elementi in lista
+        >>> lista1 == lista2  # confronto dei valori di due liste
+        >>> lista1 is lista2  # verifica se lista1 è un riferimento di lista2
+        >>> lista2 = list(lista1)  # copia intera (e non riferimento) di una lista
+        >>> lista1 + lista2  # crea una terza lista che contiene gli elementi di tutte e due le liste
         
-        >>> max(listaNumeri) #ritorna il valore massimo
+        >>> max(listaNumeri)  # ritorna il valore massimo
         >>> min(listaNumeri)
-        >>> sum(listaNumeri) #somma di tutti i valori, media si fa usando len
+        >>> sum(listaNumeri)  # somma di tutti i valori, media si fa usando len
 
-        >>> lista.append(item) #aggiunge l'elemento alla lista (in fondo)
-        >>> lista.insert(indice,item) #aggiunge a indice l'elemento, spostando tutti quelli dopo in avanti di indice.
-        >>> lista.pop() #rimuove l'ultimo valore della lista e lo restituisce per uso
-        >>> lista.pop(indice) #rimuove dalla lista l'elemento all'indice e sposta tutti gli altri valori per riempire il buco creatosi. Restituisce il valore per uso.
-        >>> lista.remove(item) #rimuove l'elemento dalla lista. Bisogna verificarne l'esistenza prima per evitare eccezioni
+        >>> lista.append(item)  # aggiunge l'elemento alla lista (in fondo)
+        >>> lista.insert(indice, item)  # aggiunge a indice l'elemento, spostando tutti quelli dopo in avanti di indice
+        >>> lista.pop()  # rimuove l'ultimo valore della lista e lo restituisce per uso
+        >>> lista.pop(indice)  # rimuove dalla lista l'elemento all'indice e sposta tutti gli altri valori per riempire il buco creatosi. Restituisce il valore per uso
+        >>> lista.remove(item)  # rimuove l'elemento dalla lista. Bisogna verificarne l'esistenza prima per evitare eccezioni
 
-        >>> lista.index(item) #cerca elemento e restituisce il suo indice dentro la lista. Può creare eccezione
-        >>> item in lista #da True o False dopo la ricerca
+        >>> lista.index(item)  # cerca elemento e restituisce il suo indice dentro la lista. Può creare eccezione
+        >>> item in lista  # da True o False dopo la ricerca
 
-        >>> lista.sort() #ordina lista (ordine numerico o lessicografico)
+        >>> lista.sort()  # ordina lista (ordine numerico o lessicografico)
         ```
 
     - insiemi
@@ -217,36 +217,36 @@
             - non possiamo modificare il contenuto di una tupla una volta creata. Per il resto sono come liste.
             - sono più efficienti di una lista.
 
-                ```
-                >>> x=(1,3,2) -  esempio creazione tupla
-                >>> (x,y)=(2,3) - altro esempio assegnazione di tupla. Così assegno a x 2, e a y 3
+                ```python
+                >>> x = (1, 3, 2)  # esempio creazione tupla
+                >>> (x, y) = (2, 3)  # altro esempio assegnazione di tupla. Così assegno a x 2, e a y 3
 
                 >>> tupla.count()
                 >>> tupla.index()
                 ```
             - confronti: 
                 ```python
-                >>> (0,1,2) < (5,1,2) #da "True"
-                #confronto tra il primo elemento della prima tupla e il primo della seconda. Se il primo è false, passa al confronto tra i secondi,ecc. Poi fa OR di tutti i risultati#
+                >>> (0, 1, 2) < (5, 1, 2)  # da "True"
+                # confronto tra il primo elemento della prima tupla e il primo della seconda. Se il primo è false, passa al confronto tra i secondi, ecc. Poi fa OR di tutti i risultati
                 ```
 
     - grafica
         - ezgraphics
             ```python
-            #import
+            # import
             >>> from ezgraphics import GraphicsWindows
-            >>> win = GraphicsWindows() #creata nuova finestra di default 400 x 400
-            >>> canvas=win.canvas()
+            >>> win = GraphicsWindows()  # creata nuova finestra di default 400 x 400
+            >>> canvas = win.canvas()
 
-            >>> canvas.drawRect(x=5,y=10,width=20,height=30) #disegna rettangolo in punto x y con larghezza e altezza
+            >>> canvas.drawRect(x=5, y=10, width=20, height=30)  # disegna rettangolo in punto x y con larghezza e altezza
 
-            >>> canvas.drawLine(x1,y1,x2,y2)
-            >>> canvas.drawOval(x,y,width,height)
+            >>> canvas.drawLine(x1, y1, x2, y2)
+            >>> canvas.drawOval(x, y, width, height)
 
-            >>> win.wait() #per evitare la terminazione immediata della finestra grafica.
+            >>> win.wait()  # per evitare la terminazione immediata della finestra grafica
 
-            >>> canvas.setOutline(redHex,greenHex,blueHex) #imposto il colore per disegnare
-            >>> canvas.setOutline(colorname) #uso un nome comune in inglese per il colore.
+            >>> canvas.setOutline(redHex, greenHex, blueHex)  # imposto il colore per disegnare
+            >>> canvas.setOutline(colorname)  # uso un nome comune in inglese per il colore
 
             >>> canvas.setFill(red, green, blue)
             >>> canvas.setFill(colorname)
@@ -258,7 +258,7 @@
             ```python
             >>> import tkinter
             >>> pannello = tkinter.Canvas()
-            >>> pannello = tkinter.Canvas(width=500,height=400,bg='cyan')
+            >>> pannello = tkinter.Canvas(width=500, height=400, bg='cyan')
             >>> pannello.pack()
 
             >>> pannello.create_oval(1, 1, 50, 50)
@@ -267,7 +267,7 @@
             
             >>> canvas.create_text(80, 90, text='PC')
 
-            >>> pannello.mainloop() # ferma la finestra dalla terminazione immediata
+            >>> pannello.mainloop()  # ferma la finestra dalla terminazione immediata
             ```
 
             - GIF
@@ -275,21 +275,21 @@
                 >>> gif1 = PhotoImage(file = 'DECK\\10c.gif')
                 >>> gif2 = PhotoImage(file = 'DECK\\1d.gif‘)
 
-                # put gif image on canvas
+                # inserisce immagine gif nel canvas
                 >>> canvas.create_image(80, 100, image = gif1, anchor = NW)
                 >>> canvas.create_image(250, 100, image = gif2, anchor = NW)
 
-                #put some text
+                # inserisce del testo
                 >>> canvas.create_text(80, 90, text='PC')
                 >>> canvas.create_text(250, 90, text='Me')
                 ```
 
 - Istruzioni utili:
     ```python
-    type(variabile) #=> restituisce il tipo della variabile
-    dir(oggetto) #=> funzioni/metodi disponibili per l'oggetto
-    ord(carattereStringa) #=> restituisce il codice unicode del carattere
-    chr(nrCarattere) #=> restituisce il carattere corrispondente al codice unicode.
+    type(variabile)  # restituisce il tipo della variabile
+    dir(oggetto)  # funzioni/metodi disponibili per l'oggetto
+    ord(carattereStringa)  # restituisce il codice unicode del carattere
+    chr(nrCarattere)  # restituisce il carattere corrispondente al codice unicode
     ```
     - ***Dizionari***
         - proprietà:
@@ -297,49 +297,49 @@
             - valori non devono essere per forza univoci
         - in Python:
             ```python
-            #dichiarazione:
+            # dichiarazione:
                 >>> borsa = dict()
-                    o in alternativa
+                    # o in alternativa
                 >>> borsa = {}
-            #copiare dizionari:
-                >>> copiaDizionario=dict(dizionarioOriginale)
-            #aggiungere elementi:
-                >>> borsa[chiave]=valore
+            # copiare dizionari:
+                >>> copiaDizionario = dict(dizionarioOriginale)
+            # aggiungere elementi:
+                >>> borsa[chiave] = valore
                     # chiave e valore sono tipi di dati qualsiasi    
-            #usare gli elementi:
-                >>> borsa[chiave]=nuovoValore
-            #eliminare elementi:
+            # usare gli elementi:
+                >>> borsa[chiave] = nuovoValore
+            # eliminare elementi:
                 >>> borsa.pop(chiave)
-            #iterare su un dizionario:
+            # iterare su un dizionario:
                 >>> for key in contatti:
                         print(key)
                         print(contatti[key])
-            #cercare/verificare presenza chiave in dizionario:
+            # cercare/verificare presenza chiave in dizionario:
                 >>> if (chiaveEsempio in dizionarioEsempio):
                         # fai quello che ti serve
-            #cercare con default:
+            # cercare con default:
                 >>> dizionarioEsempio.get(chiaveRicerca, valoreDefault)
-                # valoreDefault viene restituito se la chiave non viene trovata #
-                # utile per contare in modo furbo le ripetizioni di un determinato 
-                #valore in una lista e salvarlo in un dict #
+                # valoreDefault viene restituito se la chiave non viene trovata
+                # utile per contare in modo furbo le ripetizioni di un determinato
+                # valore in una lista e salvarlo in un dict
             
-            #iterare su due valori al contempo:
+            # iterare su due valori al contempo:
                 >>> jjj = {...}
-                    for (a,b) in jjj.items():
-                        print(a,b)
-            #recuperare lista sole chiavi di un dizionario:
-                >>> listaChiavi=jjj.keys()
-            #recuperare lista soli valori:
-                >>> listaValori=jjj.values()
-            #recuperare chiavi e valori in lista di tuple:
+                    for (a, b) in jjj.items():
+                        print(a, b)
+            # recuperare lista sole chiavi di un dizionario:
+                >>> listaChiavi = jjj.keys()
+            # recuperare lista soli valori:
+                >>> listaValori = jjj.values()
+            # recuperare chiavi e valori in lista di tuple:
                 >>> listaTuple = jjj.items()
-            #ordinare rispetto a chiavi:
+            # ordinare rispetto a chiavi:
                 # uso items per avere la lista di tuple, poi uso sorted():
-                >>> sorted(d.items()) #lista tuple ordinate secondo chiave
-            #ordinare rispetto a value:
+                >>> sorted(d.items())  # lista tuple ordinate secondo chiave
+            # ordinare rispetto a value:
                 >>> for k, v in dicti.items():
-                        tmp.append( (v,k) )
-                        tmp=sorted(tmp)
+                        tmp.append((v, k))
+                        tmp = sorted(tmp)
             ```
 
     - oggetti e classi (da slide)
@@ -427,7 +427,7 @@
 
     - Ada Augusta Byron fu la prima programmatrice della storia. Linguaggio Ada (1979) è nominato così in suo onore. Ella scrisse una sequenza di istruzioni (programma) per la macchina di Babbage, con le quali si calcolavano numeri di Bernoulli.
 
-    - La macchina a schede perforate, dello statunitense Hermann Hollerit fu la prima ad usare elettricità (1890).
+    - La macchina a schede perforate, dello statunitense Hermann Hollerith fu la prima ad usare elettricità (1890).
 
     - John Von Neumann elaboro un modello teorico dell'architettura di un elaboratore che è tuttora valido e molto utilizzato (eccezioni sono le macchine ad elaborazione parallela). Nell'architettura di Von Neumann la memoria principale della macchina è condivisa dai dati e dai programmi. Nell'architettura Harvard invece esiste una memoria separata per i dati ed una per i programmi.
 
@@ -550,8 +550,8 @@
         - si contano come operazioni SOLO gli accessi in lettura o scrittura a elementi della lista, ipotizzando come trascurabile il tempo delle altre operazioni di assegnazione: 
             ```python
             >>> temp = values[minPos]
-            >>> values[minPos]=values[i]
-            >>> values[i]=temp
+            >>> values[minPos] = values[i]
+            >>> values[i] = temp
                 # 4 accessi a liste, 4 operazioni
             ```
     - prestazioni algoritmi di ordinamento:
@@ -579,11 +579,12 @@
             ```python
             loop lungo quanto la lista (fino a len(lista))
                 salvo il valore in i
-                j=i
-                mentre j>0, e lista[j-1]>valore in i
-                    lista[j]=lista[j-1]
-                    j=j-1
-                lista[j]=valore in i```
+                j = i
+                mentre j > 0, e lista[j-1] > valore in i
+                    lista[j] = lista[j-1]
+                    j = j - 1
+                lista[j] = valore in i
+            ```
     - **fusione**:
         - "dividi et impera"
         - si spezza la lista finché si ottengono elementi singoli (n liste da 1 elemento). E lo si fa in modo ricorsivo.

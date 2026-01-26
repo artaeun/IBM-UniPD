@@ -1,4 +1,5 @@
 # Indice
+- [Indice](#indice)
 - [1. Variabili e operazioni](#1-variabili-e-operazioni)
   - [*Variabili*](#variabili)
     - [Assegnazione variabili](#assegnazione-variabili)
@@ -23,7 +24,6 @@
     - [Forma base](#forma-base)
   - [*Ciclo FOR*](#ciclo-for)
     - [Forma base:](#forma-base-1)
-    - [Un'altra forma:](#unaltra-forma)
     - [La funzione _range()_:](#la-funzione-range)
     - [Altro modo per usare _range()_:](#altro-modo-per-usare-range)
   - [*Funzioni per numeri casuali*](#funzioni-per-numeri-casuali)
@@ -31,18 +31,18 @@
   - [*IS / IS NOT*](#is--is-not)
     - [Uso delle funzioni:](#uso-delle-funzioni)
 - [4. Stringhe](#4-stringhe)
-	- [Slicing](#slicing)
-	- [Operatore logico IN](#operatore-logico-in)
-	- [Confronto tra stringhe](#confronto-tra-stringhe)
-	- [Metodi per le stringhe](#metodi-per-le-stringhe)
-	- [Funzione *.lower() e .upper()*](#funzione-lower-e-upper)
-	- [Funzione *.find()*](#funzione-find)
-	- [Funzione *.replace()*](#funzione-replace)
-	- [Funzioni *.lstrip()* / *.rstrip()* / *.strip()*](#funzioni-lstrip--rstrip--strip)
-	- [Funzioni *.startswith()*](#funzioni-startswith)
-    - [Codifica Unicode](#codifica-unicode)
-    - [Caratteri speciali](#caratteri-speciali)
-      - [***Uso più esteso dei caratteri speciali***](#uso-più-esteso-dei-caratteri-speciali)
+    - [Slicing](#slicing)
+    - [Operatore logico IN](#operatore-logico-in)
+    - [Confronto tra stringhe](#confronto-tra-stringhe)
+    - [Metodi per le stringhe](#metodi-per-le-stringhe)
+    - [Funzione *.lower() e .upper()*](#funzione-lower-e-upper)
+    - [Funzione *.find()*](#funzione-find)
+    - [Funzione *.replace()*](#funzione-replace)
+    - [Funzioni *.lstrip()* / *.rstrip()* / *.strip()*](#funzioni-lstrip--rstrip--strip)
+    - [Funzioni *.startswith()*](#funzioni-startswith)
+  - [Codifica Unicode](#codifica-unicode)
+  - [Caratteri speciali](#caratteri-speciali)
+    - [***Uso più esteso dei caratteri speciali***](#uso-più-esteso-dei-caratteri-speciali)
 - [5. File](#5-file)
   - [*Gestione file*](#gestione-file)
     - [Aprire un file in lettura](#aprire-un-file-in-lettura)
@@ -72,7 +72,7 @@
     - [Lunghezza lista](#lunghezza-lista)
     - [La funzione .range()](#la-funzione-range-1)
     - [Riferimento alla lista](#riferimento-alla-lista)
-    - [Copiare una lista con .list()](#copiare-una-lista-con-list)
+    - [Copiare una lista con list()](#copiare-una-lista-con-list)
       - [Casi particolari:](#casi-particolari)
     - [Concatenazione liste:](#concatenazione-liste)
   - [_Metodi per liste_](#metodi-per-liste)
@@ -102,7 +102,7 @@
     - [RGB, fill, outline, testo](#rgb-fill-outline-testo)
     - [Immagini](#immagini)
 - [9. Insiemi e dizionari](#9-insiemi-e-dizionari)
-  - [9.1 *Insiemi*](#81-insiemi)
+  - [9.1 *Insiemi*](#91-insiemi)
     - [Come crearli](#come-crearli)
     - [Lunghezza](#lunghezza)
     - [Aggiungere elementi](#aggiungere-elementi)
@@ -115,7 +115,7 @@
       - [Unione di due insiemi](#unione-di-due-insiemi)
       - [Intersezione e differenza](#intersezione-e-differenza)
     - [Il programma spellcheck.py](#il-programma-spellcheckpy)
-  - [9.2 *Dizionari*](#82-dizionari)
+  - [9.2 Dizionari](#92-dizionari)
     - [*Dizionario*](#dizionario)
     - [_Come crearli_](#come-crearli-1)
     - [_Aggiungere elementi_](#aggiungere-elementi-1)
@@ -144,7 +144,7 @@
   - [_Moduli_](#moduli)
   - [_Documentazione automatica della propria funzione_](#documentazione-automatica-della-propria-funzione)
   - [*Cos'è la ricorsione?*](#cosè-la-ricorsione)
-    - [_Esempio ricorsione: Fibonacci_](#esempio-ricorsione-sequenza-di-fibonacci)
+    - [_Esempio ricorsione: sequenza di Fibonacci_](#esempio-ricorsione-sequenza-di-fibonacci)
   - [_Itterativo o Ricorsivo?_](#itterativo-o-ricorsivo)
   - [_Mappatura_](#mappatura)
   - [_Filtraggio_](#filtraggio)
@@ -178,10 +178,10 @@
   - [14.2 Superclasse ***object***](#142-superclasse-object)
   - [14.3 Costruttori](#143-costruttori)
   - [14.4 Sovrascrivere un metodo (override)](#144-sovrascrivere-un-metodo-override)
-  - [14.5 Polimorfismo_](#145-polimorfismo)
+  - [14.5 _Polimorfismo_](#145-polimorfismo)
   - [_Classi e metodi astratti_](#classi-e-metodi-astratti)
 - [15. Algoritmi](#15-algoritmi)
-  - [Ricerca binaria/dicotomica/bisezione](#ricerca-binariadicotomicabisezione)
+  - [_Ricerca binaria/dicotomica/bisezione_](#ricerca-binariadicotomicabisezione)
     - [_Algoritmo iterativo_](#algoritmo-iterativo)
     - [_Algoritmo ricorsivo_](#algoritmo-ricorsivo)
 - [16. Analisi delle prestazioni e sorting](#16-analisi-delle-prestazioni-e-sorting)
@@ -191,15 +191,16 @@
     - [Notazione Omega](#notazione-omega)
     - [Notazione Theta](#notazione-theta)
   - [Ordinamento per selezione (Selection Sort)](#ordinamento-per-selezione-selection-sort)
-    - [Prestazioni dell’algoritmo](#prestazioni-dell'-algoritmo)
+    - [Prestazioni dell'algoritmo](#prestazioni-dellalgoritmo)
   - [Ordinamento per inserimento (Insertion Sort)](#ordinamento-per-inserimento-insertion-sort)
-    - [Prestazioni dell’algoritmo](#prestazioni-dell'-algoritmo)
+    - [Prestazioni dell'algoritmo](#prestazioni-dellalgoritmo-1)
   - [Ordinamento per fusione (Merge Sort)](#ordinamento-per-fusione-merge-sort)
-    - [Prestazioni dell’algoritmo](#prestazioni-dell'-algoritmo)
-    - [Merge Sort iterativo](#merge-sort-iterativo)
+    - [Prestazioni dell'algoritmo](#prestazioni-dellalgoritmo-2)
+    - [Mege Sort iterativo](#mege-sort-iterativo)
     - [Confronto di algoritmi](#confronto-di-algoritmi)
-  - [Quick Sort](#quick-sort)
-    - [Prestazioni dell’algoritmo](#prestazioni-quick-sort)
+  - [Quick sort](#quick-sort)
+    - [Prestazioni dell'algoritmo](#prestazioni-dellalgoritmo-3)
+    - [Confronto con Merge Sort](#confronto-con-merge-sort)
   - [Ricerca di un elemento](#ricerca-di-un-elemento)
 - [17. Strutture dati](#17-strutture-dati)
   - [Referential array](#referential-array)
@@ -207,20 +208,20 @@
     - [Array compatti](#array-compatti)
     - [Array dinamici](#array-dinamici)
   - [Inserimenti e rimozioni in un array](#inserimenti-e-rimozioni-in-un-array)
-  	- [Rimozione di un elemento](#rimozione-di-un-elemento)
-	- [Inserimento di un elemento](#inserimento-di-un-elemento)
+    - [Rimozione di un elemento](#rimozione-di-un-elemento)
+    - [Inserimento di un elemento](#inserimento-di-un-elemento)
 - [18. Metodi di istanza e di classe](#18-metodi-di-istanza-e-di-classe)
 - [19. Pile e code](#19-pile-e-code)
-   - [Pila (stack)](#pila-stack)
-     - [Prestazioni](#prestazioni-pila)
-   - [Coda (queue)](#coda-queue)
-     - [Code ad implementazione circolare](#code-ad-implementazione-circolare)
+  - [Pila (stack)](#pila-stack)
+    - [Prestazioni](#prestazioni)
+  - [Coda (queue)](#coda-queue)
+    - [Code ad implementazione circolare](#code-ad-implementazione-circolare)
 - [20. Linked lists](#20-linked-lists)
-   - [Metodi di classe](#metodi-di-classe-linked-lists)
-   - [Pila realizzata con una catena](#pila-realizzata-con-una-catena)
-   - [Coda realizzata con una catena](#coda-realizzata-con-una-catena)
-   - [Coda doppiamente concatenata](#coda-doppiamente-concatenata)
-   - [Catena o Array?](#catena-o-array)
+  - [Metodi di classe](#metodi-di-classe)
+  - [Pila realizzata con una catena](#pila-realizzata-con-una-catena)
+  - [Coda realizzata con una catena](#coda-realizzata-con-una-catena)
+  - [Coda doppiamente concatenata](#coda-doppiamente-concatenata)
+  - [Catena o Array?](#catena-o-array)
 
 
 # 1. Variabili e operazioni
@@ -229,50 +230,50 @@ Nomi permessi delle variabili → nomi che iniziano con una lettera o un undersc
 
 ### Assegnazione variabili
 ```python
-x=12 #intero
-y=1.2 #float
-z="Ciao" #string
+x = 12  # intero
+y = 1.2  # float
+z = "Ciao"  # string
 ```
 
 ### Conversione di tipo
 ```python
-y=int(x) #converte x in un intero e salva in y
-y=float(x) #converte x in un float, variabile a virgola mobile
-y=str(x) #converte x in una stringa e salva in y
+y = int(x)  # converte x in un intero e salva in y
+y = float(x)  # converte x in un float, variabile a virgola mobile
+y = str(x)  # converte x in una stringa e salva in y
 ```
 
 ### Altre funzioni per le variabili
 ```python
-#===Tipo dato===
-type(x) #ci ritorna il tipo della variabile x
+# === Tipo dato ===
+type(x)  # ci ritorna il tipo della variabile x
 
-#===Lunghezza stringa===
-length=len("World!") #length ha valore 6
+# === Lunghezza stringa ===
+length = len("World!")  # length ha valore 6
 
-#===Concatenazione===
-firstName="Harry"
-lastName="Potter"
-fullName = firstName + " " +lastName 
+# === Concatenazione ===
+firstName = "Harry"
+lastName = "Potter"
+fullName = firstName + " " + lastName 
 # fullName="Harry Potter"
 
-#===Sottostringhe===
+# === Sottostringhe ===
 print(firstName[0])
-#ritorna "H"
+# ritorna "H"
 print(firstName[len(firstName)-1])
-#ritorna "y"
+# ritorna "y"
 print(firstName[0:3])
-#ritorna "Har"
+# ritorna "Har"
 print(firstName[:3])
-#ritorna "Har"
+# ritorna "Har"
 print(firstName[3:])
-#ritorna "ry"
+# ritorna "ry"
 print(firstName[:])
-#ritorna "Harry"
+# ritorna "Harry"
 
-#===Ripetizione stringa===
-stringa="x"
-print(x*3)
-#ritorna "xxx"
+# === Ripetizione stringa ===
+stringa = "x"
+print(stringa*3)
+# ritorna "xxx"
 ``` 
 
 ___
@@ -281,13 +282,13 @@ ___
 
 ### Operatori aritmetici
 ```python
-z = x + y  #addizione
-z = x - y  #sottrazione
-z = x * y  #moltiplicazione
-z = x / y  #divisione
-z = x ** y #elevamento a potenza y
-z = x // y #divisione intera (risultato è l'intero)
-z = x % y  #resti divisione intera (modulo)
+z = x + y  # addizione
+z = x - y  # sottrazione
+z = x * y  # moltiplicazione
+z = x / y  # divisione
+z = x ** y  # elevamento a potenza y
+z = x // y  # divisione intera (risultato è l'intero)
+z = x % y  # resti divisione intera (modulo)
 ``` 
 ### Algoritmo confronto tra numeri di tipo float
 
@@ -302,21 +303,21 @@ if abs(r*r - 2.0)<EPSILON : print("sqrt(2.0) squared is approximately 2.0")
 Basta importarlo per usare le funzioni varie offerte.
 
 ```python
-from math import * #o per ottimizzare si può fare
+from math import *  # o per ottimizzare si può fare
 from math import sqrt
 
-y = sqrt(x)     #radice quadrata
-y = trunc(x)    #tronca il valore a intero
-y = cos(x)      #coseno di x in radianti
-y = sin(x)      #sinx in rad
-y = tan(x)      #tan di x in rad
-y = exp(x)      #e^x
-y = degrees(x)  #x da rad in °
-y = radians(x)  #x da ° in rad
-y = log(x)      #log x in base e
-y = log(x,base) #log x in base indicata
+y = sqrt(x)  # radice quadrata
+y = trunc(x)  # tronca il valore a intero
+y = cos(x)  # coseno di x in radianti
+y = sin(x)  # sinx in rad
+y = tan(x)  # tan di x in rad
+y = exp(x)  # e^x
+y = degrees(x)  # x da rad in °
+y = radians(x)  # x da ° in rad
+y = log(x)  # log x in base e
+y = log(x, base)  # log x in base indicata
 
-#in alternativa:
+# in alternativa:
 import math
 
 math.log2(8)
@@ -331,9 +332,9 @@ dir(math)
 ## *Input/Output*
 
 ```python
-name = input("Chi sei?") #stampa "Chi sei", e riceve input
-#input è SEMPRE una string
-print(name) #stampa il nome ricevuto in input
+name = input("Chi sei?")  # stampa "Chi sei", e riceve input
+# input è SEMPRE una string
+print(name)  # stampa il nome ricevuto in input
 ```
 
 
@@ -366,11 +367,11 @@ ___
 ## *Condizionale IF*
 ```python
 if x < 3:
-  print("something")
+    print("something")
 elif x == 3:
-  #do something else
+    # do something else
 else:
-  #se nessuno dei n condizionali viene verificato, fai questa cosa
+    # se nessuno dei n condizionali viene verificato, fai questa cosa
 ```
 ### Assegnazione condizionale
 ```python
@@ -399,10 +400,10 @@ istr=int(astr)
 ### Correzione usando _try/except_:
 
 ```python
-try: #prova a fare questo
-	istr=int(astr)
-except: #se ti da eccezione, errori, ecc, esegui questo
-	istr=-1
+try:  # prova a fare questo
+    istr = int(astr)
+except:  # se ti da eccezione, errori, ecc, esegui questo
+    istr = -1
 ```
 Cerca sempre di minimizzare il codice all'interno del try per ottimizzare il codice.
 
@@ -413,11 +414,11 @@ ___
 from sys import exit
 
 exit()
-#fa terminare immediatamente il programma. 
-#È definita nel modulo sys della libreria standard'
+# fa terminare immediatamente il programma. 
+# È definita nel modulo sys della libreria standard
 
 exit("Error, you did some stupid shit so i exited the program.") 
-#termina l'esecuzione del programma con un messaggio.'
+# termina l'esecuzione del programma con un messaggio
 ```
 
 # 3. Condizionali
@@ -427,49 +428,50 @@ exit("Error, you did some stupid shit so i exited the program.")
 ### Forma base
 ```python
 while booleanConditionTrue:
-	#do whatever
+    # do whatever
 ```
 
 Il ciclo finisce quando booleanCondition diventa falsa. Altrimenti si finisce in un loop.
 ```python
 while True:
-	line = input()
-	if line[0] == '#':
-		continue #continua
-	if line == 'done':
-		break #rompe il ciclo while
-	print (line)
+    line = input()
+    if line[0] == '#':
+        continue  # continua
+    if line == 'done':
+        break  # rompe il ciclo while
+    print(line)
 print('Done')
-#questo codice stamperà mano a mano ogni riga scritta,
-#e si fermera' solo quando gli inviamo 'done'
+# questo codice stamperà mano a mano ogni riga scritta,
+# e si fermerà solo quando gli inviamo 'done'
 ```
 ___
 ## *Ciclo FOR*
 
 ### Forma base:
 ```python
-for i in [5,4,3,2,1]:
-	print(i) #prints: 5,4,3,2,1,Blastoff!
-print('Blastoff!') 
+for i in [5, 4, 3, 2, 1]:
+    print(i)  # prints: 5,4,3,2,1,Blastoff!
+print('Blastoff!')
+``` 
 ```
 ### Un'altra forma:
 ```python
 friends = ['Joseph', 'Glenn', 'Sally']
 for friend in friends:
-	print('Happy New Year', friend) #Happy New Year: Joseph, ecc.
+    print('Happy New Year', friend)  # Happy New Year: Joseph, ecc.
 print('Done!')
 ```
 ### La funzione _range()_:
 ```python
-for i in range(1,10):
-	print(i)
+for i in range(1, 10):
+    print(i)
 ```
 che equivale a:
 ```python
-i=1
-while i<10:
-	print(i)
-	i = i + 1
+i = 1
+while i < 10:
+    print(i)
+    i = i + 1
 ```
 
 La funzione _range(n,m)_ genera numeri interi nel range proposto tra _n_ ed _m_. Es.: range(1,4) => 1,2,3. Utile solo con il ciclo _for_.
@@ -477,21 +479,21 @@ La funzione _range(n,m)_ genera numeri interi nel range proposto tra _n_ ed _m_.
 ### Altro modo per usare _range()_:
 
 ```python
-for i in range(1,5):
-	#do something
+for i in range(1, 5):
+    # do something
 ```
 equivalente a:
 ```python
 for i in range(5):
-	#do something
+    # do something
 ```
 
 Altro esempio con _range_ ma usando un valore incrementale:
 ```python
-for i in range(1,11,2):
-	#do whatever
-	#il terzo valore è l'incremento del range. Es:
-	# 1+2,3+2, ecc.
+for i in range(1, 11, 2):
+    # do whatever
+    # il terzo valore è l'incremento del range. Es:
+    # 1+2,3+2, ecc.
 ```
 ___
 
@@ -499,8 +501,8 @@ ___
 ```python
 from random import *
 
-random() #ritorna un nr. casuale tra 0 e 1
-randint(a,b) #ritorna un nr. casuale int tra a e b
+random()  # ritorna un nr. casuale tra 0 e 1
+randint(a, b)  # ritorna un nr. casuale int tra a e b
 ```
 
 ## *Metodo Monte Carlo*
@@ -521,12 +523,12 @@ ___
 
 Fai qualcosa se la variabile non ha mai ricevuto valore:
 ```python
-if smallest is None: #do something
+if smallest is None:  # do something
 ```
 
 Fai qualcosa se la variabile ha un qualsiasi valore. 
 ```python
-if smallest is not None: #do something
+if smallest is not None:  # do something
 ```
 Non puoi usare _non==None_ o _!=None_ per usare questo valore speciale. 
 
@@ -833,13 +835,13 @@ Il metodo read legge caratteri di testo a partire dalla posizione del cursore e 
 >>> print(inp[:20])
 From stephen.marquar
 
-#allora il metodo read restituisce una stringa
-#contenente il successivo carattere disponibile nel file,
-#oppure, se è stata raggiunta la fine del file,
-#restituisce una stringa vuota, "".
+# allora il metodo read restituisce una stringa
+# contenente il successivo carattere disponibile nel file,
+# oppure, se è stata raggiunta la fine del file,
+# restituisce una stringa vuota, "".
 
-#Notare che, se è presente, viene letto anche il
-#carattere "\n".
+# Notare che, se è presente, viene letto anche il
+# carattere "\n".
 ```
 
 ### Leggere il file riga per riga
@@ -852,11 +854,11 @@ line = handle.readline()
 * Quando un file viene aperto, un apposito contrassegno o cursore (marker) viene posizionato all’inizio del file stesso.
 * Il metodo readline legge caratteri di testo a partire dalla posizione del cursore e continua fino a quando non incontra un carattere di "nuova riga" (newline \n) e restituisce il testo che ha letto, compreso il carattere di "\n", sotto forma di unica stringa. Infine posiziona il cursore a capo.
 ```python
-#File input.txt:
-#Questa è una prova
-#per vedere cosa succede
-#Ad ogni nuova riga
-#Grazie!
+# File input.txt:
+# Questa è una prova
+# per vedere cosa succede
+# Ad ogni nuova riga
+# Grazie!
 
 >>> handle = open("input.txt")
 >>> line = handle.readline()
@@ -884,8 +886,8 @@ Posso usare un ciclo per leggere un file riga per riga(e in caso per elaborarne 
 fhand = open('input.txt')
 count = 0
 for line in fhand:
-  print(line)
-  count = count + 1
+    print(line)
+    count = count + 1
 print(count)
 ```
 
@@ -908,19 +910,19 @@ ___
 ```python
 fhand = open('mbox-short.txt')
 for line in fhand:
-  if line.startswith('From:') :
-    line = line.rstrip()
-    print(line)
+    if line.startswith('From:'):
+        line = line.rstrip()
+        print(line)
 ```
 
 in alternativa:
 ```python
 hand = open('mbox-short.txt')
 for line in fhand:
-  if not line.startswith('From:') :
-    continue
-  line = line.rstrip()
-  print(line)
+    if not line.startswith('From:'):
+        continue
+    line = line.rstrip()
+    print(line)
 ```
 
 ### Aprire file da "nome file" dato dall'utente
@@ -929,8 +931,8 @@ fname = input('Enter the file name: ')
 fhand = open(fname)
 count = 0
 for line in fhand:
-  if line.startswith('Subject:') :
-    count = count + 1
+    if line.startswith('Subject:'):
+        count = count + 1
 print('There were', count, 'subject lines in', fname)
 ```
 
@@ -939,19 +941,19 @@ print('There were', count, 'subject lines in', fname)
 ```python
 fname = input('Enter the file name: ')
 try:
-  fhand = open(fname)
+    fhand = open(fname)
 except:
-  print('File cannot be opened:', fname)
-  quit()
+    print('File cannot be opened:', fname)
+    quit()
 count = 0
 for line in fhand:
-  if line.startswith('Subject:') :
-    count = count + 1
+    if line.startswith('Subject:'):
+        count = count + 1
 print('There were', count, 'subject lines in', fname)
 ```
 ### Leggere parole elaborando da file
 
-Quando elaboro file di testo, I metodi per stringhe e per liste sono molto utili. Posso usare il metodo split() per creare una lista.
+Quando elaboro file di testo, i metodi per stringhe e per liste sono molto utili. Posso usare il metodo split() per creare una lista.
 
 ```python
 >>> line = 'A lot of spaces'
@@ -1006,8 +1008,8 @@ A regular expression is written in a formal language that can be interpreted by 
 Uso generale:
 ```python
 import re
-re.search(pattern, string) #returns match object
-re.findall() #extracts portions of a string that matches regular expression
+re.search(pattern, string)  # returns match object
+re.findall()  # extracts portions of a string that matches regular expression
 ```
 ### find() 
 ```python
@@ -1105,8 +1107,8 @@ Le liste non sono altro che un'insieme di valori associati a un'unica variabile.
 Un esempio di lista già utilizzato nel for sono gli indici di conteggio:
 
 ```python
-for i in [5, 4, 3, 2, 1] :
-  print(i)
+for i in [5, 4, 3, 2, 1]:
+    print(i)
 print('Blastoff!')
 ```
 
@@ -1121,10 +1123,10 @@ Per usarla si possono usare singoli indici della lista in sé, o semplicemente u
 ```python
 z = ['Joseph', 'Glenn', 'Sally']
 for x in z:
-  print('Happy New Year:', x)
+    print('Happy New Year:', x)
 print('Done!')
 
-#o semplicemente:
+# o semplicemente:
 
 print(z[1])
 ```
@@ -1162,14 +1164,14 @@ Se il secondo numero è maggiore della lunghezza della lista, Python non dà err
 Non si può modificare un valore indicizzato in una stringa, ma si può fare in un array:
 
 ```python
-#stringhe
+# stringhe
 >>> fruit = 'Banana'
 >>> fruit[0] = 'b'
 Traceback
 TypeError: 'str' object does not
 support item assignment
 
-#liste
+# liste
 >>> lotto = [2, 14, 26, 41, 63]
 >>> lotto[2] = 28
 >>> print(lotto)
@@ -1410,8 +1412,8 @@ The removed item is Cindy
 
 ```python
 element = "Cari"
-if element in friends :
-  friends.remove(element)
+if element in friends:
+    friends.remove(element)
 ```
 Come per il metodo _index_ bisogna prima verificare l'esistenza dell'elemento, altrimenti ci viene restituito un errore.
 
@@ -1422,7 +1424,7 @@ Come per il metodo _index_ bisogna prima verificare l'esistenza dell'elemento, a
 #### Un modo per ordinare elementi da una lista è utilizzare il metodo _sort_.
 
 ```python
->>> friends = [ 'Joseph', 'Glenn', 'Sally' ]
+>>> friends = ['Joseph', 'Glenn', 'Sally']
 >>> friends.sort()
 >>> print(friends)
 ['Glenn', 'Joseph', 'Sally']
@@ -1448,13 +1450,13 @@ Il frammento di codice seguente crea una tabella costituita da 7 righe e 3 colon
 PAZIENTI = 7
 LOCI = 3
 mutazioni = [
-[ 1, 0, 1 ],
-[ 1, 1, 0 ],
-[ 0, 0, 1 ],
-[ 1, 0, 0 ],
-[ 0, 1, 1 ],
-[ 0, 1, 1 ],
-[ 1, 1, 0 ]
+    [1, 0, 1],
+    [1, 1, 0],
+    [0, 0, 1],
+    [1, 0, 0],
+    [0, 1, 1],
+    [0, 1, 1],
+    [1, 1, 0]
 ]
 ```
 Per accedere a uno specifico elemento di una tabella, bisogna specificare, in due coppie di parentesi quadre separate, il valore di due indici, che selezionano, rispettivamente, la riga e la colonna:
@@ -1484,7 +1486,7 @@ Bisogna tenere conto che gli argomenti forniti nella riga di comando giungono al
 ```python
 from sys import argv
 for i in range(len(argv)):
-  print(argv[i])
+    print(argv[i])
 ```
 
 ```bash
@@ -1588,7 +1590,7 @@ Per modificare il colore usato per disegnare, si utilizza una delle seguenti inv
 
 ```python
 canvas.setOutline(red, green, blue)
-canvas.setOutline(colorname)#valore stringa, tra le seguenti
+canvas.setOutline(colorname)  # valore stringa, tra le seguenti
 ```
 
 >_"black" "magenta" "maroon" "pink" "blue" "yellow" "dark blue" "orange" "red" "white" "dark red" "sea green" "green" "gray" "dark green" "light gray" "cyan" "gold" "dark cyan" "tan"_
@@ -2001,16 +2003,16 @@ Esempio:
 
 Esempio più complesso:
 ```python
-#numero di occorenze di nomi in una lista
+# numero di occorrenze di nomi in una lista
 counts = dict()
 names = ['csev', 'cwen', 'csev', 'zqian', 'cwen']
-for name in names : #vengono presi i valori di names e assegnati a name
-	counts[name] = counts.get(name, 0) + 1 #"0" è il default
-	#viene generata/richiamata una chiave sulla base di name
-	#viene assegnato a quella chiave il valore del get()
-	#cioè il numero di occorenze memorizzati come valori
-	#nel dizionario. Se la chiave non è stata generata prima
-	#di questo ciclo, il valore sarà 0+1, cioè 1.
+for name in names:  # vengono presi i valori di names e assegnati a name
+    counts[name] = counts.get(name, 0) + 1  # "0" è il default
+    # viene generata/richiamata una chiave sulla base di name
+    # viene assegnato a quella chiave il valore del get()
+    # cioè il numero di occorrenze memorizzati come valori
+    # nel dizionario. Se la chiave non è stata generata prima
+    # di questo ciclo, il valore sarà 0+1, cioè 1.
 print(counts)
 ```
 viene restituito:
@@ -2024,8 +2026,8 @@ Esempio:
 
 ```python
 jjj = {'chuck': 1, 'fred': 42, 'jan': 100}
-for (aaa,bbb) in jjj.items():
-	print(aaa, bbb)
+for (aaa, bbb) in jjj.items():
+    print(aaa, bbb)
 ```
 risultato
 ```python
@@ -2039,15 +2041,15 @@ fred 42
 
 Possiamo estrarre la lista di chiavi, di valori, o coppie (chiavi, valori) usando i seguenti metodi:
 ```python
-jjj = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
+jjj = {'chuck': 1, 'fred': 42, 'jan': 100}
 
->>> print(jjj.keys()) #lista di sole chiavi
+>>> print(jjj.keys())  # lista di sole chiavi
 ['jan', 'chuck', 'fred']
 
->>> print(jjj.values()) #lista di soli valori
+>>> print(jjj.values())  # lista di soli valori
 [100, 1, 42]
 
->>> print(jjj.items()) #lista di tuple contenenti entrambi
+>>> print(jjj.items())  # lista di tuple contenenti entrambi
 [('jan', 100), ('chuck', 1), ('fred', 42)]
 ```
 
@@ -2056,18 +2058,18 @@ jjj = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
 Si possono usare operatori di controllo con le tuple
 
 ```python
-#fa un confronto tra il primo elemento della prima
-#tupla e il primo elemento della seconda.
-#se il primo elemento restituisce false, passa al
-#secondo. Poi fa OR tra tutti i risultati.
+# fa un confronto tra il primo elemento della prima
+# tupla e il primo elemento della seconda.
+# se il primo elemento restituisce false, passa al
+# secondo. Poi fa OR tra tutti i risultati.
 
 >>> (0, 1, 2) < (5, 1, 2)
 True
 >>> (5, 1, 2) < (5, 1, 2)
 False
->>> ( 'Jones', 'Sally' ) < ('Jones', 'Sam')
+>>> ('Jones', 'Sally') < ('Jones', 'Sam')
 True
->>> ( 'Jones', 'Sally') > ('Adams', 'Sam')
+>>> ('Jones', 'Sally') > ('Adams', 'Sam')
 True
 ```
 ---
@@ -2078,17 +2080,17 @@ Viene usato anche il metodo _items()_ per estrarre la lista di tuple e la funzio
 
 
 ```python
->>> d = {'c':10, 'b':100, 'a':22} #creo dizionario
->>> d.items() #visualizzo le tuple 
+>>> d = {'c': 10, 'b': 100, 'a': 22}  # creo dizionario
+>>> d.items()  # visualizzo le tuple 
 dict_items([('a', 10), ('c', 22), ('b', 100)])
->>> sorted(d.items())#ordino le tuple secondo chiave
+>>> sorted(d.items())  # ordino le tuple secondo chiave
 [('a', 10), ('b', 100), ('c', 22)]
 ```
 
 Posso anche usarlo in questa maniera:
 ```python
 >>> for k, v in sorted(d.items()):
-... print(k, v)
+...     print(k, v)
 ...
 a 10
 b 100
@@ -2104,14 +2106,14 @@ Qua la facenda si complica. Bisogna inanzitutto creare una lista di tuple (__val
 3) la chiave deve essere univoca, perciò se invertiamo chiave e valore, non è detto che riusciamo a costruire un dizionario senza che sia sollevata un'eccezione.
 
 ```python
->>> d = {'c':10, 'b':100, 'a':22}
+>>> d = {'c': 10, 'b': 100, 'a': 22}
 >>> tmp = list()
->>> for k, v in d.items() :
-... tmp.append( (v, k) )
+>>> for k, v in d.items():
+...     tmp.append((v, k))
 ...
 >>> print(tmp)
 [(10, 'a'), (22, 'c'), (100, 'b')]
->>> tmp = sorted(tmp, reverse=True) #ordinamento decrescente
+>>> tmp = sorted(tmp, reverse=True)  # ordinamento decrescente
 >>> print(tmp)
 [(100, 'b'), (22, 'c'), (10, 'a')]
 ```
@@ -2158,10 +2160,10 @@ Esempio del problema:
 ## _Definizione e invocazione_
 
 ```python
-#definizione
+# definizione
 def nomeFunzione(parametro):
-  #fai qualcosa con parametro
-  return varOutput #ritorni il valore di varOutput
+    # fai qualcosa con parametro
+    return varOutput  # ritorni il valore di varOutput
 ```
 
 - __Ogni funzione deve essere definita PRIMA di essere invocata__. Se non lo si fa, verrà sollevata un'eccezione.
@@ -2169,16 +2171,16 @@ def nomeFunzione(parametro):
 -   Le funzioni possono ricevere più argomenti, ma restituiscono sempre un solo valore/variabile (possiamo ovviare questo restituendo una lista, o tupla, ecc).
 -   Le funzioni possono non avere argomenti (come per esempio _random()_) e possono non restituire alcun valore (ad esempio _print("ciao")_)
 -   Le funzioni che vengono arrivano già "installate" in python si chiamano _primitive_.
--   Possiamo definire un numero illiminato di funzioni per risolvere i problemi più disparati.
+-   Possiamo definire un numero illimitato di funzioni per risolvere i problemi più disparati.
 - È possibile (ma sconsigliabile) definire una funzione all'interno di un'altra funzione.
 
 
 N.B.: Una funzione definita, ma che non viene chiamata, è una funzione che non verrà eseguita!
 ```python
 def print_lyrics():
-	print("I'm a lumberjack, and I'm okay.")
-	print('I sleep all night and I work all day.')
-#non è eseguita finché non faccio:
+    print("I'm a lumberjack, and I'm okay.")
+    print('I sleep all night and I work all day.')
+# non è eseguita finché non faccio:
 print_lyrics()
 ```
 ---
@@ -2892,7 +2894,7 @@ Il debugger di Python, chiamato _pdb_ ("Python DeBugger"), può essere usato in 
 
 ## _Uso di Pdb_
 
-Usando il comando per l'inizio della tracciatura, il programma si interrompe senza terminare alla rica a cui ho inserito il commando. A quel punto attenderà input dall'utente (commandi specifici di Pdv) prima di proseguire. In questa modalità di debugging posso vedere il valore assunto dalle variabili locali della funzione in cui mi trovo __durante l'esecuzione__, e leggere direttamente dalla RAM i valori.
+Usando il comando per l'inizio della tracciatura, il programma si interrompe senza terminare alla riga a cui ho inserito il comando. A quel punto attenderà input dall'utente (comandi specifici di Pdb) prima di proseguire. In questa modalità di debugging posso vedere il valore assunto dalle variabili locali della funzione in cui mi trovo __durante l'esecuzione__, e leggere direttamente dalla RAM i valori.
 
 
 
