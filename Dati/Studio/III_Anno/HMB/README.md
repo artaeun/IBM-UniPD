@@ -1,4 +1,4 @@
-# Materiale per lo studio di Human MOvement Bioengineering
+# Materiale per lo studio di Human Movement Bioengineering
 Qui potete trovare il materiale utile alla preparazione per il corso di _human movement bioengineering_.
 
 ## Materiale vario
