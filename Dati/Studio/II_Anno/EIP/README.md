@@ -24,7 +24,6 @@
 - [Temi d'esame degli anni passati](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Temi_d'esame)
 - [Prove parziali degli anni passati](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Parziali)
 - [Questionari](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Questionari)
-## _Di Camillo_
 - [Prove parziali](/Dati/Studio/II_Anno/EIP/Temi_d'esame/Parziali) - domande e risposte del Test pre-secondo parziale, pubblicato sul moodle. 
 
 ## _Dal Passo_
