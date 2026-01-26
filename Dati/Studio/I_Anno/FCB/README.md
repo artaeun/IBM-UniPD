@@ -5,7 +5,7 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _biologi
 ## Materiale vario
 - [PDF delle lezioni](/Dati/Studio/I_Anno/FCB/Materiale_vario/PDF_lezioni)
 - [Numeri di ossidazione](/Dati/Studio/I_Anno/FCB/Materiale_vario/Numero_di_Ossidazione.pdf)
-- [Tavola periodica](/Dati/Studio/I_Anno/FCB/Materiale_vario/Tavola_Periodica.pdf) 
+- [Tavola Periodica](/Dati/Studio/I_Anno/FCB/Materiale_vario/Tavola%20Periodica.pdf) 
 - [Esercizi sul bilanciamento algebrico](/Dati/Studio/I_Anno/FCB/Materiale_vario/Esercizi/Esercizi_bilanciamento_algebrico.pdf)
 - [Esercizi sul bilanciamento algebrico - soluzione](/Dati/Studio/I_Anno/FCB/Materiale_vario/Esercizi/Esercizi_bilanciamento_algebrico-Soluzioni.pdf)
 
