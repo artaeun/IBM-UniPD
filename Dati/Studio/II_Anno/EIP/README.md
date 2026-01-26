@@ -1,6 +1,3 @@
-> [!CAUTION]
-> # LA PAGINA è IN VIA DI MODIFICHE
-
 # Materiale per lo studio di Elementi di Informatica e Programmazione
 
 ## Materiale vario
