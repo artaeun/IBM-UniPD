@@ -11,8 +11,9 @@
 
 
 ## Simulazioni e appelli del vecchio corso
-- [2019 - simulazione compito.pdf](https://github.com/artaeun/IBM-UniPD/blob/master/Dati/Studio/III_Anno/InfoMed/Temi_d'esame/2019-simulazione_compito.pdf)
+- [2019 - simulazione compito.pdf](2019-simulazione_compito.pdf)
 - [estratto_compitino_1](estratto_compitino_1.pdf)
 - [estratto_correzione_compitino_1](estratto_correzione_compitino_1.pdf)
 - [estratto_correzione_compitino_2](estratto_correzione_compitino_2.pdf)
 - [estratto_correzione_compitone_27012015](estratto_correzione_compitone_27012015.pdf)
+
