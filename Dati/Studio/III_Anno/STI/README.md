@@ -20,6 +20,6 @@ Qui potete trovare consigli e materiale utile alla stesura dell'elaborato di _st
   > ²Ibid.
 
 ### Alcune prove ben valutate
-- [Il mito della Cybercultura (credits Francesco Ceccato)](/Dati/Studio/III_Anno/STI/Il%20mito%20della%20Cybercultura%20(credits%20Francesco%20Ceccato).pdf)
-- [Alan Mathison Turing (credits Matilde Pendin)](/Dati/Studio/III_Anno/STI/Alan%20Mathison%20Turing%20(credits%20Matilde%20Pendin).pdf)
+- [Il mito della Cybercultura (credits Francesco Ceccato).pdf](/Dati/Studio/III_Anno/STI/Il%20mito%20della%20Cybercultura%20(credits%20Francesco%20Ceccato).pdf)
+- [Alan Mathison Turing (credits Matilde Pendin).pdf](/Dati/Studio/III_Anno/STI/Alan%20Mathison%20Turing%20(credits%20Matilde%20Pendin).pdf)
 
