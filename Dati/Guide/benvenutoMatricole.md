@@ -39,7 +39,7 @@ Per quanto riguarda Ingegneria in sé, ci sentiamo di consigliare i seguenti art
 - 🗺 Il metodo delle **Mappe Mentali** può risultare utile per visualizzare meglio i legami tra i vari concetti https://it.wikipedia.org/wiki/Mappa_mentale
 - 📚E infine, per chi mastica l’inglese e vuole approfondire il tema “metodi di studio”, consiglio il libro-guida **“How to Become a Straight-A Student”** di Cal NewPort.
 - 🏅 **Praticare attività fisica regolare può essere un buon modo per mantenersi sani di mente**, oltre che di corpo.
-Non considerando le numerose palestre presenti sul territorio, la realtà sportiva principale di UniPd è il CUS, Centro Universitario Sportivo. Date un’occhiata al loro sito per più info http://www.cuspadova.it/. ***Per chi ha bisogno di un sostegno anche psicologico*** sappiate che UniPD offre un servizio gratuito di counseling e psicoterapia, il [Servizio Sap](https://www.unipd.it/sap). Usatelo senza esitare!
+Non considerando le numerose palestre presenti sul territorio, la realtà sportiva principale di UniPd è il CUS, Centro Universitario Sportivo. Date un’occhiata al loro sito per più info http://www.cuspadova.it/. ***Per chi ha bisogno di un sostegno anche psicologico*** sappiate che UniPD offre un servizio gratuito di counseling e psicoterapia, il [Servizio Sap](https://scup.unipd.it/i-servizi/servizi-gli-studenti/sap-unit%C3%A0-operativa-consultazione-psicologica). Usatelo senza esitare!
 - 💊 Ultima cosa, non meno importante: se avete difficoltà o problemi, nonostante i vostri sforzi migliori, non esitate mai a chiedere aiuto. Questo vale con i vostri colleghi così come con i professori. 
 
 
