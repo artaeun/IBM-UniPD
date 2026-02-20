@@ -15,5 +15,4 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _segnali
 - [Cartella MEGA dei libri](https://mega.nz/folder/UoFGlY5S#oEVruDxA9Xnk5nulPOrXMw/folder/It0FXDKb)
 
 ## Videolezioni prof. Erseghe
-Le videolezioni del prof. Eserseghe erano reperibili al seguente link [registrazioni video](https://drive.google.com/drive/folders/1r8hCEMVF28S5iHYNOSL0z50OHtfRiQTK?usp=sharing)
-Purtroppo il link ora non funziona più. SE QUALCUNO HA UN LINK VALIDO DA CONVIDIDERE, CI FACCIA SAPERE SU DISCORD PER AGGIORNARE IL LINK ATTUALE.
+Le videolezioni del prof. Erseghe possono essere reperite al seguente link: [registrazioni video](https://youtube.com/playlist?list=PL5JNcyGPaynmJJhA32pxljzm80V9dsJQg&si=7SWcq885KzHwJ8Xp)
