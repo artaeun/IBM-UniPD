@@ -11,3 +11,5 @@ Qui potete trovare il materiale utile alla preparazione per il corso di _biomate
 ## Temi d'esame 
 - [Prove parziali degli anni passati](/Dati/Studio/II_Anno/Biomateriali/Temi_d'esame)
 
+## Videolezioni prof. Bagno
+Le videolezioni del prof. Bagno possono essere reperite al seguente link: [registrazioni video](https://youtube.com/playlist?list=PL5JNcyGPaynldtTItPcaSaaEKBEJlhf89&si=gyb3u6lf-q_PSaD1)
